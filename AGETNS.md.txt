@@ -1,0 +1,882 @@
+# AGENTS.md
+
+## Project
+
+**SukuSuku Kanji / 스쿠스쿠칸지 / すくすく漢字**
+
+A Flutter mobile application for Korean-speaking Japanese learners.
+
+The core experience is:
+
+> Learn Japanese kanji through Korean-language connections while progressing through Japanese elementary-school grade levels and visually growing from a sprout into a tree.
+
+---
+
+## Product Identity
+
+The app name is fixed unless the user explicitly requests a change.
+
+- Korean: 스쿠스쿠칸지
+- English: SukuSuku Kanji
+- Japanese: すくすく漢字
+
+Default tagline:
+
+> 하루 5분, 무럭무럭 자라는 한자
+
+Do not rename or rebrand the application autonomously.
+
+---
+
+## Product Priorities
+
+When making implementation decisions, prioritize in this order:
+
+1. Learning-content accuracy
+2. Working end-to-end learning flow
+3. Clear and simple UX
+4. Reliable local persistence
+5. Maintainable code
+6. Visual polish
+7. Additional features
+
+Never sacrifice learning accuracy for speed or visual polish.
+
+---
+
+## Target User
+
+The primary user is a Korean-speaking beginner or intermediate Japanese learner who:
+
+- can generally read hiragana and katakana
+- encounters kanji while learning Japanese sentences
+- wants to understand kanji more deeply
+- may already recognize Korean hanja-derived vocabulary
+- prefers short daily learning sessions
+- values reading comprehension more than handwriting practice
+
+Design decisions should serve this user first.
+
+---
+
+## MVP Scope
+
+The long-term product may eventually support:
+
+- Japanese elementary Grades 1–6 educational kanji
+- the full Jōyō kanji set
+
+The current MVP focuses on:
+
+**Japanese elementary-school Grade 1 kanji.**
+
+Do not build later-grade course content until explicitly requested.
+
+The first implementation should use a small verified sample dataset before the complete Grade 1 dataset is connected.
+
+---
+
+## Core User Flow
+
+Protect this flow from regressions:
+
+1. Launch
+2. Onboarding
+3. Home
+4. Start daily lesson
+5. Learn 5 kanji
+6. Take quiz
+7. View result
+8. Save progress
+9. Return later
+10. Review missed kanji
+
+Do not add secondary features at the expense of this flow.
+
+---
+
+## Technology
+
+SukuSuku Kanji is a:
+
+- Flutter
+- Dart
+- Android / iOS
+
+mobile application.
+
+Do not migrate the project to:
+
+- React Native
+- Expo
+- another cross-platform framework
+- native-only Android
+- native-only iOS
+
+unless the user explicitly requests it.
+
+If an existing Flutter project is present, inspect and preserve its conventions before introducing new architecture or dependencies.
+
+---
+
+## Local-First Architecture
+
+The MVP must work without a backend.
+
+The following must work offline:
+
+- kanji lessons
+- kanji details
+- quizzes
+- results
+- progress tracking
+- review
+- grade progression
+- unlocked rewards
+- app settings
+
+Do not introduce remote infrastructure merely because it may be useful later.
+
+---
+
+## Backend Policy
+
+Do not add a backend unless an actual feature requires one.
+
+Do not preemptively add:
+
+- Supabase
+- Firebase
+- Python API
+- Render deployment
+- remote PostgreSQL
+- authentication
+- cloud sync
+
+These technologies are allowed future options, not current requirements.
+
+---
+
+## Future Backend Decision Rules
+
+Before introducing remote infrastructure, determine:
+
+1. Can the feature remain local?
+2. Does the feature require user identity?
+3. Does it require multi-device synchronization?
+4. Does it require trusted server-side execution?
+5. Would Supabase satisfy the requirement cleanly?
+6. If not, is a custom Python service justified?
+
+Choose the simplest architecture that solves the real requirement.
+
+---
+
+## Supabase Guidance
+
+Consider Supabase when the main requirements are:
+
+- authentication
+- PostgreSQL
+- user-specific cloud persistence
+- progress synchronization
+- cloud backup
+- straightforward backend workflows
+
+Do not add Supabase solely for future-proofing.
+
+---
+
+## Python Backend Guidance
+
+Consider a Python-based backend when the application requires:
+
+- custom server-side business logic
+- AI integrations
+- data-processing pipelines
+- custom content APIs
+- administrative APIs
+- server-side algorithms
+
+FastAPI or another appropriate Python framework may be considered when necessary.
+
+A Python service may later be deployed to a suitable service such as Render.
+
+Do not create a Python backend until there is a concrete requirement.
+
+---
+
+## Architecture
+
+Prefer pragmatic, feature-oriented Flutter architecture.
+
+Keep these concerns separated:
+
+- UI
+- navigation
+- study session logic
+- quiz generation
+- quiz scoring
+- progress logic
+- review logic
+- grade progression
+- persistence
+- kanji content
+- settings
+- app-icon integration
+
+Do not over-engineer the MVP.
+
+Architecture exists to improve clarity, testability, and maintainability, not to maximize abstraction.
+
+---
+
+## Suggested Project Structure
+
+A new project may use a structure similar to:
+
+```text
+lib/
+  app/
+    app.dart
+    router.dart
+    theme/
+
+  core/
+    constants/
+    utils/
+
+  features/
+    onboarding/
+    home/
+    study/
+    quiz/
+    review/
+    kanji/
+    grades/
+    settings/
+    app_icon/
+
+  data/
+    models/
+    repositories/
+    services/
+    storage/
+
+  widgets/
+
+assets/
+  data/
+    kanji/
+      grade1.json
+
+  images/
+
+  icons/
+```
+
+This structure is a guideline, not a mandate.
+
+If the existing repository already has a clear convention, preserve it.
+
+---
+
+## State Management
+
+Use one consistent state-management approach.
+
+If the repository already uses one, preserve it unless there is a concrete reason to change it.
+
+Do not mix multiple overlapping state-management systems.
+
+Keep state related to:
+
+- study sessions
+- quiz state
+- user progress
+- review
+- grade progression
+- settings
+- icon unlocks
+
+outside large widget build methods.
+
+Do not introduce a complex state-management architecture for a small MVP without justification.
+
+---
+
+## Navigation
+
+Keep navigation understandable.
+
+Main user surfaces may include:
+
+- Onboarding
+- Home
+- Study
+- Quiz
+- Study Result
+- My Kanji
+- Kanji Detail
+- Grade List
+- Settings
+- App Icon Selection
+
+The bottom navigation should remain simple.
+
+Do not add unnecessary nested navigation.
+
+---
+
+## Static Learning Content
+
+Verified kanji learning content should live in an explicit content layer.
+
+Preferred initial form:
+
+```text
+assets/data/kanji/grade1.json
+```
+
+Do not place canonical learning content directly inside UI widgets.
+
+Future grade files should be addable without rewriting the learning UI.
+
+---
+
+## Learning Content Accuracy
+
+This is one of the highest-priority rules.
+
+Never invent production learning data.
+
+Do not guess:
+
+- kanji readings
+- on'yomi
+- kun'yomi
+- Korean hanja readings
+- Korean meanings
+- Japanese example words
+- Japanese word readings
+- Korean connections
+
+Do not generate large production kanji datasets from an LLM and treat them as verified.
+
+If content is uncertain, leave it incomplete and mark the issue rather than inventing an answer.
+
+Learning-data correctness is more important than UI completeness.
+
+---
+
+## Runtime AI
+
+Do not add runtime LLM or generative-AI features to the MVP unless explicitly requested.
+
+In particular, do not add:
+
+- AI-generated kanji readings
+- AI-generated example words
+- AI-generated Korean connections
+- AI-generated quiz facts
+- AI-generated learning content
+
+Canonical learning content must come from verified static data.
+
+---
+
+## Learning Content vs User Progress
+
+Keep these concepts separate.
+
+### Canonical learning content
+
+Examples:
+
+- character
+- Korean reading
+- Korean meaning
+- on'yomi
+- kun'yomi
+- example words
+- Korean connections
+- grade
+- lesson order
+
+This may initially remain static in application assets.
+
+### User-specific progress
+
+Examples:
+
+- learned state
+- correct count
+- wrong count
+- consecutive correct
+- review status
+- first study date
+- last study date
+- grade progress
+- streak
+
+This must be persisted locally.
+
+Future cloud synchronization should not require redesigning the canonical content model.
+
+---
+
+## Local Persistence
+
+Persist user progress locally.
+
+Appropriate technologies may be selected according to the data.
+
+Use lightweight preferences for simple values when appropriate.
+
+Use structured local storage such as SQLite when the learning-progress model warrants it.
+
+Keep persistence behind repository or service boundaries where useful.
+
+Widgets must not contain raw database queries.
+
+---
+
+## Progress Model
+
+The implementation should support concepts equivalent to:
+
+- new
+- learning
+- familiar
+- mastered
+- correctCount
+- wrongCount
+- consecutiveCorrect
+- needsReview
+- firstStudiedAt
+- lastStudiedAt
+
+Do not introduce a complex spaced-repetition algorithm during the initial MVP.
+
+Keep review logic replaceable so a better SRS can be introduced later.
+
+---
+
+## Quiz Rules
+
+Initial quiz types include:
+
+- meaning recognition
+- reading recognition
+- example-word reading
+
+Quiz generation must use verified content.
+
+Do not invent nonsensical Japanese distractors.
+
+Prefer distractors derived from valid data already present in the dataset.
+
+Keep quiz-generation logic outside UI widgets.
+
+---
+
+## Growth Theme
+
+Grade progression is represented as plant growth.
+
+Conceptual stages:
+
+- Grade 1: sprout
+- Grade 2: young plant
+- Grade 3: growing plant
+- Grade 4: sapling
+- Grade 5: young tree
+- Grade 6: full tree
+
+This theme should remain:
+
+- warm
+- subtle
+- cohesive
+- encouraging
+
+Do not turn the application into a children's game.
+
+Adult learners are part of the target audience.
+
+---
+
+## Grade Progression
+
+Grades are part of the product's core reward loop.
+
+Users should feel that they are progressing through Japanese elementary-school kanji levels.
+
+Avoid presenting the experience only as:
+
+> X out of 2,136 kanji
+
+Prefer meaningful grade progress such as:
+
+> Grade 1 — 32 / 80
+
+Grade metadata should be data-driven where practical.
+
+Avoid duplicating grade-specific UI logic throughout the app.
+
+---
+
+## App Icon Rewards
+
+Grade-based alternate app icons are part of the product identity.
+
+Rules:
+
+- Grade 1/sprout icon is available by default.
+- Completing a grade unlocks the next growth-stage icon.
+- Never force-switch the user's icon.
+- Let the user choose among unlocked icons.
+- Persist unlocked icons locally.
+- Persist the selected icon locally.
+- Prevent locked icons from being selected.
+- Avoid repeatedly showing the same unlock modal.
+
+Keep separate:
+
+- unlock rules
+- icon metadata
+- selected-icon state
+- Flutter UI
+- platform-specific Android/iOS behavior
+
+---
+
+## Native App Icon Integration
+
+Actual launcher icon switching is secondary to the learning MVP.
+
+Do not allow native icon implementation complexity to block:
+
+- learning
+- quizzes
+- persistence
+- reviews
+- grade progression
+
+Expose platform-specific behavior through a small service boundary.
+
+For example:
+
+```text
+AppIconService
+```
+
+If native icon switching proves difficult, finish:
+
+1. unlock rules
+2. selection UI
+3. selected-state persistence
+4. reward modal
+
+before continuing native integration.
+
+---
+
+## Design Principles
+
+The visual direction should feel:
+
+- warm
+- clean
+- spacious
+- calm
+- growth-oriented
+- friendly
+- slightly playful
+- appropriate for adults
+
+Avoid:
+
+- overly childish visuals
+- excessive traditional calligraphy styling
+- exam-workbook aesthetics
+- dense dictionary screens
+- excessive animation
+- excessive gamification
+- excessive color usage
+
+Kanji should remain the visual focus of study screens.
+
+---
+
+## Gamification Scope
+
+Allowed MVP gamification:
+
+- grade progress
+- daily completion
+- streak
+- grade completion
+- next-grade unlock
+- growth stages
+- alternate-icon unlocks
+
+Do not add without explicit instruction:
+
+- currency
+- shop
+- gacha
+- character leveling
+- leaderboards
+- social competition
+- PvP
+- community systems
+
+---
+
+## Out of Scope for MVP
+
+Do not add unless explicitly requested:
+
+- user accounts
+- login
+- authentication
+- backend
+- cloud sync
+- social features
+- friends
+- leaderboards
+- ads
+- payments
+- AI chat
+- runtime AI content generation
+- handwriting recognition
+- OCR
+- stroke-order practice
+- speech recognition
+- TTS
+- JLPT courses
+- complete 2,136-kanji course
+- complex SRS
+- large analytics dashboards
+
+---
+
+## Flutter Development Rules
+
+When modifying the project:
+
+- use Dart idioms
+- format Dart code
+- run static analysis where possible
+- run relevant tests
+- fix newly introduced analyzer errors
+- avoid giant StatefulWidgets
+- keep business logic outside presentation widgets
+- avoid unnecessary packages
+- preserve the existing theme system
+- use const constructors where appropriate
+- intentionally handle async loading/error states
+- avoid duplicated logic
+
+Do not report a feature as complete if the project no longer analyzes or runs successfully.
+
+---
+
+## Dependency Rules
+
+Before adding a Flutter package:
+
+1. Check whether the repository already solves the problem.
+2. Confirm the package is truly needed.
+3. Confirm compatibility with the current Flutter/Dart environment.
+4. Prefer maintained, focused packages.
+5. Avoid duplicate libraries with the same purpose.
+
+Be especially cautious with:
+
+- state-management packages
+- routing packages
+- SQLite/database packages
+- native platform integrations
+- alternate app-icon packages
+
+Do not add a package blindly.
+
+---
+
+## Error Handling
+
+Optional learning fields must not crash the app.
+
+Examples:
+
+- no tip → hide tip section
+- no Korean connections → hide connection section
+- no kunyomi → allow empty list
+- incomplete examples → render available examples safely
+
+Content errors should be discoverable during development.
+
+Prefer explicit validation over silently rendering malformed learning data.
+
+---
+
+## Accessibility
+
+Prioritize readability.
+
+- display kanji at a large size
+- avoid excessive tiny gray text
+- provide sufficient tap targets
+- do not communicate correct/incorrect state by color alone
+- use appropriate semantics/accessibility labels
+- preserve readable contrast
+
+---
+
+## Testing Priorities
+
+Prioritize tests for logic that can silently corrupt learning progress.
+
+High-value test targets include:
+
+- lesson generation
+- quiz generation
+- quiz scoring
+- progress updates
+- review selection
+- consecutive-correct logic
+- grade completion
+- icon unlock
+- persistence mapping
+
+Do not overinvest in low-value widget tests at the expense of core business logic.
+
+---
+
+## Development Phases
+
+Follow this order unless a concrete reason requires otherwise.
+
+### Phase 0
+Repository and Flutter environment inspection
+
+### Phase 1
+Project skeleton, models, routing, theme, verified sample content
+
+### Phase 2
+Onboarding → Home → Study → Quiz → Result
+
+### Phase 3
+Local persistence
+
+### Phase 4
+Review system
+
+### Phase 5
+Grade progression and plant-growth system
+
+### Phase 6
+App-icon reward and selection system
+
+### Phase 7
+Verified Grade 1 full dataset
+
+### Phase 8
+UX, accessibility, testing, cleanup
+
+Do not skip directly to later features while the core learning flow is incomplete.
+
+---
+
+## Validation
+
+After meaningful changes, run appropriate validation.
+
+Prefer:
+
+```bash
+dart format .
+flutter analyze
+flutter test
+```
+
+Fix regressions introduced by the current work.
+
+Do not claim success while known analyzer errors caused by the change remain unresolved.
+
+---
+
+## Working Style
+
+Before editing:
+
+1. Inspect the relevant files.
+2. Understand existing conventions.
+3. Avoid rewriting unrelated code.
+
+While implementing:
+
+1. Make the smallest coherent change.
+2. Keep the app runnable.
+3. Separate logic from UI.
+4. Test important behavior.
+
+After implementing:
+
+1. Format.
+2. Analyze.
+3. Test.
+4. Summarize the files changed.
+5. Report real remaining TODOs.
+
+Do not stop at planning when the user has explicitly asked for implementation.
+
+---
+
+## Never Do These
+
+Never:
+
+- migrate away from Flutter without permission
+- invent learning data
+- guess Japanese readings
+- guess Korean hanja readings
+- create fake Japanese example words
+- introduce a backend without need
+- introduce Firebase automatically
+- introduce Supabase automatically
+- create a Python server automatically
+- add authentication automatically
+- add AI features automatically
+- perform unrelated large refactors
+- add dependencies casually
+- hide analyzer failures
+- call placeholder functionality complete
+
+---
+
+## Definition of MVP Complete
+
+The MVP is complete when a user can:
+
+1. launch the app
+2. complete onboarding
+3. start Grade 1
+4. learn five kanji in a session
+5. see Korean-language connections
+6. take a quiz
+7. receive clear feedback
+8. save progress
+9. close and reopen the app without losing progress
+10. review missed kanji
+11. browse learned kanji
+12. see grade progress
+13. complete a grade
+14. unlock the next growth stage
+15. unlock a new app icon
+
+The core experience should feel like:
+
+> **A Korean learner gradually growing Japanese kanji knowledge from a small sprout into a tree.**
