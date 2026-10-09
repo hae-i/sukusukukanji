@@ -36,7 +36,7 @@ class HomeScreen extends StatelessWidget {
           '연속 ${ProgressPolicy.visibleStreak(controller.progress, controller.now())}일',
           style: text.labelLarge,
         ),
-        const SizedBox(height: 12),
+        const SizedBox(height: 4),
         Text(
           todayDone ? '오늘도 한 뼘 자랐어요!' : '오늘도 한자 5분만!',
           style: text.headlineMedium?.copyWith(fontWeight: FontWeight.w700),
@@ -85,7 +85,7 @@ class HomeScreen extends StatelessWidget {
               Text('오늘의 학습', style: text.titleLarge),
               const SizedBox(height: 12),
               if (controller.nextLesson.isNotEmpty) ...[
-                Text('새 한자 ${controller.nextLesson.length}개 · 내 속도로 차근차근'),
+                Text('새 한자 ${controller.nextLesson.length}개'),
                 const SizedBox(height: 20),
                 FilledButton.icon(
                   onPressed: onStudy,

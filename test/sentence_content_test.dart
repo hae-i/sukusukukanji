@@ -7,6 +7,7 @@ import 'package:sukusukukanji/app/theme/app_theme.dart';
 import 'package:sukusukukanji/data/models/kanji.dart';
 import 'package:sukusukukanji/data/repositories/kanji_repository.dart';
 import 'package:sukusukukanji/widgets/kanji_content.dart';
+import 'package:sukusukukanji/widgets/kanji_source_button.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
@@ -99,6 +100,7 @@ void main() {
         MaterialApp(
           theme: AppTheme.light,
           home: Scaffold(
+            appBar: AppBar(actions: [KanjiSourceButton(kanji: kanji)]),
             body: SingleChildScrollView(child: KanjiContent(kanji: kanji)),
           ),
         ),
@@ -107,8 +109,9 @@ void main() {
       expect(find.text('문장으로 연결하기'), findsOneWidget);
       expect(find.text(kanji.sentences.single.textJa), findsOneWidget);
       expect(find.text(kanji.sentences.single.meaningKo), findsOneWidget);
-      await tester.ensureVisible(find.text('예문 출처'));
-      await tester.tap(find.text('예문 출처'));
+      expect(find.text('예문 출처'), findsNothing);
+      expect(find.text('콘텐츠 출처'), findsNothing);
+      await tester.tap(find.byTooltip('학습 자료 출처'));
       await tester.pumpAndSettle();
       expect(find.textContaining('CC BY 2.0 FR'), findsOneWidget);
       expect(tester.takeException(), isNull);

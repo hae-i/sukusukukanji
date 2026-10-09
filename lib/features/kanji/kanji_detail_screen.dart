@@ -4,6 +4,7 @@ import '../../app/app_controller.dart';
 import '../../data/models/kanji.dart';
 import '../../widgets/content_layout.dart';
 import '../../widgets/kanji_content.dart';
+import '../../widgets/kanji_source_button.dart';
 import 'kanji_list_screen.dart';
 
 class KanjiDetailScreen extends StatefulWidget {
@@ -35,7 +36,10 @@ class _KanjiDetailScreenState extends State<KanjiDetailScreen> {
   Widget build(BuildContext context) {
     final progress = widget.controller?.progress.kanji[widget.kanji.id];
     return Scaffold(
-      appBar: AppBar(title: const Text('한자 살펴보기')),
+      appBar: AppBar(
+        title: const Text('한자 살펴보기'),
+        actions: [KanjiSourceButton(kanji: widget.kanji)],
+      ),
       body: SafeArea(
         child: ContentLayout(
           children: [

@@ -125,10 +125,34 @@ void main() {
       await tester.tap(find.byType(BackButton));
       await tester.pumpAndSettle();
       expect(find.text('학습을 잠시 멈출까요?'), findsOneWidget);
+      final dialogTitle =
+          tester
+                  .widget<RichText>(
+                    find.descendant(
+                      of: find.text('학습을 잠시 멈출까요?'),
+                      matching: find.byType(RichText),
+                    ),
+                  )
+                  .text
+              as TextSpan;
+      expect(dialogTitle.style!.fontFamily, 'Pretendard');
+      expect(dialogTitle.style!.fontWeight, FontWeight.w700);
+      final dialogBody =
+          tester
+                  .widget<RichText>(
+                    find.descendant(
+                      of: find.text('아직 완료하지 않은 이번 학습은 저장되지 않아요.'),
+                      matching: find.byType(RichText),
+                    ),
+                  )
+                  .text
+              as TextSpan;
+      expect(dialogBody.style!.fontFamily, 'Pretendard');
+
       await tapText(tester, '나가기');
       expect(progress.value.totalLearned, 0);
       await tapText(tester, '오늘의 한자 배우기');
-      expect(find.text('한자 1 / 5'), findsOneWidget);
+      expect(find.text('오늘의 한자 1 / 5'), findsOneWidget);
     },
   );
 

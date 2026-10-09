@@ -89,7 +89,11 @@ class _StudyHubScreenState extends State<StudyHubScreen> {
     return ContentLayout(
       controller: _scroll,
       children: [
-        Text(grade.nameKo, style: Theme.of(context).textTheme.headlineSmall),
+        Text(
+          grade.nameKo,
+          style: Theme.of(context).textTheme.headlineSmall
+              ?.copyWith(fontWeight: FontWeight.w700),
+        ),
         if (available.length > 1)
           DropdownButton<int>(
             value: grade.grade,
@@ -99,7 +103,7 @@ class _StudyHubScreenState extends State<StudyHubScreen> {
             ],
             onChanged: (value) => setState(() => _selectedGrade = value),
           ),
-        const SizedBox(height: 12),
+        const SizedBox(height: 4),
         const Text('한자를 살펴보고 짧은 퀴즈로 연결을 확인해요.'),
         const SizedBox(height: 24),
         for (final lesson in lessons.entries) ...[

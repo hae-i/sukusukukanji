@@ -62,6 +62,21 @@ abstract final class AppTheme {
           color: Color(0xFF263D2E),
         ),
       ),
+      dialogTheme: const DialogThemeData(
+        titleTextStyle: TextStyle(
+          fontFamily: 'Pretendard',
+          fontFamilyFallback: ['NotoSansJP'],
+          fontWeight: FontWeight.w700,
+          fontSize: 22,
+          color: Color(0xFF263D2E),
+        ),
+        contentTextStyle: TextStyle(
+          fontFamily: 'Pretendard',
+          fontFamilyFallback: ['NotoSansJP'],
+          fontSize: 16,
+          color: Color(0xFF263D2E),
+        ),
+      ),
       cardTheme: CardThemeData(
         elevation: 0,
         color: Colors.white,

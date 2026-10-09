@@ -85,10 +85,23 @@ void main() {
       expect(app.progress.totalLearned, 0);
       await tester.drag(find.byType(PageView), const Offset(-650, 0));
       await tester.pumpAndSettle();
-      expect(find.text('한자 2 / 5'), findsOneWidget);
+      expect(find.text('오늘의 한자 2 / 5'), findsOneWidget);
+      await tester.tap(find.byTooltip('학습 자료 출처'));
+      await tester.pumpAndSettle();
+      final reference = catalog.kanji[1].references.first;
+      expect(find.text('${reference.label}\n${reference.url}'), findsOneWidget);
+      final sentenceSource = catalog.kanji[1].sentences.single.references.first;
+      expect(
+        find.text('${sentenceSource.label}\n${sentenceSource.url}'),
+        findsOneWidget,
+      );
+      expect(find.text('二 · 이'), findsOneWidget);
+      await tester.tap(find.text('닫기'));
+      await tester.pumpAndSettle();
+
       await tester.drag(find.byType(PageView), const Offset(650, 0));
       await tester.pumpAndSettle();
-      expect(find.text('한자 1 / 5'), findsOneWidget);
+      expect(find.text('오늘의 한자 1 / 5'), findsOneWidget);
       for (var i = 0; i < 4; i++) {
         await tester.drag(find.byType(PageView), const Offset(-650, 0));
         await tester.pumpAndSettle();

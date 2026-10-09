@@ -116,22 +116,6 @@ class KanjiContent extends StatelessWidget {
                   ],
                   const SizedBox(height: 12),
                   Text(sentence.meaningKo, style: text.bodyLarge),
-                  ExpansionTile(
-                    tilePadding: EdgeInsets.zero,
-                    title: const Text('예문 출처'),
-                    children: [
-                      for (final reference in sentence.references)
-                        Padding(
-                          padding: const EdgeInsets.only(bottom: 12),
-                          child: SelectableText(
-                            '${reference.label}\n${reference.url}',
-                          ),
-                        ),
-                      SelectableText(
-                        '${sentence.license} · 원문과 번역을 그대로 사용\n${sentence.licenseUrl}',
-                      ),
-                    ],
-                  ),
                 ],
               ),
             ),
@@ -146,29 +130,6 @@ class KanjiContent extends StatelessWidget {
           if (kanji.traditionalCharacter != null)
             Text('전통 자형: ${kanji.traditionalCharacter}'),
           if (kanji.koreanHanja != null) Text('한국 한자 자형: ${kanji.koreanHanja}'),
-        ],
-        if (kanji.references.isNotEmpty) ...[
-          const SizedBox(height: 24),
-          ExpansionTile(
-            tilePadding: EdgeInsets.zero,
-            title: const Text('콘텐츠 출처'),
-            children: [
-              for (final reference in kanji.references)
-                Padding(
-                  padding: const EdgeInsets.only(bottom: 12),
-                  child: Align(
-                    alignment: Alignment.centerLeft,
-                    child: SelectableText(
-                      '${reference.label}\n${reference.url}',
-                    ),
-                  ),
-                ),
-              if (kanji.verifiedAt != null)
-                Text(
-                  '확인일 ${kanji.verifiedAt!.toIso8601String().substring(0, 10)}',
-                ),
-            ],
-          ),
         ],
       ],
     );

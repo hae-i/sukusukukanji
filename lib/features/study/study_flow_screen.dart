@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../data/models/study_session.dart';
 import '../../widgets/content_layout.dart';
+import '../../widgets/kanji_source_button.dart';
 import '../../app/app_controller.dart';
 import 'study_cards_view.dart';
 import '../quiz/quiz_view.dart';
@@ -72,6 +73,12 @@ class _StudyFlowScreenState extends State<StudyFlowScreen> {
         child: Scaffold(
           appBar: AppBar(
             title: Text(widget.session.isReview ? '한자 복습' : '오늘의 한자'),
+            actions: [
+              if (stage == SessionStage.cards)
+                KanjiSourceButton(
+                  kanji: widget.session.kanji[_controller.cardIndex],
+                ),
+            ],
           ),
           body: SafeArea(
             child: stage == SessionStage.cards

@@ -51,9 +51,9 @@ class _StudyCardsViewState extends State<StudyCardsView> {
   Widget build(BuildContext context) => Column(
     children: [
       Padding(
-        padding: const EdgeInsets.only(top: 12),
+        padding: const EdgeInsets.only(top: 12, bottom: 12),
         child: Text(
-          '한자 ${widget.controller.cardIndex + 1} / ${widget.controller.session.kanji.length}',
+          '오늘의 한자 ${widget.controller.cardIndex + 1} / ${widget.controller.session.kanji.length}',
         ),
       ),
       Expanded(

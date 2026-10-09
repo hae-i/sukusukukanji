@@ -97,32 +97,40 @@ class _KanjiListScreenState extends State<KanjiListScreen> {
                           borderRadius: BorderRadius.circular(24),
                           onTap: () => widget.onSelect(kanji),
                           child: Padding(
-                            padding: const EdgeInsets.fromLTRB(4, 32, 4, 4),
-                            child: FittedBox(
-                              fit: BoxFit.scaleDown,
-                              child: Column(
-                                mainAxisSize: MainAxisSize.min,
-                                mainAxisAlignment: MainAxisAlignment.center,
-                                children: [
-                                  Text(
-                                    kanji.character,
-                                    locale: const Locale('ja'),
-                                    style: TextStyle(
-                                      fontFamily: 'NotoSansJP',
-                                      fontSize: (cellWidth * .34).clamp(26, 40),
-                                      height: 1.1,
+                            padding: const EdgeInsets.fromLTRB(4, 24, 4, 8),
+                            child: Column(
+                              children: [
+                                Expanded(
+                                  child: Center(
+                                    child: FittedBox(
+                                      fit: BoxFit.scaleDown,
+                                      child: Text(
+                                        kanji.character,
+                                        locale: const Locale('ja'),
+                                        style: TextStyle(
+                                          fontFamily: 'NotoSansJP',
+                                          fontSize: (cellWidth * .34).clamp(
+                                            26,
+                                            40,
+                                          ),
+                                          height: 1.1,
+                                        ),
+                                      ),
                                     ),
                                   ),
-                                  const SizedBox(height: 2),
-                                  Text(
+                                ),
+                                const SizedBox(height: 8),
+                                FittedBox(
+                                  fit: BoxFit.scaleDown,
+                                  child: Text(
                                     kanji.koreanReading,
                                     style: const TextStyle(
                                       fontSize: 14,
                                       height: 1.1,
                                     ),
                                   ),
-                                ],
-                              ),
+                                ),
+                              ],
                             ),
                           ),
                         ),
