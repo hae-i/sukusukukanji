@@ -86,13 +86,15 @@ class _StudyFlowScreenState extends State<StudyFlowScreen> {
                     controller: _controller,
                     appController: widget.appController,
                   )
+                : stage == SessionStage.quiz
+                ? QuizView(controller: _controller)
                 : ContentLayout(
                     key: ValueKey(
                       '$stage:${_controller.cardIndex}:${_controller.questionIndex}',
                     ),
                     children: switch (stage) {
                       SessionStage.cards => [],
-                      SessionStage.quiz => [QuizView(controller: _controller)],
+                      SessionStage.quiz => [],
                       SessionStage.saving => [
                         const Center(child: CircularProgressIndicator()),
                         const SizedBox(height: 20),

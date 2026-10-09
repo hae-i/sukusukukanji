@@ -57,7 +57,12 @@ class HomeScreen extends StatelessWidget {
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(grade.nameKo, style: text.headlineLarge),
+                      Text(
+                        grade.nameKo,
+                        style: text.headlineLarge?.copyWith(
+                          fontWeight: FontWeight.w700,
+                        ),
+                      ),
                       Text(grade.stageNameKo),
                     ],
                   ),
@@ -82,7 +87,10 @@ class HomeScreen extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              Text('오늘의 학습', style: text.titleLarge),
+              Text(
+                '오늘의 학습',
+                style: text.titleLarge?.copyWith(fontWeight: FontWeight.w700),
+              ),
               const SizedBox(height: 12),
               if (controller.nextLesson.isNotEmpty) ...[
                 Text('새 한자 ${controller.nextLesson.length}개'),
@@ -105,7 +113,7 @@ class HomeScreen extends StatelessWidget {
               children: [
                 Text(
                   '헷갈리는 한자 ${controller.reviewCount}개',
-                  style: text.titleLarge,
+                  style: text.titleLarge?.copyWith(fontWeight: FontWeight.w700),
                 ),
                 const SizedBox(height: 12),
                 const Text('한 번에 최대 5자씩 다시 연결해요.'),
