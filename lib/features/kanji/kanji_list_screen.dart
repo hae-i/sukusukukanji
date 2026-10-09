@@ -41,11 +41,6 @@ class _KanjiListScreenState extends State<KanjiListScreen> {
     }).toList();
     return ContentLayout(
       children: [
-        Text(
-          '조금씩 익숙해지는 내 한자',
-          style: Theme.of(context).textTheme.headlineSmall,
-        ),
-        const SizedBox(height: 20),
         Wrap(
           spacing: 8,
           runSpacing: 8,
@@ -67,65 +62,92 @@ class _KanjiListScreenState extends State<KanjiListScreen> {
                 ? '복습할 한자가 없어요. 잘하고 있어요!'
                 : '아직 배운 한자가 없어요. 첫 학습을 시작해 보세요.',
           ),
-        Wrap(
-          spacing: 12,
-          runSpacing: 12,
-          children: [
-            for (final kanji in items)
-              SizedBox(
-                width: 116,
-                child: Card(
-                  child: Column(
+        LayoutBuilder(
+          builder: (context, constraints) {
+            final scale = MediaQuery.textScalerOf(context).scale(16) / 16;
+            final columns =
+                ((constraints.maxWidth + 12) / (140 * scale.clamp(1, 1.5)))
+                    .floor()
+                    .clamp(1, 6);
+            return GridView.builder(
+              shrinkWrap: true,
+              primary: false,
+              physics: const NeverScrollableScrollPhysics(),
+              itemCount: items.length,
+              gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                crossAxisCount: columns,
+                crossAxisSpacing: 12,
+                mainAxisSpacing: 12,
+                childAspectRatio: 1,
+              ),
+              itemBuilder: (context, index) {
+                final kanji = items[index];
+                final p = widget.controller.progress.kanji[kanji.id];
+                final needsReview = p?.needsReview ?? false;
+                return Card(
+                  child: Stack(
+                    fit: StackFit.expand,
                     children: [
-                      Align(
-                        alignment: Alignment.topRight,
-                        child: FavoriteButton(
-                          controller: widget.controller,
-                          kanji: kanji,
-                        ),
-                      ),
                       Semantics(
                         button: true,
                         onTap: () => widget.onSelect(kanji),
                         excludeSemantics: true,
                         label:
-                            '${kanji.character}, ${kanji.koreanMeanings.join(', ')}, ${kanji.koreanReading}, ${masteryLabel(widget.controller.progress.kanji[kanji.id])}, 상세 보기',
+                            '${kanji.character}, ${kanji.koreanMeanings.join(', ')}, ${kanji.koreanReading}, ${needsReview ? '복습 필요' : masteryLabel(p)}, 상세 보기',
                         child: InkWell(
                           borderRadius: BorderRadius.circular(24),
                           onTap: () => widget.onSelect(kanji),
                           child: Padding(
-                            padding: const EdgeInsets.fromLTRB(12, 0, 12, 12),
+                            padding: const EdgeInsets.fromLTRB(8, 36, 8, 8),
                             child: Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 Text(
                                   kanji.character,
                                   locale: const Locale('ja'),
-                                  style: const TextStyle(fontSize: 40),
+                                  style: const TextStyle(
+                                    fontFamily: 'NotoSansJP',
+                                    fontSize: 40,
+                                    height: 1.1,
+                                  ),
                                 ),
+                                const SizedBox(height: 4),
                                 Text(kanji.koreanReading),
-                                Text(
-                                  widget
-                                              .controller
-                                              .progress
-                                              .kanji[kanji.id]
-                                              ?.needsReview ??
-                                          false
-                                      ? '복습 필요'
-                                      : masteryLabel(
-                                          widget.controller.progress.kanji[kanji
-                                              .id],
-                                        ),
-                                ),
                               ],
                             ),
                           ),
                         ),
                       ),
+                      if (needsReview || p?.firstStudiedAt != null)
+                        Positioned(
+                          top: 14,
+                          left: 14,
+                          child: ExcludeSemantics(
+                            child: Icon(
+                              needsReview
+                                  ? Icons.close_rounded
+                                  : Icons.check_rounded,
+                              color: needsReview
+                                  ? Colors.red
+                                  : Theme.of(context).colorScheme.primary,
+                              size: 22,
+                            ),
+                          ),
+                        ),
+                      Positioned(
+                        top: 0,
+                        right: 0,
+                        child: FavoriteButton(
+                          controller: widget.controller,
+                          kanji: kanji,
+                        ),
+                      ),
                     ],
                   ),
-                ),
-              ),
-          ],
+                );
+              },
+            );
+          },
         ),
       ],
     );

@@ -236,7 +236,7 @@ void main() {
         ),
       );
       await tester.pumpAndSettle();
-      expect(find.text('1학년 · 한 번에 5자'), findsOneWidget);
+      expect(find.text('1학년'), findsOneWidget);
       expect(app.startLessonReview(1, 16), isNotNull);
     },
   );

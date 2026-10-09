@@ -22,7 +22,7 @@ class QuizView extends StatelessWidget {
           question.prompt,
           textAlign: TextAlign.center,
           locale: const Locale('ja'),
-          style: const TextStyle(fontSize: 64),
+          style: const TextStyle(fontFamily: 'NotoSansJP', fontSize: 64),
         ),
         const SizedBox(height: 16),
         Text(
@@ -45,7 +45,11 @@ class QuizView extends StatelessWidget {
                   Expanded(
                     child: Text(
                       '${i + 1}. ${question.options[i]}${selected == i && question.options[i] != question.answer ? ' · 선택한 답' : ''}',
-                      style: const TextStyle(fontSize: 20),
+                      style: const TextStyle(
+                        fontFamily: 'NotoSansJP',
+                        fontFamilyFallback: ['Pretendard'],
+                        fontSize: 20,
+                      ),
                     ),
                   ),
                   if (answered && question.options[i] == question.answer)

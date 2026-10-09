@@ -103,4 +103,12 @@ test/                    # 도메인, 실제 SQLite, 앱 controller, 화면 흐�
 
 [교육한자 출처 목록](docs/content/education-kanji-source-catalog.json)은 KANJIDIC2에서 추출한 1,026자의 학년·읽기·한국 한자음·영어 뜻 자료입니다. 학년별 80 / 160 / 200 / 202 / 193 / 191자이며 앱의 학습 콘텐츠에는 자동 연결하지 않습니다. 한국어 뜻과 대표 읽기 선별, 단어·연결 대조를 마친 뒤 새 학년 asset을 연결해야 합니다. `python tool/collect_education_kanji.py kanjidic2.xml.gz output.json`으로 재수집할 수 있습니다. 출처의 점·하이픈·여러 한자음은 원문 그대로 보존합니다.
 
-일본어 폰트는 [Noto Sans JP](https://fonts.google.com/specimen/Noto+Sans+JP)를 기본 학습용으로 추천합니다. 부드러운 브랜드 글씨는 [M PLUS Rounded 1c](https://fonts.google.com/specimen/M+PLUS+Rounded+1c), 판독성 중심으로는 [BIZ UDGothic](https://fonts.google.com/specimen/BIZ+UDGothic)도 후보입니다. 아직 폰트를 교체하지 않았습니다. 결정 후 라이선스와 필요한 굵기 파일을 assets에 포함하면 오프라인에서도 같은 글꼴을 사용할 수 있습니다.
+일본어는 **Noto Sans JP**, 한글 UI는 **Pretendard v1.3.9**를 assets에 포함했습니다. 일본어 영역은 글꼴을 명시적으로 지정하고, 한글은 Pretendard를 기본으로 사용합니다. 두 폰트의 SIL OFL 1.1 원문을 포함하며 설정의 라이선스 메뉴에서 확인할 수 있습니다. 런타임 폰트 다운로드나 서버가 필요 없습니다.
+
+## 폰트·카드 배치 업데이트
+
+대표 음독과 훈독은 하나 일 아래에 가로로 배치하며 중간 32px 간격을 둡니다. 내 한자는 화면 폭과 글씨 크기에 맞춰 열 수를 계산하는 정사각형 그리드로 양쪽 끝을 채웁니다. 새 한자의 상태 문구를 제거하고 학습한 한자는 좌측 위 체크, 복습 대상은 빨간 X로 표시합니다. 즐겨찾기 별은 우측 위에 유지합니다. 학습의 ‘한 번에 5자’ 및 홈의 보조 문구를 제거하고 연속 학습일을 홈 인사 위로 옮겼습니다.
+
+예문 후보는 [Tatoeba 이용 안내](https://en.wiki.tatoeba.org/articles/show/using-the-tatoeba-corpus)입니다. 기본 문장 라이선스는 CC BY 2.0 FR이며 문장별 URL, 작성자/출처와 라이선스, 수정 여부를 보관하고 표기해야 합니다. 한국어 번역은 일본어 원문과 별도로 확인합니다. 일반 교재나 사전의 예문은 해당 저작권·약관 또는 별도 허가를 확인해야 하며, 짧다는 이유로 일괄 복사하지 않습니다. 이번 작업에서 예문을 학습 데이터에 추가하지 않았습니다.
+
+음독을 가타카나, 훈독을 히라가나로 구분하는 것은 한자 사전·학습 자료의 일반적인 표기 관례입니다. 실제 단어의 읽기/후리가나는 음독 단어여도 보통 히라가나입니다: `学 → ガク / まなぶ`, `学生 → がくせい`.

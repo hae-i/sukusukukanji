@@ -46,7 +46,9 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
       orElse: () => first,
     );
     return Scaffold(
-      appBar: AppBar(title: const Text('すくすく漢字')),
+      appBar: AppBar(
+        title: const Text('すくすく漢字', style: TextStyle(fontFamily: 'NotoSansJP')),
+      ),
       body: SafeArea(
         child: Column(
           children: [
@@ -75,7 +77,10 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                               first.character,
                               locale: const Locale('ja'),
                               textAlign: TextAlign.center,
-                              style: const TextStyle(fontSize: 112),
+                              style: const TextStyle(
+                                fontFamily: 'NotoSansJP',
+                                fontSize: 112,
+                              ),
                             ),
                             Text(
                               [
@@ -84,13 +89,20 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                                 ...first.kunyomi.take(1),
                               ].join(' / '),
                               textAlign: TextAlign.center,
-                              style: const TextStyle(fontSize: 24),
+                              style: const TextStyle(
+                                fontFamily: 'NotoSansJP',
+                                fontFamilyFallback: ['Pretendard'],
+                                fontSize: 24,
+                              ),
                             ),
                           ] else if (page == 1) ...[
                             Text(
                               connected.character,
                               locale: const Locale('ja'),
-                              style: const TextStyle(fontSize: 88),
+                              style: const TextStyle(
+                                fontFamily: 'NotoSansJP',
+                                fontSize: 88,
+                              ),
                             ),
                             if (connected.koreanConnections.isNotEmpty) ...[
                               Text(

@@ -27,17 +27,32 @@ class KanjiContent extends StatelessWidget {
                 kanji.character,
                 locale: const Locale('ja'),
                 semanticsLabel: '${kanji.character}, ${kanji.koreanReading}',
-                style: const TextStyle(fontSize: 112, height: 1.3),
+                style: const TextStyle(
+                  fontFamily: 'NotoSansJP',
+                  fontSize: 112,
+                  height: 1.3,
+                ),
               ),
               Text(
                 '${kanji.koreanMeanings.join(' · ')} ${kanji.koreanReading}',
                 style: text.titleLarge,
               ),
               const SizedBox(height: 24),
-              if (kanji.onyomi.isNotEmpty)
-                _Reading(label: '대표 음독', values: kanji.onyomi),
-              if (kanji.kunyomi.isNotEmpty)
-                _Reading(label: '대표 훈독', values: kanji.kunyomi),
+              Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  if (kanji.onyomi.isNotEmpty)
+                    Expanded(
+                      child: _Reading(label: '대표 음독', values: kanji.onyomi),
+                    ),
+                  if (kanji.onyomi.isNotEmpty && kanji.kunyomi.isNotEmpty)
+                    const SizedBox(width: 32),
+                  if (kanji.kunyomi.isNotEmpty)
+                    Expanded(
+                      child: _Reading(label: '대표 훈독', values: kanji.kunyomi),
+                    ),
+                ],
+              ),
             ],
           ),
         ),
@@ -129,7 +144,8 @@ class _Reading extends StatelessWidget {
         Text(
           values.join(' · '),
           locale: const Locale('ja'),
-          style: Theme.of(context).textTheme.titleLarge,
+          style: Theme.of(context).textTheme.titleLarge
+              ?.copyWith(fontFamily: 'NotoSansJP'),
         ),
       ],
     ),
@@ -146,12 +162,14 @@ class ExampleWordRow extends StatelessWidget {
       Text(
         example.word,
         locale: const Locale('ja'),
-        style: Theme.of(context).textTheme.headlineSmall,
+        style: Theme.of(context).textTheme.headlineSmall
+            ?.copyWith(fontFamily: 'NotoSansJP'),
       ),
       Text(
         example.reading,
         locale: const Locale('ja'),
-        style: Theme.of(context).textTheme.titleMedium,
+        style: Theme.of(context).textTheme.titleMedium
+            ?.copyWith(fontFamily: 'NotoSansJP'),
       ),
       const SizedBox(height: 4),
       Text(example.meaningKo),

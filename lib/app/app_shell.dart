@@ -126,7 +126,12 @@ class _AppShellState extends State<AppShell> with WidgetsBindingObserver {
   @override
   Widget build(BuildContext context) => Scaffold(
     appBar: AppBar(
-      title: Text(['すくすく漢字', '학습', '내 한자'][_selectedTab]),
+      title: Text(
+        ['すくすく漢字', '학습', '내 한자'][_selectedTab],
+        style: _selectedTab == 0
+            ? const TextStyle(fontFamily: 'NotoSansJP')
+            : null,
+      ),
       actions: [
         IconButton(
           tooltip: '앱 안내',

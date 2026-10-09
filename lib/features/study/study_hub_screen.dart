@@ -47,10 +47,7 @@ class _StudyHubScreenState extends State<StudyHubScreen> {
         ?.lessonId;
     return ContentLayout(
       children: [
-        Text(
-          '${grade.nameKo} · 한 번에 5자',
-          style: Theme.of(context).textTheme.headlineSmall,
-        ),
+        Text(grade.nameKo, style: Theme.of(context).textTheme.headlineSmall),
         if (available.length > 1)
           DropdownButton<int>(
             value: grade.grade,
@@ -76,7 +73,10 @@ class _StudyHubScreenState extends State<StudyHubScreen> {
                 Text(
                   lesson.value.map((k) => k.character).join(' '),
                   locale: const Locale('ja'),
-                  style: const TextStyle(fontSize: 32),
+                  style: const TextStyle(
+                    fontFamily: 'NotoSansJP',
+                    fontSize: 32,
+                  ),
                 ),
                 const SizedBox(height: 12),
                 if (lesson.value.every(

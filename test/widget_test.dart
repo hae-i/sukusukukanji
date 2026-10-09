@@ -49,7 +49,8 @@ void main() {
     expect(find.text('0 / 80자'), findsOneWidget);
     await tester.tap(find.text('내 한자'));
     await tester.pumpAndSettle();
-    expect(find.text('조금씩 익숙해지는 내 한자'), findsOneWidget);
+    expect(find.text('전체'), findsOneWidget);
+    expect(find.text('조금씩 익숙해지는 내 한자'), findsNothing);
     final cardSemantics = tester.getSemantics(
       find.bySemanticsLabel('一, 하나, 일, 처음 만나요, 상세 보기'),
     );
@@ -65,7 +66,8 @@ void main() {
     expect(find.text('단일(單一)'), findsOneWidget);
     await tester.tap(find.byType(BackButton));
     await tester.pumpAndSettle();
-    expect(find.text('조금씩 익숙해지는 내 한자'), findsOneWidget);
+    expect(find.text('전체'), findsOneWidget);
+    expect(find.text('조금씩 익숙해지는 내 한자'), findsNothing);
     expect(tester.takeException(), isNull);
   });
 

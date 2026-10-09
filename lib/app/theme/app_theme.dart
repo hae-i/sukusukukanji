@@ -11,6 +11,8 @@ abstract final class AppTheme {
     );
     return ThemeData(
       useMaterial3: true,
+      fontFamily: 'Pretendard',
+      fontFamilyFallback: const ['NotoSansJP'],
       splashFactory: NoSplash.splashFactory,
       splashColor: Colors.transparent,
       highlightColor: Colors.transparent,

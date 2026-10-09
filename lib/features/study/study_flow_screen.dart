@@ -117,7 +117,10 @@ class _StudyFlowScreenState extends State<StudyFlowScreen> {
                           widget.session.kanji
                               .map((k) => k.character)
                               .join(' '),
-                          style: const TextStyle(fontSize: 36),
+                          style: const TextStyle(
+                            fontFamily: 'NotoSansJP',
+                            fontSize: 36,
+                          ),
                         ),
                         const SizedBox(height: 20),
                         Text(
@@ -134,7 +137,10 @@ class _StudyFlowScreenState extends State<StudyFlowScreen> {
                                 )
                                 .map((k) => k.character)
                                 .join(' '),
-                            style: const TextStyle(fontSize: 32),
+                            style: const TextStyle(
+                              fontFamily: 'NotoSansJP',
+                              fontSize: 32,
+                            ),
                           ),
                         if (widget.session.isReview)
                           const Text('같은 한자의 복습을 2회 연속 모두 맞히면 복습 목록에서 빠져요.'),

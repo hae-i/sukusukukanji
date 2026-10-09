@@ -19,6 +19,13 @@ class SettingsScreen extends StatelessWidget {
             trailing: const Icon(Icons.chevron_right),
             onTap: () => AppRouter.icons(context, controller),
           ),
+          ListTile(
+            title: const Text('폰트·오픈소스 라이선스'),
+            onTap: () => showLicensePage(
+              context: context,
+              applicationName: 'SukuSuku Kanji',
+            ),
+          ),
           const SizedBox(height: 16),
           const SectionCard(
             child: Column(
@@ -26,7 +33,11 @@ class SettingsScreen extends StatelessWidget {
               children: [
                 Text(
                   'すくすく漢字',
-                  style: TextStyle(fontSize: 28, fontWeight: FontWeight.w700),
+                  style: TextStyle(
+                    fontFamily: 'NotoSansJP',
+                    fontSize: 28,
+                    fontWeight: FontWeight.w700,
+                  ),
                 ),
                 SizedBox(height: 8),
                 Text('스쿠스쿠칸지 · SukuSuku Kanji'),

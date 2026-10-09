@@ -32,15 +32,14 @@ class HomeScreen extends StatelessWidget {
             ProgressPolicy.calendarDay(controller.now());
     return ContentLayout(
       children: [
-        Text('작은 시작, 매일의 성장', style: text.labelLarge),
+        Text(
+          '연속 ${ProgressPolicy.visibleStreak(controller.progress, controller.now())}일',
+          style: text.labelLarge,
+        ),
         const SizedBox(height: 12),
         Text(
           todayDone ? '오늘도 한 뼘 자랐어요!' : '오늘도 한자 5분만!',
           style: text.headlineMedium?.copyWith(fontWeight: FontWeight.w700),
-        ),
-        const SizedBox(height: 8),
-        Text(
-          '연속 ${ProgressPolicy.visibleStreak(controller.progress, controller.now())}일 · 이미 아는 한국어에서, 새로운 일본어로.',
         ),
         const SizedBox(height: 28),
         SectionCard(
