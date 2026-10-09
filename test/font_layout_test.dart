@@ -8,6 +8,7 @@ import 'package:sukusukukanji/data/models/progress.dart';
 import 'package:sukusukukanji/data/repositories/kanji_repository.dart';
 import 'package:sukusukukanji/features/kanji/kanji_list_screen.dart';
 import 'package:sukusukukanji/widgets/kanji_content.dart';
+import 'package:sukusukukanji/widgets/mixed_language_text.dart';
 
 import 'test_repositories.dart';
 
@@ -31,6 +32,47 @@ void main() {
     await (FontLoader(
       'Pretendard',
     )..addFont(rootBundle.load('assets/fonts/Pretendard-Regular.otf'))).load();
+  });
+  testWidgets('mixed Korean and Japanese preserve the global font for Hangul', (
+    tester,
+  ) async {
+    const data = '山은 やま, 뜻은 산 · ガク · 𠮟';
+    await tester.pumpWidget(
+      MaterialApp(
+        theme: AppTheme.light,
+        home: const Scaffold(body: MixedLanguageText(data)),
+      ),
+    );
+    final rich = tester.widget<RichText>(
+      find.descendant(of: find.text(data), matching: find.byType(RichText)),
+    );
+    final root = rich.text as TextSpan;
+    expect(root.style!.fontFamily, 'Pretendard');
+    var koreanSeen = false;
+    var japaneseSeen = false;
+    void inspect(TextSpan span, TextStyle inherited) {
+      final effective = inherited.merge(span.style);
+      final value = span.text ?? '';
+      if (RegExp('[가-힣]').hasMatch(value)) {
+        koreanSeen = true;
+        expect(effective.fontFamily, 'Pretendard');
+      }
+      if (value.contains('山') ||
+          value.contains('やま') ||
+          value.contains('ガク') ||
+          value.contains('𠮟')) {
+        japaneseSeen = true;
+        expect(effective.fontFamily, 'NotoSansJP');
+      }
+      for (final child in span.children ?? <InlineSpan>[]) {
+        inspect(child as TextSpan, effective);
+      }
+    }
+
+    inspect(root, const TextStyle());
+    expect(koreanSeen && japaneseSeen, isTrue);
+    expect(root.toPlainText(), data);
+    expect(tester.takeException(), isNull);
   });
   testWidgets(
     'real fonts render readings side by side without overflow at 320px and large text',

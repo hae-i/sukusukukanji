@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../data/models/kanji.dart';
+import 'mixed_language_text.dart';
 
 /// Keep attribution available without interrupting the learning card.
 class KanjiSourceButton extends StatelessWidget {
@@ -41,12 +42,9 @@ class _SourceContent extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
-        Text(
+        MixedLanguageText(
           '${kanji.character} · ${kanji.koreanReading}',
-          style: text.titleLarge?.copyWith(
-            fontFamily: 'NotoSansJP',
-            fontFamilyFallback: ['Pretendard'],
-          ),
+          style: text.titleLarge,
         ),
         const SizedBox(height: 16),
         Text('한자 정보', style: text.titleMedium),

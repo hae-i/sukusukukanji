@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../study/session_controller.dart';
+import '../../widgets/mixed_language_text.dart';
 
 class QuizView extends StatelessWidget {
   const QuizView({super.key, required this.controller});
@@ -43,13 +44,9 @@ class QuizView extends StatelessWidget {
               child: Row(
                 children: [
                   Expanded(
-                    child: Text(
+                    child: MixedLanguageText(
                       '${i + 1}. ${question.options[i]}${selected == i && question.options[i] != question.answer ? ' · 선택한 답' : ''}',
-                      style: const TextStyle(
-                        fontFamily: 'NotoSansJP',
-                        fontFamilyFallback: ['Pretendard'],
-                        fontSize: 20,
-                      ),
+                      style: const TextStyle(fontSize: 20),
                     ),
                   ),
                   if (answered && question.options[i] == question.answer)
@@ -106,13 +103,7 @@ class QuizView extends StatelessWidget {
                           ?.copyWith(fontWeight: FontWeight.w700),
                     ),
                     const SizedBox(height: 8),
-                    Text(
-                      question.explanation,
-                      style: const TextStyle(
-                        fontFamily: 'NotoSansJP',
-                        fontFamilyFallback: ['Pretendard'],
-                      ),
-                    ),
+                    MixedLanguageText(question.explanation),
                   ],
                 ),
               ),

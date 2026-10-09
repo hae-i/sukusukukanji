@@ -9,37 +9,36 @@ abstract final class AppTheme {
       brightness: Brightness.light,
       surface: cream,
     );
-    return ThemeData(
+    final base = ThemeData(
       useMaterial3: true,
       fontFamily: 'Pretendard',
       fontFamilyFallback: const ['NotoSansJP'],
+      colorScheme: scheme,
+    );
+    final titleStyle = base.textTheme.titleLarge!.copyWith(
+      fontWeight: FontWeight.w700,
+      fontSize: 22,
+      color: const Color(0xFF263D2E),
+    );
+    final buttonStyle = base.textTheme.labelLarge!.copyWith(
+      fontWeight: FontWeight.w600,
+    );
+    return base.copyWith(
       splashFactory: NoSplash.splashFactory,
       splashColor: Colors.transparent,
       highlightColor: Colors.transparent,
-      textButtonTheme: const TextButtonThemeData(
+      textButtonTheme: TextButtonThemeData(
         style: ButtonStyle(
-          textStyle: WidgetStatePropertyAll(
-            TextStyle(
-              fontFamily: 'Pretendard',
-              fontFamilyFallback: ['NotoSansJP'],
-              fontWeight: FontWeight.w600,
-            ),
-          ),
+          textStyle: WidgetStatePropertyAll(buttonStyle),
           splashFactory: NoSplash.splashFactory,
-          overlayColor: WidgetStatePropertyAll(Colors.transparent),
+          overlayColor: const WidgetStatePropertyAll(Colors.transparent),
         ),
       ),
-      outlinedButtonTheme: const OutlinedButtonThemeData(
+      outlinedButtonTheme: OutlinedButtonThemeData(
         style: ButtonStyle(
-          textStyle: WidgetStatePropertyAll(
-            TextStyle(
-              fontFamily: 'Pretendard',
-              fontFamilyFallback: ['NotoSansJP'],
-              fontWeight: FontWeight.w600,
-            ),
-          ),
+          textStyle: WidgetStatePropertyAll(buttonStyle),
           splashFactory: NoSplash.splashFactory,
-          overlayColor: WidgetStatePropertyAll(Colors.transparent),
+          overlayColor: const WidgetStatePropertyAll(Colors.transparent),
         ),
       ),
       iconButtonTheme: const IconButtonThemeData(
@@ -48,33 +47,17 @@ abstract final class AppTheme {
           overlayColor: WidgetStatePropertyAll(Colors.transparent),
         ),
       ),
-      colorScheme: scheme,
       scaffoldBackgroundColor: cream,
-      appBarTheme: const AppBarTheme(
+      appBarTheme: AppBarTheme(
         backgroundColor: cream,
-        foregroundColor: Color(0xFF263D2E),
+        foregroundColor: const Color(0xFF263D2E),
         centerTitle: false,
-        titleTextStyle: TextStyle(
-          fontFamily: 'Pretendard',
-          fontFamilyFallback: ['NotoSansJP'],
-          fontWeight: FontWeight.w700,
-          fontSize: 22,
-          color: Color(0xFF263D2E),
-        ),
+        titleTextStyle: titleStyle,
       ),
-      dialogTheme: const DialogThemeData(
-        titleTextStyle: TextStyle(
-          fontFamily: 'Pretendard',
-          fontFamilyFallback: ['NotoSansJP'],
-          fontWeight: FontWeight.w700,
-          fontSize: 22,
-          color: Color(0xFF263D2E),
-        ),
-        contentTextStyle: TextStyle(
-          fontFamily: 'Pretendard',
-          fontFamilyFallback: ['NotoSansJP'],
-          fontSize: 16,
-          color: Color(0xFF263D2E),
+      dialogTheme: DialogThemeData(
+        titleTextStyle: titleStyle,
+        contentTextStyle: base.textTheme.bodyLarge!.copyWith(
+          color: const Color(0xFF263D2E),
         ),
       ),
       cardTheme: CardThemeData(
@@ -88,28 +71,18 @@ abstract final class AppTheme {
           splashFactory: NoSplash.splashFactory,
           overlayColor: Colors.transparent,
           minimumSize: const Size(48, 52),
-          textStyle: const TextStyle(
-            fontFamily: 'Pretendard',
-            fontFamilyFallback: ['NotoSansJP'],
-            fontSize: 16,
-            fontWeight: FontWeight.w600,
-          ),
+          textStyle: buttonStyle.copyWith(fontSize: 16),
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(16),
           ),
         ),
       ),
-      navigationBarTheme: const NavigationBarThemeData(
-        overlayColor: WidgetStatePropertyAll(Colors.transparent),
+      navigationBarTheme: NavigationBarThemeData(
+        overlayColor: const WidgetStatePropertyAll(Colors.transparent),
         backgroundColor: Colors.white,
         indicatorColor: Color(0xFFE3ECDD),
         labelTextStyle: WidgetStatePropertyAll(
-          TextStyle(
-            fontFamily: 'Pretendard',
-            fontFamilyFallback: ['NotoSansJP'],
-            fontWeight: FontWeight.w600,
-            fontSize: 14,
-          ),
+          buttonStyle.copyWith(fontSize: 14),
         ),
       ),
       progressIndicatorTheme: const ProgressIndicatorThemeData(

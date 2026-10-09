@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../widgets/mixed_language_text.dart';
+
 import '../../app/app_controller.dart';
 import '../../widgets/plant_mark.dart';
 import '../../widgets/page_dots.dart';
@@ -82,18 +84,14 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                                 fontSize: 112,
                               ),
                             ),
-                            Text(
+                            MixedLanguageText(
                               [
                                 first.koreanReading,
                                 ...first.onyomi.take(1),
                                 ...first.kunyomi.take(1),
                               ].join(' / '),
                               textAlign: TextAlign.center,
-                              style: const TextStyle(
-                                fontFamily: 'NotoSansJP',
-                                fontFamilyFallback: ['Pretendard'],
-                                fontSize: 24,
-                              ),
+                              style: const TextStyle(fontSize: 24),
                             ),
                           ] else if (page == 1) ...[
                             Text(
