@@ -40,22 +40,42 @@ class QuizView extends StatelessWidget {
                 minimumSize: const Size(48, 56),
                 alignment: Alignment.centerLeft,
               ),
-              child: Text(
-                '${i + 1}. ${question.options[i]}${answered && question.options[i] == question.answer
-                    ? ' ✓ 정답'
-                    : selected == i
-                    ? ' · 선택한 답'
-                    : ''}',
-                style: const TextStyle(fontSize: 20),
+              child: Row(
+                children: [
+                  Expanded(
+                    child: Text(
+                      '${i + 1}. ${question.options[i]}${selected == i && question.options[i] != question.answer ? ' · 선택한 답' : ''}',
+                      style: const TextStyle(fontSize: 20),
+                    ),
+                  ),
+                  if (answered && question.options[i] == question.answer)
+                    const Icon(
+                      Icons.check,
+                      color: Colors.red,
+                      semanticLabel: '정답 보기',
+                    ),
+                ],
               ),
             ),
           ),
         if (answered) ...[
-          Semantics(
-            liveRegion: true,
-            child: Text(
-              correct ? '✓ 정답이에요!' : '✕ 아쉬워요!',
-              style: Theme.of(context).textTheme.titleLarge,
+          TweenAnimationBuilder<double>(
+            key: ValueKey('feedback-${question.id}'),
+            tween: Tween(begin: 1, end: 0),
+            duration: MediaQuery.disableAnimationsOf(context)
+                ? Duration.zero
+                : const Duration(milliseconds: 420),
+            curve: Curves.easeOutBack,
+            builder: (context, value, child) => Transform.translate(
+              offset: Offset(0, 28 * value),
+              child: child,
+            ),
+            child: Semantics(
+              liveRegion: true,
+              child: Text(
+                correct ? '✓ 정답이에요!' : '✕ 아쉬워요!',
+                style: Theme.of(context).textTheme.titleLarge,
+              ),
             ),
           ),
           const SizedBox(height: 8),

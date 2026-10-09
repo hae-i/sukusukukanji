@@ -72,13 +72,15 @@ class _AppShellState extends State<AppShell> with WidgetsBindingObserver {
     if (shown && mounted) await AppRouter.grades(context, widget.controller);
   }
 
-  Future<void> _study({bool review = false}) async {
+  Future<void> _study({bool review = false, int? grade, int? lesson}) async {
     if (_studying) return;
     _studying = true;
     try {
       var repeat = review;
       do {
-        final session = widget.controller.start(review: repeat);
+        final session = lesson != null && !repeat
+            ? widget.controller.startLessonReview(grade!, lesson)
+            : widget.controller.start(review: repeat);
         if (session == null) {
           if (mounted) {
             ScaffoldMessenger.of(context).showSnackBar(
@@ -93,9 +95,12 @@ class _AppShellState extends State<AppShell> with WidgetsBindingObserver {
         }
         final again = await Navigator.of(context).push<bool>(
           MaterialPageRoute(
-            settings: RouteSettings(name: repeat ? '/review' : '/study'),
+            settings: RouteSettings(
+              name: session.isReview ? '/review' : '/study',
+            ),
             builder: (_) => StudyFlowScreen(
               session: session,
+              appController: widget.controller,
               onSave: widget.controller.saveSession,
               canReview: () => widget.controller.reviewCount > 0,
             ),
@@ -143,6 +148,7 @@ class _AppShellState extends State<AppShell> with WidgetsBindingObserver {
           StudyHubScreen(
             controller: widget.controller,
             onStart: () => _study(),
+            onReview: (grade, lesson) => _study(grade: grade, lesson: lesson),
           ),
           KanjiListScreen(
             controller: widget.controller,

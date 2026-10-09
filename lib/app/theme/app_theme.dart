@@ -11,6 +11,27 @@ abstract final class AppTheme {
     );
     return ThemeData(
       useMaterial3: true,
+      splashFactory: NoSplash.splashFactory,
+      splashColor: Colors.transparent,
+      highlightColor: Colors.transparent,
+      textButtonTheme: const TextButtonThemeData(
+        style: ButtonStyle(
+          splashFactory: NoSplash.splashFactory,
+          overlayColor: WidgetStatePropertyAll(Colors.transparent),
+        ),
+      ),
+      outlinedButtonTheme: const OutlinedButtonThemeData(
+        style: ButtonStyle(
+          splashFactory: NoSplash.splashFactory,
+          overlayColor: WidgetStatePropertyAll(Colors.transparent),
+        ),
+      ),
+      iconButtonTheme: const IconButtonThemeData(
+        style: ButtonStyle(
+          splashFactory: NoSplash.splashFactory,
+          overlayColor: WidgetStatePropertyAll(Colors.transparent),
+        ),
+      ),
       colorScheme: scheme,
       scaffoldBackgroundColor: cream,
       appBarTheme: const AppBarTheme(
@@ -26,6 +47,8 @@ abstract final class AppTheme {
       ),
       filledButtonTheme: FilledButtonThemeData(
         style: FilledButton.styleFrom(
+          splashFactory: NoSplash.splashFactory,
+          overlayColor: Colors.transparent,
           minimumSize: const Size(48, 52),
           textStyle: const TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
           shape: RoundedRectangleBorder(
@@ -34,6 +57,7 @@ abstract final class AppTheme {
         ),
       ),
       navigationBarTheme: const NavigationBarThemeData(
+        overlayColor: WidgetStatePropertyAll(Colors.transparent),
         backgroundColor: Colors.white,
         indicatorColor: Color(0xFFE3ECDD),
       ),

@@ -82,7 +82,7 @@ void main() {
     await tester.tap(find.text('학년별 성장 과정'));
     await tester.pumpAndSettle();
     expect(find.text('1학년 · 새싹'), findsOneWidget);
-    expect(find.text('잠김 · 앞 학년을 먼저 완료해 주세요.'), findsNWidgets(5));
+    expect(find.text('잠김'), findsNWidgets(5));
     await tester.tap(find.byType(BackButton));
     await tester.pumpAndSettle();
     await tester.tap(find.byTooltip('앱 안내'));

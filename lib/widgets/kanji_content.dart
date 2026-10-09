@@ -2,10 +2,13 @@ import 'package:flutter/material.dart';
 
 import '../data/models/kanji.dart';
 import 'content_layout.dart';
+import '../app/app_controller.dart';
+import 'favorite_button.dart';
 
 class KanjiContent extends StatelessWidget {
-  const KanjiContent({super.key, required this.kanji});
+  const KanjiContent({super.key, required this.kanji, this.controller});
   final Kanji kanji;
+  final AppController? controller;
   @override
   Widget build(BuildContext context) {
     final text = Theme.of(context).textTheme;
@@ -15,6 +18,11 @@ class KanjiContent extends StatelessWidget {
         SectionCard(
           child: Column(
             children: [
+              if (controller != null)
+                Align(
+                  alignment: Alignment.topRight,
+                  child: FavoriteButton(controller: controller!, kanji: kanji),
+                ),
               Text(
                 kanji.character,
                 locale: const Locale('ja'),

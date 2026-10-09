@@ -39,7 +39,7 @@ class _KanjiDetailScreenState extends State<KanjiDetailScreen> {
       body: SafeArea(
         child: ContentLayout(
           children: [
-            KanjiContent(kanji: widget.kanji),
+            KanjiContent(kanji: widget.kanji, controller: widget.controller),
             if (widget.controller != null) ...[
               const SizedBox(height: 24),
               Text('내 학습 상태 · ${masteryLabel(progress)}'),

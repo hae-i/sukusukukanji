@@ -39,15 +39,18 @@ class UserProgress {
     this.streak = 0,
     this.lastStudyDate,
     Map<String, KanjiProgress> kanji = const {},
+    Set<String> favoriteKanjiIds = const {},
     Set<int> completedGrades = const {},
     Set<int> seenGradeCelebrations = const {},
   }) : kanji = Map.unmodifiable(kanji),
+       favoriteKanjiIds = Set.unmodifiable(favoriteKanjiIds),
        completedGrades = Set.unmodifiable(completedGrades),
        seenGradeCelebrations = Set.unmodifiable(seenGradeCelebrations);
   final int currentGrade;
   final int streak;
   final DateTime? lastStudyDate;
   final Map<String, KanjiProgress> kanji;
+  final Set<String> favoriteKanjiIds;
   final Set<int> completedGrades;
   final Set<int> seenGradeCelebrations;
 
@@ -56,6 +59,7 @@ class UserProgress {
     int? streak,
     DateTime? lastStudyDate,
     Map<String, KanjiProgress>? kanji,
+    Set<String>? favoriteKanjiIds,
     Set<int>? completedGrades,
     Set<int>? seenGradeCelebrations,
   }) => UserProgress(
@@ -63,6 +67,7 @@ class UserProgress {
     streak: streak ?? this.streak,
     lastStudyDate: lastStudyDate ?? this.lastStudyDate,
     kanji: kanji ?? this.kanji,
+    favoriteKanjiIds: favoriteKanjiIds ?? this.favoriteKanjiIds,
     completedGrades: completedGrades ?? this.completedGrades,
     seenGradeCelebrations: seenGradeCelebrations ?? this.seenGradeCelebrations,
   );

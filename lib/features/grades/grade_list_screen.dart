@@ -33,7 +33,7 @@ class GradeListScreen extends StatelessWidget {
                     controller.catalog!,
                     controller.progress,
                   ))
-                    const Text('잠김 · 앞 학년을 먼저 완료해 주세요.')
+                    const Text('잠김')
                   else if (grade.contentAsset == null)
                     const Text('해금됨 · 콘텐츠 준비 중')
                   else

@@ -27,7 +27,7 @@ class SqliteProgressRepository implements ProgressRepository {
     return _factory.openDatabase(
       dbPath,
       options: OpenDatabaseOptions(
-        version: 1,
+        version: 2,
         onCreate: (db, version) async {
           await db.execute(
             'CREATE TABLE user_progress (id INTEGER PRIMARY KEY CHECK(id = 1), current_grade INTEGER NOT NULL, streak INTEGER NOT NULL, last_study_date TEXT)',
@@ -44,8 +44,18 @@ class SqliteProgressRepository implements ProgressRepository {
             'CREATE TABLE grade_completion (grade INTEGER PRIMARY KEY, seen INTEGER NOT NULL CHECK(seen IN (0,1)))',
           );
           await db.execute(
+            'CREATE TABLE kanji_favorite (kanji_id TEXT PRIMARY KEY)',
+          );
+          await db.execute(
             'CREATE TABLE committed_session (id TEXT PRIMARY KEY)',
           );
+        },
+        onUpgrade: (db, oldVersion, newVersion) async {
+          if (oldVersion < 2) {
+            await db.execute(
+              'CREATE TABLE kanji_favorite (kanji_id TEXT PRIMARY KEY)',
+            );
+          }
         },
         // Never silently delete user progress on a downgrade.
         onDowngrade: (db, oldVersion, newVersion) async {
@@ -63,8 +73,10 @@ class SqliteProgressRepository implements ProgressRepository {
     final user = userRows.single;
     final rows = await db.query('kanji_progress');
     final grades = await db.query('grade_completion');
+    final favorites = await db.query('kanji_favorite');
     final date = user['last_study_date'] as String?;
     return UserProgress(
+      favoriteKanjiIds: favorites.map((r) => r['kanji_id'] as String).toSet(),
       currentGrade: user['current_grade'] as int,
       streak: user['streak'] as int,
       lastStudyDate: date == null ? null : DateTime.parse(date),
@@ -114,6 +126,10 @@ class SqliteProgressRepository implements ProgressRepository {
       await txn.delete('kanji_progress');
       for (final record in next.kanji.values) {
         await txn.insert('kanji_progress', ProgressMapping.encode(record));
+      }
+      await txn.delete('kanji_favorite');
+      for (final id in next.favoriteKanjiIds) {
+        await txn.insert('kanji_favorite', {'kanji_id': id});
       }
       await txn.delete('grade_completion');
       for (final grade in next.completedGrades) {

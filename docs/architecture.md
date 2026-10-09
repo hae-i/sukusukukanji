@@ -31,6 +31,7 @@ SQLite schema v1:
 | 테이블 | 역할 |
 |---|---|
 | `user_progress` | 현재 학년, streak, 마지막 학습 날짜 |
+| `kanji_favorite` | 즐겨찾는 한자 ID, 학습 상태와 별개 |
 | `kanji_progress` | status, 정오답 횟수, 복습 성공 횟수, review, 최초/마지막 학습 시각 |
 | `grade_completion` | 완료 학년, 졸업 축하 확인 여부 |
 | `committed_session` | 커밋된 세션 ID로 재시도 중복 방지 |
@@ -81,3 +82,13 @@ SQLite schema v1:
 - Android SDK/Xcode 환경의 빌드, OS preferences 및 SQLite 플러그인, 화면 읽기 도구·한/일 글꼴·앱 종료/재실행 점검
 - 스토어 식별자와 서명 확정, 검증된 예시 단어·문장 및 한국어 연결 콘텐츠 확대/감수
 - 미완료 세션 재개, 백업, 여러 기기 동기화는 현재 범위에 없습니다.
+
+## 2026-10-09 학습 UX 개선
+
+온보딩은 PageView 안의 스크롤 가능한 카드 3장과 고정 footer 점/버튼으로 구성합니다. `StudyCardsView`는 수직 정보 스크롤과 가로 PageView를 분리하고, `SessionController.showCard`는 카드 위치만 변경합니다. 슬라이드로 앞 카드에 돌아갈 수 있으며 저장은 퀴즈 완료 이후에만 수행합니다.
+
+`startLessonReview(grade, lesson)`은 해금된 학년의 모든 한자를 완료한 레슨에만 복습 세션을 생성합니다. 학습 탭은 콘텐츠가 있는 해금 학년을 선택할 수 있어 진급 후 이전 학년도 복습합니다. 처음 학습 시각과 전체 배운 개수는 반복 복습으로 늘어나지 않습니다.
+
+`UserProgress.favoriteKanjiIds`는 별도 ID 집합이며 SQLite v2의 `kanji_favorite` 테이블에 저장합니다. v1→v2는 새 테이블만 추가합니다. 즐겨찾기 변경도 ProgressRepository의 동일 트랜잭션을 사용하고, 학습·학년 상태를 유지합니다. `FavoriteButton`은 저장 중 중복 탭을 막고 실패를 알립니다.
+
+추가 교육한자 1,026자의 출처 카탈로그는 docs/content에만 있습니다. 한국어 학습 정보의 추가 검증 없이 런타임에 연결하거나 source 영어 뜻을 한국어 뜻으로 대체하지 않습니다.

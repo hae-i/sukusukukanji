@@ -138,6 +138,31 @@ class AppController extends ChangeNotifier {
     if (!_disposed) notifyListeners();
   }
 
+  StudySession? startLessonReview(int grade, int lesson) {
+    final theme = catalog!.grades.firstWhere((g) => g.grade == grade);
+    if (!gradePolicy.isUnlocked(theme, catalog!, progress)) return null;
+    final items = catalog!.lessonsForGrade(grade)[lesson];
+    if (items == null ||
+        !items.every((k) => progress.kanji[k.id]?.firstStudiedAt != null)) {
+      return null;
+    }
+    return planner.create(items, catalog!, isReview: true);
+  }
+
+  Future<void> toggleFavorite(Kanji kanji) async {
+    if (!catalog!.kanji.any((k) => k.id == kanji.id)) {
+      throw ArgumentError('Unknown kanji');
+    }
+    final next = await _progressRepository.update((old) {
+      final ids = {...old.favoriteKanjiIds};
+      if (!ids.remove(kanji.id)) ids.add(kanji.id);
+      return old.copyWith(favoriteKanjiIds: ids);
+    });
+    if (_disposed) return;
+    progress = next;
+    notifyListeners();
+  }
+
   Future<void> addReview(Kanji kanji) async {
     final next = await _progressRepository.update((old) {
       final record = old.kanji[kanji.id] ?? KanjiProgress(kanjiId: kanji.id);

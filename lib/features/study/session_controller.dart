@@ -23,6 +23,17 @@ class SessionController extends ChangeNotifier {
       _answers.length > questionIndex ? _answers[questionIndex] : null;
   QuizQuestion get question => session.questions[questionIndex];
 
+  void showCard(int index) {
+    if (stage != SessionStage.cards ||
+        index < 0 ||
+        index >= session.kanji.length ||
+        index == cardIndex) {
+      return;
+    }
+    cardIndex = index;
+    notifyListeners();
+  }
+
   void nextCard() {
     if (stage != SessionStage.cards) return;
     if (cardIndex < session.kanji.length - 1) {
