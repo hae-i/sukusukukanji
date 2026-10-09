@@ -17,54 +17,63 @@ class QuizView extends StatelessWidget {
       builder: (context, constraints) => Stack(
         fit: StackFit.expand,
         children: [
-          ContentLayout(
-            key: ValueKey(question.id),
-            children: [
-              Text(
-                '퀴즈 ${controller.questionIndex + 1} / ${controller.session.questions.length}',
-              ),
-              const SizedBox(height: 20),
-              Text(
-                question.prompt,
-                textAlign: TextAlign.center,
-                locale: const Locale('ja'),
-                style: const TextStyle(fontFamily: 'NotoSansJP', fontSize: 64),
-              ),
-              const SizedBox(height: 16),
-              Text(
-                question.instruction,
-                style: Theme.of(context).textTheme.titleLarge,
-              ),
-              const SizedBox(height: 20),
-              for (var i = 0; i < question.options.length; i++)
-                Padding(
-                  padding: const EdgeInsets.only(bottom: 12),
-                  child: OutlinedButton(
-                    key: ValueKey('option-$i'),
-                    onPressed: answered ? null : () => controller.answer(i),
-                    style: OutlinedButton.styleFrom(
-                      minimumSize: const Size(48, 56),
-                      alignment: Alignment.centerLeft,
-                    ),
-                    child: Row(
-                      children: [
-                        Expanded(
-                          child: MixedLanguageText(
-                            '${i + 1}. ${question.options[i]}${selected == i && question.options[i] != question.answer ? ' · 선택한 답' : ''}',
-                            style: const TextStyle(fontSize: 20),
-                          ),
-                        ),
-                        if (answered && question.options[i] == question.answer)
-                          const Icon(
-                            Icons.check,
-                            color: Colors.red,
-                            semanticLabel: '정답 보기',
-                          ),
-                      ],
-                    ),
+          SafeArea(
+            top: false,
+            left: false,
+            right: false,
+            child: ContentLayout(
+              key: ValueKey(question.id),
+              children: [
+                Text(
+                  '퀴즈 ${controller.questionIndex + 1} / ${controller.session.questions.length}',
+                ),
+                const SizedBox(height: 20),
+                Text(
+                  question.prompt,
+                  textAlign: TextAlign.center,
+                  locale: const Locale('ja'),
+                  style: const TextStyle(
+                    fontFamily: 'NotoSansJP',
+                    fontSize: 64,
                   ),
                 ),
-            ],
+                const SizedBox(height: 16),
+                Text(
+                  question.instruction,
+                  style: Theme.of(context).textTheme.titleLarge,
+                ),
+                const SizedBox(height: 20),
+                for (var i = 0; i < question.options.length; i++)
+                  Padding(
+                    padding: const EdgeInsets.only(bottom: 12),
+                    child: OutlinedButton(
+                      key: ValueKey('option-$i'),
+                      onPressed: answered ? null : () => controller.answer(i),
+                      style: OutlinedButton.styleFrom(
+                        minimumSize: const Size(48, 56),
+                        alignment: Alignment.centerLeft,
+                      ),
+                      child: Row(
+                        children: [
+                          Expanded(
+                            child: MixedLanguageText(
+                              '${i + 1}. ${question.options[i]}${selected == i && question.options[i] != question.answer ? ' · 선택한 답' : ''}',
+                              style: const TextStyle(fontSize: 20),
+                            ),
+                          ),
+                          if (answered &&
+                              question.options[i] == question.answer)
+                            const Icon(
+                              Icons.check,
+                              color: Colors.red,
+                              semanticLabel: '정답 보기',
+                            ),
+                        ],
+                      ),
+                    ),
+                  ),
+              ],
+            ),
           ),
           if (answered)
             Positioned(
@@ -77,9 +86,9 @@ class QuizView extends StatelessWidget {
                 duration: MediaQuery.disableAnimationsOf(context)
                     ? Duration.zero
                     : const Duration(milliseconds: 420),
-                curve: Curves.easeOutBack,
+                curve: Curves.easeOutCubic,
                 builder: (context, value, child) => FractionalTranslation(
-                  translation: Offset(0, value),
+                  translation: Offset(0, value.clamp(0.0, 1.0)),
                   child: child,
                 ),
                 child: ConstrainedBox(
@@ -107,7 +116,12 @@ class _QuizFeedback extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Container(
     key: const ValueKey('quiz-feedback-panel'),
-    padding: const EdgeInsets.all(20),
+    padding: EdgeInsets.fromLTRB(
+      20,
+      20,
+      20,
+      20 + MediaQuery.paddingOf(context).bottom,
+    ),
     decoration: BoxDecoration(
       color: correct ? const Color(0xFFDCEBDD) : const Color(0xFFFBE4DF),
       borderRadius: const BorderRadius.vertical(top: Radius.circular(24)),

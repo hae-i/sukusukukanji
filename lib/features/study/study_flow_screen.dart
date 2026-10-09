@@ -81,6 +81,7 @@ class _StudyFlowScreenState extends State<StudyFlowScreen> {
             ],
           ),
           body: SafeArea(
+            bottom: stage != SessionStage.quiz,
             child: stage == SessionStage.cards
                 ? StudyCardsView(
                     controller: _controller,
