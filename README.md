@@ -27,7 +27,7 @@
 
 ## 실행
 
-검증 환경: **Flutter 3.47.6 stable / Dart 3.13.5**. `pubspec.lock`을 유지합니다.
+최소 SDK: **Flutter 3.47.0 / Dart 3.13.3**. 패치 버전 업데이트 없이 Dart 3.13.3 환경에서 의존성을 받을 수 있도록 요구조건을 낮췄습니다. 자동 검증 환경은 Flutter 3.47.6 stable / Dart 3.13.5이며, Dart 3.13.3에서 직접 실행한 결과는 아직 없습니다. `pubspec.lock`을 유지합니다.
 
 ```sh
 flutter pub get
