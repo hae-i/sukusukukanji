@@ -18,12 +18,26 @@ abstract final class AppTheme {
       highlightColor: Colors.transparent,
       textButtonTheme: const TextButtonThemeData(
         style: ButtonStyle(
+          textStyle: WidgetStatePropertyAll(
+            TextStyle(
+              fontFamily: 'Pretendard',
+              fontFamilyFallback: ['NotoSansJP'],
+              fontWeight: FontWeight.w600,
+            ),
+          ),
           splashFactory: NoSplash.splashFactory,
           overlayColor: WidgetStatePropertyAll(Colors.transparent),
         ),
       ),
       outlinedButtonTheme: const OutlinedButtonThemeData(
         style: ButtonStyle(
+          textStyle: WidgetStatePropertyAll(
+            TextStyle(
+              fontFamily: 'Pretendard',
+              fontFamilyFallback: ['NotoSansJP'],
+              fontWeight: FontWeight.w600,
+            ),
+          ),
           splashFactory: NoSplash.splashFactory,
           overlayColor: WidgetStatePropertyAll(Colors.transparent),
         ),
@@ -40,6 +54,13 @@ abstract final class AppTheme {
         backgroundColor: cream,
         foregroundColor: Color(0xFF263D2E),
         centerTitle: false,
+        titleTextStyle: TextStyle(
+          fontFamily: 'Pretendard',
+          fontFamilyFallback: ['NotoSansJP'],
+          fontWeight: FontWeight.w700,
+          fontSize: 22,
+          color: Color(0xFF263D2E),
+        ),
       ),
       cardTheme: CardThemeData(
         elevation: 0,
@@ -52,7 +73,12 @@ abstract final class AppTheme {
           splashFactory: NoSplash.splashFactory,
           overlayColor: Colors.transparent,
           minimumSize: const Size(48, 52),
-          textStyle: const TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
+          textStyle: const TextStyle(
+            fontFamily: 'Pretendard',
+            fontFamilyFallback: ['NotoSansJP'],
+            fontSize: 16,
+            fontWeight: FontWeight.w600,
+          ),
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(16),
           ),
@@ -62,6 +88,14 @@ abstract final class AppTheme {
         overlayColor: WidgetStatePropertyAll(Colors.transparent),
         backgroundColor: Colors.white,
         indicatorColor: Color(0xFFE3ECDD),
+        labelTextStyle: WidgetStatePropertyAll(
+          TextStyle(
+            fontFamily: 'Pretendard',
+            fontFamilyFallback: ['NotoSansJP'],
+            fontWeight: FontWeight.w600,
+            fontSize: 14,
+          ),
+        ),
       ),
       progressIndicatorTheme: const ProgressIndicatorThemeData(
         color: green,

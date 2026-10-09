@@ -84,7 +84,9 @@ void main() {
     await tester.tap(find.text('학년별 성장 과정'));
     await tester.pumpAndSettle();
     expect(find.text('1학년 · 새싹'), findsOneWidget);
-    expect(find.text('잠김'), findsNWidgets(5));
+    for (final count in [160, 200, 202, 193, 191]) {
+      expect(find.text('잠김 · $count자'), findsOneWidget);
+    }
     await tester.tap(find.byType(BackButton));
     await tester.pumpAndSettle();
     await tester.tap(find.byTooltip('앱 안내'));

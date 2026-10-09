@@ -12,7 +12,7 @@ Korean readings, meanings, Japanese examples, and Korean connections were checke
 
 Changes: selected beginner readings; removed KANJIDIC okurigana separator dots; omitted names; selected representative readings for display and retained sourced alternative readings to exclude valid quiz distractors; added Korean presentation wording, stable IDs, lesson ordering, provenance and application schema.
 
-The combined learning dataset is provided under CC BY-SA 4.0. This notice applies to that dataset, not to the application source code or branding. No endorsement by any source contributor is implied.
+The kanji dictionary fields are provided under CC BY-SA 4.0; the separately attributed sentence fields use CC BY 2.0 FR as described below. This notice applies to that dataset, not to the application source code or branding. No endorsement by any source contributor is implied.
 
 An attribution screen is available under 앱 안내, and individual references are visible in each kanji's detail screen. Recheck upstream content before releases and when correcting or extending entries; update `verifiedAt` only after checking the cited fields again.
 
@@ -26,3 +26,10 @@ The source-only education catalog in docs/content/education-kanji-source-catalog
 - **Pretendard v1.3.9**, copyright 2021 Kil Hyung-jin, Reserved Font Name Pretendard; SIL Open Font License 1.1. Regular/Medium/SemiBold/Bold OTF files are unmodified files from https://github.com/orioncactus/pretendard/releases/tag/v1.3.9. Original licence: assets/fonts/Pretendard-OFL.txt.
 
 Both licences are bundled as Flutter assets and registered in LicenseRegistry, accessible through the settings licence screen. No font is downloaded at runtime.
+
+
+## Grade-one example sentences
+
+The `sentences` fields in `assets/data/kanji/grade1.json` reproduce existing Japanese and Korean text contributed to [Tatoeba](https://tatoeba.org/). Each pair includes URLs to both sentence pages and their contributing users, displayed under 예문 출처 in the app. The texts are unchanged. Readings, when included, come only from contributor-reviewed transcriptions, with ruby markup converted to plain text. Attribution to transcription contributors is retained alongside the sentence authors.
+
+Licence: [Creative Commons Attribution 2.0 France](https://creativecommons.org/licenses/by/2.0/fr/). Both Japanese and Korean licences were checked individually against the sentence API. Selection, sentence IDs, authors, direct/indirect translation linkage and text SHA-256 hashes are recorded in `docs/content/grade1-sentences-audit.json`. These sentence fields retain their separate licence and are not covered by the kanji dictionary field licence above. No audio is used and no Tatoeba endorsement is implied.

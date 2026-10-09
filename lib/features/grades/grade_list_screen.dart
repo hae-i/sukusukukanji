@@ -33,14 +33,15 @@ class GradeListScreen extends StatelessWidget {
                     controller.catalog!,
                     controller.progress,
                   ))
-                    const Text('잠김')
+                    Text('잠김 · ${grade.requiredKanjiCount}자')
                   else if (grade.contentAsset == null)
                     const Text('해금됨 · 콘텐츠 준비 중')
                   else
                     Text(
                       '${AppController.gradePolicy.learnedCount(grade, controller.catalog!, controller.progress)} / ${grade.requiredKanjiCount}자 · 진행 중',
                     ),
-                  if (grade.requiredKanjiCount != null) ...[
+                  if (grade.contentAsset != null &&
+                      grade.requiredKanjiCount != null) ...[
                     const SizedBox(height: 12),
                     LinearProgressIndicator(
                       value:

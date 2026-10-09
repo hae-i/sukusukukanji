@@ -54,6 +54,29 @@
       "meaningTags": [
         "one",
         "one radical (no.1)"
+      ],
+      "sentences": [
+        {
+          "textJa": "一つ選んで。",
+          "meaningKo": "하나 골라.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #3488273 · arnab",
+              "url": "https://tatoeba.org/en/sentences/show/3488273"
+            },
+            {
+              "label": "Tatoeba 한국어 #8363320 · Eunhee",
+              "url": "https://tatoeba.org/en/sentences/show/8363320"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · fjay69",
+              "url": "https://tatoeba.org/en/sentences/show/3488273"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "ひとつえらんで。"
+        }
       ]
     },
     {
@@ -103,6 +126,29 @@
       "meaningTags": [
         "two",
         "two radical (no. 7)"
+      ],
+      "sentences": [
+        {
+          "textJa": "二かける七は十四です。",
+          "meaningKo": "2 곱하기 7의 결과는 14이다.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #3454067 · tomo",
+              "url": "https://tatoeba.org/en/sentences/show/3454067"
+            },
+            {
+              "label": "Tatoeba 한국어 #969792 · Sudajaengi",
+              "url": "https://tatoeba.org/en/sentences/show/969792"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · Pfirsichbaeumchen",
+              "url": "https://tatoeba.org/en/sentences/show/3454067"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "にかけるななはじゅうよんです。"
+        }
       ]
     },
     {
@@ -161,6 +207,29 @@
       ],
       "meaningTags": [
         "three"
+      ],
+      "sentences": [
+        {
+          "textJa": "これを三つください。",
+          "meaningKo": "이거 3개 주세요.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #217647 · bunbuku",
+              "url": "https://tatoeba.org/en/sentences/show/217647"
+            },
+            {
+              "label": "Tatoeba 한국어 #11105860 · intertime",
+              "url": "https://tatoeba.org/en/sentences/show/11105860"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · CK",
+              "url": "https://tatoeba.org/en/sentences/show/217647"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "これをみっつください。"
+        }
       ]
     },
     {
@@ -210,6 +279,29 @@
       ],
       "meaningTags": [
         "four"
+      ],
+      "sentences": [
+        {
+          "textJa": "一年には四つの季節がある。",
+          "meaningKo": "일 년에는 사계절이 있어.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #190235 · bunbuku",
+              "url": "https://tatoeba.org/en/sentences/show/190235"
+            },
+            {
+              "label": "Tatoeba 한국어 #8361510 · Eunhee",
+              "url": "https://tatoeba.org/en/sentences/show/8361510"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · bunbuku",
+              "url": "https://tatoeba.org/en/sentences/show/190235"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "いちねんにはよっつのきせつがある。"
+        }
       ]
     },
     {
@@ -267,6 +359,24 @@
       ],
       "meaningTags": [
         "five"
+      ],
+      "sentences": [
+        {
+          "textJa": "この箱にはりんごが五つ入っている。",
+          "meaningKo": "이 상자에 사과 다섯 개가 있다.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #3468523 · arnab",
+              "url": "https://tatoeba.org/en/sentences/show/3468523"
+            },
+            {
+              "label": "Tatoeba 한국어 #10587900 · ssuss32",
+              "url": "https://tatoeba.org/en/sentences/show/10587900"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+        }
       ]
     },
     {
@@ -321,6 +431,29 @@
       ],
       "meaningTags": [
         "six"
+      ],
+      "sentences": [
+        {
+          "textJa": "毎朝六時に起きます。",
+          "meaningKo": "매일 아침 6시에 일어나요.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #10953992 · small_snow",
+              "url": "https://tatoeba.org/en/sentences/show/10953992"
+            },
+            {
+              "label": "Tatoeba 한국어 #13164925 · atitarev",
+              "url": "https://tatoeba.org/en/sentences/show/13164925"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · fjay69",
+              "url": "https://tatoeba.org/en/sentences/show/10953992"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "まいあさろくじにおきます。"
+        }
       ]
     },
     {
@@ -369,6 +502,29 @@
       ],
       "meaningTags": [
         "seven"
+      ],
+      "sentences": [
+        {
+          "textJa": "七時三十分だった。",
+          "meaningKo": "일곱 시 반이었다.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #149633 · small_snow",
+              "url": "https://tatoeba.org/en/sentences/show/149633"
+            },
+            {
+              "label": "Tatoeba 한국어 #11082060 · Eunhee",
+              "url": "https://tatoeba.org/en/sentences/show/11082060"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · small_snow",
+              "url": "https://tatoeba.org/en/sentences/show/149633"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "しちじさんじゅっぷんだった。"
+        }
       ]
     },
     {
@@ -419,6 +575,29 @@
       "meaningTags": [
         "eight",
         "eight radical (no. 12)"
+      ],
+      "sentences": [
+        {
+          "textJa": "あの方は八十歳です。",
+          "meaningKo": "저 분은 여든이십니다.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #13225083 · atitarev",
+              "url": "https://tatoeba.org/en/sentences/show/13225083"
+            },
+            {
+              "label": "Tatoeba 한국어 #13225091 · atitarev",
+              "url": "https://tatoeba.org/en/sentences/show/13225091"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · atitarev",
+              "url": "https://tatoeba.org/en/sentences/show/13225083"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "あのかたははちじゅっさいです。"
+        }
       ]
     },
     {
@@ -467,6 +646,29 @@
       ],
       "meaningTags": [
         "nine"
+      ],
+      "sentences": [
+        {
+          "textJa": "もう九時です。",
+          "meaningKo": "벌써 아홉시다.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #1483516 · marshmallowcat",
+              "url": "https://tatoeba.org/en/sentences/show/1483516"
+            },
+            {
+              "label": "Tatoeba 한국어 #6829692 · yesjustryan",
+              "url": "https://tatoeba.org/en/sentences/show/6829692"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · small_snow",
+              "url": "https://tatoeba.org/en/sentences/show/1483516"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "もうくじです。"
+        }
       ]
     },
     {
@@ -516,6 +718,29 @@
       ],
       "meaningTags": [
         "ten"
+      ],
+      "sentences": [
+        {
+          "textJa": "十分休憩しよう。",
+          "meaningKo": "10분간 쉬죠.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #11891602 · small_snow",
+              "url": "https://tatoeba.org/en/sentences/show/11891602"
+            },
+            {
+              "label": "Tatoeba 한국어 #13145962 · SN_H",
+              "url": "https://tatoeba.org/en/sentences/show/13145962"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · small_snow",
+              "url": "https://tatoeba.org/en/sentences/show/11891602"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "じゅっぷんきゅうけいしよう。"
+        }
       ]
     },
     {
@@ -562,6 +787,29 @@
         "sun",
         "Japan",
         "counter for days"
+      ],
+      "sentences": [
+        {
+          "textJa": "明日は雨です。",
+          "meaningKo": "내일은 비가 와요.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #13879046 · jan_OkulaJu",
+              "url": "https://tatoeba.org/en/sentences/show/13879046"
+            },
+            {
+              "label": "Tatoeba 한국어 #13879051 · Lumi",
+              "url": "https://tatoeba.org/en/sentences/show/13879051"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · small_snow",
+              "url": "https://tatoeba.org/en/sentences/show/13879046"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "あしたはあめです。"
+        }
       ]
     },
     {
@@ -604,6 +852,24 @@
       "meaningTags": [
         "month",
         "moon"
+      ],
+      "sentences": [
+        {
+          "textJa": "天に月がある。",
+          "meaningKo": "하늘에 달이 있다.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #2970662 · Fukuko",
+              "url": "https://tatoeba.org/en/sentences/show/2970662"
+            },
+            {
+              "label": "Tatoeba 한국어 #2943521 · skylight",
+              "url": "https://tatoeba.org/en/sentences/show/2943521"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+        }
       ]
     },
     {
@@ -645,6 +911,29 @@
       ],
       "meaningTags": [
         "fire"
+      ],
+      "sentences": [
+        {
+          "textJa": "花火を見た？",
+          "meaningKo": "불꽃놀이 봤어?",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #9415265 · small_snow",
+              "url": "https://tatoeba.org/en/sentences/show/9415265"
+            },
+            {
+              "label": "Tatoeba 한국어 #13167621 · SN_H",
+              "url": "https://tatoeba.org/en/sentences/show/13167621"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · small_snow",
+              "url": "https://tatoeba.org/en/sentences/show/9415265"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "はなびをみた？"
+        }
       ]
     },
     {
@@ -684,6 +973,29 @@
       ],
       "meaningTags": [
         "water"
+      ],
+      "sentences": [
+        {
+          "textJa": "水をください。",
+          "meaningKo": "물 좀 주세요.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #143718 · bunbuku",
+              "url": "https://tatoeba.org/en/sentences/show/143718"
+            },
+            {
+              "label": "Tatoeba 한국어 #12212821 · Adelpa",
+              "url": "https://tatoeba.org/en/sentences/show/12212821"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · Yorwba",
+              "url": "https://tatoeba.org/en/sentences/show/143718"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "みずをください。"
+        }
       ]
     },
     {
@@ -727,6 +1039,29 @@
       "meaningTags": [
         "tree",
         "wood"
+      ],
+      "sentences": [
+        {
+          "textJa": "今日は木曜日です。",
+          "meaningKo": "오늘은 목요일입니다.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #2670479 · tommy_san",
+              "url": "https://tatoeba.org/en/sentences/show/2670479"
+            },
+            {
+              "label": "Tatoeba 한국어 #9099281 · HappyMidnight",
+              "url": "https://tatoeba.org/en/sentences/show/9099281"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · Yorwba",
+              "url": "https://tatoeba.org/en/sentences/show/2670479"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "きょうはもくようびです。"
+        }
       ]
     },
     {
@@ -773,6 +1108,29 @@
       ],
       "meaningTags": [
         "mountain"
+      ],
+      "sentences": [
+        {
+          "textJa": "私は山にいました。",
+          "meaningKo": "나는 산에 있었어.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #4715 · bunbuku",
+              "url": "https://tatoeba.org/en/sentences/show/4715"
+            },
+            {
+              "label": "Tatoeba 한국어 #5362 · cueyayotl",
+              "url": "https://tatoeba.org/en/sentences/show/5362"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · Yorwba",
+              "url": "https://tatoeba.org/en/sentences/show/4715"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "わたしはやまにいました。"
+        }
       ]
     },
     {
@@ -814,6 +1172,29 @@
         "stream",
         "river",
         "river or three-stroke river radical (no. 47)"
+      ],
+      "sentences": [
+        {
+          "textJa": "私たちは川へ行った。",
+          "meaningKo": "우리는 강으로 향했다.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #165527 · bunbuku",
+              "url": "https://tatoeba.org/en/sentences/show/165527"
+            },
+            {
+              "label": "Tatoeba 한국어 #11106712 · intertime",
+              "url": "https://tatoeba.org/en/sentences/show/11106712"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · bunbuku",
+              "url": "https://tatoeba.org/en/sentences/show/165527"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "わたしたちはかわへいった。"
+        }
       ]
     },
     {
@@ -854,6 +1235,29 @@
       "meaningTags": [
         "rice field",
         "rice paddy"
+      ],
+      "sentences": [
+        {
+          "textJa": "田舎に住んでいます。",
+          "meaningKo": "나는 시골에 산다.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #124907 · bunbuku",
+              "url": "https://tatoeba.org/en/sentences/show/124907"
+            },
+            {
+              "label": "Tatoeba 한국어 #11105185 · intertime",
+              "url": "https://tatoeba.org/en/sentences/show/11105185"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · Yorwba",
+              "url": "https://tatoeba.org/en/sentences/show/124907"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "いなかにすんでいます。"
+        }
       ]
     },
     {
@@ -897,6 +1301,29 @@
         "earth",
         "ground",
         "Turkey"
+      ],
+      "sentences": [
+        {
+          "textJa": "今日は土曜日です。",
+          "meaningKo": "오늘은 토요일입니다.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #171533 · bunbuku",
+              "url": "https://tatoeba.org/en/sentences/show/171533"
+            },
+            {
+              "label": "Tatoeba 한국어 #13629284 · Adelpa",
+              "url": "https://tatoeba.org/en/sentences/show/13629284"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · Dominika7",
+              "url": "https://tatoeba.org/en/sentences/show/171533"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "きょうはどようびです。"
+        }
       ]
     },
     {
@@ -938,6 +1365,24 @@
       ],
       "meaningTags": [
         "stone"
+      ],
+      "sentences": [
+        {
+          "textJa": "トムは石油で大儲けをした。",
+          "meaningKo": "톰은 석유로 크게 벌었다.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #2706922 · tommy_san",
+              "url": "https://tatoeba.org/en/sentences/show/2706922"
+            },
+            {
+              "label": "Tatoeba 한국어 #13248354 · qiwiwi",
+              "url": "https://tatoeba.org/en/sentences/show/13248354"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+        }
       ]
     },
     {
@@ -992,6 +1437,29 @@
       ],
       "meaningTags": [
         "person"
+      ],
+      "sentences": [
+        {
+          "textJa": "韓国人です。",
+          "meaningKo": "한국 사람입니다.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #8692860 · small_snow",
+              "url": "https://tatoeba.org/en/sentences/show/8692860"
+            },
+            {
+              "label": "Tatoeba 한국어 #8119522 · noget",
+              "url": "https://tatoeba.org/en/sentences/show/8119522"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · small_snow",
+              "url": "https://tatoeba.org/en/sentences/show/8692860"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "かんこくじんです。"
+        }
       ]
     },
     {
@@ -1032,6 +1500,29 @@
       ],
       "meaningTags": [
         "mouth"
+      ],
+      "sentences": [
+        {
+          "textJa": "出口はどこですか？",
+          "meaningKo": "출구는 어디예요?",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #3549611 · tommy_san",
+              "url": "https://tatoeba.org/en/sentences/show/3549611"
+            },
+            {
+              "label": "Tatoeba 한국어 #4710389 · rainbow4us",
+              "url": "https://tatoeba.org/en/sentences/show/4710389"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · gillux",
+              "url": "https://tatoeba.org/en/sentences/show/3549611"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "でぐちはどこですか？"
+        }
       ]
     },
     {
@@ -1079,6 +1570,29 @@
         "experience",
         "care",
         "favor"
+      ],
+      "sentences": [
+        {
+          "textJa": "11時に目が覚めた。",
+          "meaningKo": "11시에 눈이 떴다.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #8785881 · small_snow",
+              "url": "https://tatoeba.org/en/sentences/show/8785881"
+            },
+            {
+              "label": "Tatoeba 한국어 #13250735 · qiwiwi",
+              "url": "https://tatoeba.org/en/sentences/show/13250735"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · small_snow",
+              "url": "https://tatoeba.org/en/sentences/show/8785881"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "じゅういちじにめがさめた。"
+        }
       ]
     },
     {
@@ -1118,6 +1632,29 @@
       ],
       "meaningTags": [
         "ear"
+      ],
+      "sentences": [
+        {
+          "textJa": "耳が聞こえないんですか？",
+          "meaningKo": "귀가 안 들리시나요?",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #8688719 · bunbuku",
+              "url": "https://tatoeba.org/en/sentences/show/8688719"
+            },
+            {
+              "label": "Tatoeba 한국어 #10605364 · ssuss32",
+              "url": "https://tatoeba.org/en/sentences/show/10605364"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · KK_kaku_",
+              "url": "https://tatoeba.org/en/sentences/show/8688719"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "みみがきこえないんですか？"
+        }
       ]
     },
     {
@@ -1159,6 +1696,24 @@
       ],
       "meaningTags": [
         "hand"
+      ],
+      "sentences": [
+        {
+          "textJa": "手を上げなさい。",
+          "meaningKo": "손을 들어 보세요.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #463492 · qahwa",
+              "url": "https://tatoeba.org/en/sentences/show/463492"
+            },
+            {
+              "label": "Tatoeba 한국어 #11106489 · intertime",
+              "url": "https://tatoeba.org/en/sentences/show/11106489"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+        }
       ]
     },
     {
@@ -1211,6 +1766,24 @@
       "meaningTags": [
         "above",
         "up"
+      ],
+      "sentences": [
+        {
+          "textJa": "手を上げなさい。",
+          "meaningKo": "손을 들어 보세요.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #463492 · qahwa",
+              "url": "https://tatoeba.org/en/sentences/show/463492"
+            },
+            {
+              "label": "Tatoeba 한국어 #11106489 · intertime",
+              "url": "https://tatoeba.org/en/sentences/show/11106489"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+        }
       ]
     },
     {
@@ -1267,6 +1840,29 @@
         "give",
         "low",
         "inferior"
+      ],
+      "sentences": [
+        {
+          "textJa": "下を見ろ。",
+          "meaningKo": "아래를 봐.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #188235 · small_snow",
+              "url": "https://tatoeba.org/en/sentences/show/188235"
+            },
+            {
+              "label": "Tatoeba 한국어 #8358318 · Eunhee",
+              "url": "https://tatoeba.org/en/sentences/show/8358318"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · small_snow",
+              "url": "https://tatoeba.org/en/sentences/show/188235"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "したをみろ。"
+        }
       ]
     },
     {
@@ -1307,6 +1903,29 @@
       ],
       "meaningTags": [
         "left"
+      ],
+      "sentences": [
+        {
+          "textJa": "左に曲がってください。",
+          "meaningKo": "왼쪽으로 돌아주세요.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #13152284 · atitarev",
+              "url": "https://tatoeba.org/en/sentences/show/13152284"
+            },
+            {
+              "label": "Tatoeba 한국어 #13152276 · atitarev",
+              "url": "https://tatoeba.org/en/sentences/show/13152276"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · atitarev",
+              "url": "https://tatoeba.org/en/sentences/show/13152284"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "ひだりにまがってください。"
+        }
       ]
     },
     {
@@ -1347,6 +1966,29 @@
       ],
       "meaningTags": [
         "right"
+      ],
+      "sentences": [
+        {
+          "textJa": "僕は右利きです。",
+          "meaningKo": "나는 오른손잡이다.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #6207168 · Sorgan",
+              "url": "https://tatoeba.org/en/sentences/show/6207168"
+            },
+            {
+              "label": "Tatoeba 한국어 #6304281 · Queserasera",
+              "url": "https://tatoeba.org/en/sentences/show/6304281"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · KK_kaku_",
+              "url": "https://tatoeba.org/en/sentences/show/6207168"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "ぼくはみぎききです。"
+        }
       ]
     },
     {
@@ -1392,6 +2034,29 @@
         "middle",
         "mean",
         "center"
+      ],
+      "sentences": [
+        {
+          "textJa": "中にいるの？",
+          "meaningKo": "안에 있어?",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #10489229 · small_snow",
+              "url": "https://tatoeba.org/en/sentences/show/10489229"
+            },
+            {
+              "label": "Tatoeba 한국어 #13319311 · Jamlo555",
+              "url": "https://tatoeba.org/en/sentences/show/13319311"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · small_snow",
+              "url": "https://tatoeba.org/en/sentences/show/10489229"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "なかにいるの？"
+        }
       ]
     },
     {
@@ -1436,6 +2101,29 @@
       "meaningTags": [
         "large",
         "big"
+      ],
+      "sentences": [
+        {
+          "textJa": "大丈夫？",
+          "meaningKo": "괜찮아요?",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #997206 · mookeee",
+              "url": "https://tatoeba.org/en/sentences/show/997206"
+            },
+            {
+              "label": "Tatoeba 한국어 #13117114 · atitarev",
+              "url": "https://tatoeba.org/en/sentences/show/13117114"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · small_snow",
+              "url": "https://tatoeba.org/en/sentences/show/997206"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "だいじょうぶ？"
+        }
       ]
     },
     {
@@ -1479,6 +2167,24 @@
       "meaningTags": [
         "little",
         "small"
+      ],
+      "sentences": [
+        {
+          "textJa": "彼女は足が小さい。",
+          "meaningKo": "그녀는 발이 작다.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #88102 · bunbuku",
+              "url": "https://tatoeba.org/en/sentences/show/88102"
+            },
+            {
+              "label": "Tatoeba 한국어 #4708174 · rainbow4us",
+              "url": "https://tatoeba.org/en/sentences/show/4708174"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+        }
       ]
     },
     {
@@ -1528,6 +2234,29 @@
       "meaningTags": [
         "woman",
         "female"
+      ],
+      "sentences": [
+        {
+          "textJa": "彼女は泣いた。",
+          "meaningKo": "그녀는 울었다.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #90519 · bunbuku",
+              "url": "https://tatoeba.org/en/sentences/show/90519"
+            },
+            {
+              "label": "Tatoeba 한국어 #11106952 · intertime",
+              "url": "https://tatoeba.org/en/sentences/show/11106952"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · Yorwba",
+              "url": "https://tatoeba.org/en/sentences/show/90519"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "かのじょはないた。"
+        }
       ]
     },
     {
@@ -1570,6 +2299,29 @@
       ],
       "meaningTags": [
         "male"
+      ],
+      "sentences": [
+        {
+          "textJa": "男の人は歯を磨く。",
+          "meaningKo": "남자는 이를 닦는다.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #492913 · hectorvk",
+              "url": "https://tatoeba.org/en/sentences/show/492913"
+            },
+            {
+              "label": "Tatoeba 한국어 #13250778 · qiwiwi",
+              "url": "https://tatoeba.org/en/sentences/show/13250778"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · small_snow",
+              "url": "https://tatoeba.org/en/sentences/show/492913"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "おとこのひとははをみがく。"
+        }
       ]
     },
     {
@@ -1615,6 +2367,29 @@
         "sign of the rat",
         "11PM-1AM",
         "first sign of Chinese zodiac"
+      ],
+      "sentences": [
+        {
+          "textJa": "私の息子です。",
+          "meaningKo": "내 아들이에요.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #13259270 · atitarev",
+              "url": "https://tatoeba.org/en/sentences/show/13259270"
+            },
+            {
+              "label": "Tatoeba 한국어 #13259272 · atitarev",
+              "url": "https://tatoeba.org/en/sentences/show/13259272"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · atitarev",
+              "url": "https://tatoeba.org/en/sentences/show/13259270"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "わたしのむすこです。"
+        }
       ]
     },
     {
@@ -1656,6 +2431,29 @@
         "heavens",
         "sky",
         "imperial"
+      ],
+      "sentences": [
+        {
+          "textJa": "明日の天気はどう？",
+          "meaningKo": "내일 날씨는 어때?",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #10008437 · Sim5634",
+              "url": "https://tatoeba.org/en/sentences/show/10008437"
+            },
+            {
+              "label": "Tatoeba 한국어 #8356277 · Eunhee",
+              "url": "https://tatoeba.org/en/sentences/show/8356277"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · small_snow",
+              "url": "https://tatoeba.org/en/sentences/show/10008437"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "あしたのてんきはどう？"
+        }
       ]
     },
     {
@@ -1704,6 +2502,29 @@
         "circle",
         "yen",
         "round"
+      ],
+      "sentences": [
+        {
+          "textJa": "千円で足りる？",
+          "meaningKo": "1000엔으로 충분한가요?",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #8733219 · bunbuku",
+              "url": "https://tatoeba.org/en/sentences/show/8733219"
+            },
+            {
+              "label": "Tatoeba 한국어 #11106713 · intertime",
+              "url": "https://tatoeba.org/en/sentences/show/11106713"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · KK_kaku_",
+              "url": "https://tatoeba.org/en/sentences/show/8733219"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "せんえんでたりる？"
+        }
       ]
     },
     {
@@ -1745,6 +2566,29 @@
       "meaningTags": [
         "jewel",
         "ball"
+      ],
+      "sentences": [
+        {
+          "textJa": "玉ねぎはじゃが芋よりも火が通りやすい。",
+          "meaningKo": "양파는 감자보다 빨리 익는다.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #10107038 · small_snow",
+              "url": "https://tatoeba.org/en/sentences/show/10107038"
+            },
+            {
+              "label": "Tatoeba 한국어 #11106353 · intertime",
+              "url": "https://tatoeba.org/en/sentences/show/11106353"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · small_snow",
+              "url": "https://tatoeba.org/en/sentences/show/10107038"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "たまねぎはじゃがいもよりもひがとおりやすい。"
+        }
       ]
     },
     {
@@ -1783,6 +2627,24 @@
         "king",
         "rule",
         "magnate"
+      ],
+      "sentences": [
+        {
+          "textJa": "王は城に住んでいます。",
+          "meaningKo": "왕은 성에 삽니다.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #10854499 · janTuki",
+              "url": "https://tatoeba.org/en/sentences/show/10854499"
+            },
+            {
+              "label": "Tatoeba 한국어 #10854507 · janTuki",
+              "url": "https://tatoeba.org/en/sentences/show/10854507"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+        }
       ]
     },
     {
@@ -1826,6 +2688,29 @@
       ],
       "meaningTags": [
         "gold"
+      ],
+      "sentences": [
+        {
+          "textJa": "料金はいくらですか？",
+          "meaningKo": "요금이 얼마입니까?",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #13188518 · atitarev",
+              "url": "https://tatoeba.org/en/sentences/show/13188518"
+            },
+            {
+              "label": "Tatoeba 한국어 #13188504 · atitarev",
+              "url": "https://tatoeba.org/en/sentences/show/13188504"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · atitarev",
+              "url": "https://tatoeba.org/en/sentences/show/13188518"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "りょうきんはいくらですか？"
+        }
       ]
     },
     {
@@ -1864,6 +2749,29 @@
       ],
       "meaningTags": [
         "hundred"
+      ],
+      "sentences": [
+        {
+          "textJa": "千に百を加えると千百になる。",
+          "meaningKo": "천에 백을 더하면 천백이 된다.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #141436 · small_snow",
+              "url": "https://tatoeba.org/en/sentences/show/141436"
+            },
+            {
+              "label": "Tatoeba 한국어 #1533098 · mysonhs",
+              "url": "https://tatoeba.org/en/sentences/show/1533098"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · small_snow",
+              "url": "https://tatoeba.org/en/sentences/show/141436"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "せんにひゃくをくわえるとせんひゃくになる。"
+        }
       ]
     },
     {
@@ -1901,6 +2809,29 @@
       ],
       "meaningTags": [
         "thousand"
+      ],
+      "sentences": [
+        {
+          "textJa": "千に百を加えると千百になる。",
+          "meaningKo": "천에 백을 더하면 천백이 된다.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #141436 · small_snow",
+              "url": "https://tatoeba.org/en/sentences/show/141436"
+            },
+            {
+              "label": "Tatoeba 한국어 #1533098 · mysonhs",
+              "url": "https://tatoeba.org/en/sentences/show/1533098"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · small_snow",
+              "url": "https://tatoeba.org/en/sentences/show/141436"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "せんにひゃくをくわえるとせんひゃくになる。"
+        }
       ]
     },
     {
@@ -1946,6 +2877,29 @@
         "true",
         "real",
         "counter for long cylindrical things"
+      ],
+      "sentences": [
+        {
+          "textJa": "本、注文した？",
+          "meaningKo": "책 주문했어?",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #1944414 · jayjaying",
+              "url": "https://tatoeba.org/en/sentences/show/1944414"
+            },
+            {
+              "label": "Tatoeba 한국어 #1587308 · JanAson",
+              "url": "https://tatoeba.org/en/sentences/show/1587308"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · KK_kaku_",
+              "url": "https://tatoeba.org/en/sentences/show/1944414"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "ほん、ちゅうもんした？"
+        }
       ]
     },
     {
@@ -1989,6 +2943,29 @@
         "noted",
         "distinguished",
         "reputation"
+      ],
+      "sentences": [
+        {
+          "textJa": "名前は何？",
+          "meaningKo": "이름이 뭐예요?",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #4002090 · oliviya",
+              "url": "https://tatoeba.org/en/sentences/show/4002090"
+            },
+            {
+              "label": "Tatoeba 한국어 #8119519 · noget",
+              "url": "https://tatoeba.org/en/sentences/show/8119519"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · Dominika7",
+              "url": "https://tatoeba.org/en/sentences/show/4002090"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "なまえはなに？"
+        }
       ]
     },
     {
@@ -2035,6 +3012,29 @@
         "figures",
         "plan",
         "literary radical (no. 67)"
+      ],
+      "sentences": [
+        {
+          "textJa": "文章を書いています。",
+          "meaningKo": "문장을 쓰고 있어요.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #13184941 · atitarev",
+              "url": "https://tatoeba.org/en/sentences/show/13184941"
+            },
+            {
+              "label": "Tatoeba 한국어 #13184942 · atitarev",
+              "url": "https://tatoeba.org/en/sentences/show/13184942"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · atitarev",
+              "url": "https://tatoeba.org/en/sentences/show/13184941"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "ぶんしょうをかいています。"
+        }
       ]
     },
     {
@@ -2077,6 +3077,29 @@
         "letter",
         "word",
         "section of village"
+      ],
+      "sentences": [
+        {
+          "textJa": "漢字はもう書けるよ。",
+          "meaningKo": "이미 한자를 쓸 수 있어요.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #10914801 · small_snow",
+              "url": "https://tatoeba.org/en/sentences/show/10914801"
+            },
+            {
+              "label": "Tatoeba 한국어 #13244029 · atitarev",
+              "url": "https://tatoeba.org/en/sentences/show/13244029"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · small_snow",
+              "url": "https://tatoeba.org/en/sentences/show/10914801"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "かんじはもうかけるよ。"
+        }
       ]
     },
     {
@@ -2149,6 +3172,29 @@
         "study",
         "learning",
         "science"
+      ],
+      "sentences": [
+        {
+          "textJa": "まだ学生なの？",
+          "meaningKo": "아직 학생이야?",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #8743394 · small_snow",
+              "url": "https://tatoeba.org/en/sentences/show/8743394"
+            },
+            {
+              "label": "Tatoeba 한국어 #13151048 · SN_H",
+              "url": "https://tatoeba.org/en/sentences/show/13151048"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · small_snow",
+              "url": "https://tatoeba.org/en/sentences/show/8743394"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "まだがくせいなの？"
+        }
       ]
     },
     {
@@ -2223,6 +3269,29 @@
         "life",
         "genuine",
         "birth"
+      ],
+      "sentences": [
+        {
+          "textJa": "学生ですか？",
+          "meaningKo": "학생이에요?",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #13172383 · atitarev",
+              "url": "https://tatoeba.org/en/sentences/show/13172383"
+            },
+            {
+              "label": "Tatoeba 한국어 #13172353 · atitarev",
+              "url": "https://tatoeba.org/en/sentences/show/13172353"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · atitarev",
+              "url": "https://tatoeba.org/en/sentences/show/13172383"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "がくせいですか？"
+        }
       ]
     },
     {
@@ -2274,6 +3343,29 @@
         "printing",
         "proof",
         "correction"
+      ],
+      "sentences": [
+        {
+          "textJa": "学校へ行きます。",
+          "meaningKo": "학교에 갑니다.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #6828190 · D0UG",
+              "url": "https://tatoeba.org/en/sentences/show/6828190"
+            },
+            {
+              "label": "Tatoeba 한국어 #8700737 · User89022",
+              "url": "https://tatoeba.org/en/sentences/show/8700737"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · D0UG",
+              "url": "https://tatoeba.org/en/sentences/show/6828190"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "がっこうへいきます。"
+        }
       ]
     },
     {
@@ -2318,6 +3410,29 @@
         "previous",
         "future",
         "precedence"
+      ],
+      "sentences": [
+        {
+          "textJa": "先生、こんにちは。",
+          "meaningKo": "선생님, 안녕하세요.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #13259054 · atitarev",
+              "url": "https://tatoeba.org/en/sentences/show/13259054"
+            },
+            {
+              "label": "Tatoeba 한국어 #13259057 · atitarev",
+              "url": "https://tatoeba.org/en/sentences/show/13259057"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · atitarev",
+              "url": "https://tatoeba.org/en/sentences/show/13259054"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "せんせい、こんにちは。"
+        }
       ]
     },
     {
@@ -2358,6 +3473,29 @@
       "meaningTags": [
         "year",
         "counter for years"
+      ],
+      "sentences": [
+        {
+          "textJa": "1年は12ヶ月です。",
+          "meaningKo": "일년은 십이개월이다.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #11295457 · small_snow",
+              "url": "https://tatoeba.org/en/sentences/show/11295457"
+            },
+            {
+              "label": "Tatoeba 한국어 #5339280 · Sudajaengi",
+              "url": "https://tatoeba.org/en/sentences/show/5339280"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · small_snow",
+              "url": "https://tatoeba.org/en/sentences/show/11295457"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "いちねんはじゅうにかげつです。"
+        }
       ]
     },
     {
@@ -2422,6 +3560,24 @@
         "day off",
         "retire",
         "sleep"
+      ],
+      "sentences": [
+        {
+          "textJa": "休みたい。",
+          "meaningKo": "쉬고 싶어요.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #3552065 · arnab",
+              "url": "https://tatoeba.org/en/sentences/show/3552065"
+            },
+            {
+              "label": "Tatoeba 한국어 #7347553 · H_Liliom",
+              "url": "https://tatoeba.org/en/sentences/show/7347553"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+        }
       ]
     },
     {
@@ -2484,6 +3640,24 @@
       "meaningTags": [
         "enter",
         "insert"
+      ],
+      "sentences": [
+        {
+          "textJa": "中に入って。",
+          "meaningKo": "안으로 들어가.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #13537569 · LeviHighway",
+              "url": "https://tatoeba.org/en/sentences/show/13537569"
+            },
+            {
+              "label": "Tatoeba 한국어 #13537570 · LeviHighway",
+              "url": "https://tatoeba.org/en/sentences/show/13537570"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+        }
       ]
     },
     {
@@ -2534,6 +3708,29 @@
         "come out",
         "put out",
         "protrude"
+      ],
+      "sentences": [
+        {
+          "textJa": "何時に出る？",
+          "meaningKo": "몇 시에 출발해요?",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #5762757 · daifons",
+              "url": "https://tatoeba.org/en/sentences/show/5762757"
+            },
+            {
+              "label": "Tatoeba 한국어 #13152222 · atitarev",
+              "url": "https://tatoeba.org/en/sentences/show/13152222"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · small_snow",
+              "url": "https://tatoeba.org/en/sentences/show/5762757"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "なんじにでる？"
+        }
       ]
     },
     {
@@ -2583,6 +3780,24 @@
         "rise",
         "set up",
         "erect"
+      ],
+      "sentences": [
+        {
+          "textJa": "立って下さい。",
+          "meaningKo": "일어나 주시길 바랍니다.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #78276 · mookeee",
+              "url": "https://tatoeba.org/en/sentences/show/78276"
+            },
+            {
+              "label": "Tatoeba 한국어 #10605372 · ssuss32",
+              "url": "https://tatoeba.org/en/sentences/show/10605372"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+        }
       ]
     },
     {
@@ -2628,6 +3843,29 @@
       "meaningTags": [
         "early",
         "fast"
+      ],
+      "sentences": [
+        {
+          "textJa": "私は早く起きた。",
+          "meaningKo": "일찍 일어났어요.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #155374 · bunbuku",
+              "url": "https://tatoeba.org/en/sentences/show/155374"
+            },
+            {
+              "label": "Tatoeba 한국어 #963309 · Eevee",
+              "url": "https://tatoeba.org/en/sentences/show/963309"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · bunbuku",
+              "url": "https://tatoeba.org/en/sentences/show/155374"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "わたしははやくおきた。"
+        }
       ]
     },
     {
@@ -2675,6 +3913,29 @@
         "justice",
         "righteous",
         "10**40"
+      ],
+      "sentences": [
+        {
+          "textJa": "私の計算は正しかったわ。",
+          "meaningKo": "내 계산은 정확했어.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #11052279 · small_snow",
+              "url": "https://tatoeba.org/en/sentences/show/11052279"
+            },
+            {
+              "label": "Tatoeba 한국어 #8362166 · Eunhee",
+              "url": "https://tatoeba.org/en/sentences/show/8362166"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · small_snow",
+              "url": "https://tatoeba.org/en/sentences/show/11052279"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "わたしのけいさんはただしかったわ。"
+        }
       ]
     },
     {
@@ -2721,6 +3982,29 @@
         "air",
         "atmosphere",
         "mood"
+      ],
+      "sentences": [
+        {
+          "textJa": "元気？",
+          "meaningKo": "어떻게 지내세요?",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #175045 · bunbuku",
+              "url": "https://tatoeba.org/en/sentences/show/175045"
+            },
+            {
+              "label": "Tatoeba 한국어 #8119491 · noget",
+              "url": "https://tatoeba.org/en/sentences/show/8119491"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · gillux",
+              "url": "https://tatoeba.org/en/sentences/show/175045"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "げんき？"
+        }
       ]
     },
     {
@@ -2771,6 +4055,29 @@
         "void",
         "vacant",
         "vacuum"
+      ],
+      "sentences": [
+        {
+          "textJa": "空港はどこですか？",
+          "meaningKo": "공항은 어디에 있습니까?",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #1345606 · boscowitch",
+              "url": "https://tatoeba.org/en/sentences/show/1345606"
+            },
+            {
+              "label": "Tatoeba 한국어 #6004122 · rainbow4us",
+              "url": "https://tatoeba.org/en/sentences/show/6004122"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · Inego",
+              "url": "https://tatoeba.org/en/sentences/show/1345606"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "くうこうはどこですか？"
+        }
       ]
     },
     {
@@ -2812,6 +4119,29 @@
       ],
       "meaningTags": [
         "rain"
+      ],
+      "sentences": [
+        {
+          "textJa": "雨が止んだ。",
+          "meaningKo": "비가 그쳤다.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #189682 · tommy__san",
+              "url": "https://tatoeba.org/en/sentences/show/189682"
+            },
+            {
+              "label": "Tatoeba 한국어 #1004977 · Sudajaengi",
+              "url": "https://tatoeba.org/en/sentences/show/1004977"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · small_snow",
+              "url": "https://tatoeba.org/en/sentences/show/189682"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "あめがやんだ。"
+        }
       ]
     },
     {
@@ -2854,6 +4184,24 @@
       "meaningTags": [
         "blue",
         "green"
+      ],
+      "sentences": [
+        {
+          "textJa": "彼女の瞳は青い。",
+          "meaningKo": "그녀의 눈동자는 파랗다.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #467299 · Namikaze",
+              "url": "https://tatoeba.org/en/sentences/show/467299"
+            },
+            {
+              "label": "Tatoeba 한국어 #13146419 · SN_H",
+              "url": "https://tatoeba.org/en/sentences/show/13146419"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+        }
       ]
     },
     {
@@ -2897,6 +4245,24 @@
       ],
       "meaningTags": [
         "red"
+      ],
+      "sentences": [
+        {
+          "textJa": "リンゴは赤い。",
+          "meaningKo": "사과는 빨개.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #10667328 · YT",
+              "url": "https://tatoeba.org/en/sentences/show/10667328"
+            },
+            {
+              "label": "Tatoeba 한국어 #8365108 · Eunhee",
+              "url": "https://tatoeba.org/en/sentences/show/8365108"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+        }
       ]
     },
     {
@@ -2939,6 +4305,24 @@
       ],
       "meaningTags": [
         "white"
+      ],
+      "sentences": [
+        {
+          "textJa": "この犬は白いです。",
+          "meaningKo": "이 개는 흰색이에요.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #738246 · DeSha",
+              "url": "https://tatoeba.org/en/sentences/show/738246"
+            },
+            {
+              "label": "Tatoeba 한국어 #13587217 · LeviHighway",
+              "url": "https://tatoeba.org/en/sentences/show/13587217"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+        }
       ]
     },
     {
@@ -3019,6 +4403,24 @@
       "meaningTags": [
         "grove",
         "forest"
+      ],
+      "sentences": [
+        {
+          "textJa": "春になると、新竹市の外の竹林は特に青々としている。",
+          "meaningKo": "봄이 되면 신주 시 외곽의 대나무 숲이 특히 푸르다.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #13545740 · LeviHighway",
+              "url": "https://tatoeba.org/en/sentences/show/13545740"
+            },
+            {
+              "label": "Tatoeba 한국어 #13545741 · Tatoeba 기여자 (문장 이력 참조)",
+              "url": "https://tatoeba.org/en/sentences/show/13545741"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+        }
       ]
     },
     {
@@ -3099,6 +4501,29 @@
       ],
       "meaningTags": [
         "flower"
+      ],
+      "sentences": [
+        {
+          "textJa": "トムは花を摘んだ。",
+          "meaningKo": "톰은 꽃을 땄다.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #8988954 · small_snow",
+              "url": "https://tatoeba.org/en/sentences/show/8988954"
+            },
+            {
+              "label": "Tatoeba 한국어 #13144313 · SN_H",
+              "url": "https://tatoeba.org/en/sentences/show/13144313"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · small_snow",
+              "url": "https://tatoeba.org/en/sentences/show/8988954"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "トムははなをつんだ。"
+        }
       ]
     },
     {
@@ -3144,6 +4569,29 @@
         "pasture",
         "write",
         "draft"
+      ],
+      "sentences": [
+        {
+          "textJa": "ユリは多年草です。",
+          "meaningKo": "백합은 여러해살이 식물이야.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #10650875 · small_snow",
+              "url": "https://tatoeba.org/en/sentences/show/10650875"
+            },
+            {
+              "label": "Tatoeba 한국어 #13756405 · qlTmalffk",
+              "url": "https://tatoeba.org/en/sentences/show/13756405"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · small_snow",
+              "url": "https://tatoeba.org/en/sentences/show/10650875"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "ユリはたねんそうです。"
+        }
       ]
     },
     {
@@ -3183,6 +4631,24 @@
       ],
       "meaningTags": [
         "bamboo"
+      ],
+      "sentences": [
+        {
+          "textJa": "春になると、新竹市の外の竹林は特に青々としている。",
+          "meaningKo": "봄이 되면 신주 시 외곽의 대나무 숲이 특히 푸르다.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #13545740 · LeviHighway",
+              "url": "https://tatoeba.org/en/sentences/show/13545740"
+            },
+            {
+              "label": "Tatoeba 한국어 #13545741 · Tatoeba 기여자 (문장 이력 참조)",
+              "url": "https://tatoeba.org/en/sentences/show/13545741"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+        }
       ]
     },
     {
@@ -3270,6 +4736,24 @@
         "insect",
         "bug",
         "temper"
+      ],
+      "sentences": [
+        {
+          "textJa": "クモが昆虫でないというのはよく知られた事実だ。",
+          "meaningKo": "거미가 곤충이 아니라는 것은 잘 알려진 사실이야.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #982235 · thyc244",
+              "url": "https://tatoeba.org/en/sentences/show/982235"
+            },
+            {
+              "label": "Tatoeba 한국어 #8364926 · Eunhee",
+              "url": "https://tatoeba.org/en/sentences/show/8364926"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+        }
       ]
     },
     {
@@ -3309,6 +4793,29 @@
       ],
       "meaningTags": [
         "dog"
+      ],
+      "sentences": [
+        {
+          "textJa": "家に犬がいる。",
+          "meaningKo": "집에 강아지가 있다.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #6828195 · D0UG",
+              "url": "https://tatoeba.org/en/sentences/show/6828195"
+            },
+            {
+              "label": "Tatoeba 한국어 #8700736 · User89022",
+              "url": "https://tatoeba.org/en/sentences/show/8700736"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · D0UG",
+              "url": "https://tatoeba.org/en/sentences/show/6828195"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "いえにいぬがいる。"
+        }
       ]
     },
     {
@@ -3348,6 +4855,24 @@
       ],
       "meaningTags": [
         "shellfish"
+      ],
+      "sentences": [
+        {
+          "textJa": "貝殻を拾いながら、波打ち際を歩いた。",
+          "meaningKo": "조개껍데기를 주우면서 물가를 걸었다.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #13146683 · Gardenia",
+              "url": "https://tatoeba.org/en/sentences/show/13146683"
+            },
+            {
+              "label": "Tatoeba 한국어 #13254400 · qiwiwi",
+              "url": "https://tatoeba.org/en/sentences/show/13254400"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+        }
       ]
     },
     {
@@ -3393,6 +4918,24 @@
         "foot",
         "be sufficient",
         "counter for pairs of footwear"
+      ],
+      "sentences": [
+        {
+          "textJa": "彼女は足が小さい。",
+          "meaningKo": "그녀는 발이 작다.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #88102 · bunbuku",
+              "url": "https://tatoeba.org/en/sentences/show/88102"
+            },
+            {
+              "label": "Tatoeba 한국어 #4708174 · rainbow4us",
+              "url": "https://tatoeba.org/en/sentences/show/4708174"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+        }
       ]
     },
     {
@@ -3432,6 +4975,29 @@
       ],
       "meaningTags": [
         "car"
+      ],
+      "sentences": [
+        {
+          "textJa": "車は止まった。",
+          "meaningKo": "차가 멈췄다.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #8537512 · small_snow",
+              "url": "https://tatoeba.org/en/sentences/show/8537512"
+            },
+            {
+              "label": "Tatoeba 한국어 #9394064 · HappyMidnight",
+              "url": "https://tatoeba.org/en/sentences/show/9394064"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · small_snow",
+              "url": "https://tatoeba.org/en/sentences/show/8537512"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "くるまはとまった。"
+        }
       ]
     },
     {
@@ -3471,6 +5037,29 @@
       ],
       "meaningTags": [
         "evening"
+      ],
+      "sentences": [
+        {
+          "textJa": "トムは今日の夕方コンサートに行きます。",
+          "meaningKo": "톰은 오늘 저녁 콘서트에 갑니다.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #7960204 · Ninja",
+              "url": "https://tatoeba.org/en/sentences/show/7960204"
+            },
+            {
+              "label": "Tatoeba 한국어 #7965184 · EstasKorea",
+              "url": "https://tatoeba.org/en/sentences/show/7965184"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · Yorwba",
+              "url": "https://tatoeba.org/en/sentences/show/7960204"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "トムはきょうのゆうがたコンサートにいきます。"
+        }
       ]
     },
     {
@@ -3514,6 +5103,29 @@
       "meaningTags": [
         "sound",
         "noise"
+      ],
+      "sentences": [
+        {
+          "textJa": "今の音何？",
+          "meaningKo": "지금 이 소리는 뭐지?",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #3550819 · tommy_san",
+              "url": "https://tatoeba.org/en/sentences/show/3550819"
+            },
+            {
+              "label": "Tatoeba 한국어 #4710364 · rainbow4us",
+              "url": "https://tatoeba.org/en/sentences/show/4710364"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · gillux",
+              "url": "https://tatoeba.org/en/sentences/show/3550819"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "いまのおとなに？"
+        }
       ]
     },
     {
@@ -3566,6 +5178,29 @@
         "strain",
         "bear up",
         "exert"
+      ],
+      "sentences": [
+        {
+          "textJa": "兄は記憶力がいい。",
+          "meaningKo": "내 형은 기억력이 좋다.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #528524 · blay_paul",
+              "url": "https://tatoeba.org/en/sentences/show/528524"
+            },
+            {
+              "label": "Tatoeba 한국어 #1010417 · Sudajaengi",
+              "url": "https://tatoeba.org/en/sentences/show/1010417"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · small_snow",
+              "url": "https://tatoeba.org/en/sentences/show/528524"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "あにはきおくりょくがいい。"
+        }
       ]
     },
     {
@@ -3613,6 +5248,29 @@
         "opinion",
         "look at",
         "visible"
+      ],
+      "sentences": [
+        {
+          "textJa": "よく見える？",
+          "meaningKo": "잘 보이시나요?",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #13148511 · atitarev",
+              "url": "https://tatoeba.org/en/sentences/show/13148511"
+            },
+            {
+              "label": "Tatoeba 한국어 #13148497 · atitarev",
+              "url": "https://tatoeba.org/en/sentences/show/13148497"
+            },
+            {
+              "label": "Tatoeba 읽기 검토 · atitarev",
+              "url": "https://tatoeba.org/en/sentences/show/13148511"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/",
+          "reading": "よくみえる？"
+        }
       ]
     },
     {
@@ -3661,6 +5319,24 @@
         "village",
         "block",
         "street"
+      ],
+      "sentences": [
+        {
+          "textJa": "彼らはこの町に住んでいる。",
+          "meaningKo": "그들은 이 마을에 산다.",
+          "references": [
+            {
+              "label": "Tatoeba 일본어 #98074 · bunbuku",
+              "url": "https://tatoeba.org/en/sentences/show/98074"
+            },
+            {
+              "label": "Tatoeba 한국어 #11106714 · intertime",
+              "url": "https://tatoeba.org/en/sentences/show/11106714"
+            }
+          ],
+          "license": "CC BY 2.0 FR",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/fr/"
+        }
       ]
     }
   ]

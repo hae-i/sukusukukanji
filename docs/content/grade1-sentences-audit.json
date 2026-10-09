@@ -1,0 +1,1317 @@
+{
+  "source": "Tatoeba",
+  "license": "CC BY 2.0 FR",
+  "method": "Existing Japanese/Korean linked pairs selected individually after checking meaning, grammar and spelling. Both texts unchanged. Only contributor-reviewed readings included. No runtime requests.",
+  "entries": [
+    {
+      "kanjiId": "g1-4e00",
+      "character": "一",
+      "japaneseSentenceId": 3488273,
+      "koreanSentenceId": 8363320,
+      "directTranslation": false,
+      "japaneseAuthor": {
+        "username": "arnab"
+      },
+      "koreanAuthor": {
+        "username": "Eunhee"
+      },
+      "japaneseSha256": "d7453928e2097f6cfe0c9ecf6f498e71277deadf2239e11fccd0ee0d55ccee39",
+      "koreanSha256": "ff54e6730f84ef5ffa87c493263968712e3f431ae764e00227e8e6feeafd8d82",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-4e8c",
+      "character": "二",
+      "japaneseSentenceId": 3454067,
+      "koreanSentenceId": 969792,
+      "directTranslation": false,
+      "japaneseAuthor": {
+        "username": "tomo"
+      },
+      "koreanAuthor": {
+        "username": "Sudajaengi"
+      },
+      "japaneseSha256": "747379d3279ec67feae043c613d9175a671da1a472b85099a299825ba15ae3e7",
+      "koreanSha256": "fbb18e19dbe16bd3578bb56312575142e05a5d0b12cb3c95a211e4cb9aa6caca",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-4e09",
+      "character": "三",
+      "japaneseSentenceId": 217647,
+      "koreanSentenceId": 11105860,
+      "directTranslation": false,
+      "japaneseAuthor": {
+        "username": "bunbuku"
+      },
+      "koreanAuthor": {
+        "username": "intertime"
+      },
+      "japaneseSha256": "6254464186bc7d71936d63c990bcb9dcfcd1c419f874e65c21e26d894fd8a554",
+      "koreanSha256": "99f9727d9343f83c16fca9f3d543309eee7fbd519e726f8d15c6ad52f8afc2e5",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-56db",
+      "character": "四",
+      "japaneseSentenceId": 190235,
+      "koreanSentenceId": 8361510,
+      "directTranslation": false,
+      "japaneseAuthor": {
+        "username": "bunbuku"
+      },
+      "koreanAuthor": {
+        "username": "Eunhee"
+      },
+      "japaneseSha256": "9d94b58c60a460e76577589d2bd94a2a00b4bbef1f4bfda9142ce5414ac80c44",
+      "koreanSha256": "40fb9884d13e0a0cc2aef4a1258070db523aa0f3934a82e8f19fc6096a746f68",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-4e94",
+      "character": "五",
+      "japaneseSentenceId": 3468523,
+      "koreanSentenceId": 10587900,
+      "directTranslation": true,
+      "japaneseAuthor": {
+        "username": "arnab"
+      },
+      "koreanAuthor": {
+        "username": "ssuss32"
+      },
+      "japaneseSha256": "db1113d8ad5bd4593e51fd7fd578fe72f201f17cfae2893af99415b27a9405a2",
+      "koreanSha256": "79ccb1d1dad162436f44d9bf0a018146501d97ca44a8c66939f7fb3839e7274e",
+      "readingIncluded": false,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-516d",
+      "character": "六",
+      "japaneseSentenceId": 10953992,
+      "koreanSentenceId": 13164925,
+      "directTranslation": true,
+      "japaneseAuthor": {
+        "username": "small_snow"
+      },
+      "koreanAuthor": {
+        "username": "atitarev"
+      },
+      "japaneseSha256": "b1c8acb7da1c2a45b555d5e3c3d52cfe01140081bae1e4ea1893a3ea9fadc6e4",
+      "koreanSha256": "0eca2031a36ce9a7db012ac166ee1244296e09445ec4326fa6fa0ed1a48c79d2",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-4e03",
+      "character": "七",
+      "japaneseSentenceId": 149633,
+      "koreanSentenceId": 11082060,
+      "directTranslation": true,
+      "japaneseAuthor": {
+        "username": "small_snow"
+      },
+      "koreanAuthor": {
+        "username": "Eunhee"
+      },
+      "japaneseSha256": "9014536f694caf43ea1b53c6d177c268fb083758943895d6cb7845ae1beec7bd",
+      "koreanSha256": "1aa48b8b94cad836a051e71347d6c1689caf85fe2e70651ab5c47d2ce2dfe8a5",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-516b",
+      "character": "八",
+      "japaneseSentenceId": 13225083,
+      "koreanSentenceId": 13225091,
+      "directTranslation": false,
+      "japaneseAuthor": {
+        "username": "atitarev"
+      },
+      "koreanAuthor": {
+        "username": "atitarev"
+      },
+      "japaneseSha256": "c885b55bd461ff4836a764309243180e6f59b8fcc52fe7765c78776572ce050a",
+      "koreanSha256": "444354b2c0e54f2a1580668678c6074ef534ff6cd019fc6f9604957426ce6c13",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-4e5d",
+      "character": "九",
+      "japaneseSentenceId": 1483516,
+      "koreanSentenceId": 6829692,
+      "directTranslation": false,
+      "japaneseAuthor": {
+        "username": "marshmallowcat"
+      },
+      "koreanAuthor": {
+        "username": "yesjustryan"
+      },
+      "japaneseSha256": "2fb91791dac311a202d486e3400fc2c5c1bab9d57fe572d601d6a12fcebbcaed",
+      "koreanSha256": "1402f16072d0bfc8bf79629bddb77364b46f0ec6105168fb26c99521272e3d44",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-5341",
+      "character": "十",
+      "japaneseSentenceId": 11891602,
+      "koreanSentenceId": 13145962,
+      "directTranslation": true,
+      "japaneseAuthor": {
+        "username": "small_snow"
+      },
+      "koreanAuthor": {
+        "username": "SN_H"
+      },
+      "japaneseSha256": "fa5336b2b0ea3ba2218b6a5db377615b3cb1f1531f6e1ae5ac0a34846652e26a",
+      "koreanSha256": "c8652a9862911013458a8166be0a6232273f0d92d0a52647d2d7ae546f444b21",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-65e5",
+      "character": "日",
+      "japaneseSentenceId": 13879046,
+      "koreanSentenceId": 13879051,
+      "directTranslation": true,
+      "japaneseAuthor": {
+        "username": "jan_OkulaJu"
+      },
+      "koreanAuthor": {
+        "username": "Lumi"
+      },
+      "japaneseSha256": "797b7580c79a82bc8714354483d93f4f916d247edcdbfa297cdc5fb48d55d5fa",
+      "koreanSha256": "a192a8f8cb764d0ed1cfbcd13a26be4bdb02825df60e9958c6ce4c91c6a99359",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-6708",
+      "character": "月",
+      "japaneseSentenceId": 2970662,
+      "koreanSentenceId": 2943521,
+      "directTranslation": true,
+      "japaneseAuthor": {
+        "username": "Fukuko"
+      },
+      "koreanAuthor": {
+        "username": "skylight"
+      },
+      "japaneseSha256": "77ff6cbe8cfec2fd4752e26029eff3e69a643218d5145b22b54cfaf191c4ad67",
+      "koreanSha256": "24ca174aeba315c7d31167975b41ea1ae18cee602e3825fa7d2400b5669f7a42",
+      "readingIncluded": false,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-706b",
+      "character": "火",
+      "japaneseSentenceId": 9415265,
+      "koreanSentenceId": 13167621,
+      "directTranslation": true,
+      "japaneseAuthor": {
+        "username": "small_snow"
+      },
+      "koreanAuthor": {
+        "username": "SN_H"
+      },
+      "japaneseSha256": "1dbb12e15d5c1034ff31d3f9c7a579ad7041aeb121b9e8fa2d0d3f42daa007a8",
+      "koreanSha256": "1fc64085863f1de994d42652769cec5d24cebb448784fc5e48ccf722e79d5773",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-6c34",
+      "character": "水",
+      "japaneseSentenceId": 143718,
+      "koreanSentenceId": 12212821,
+      "directTranslation": false,
+      "japaneseAuthor": {
+        "username": "bunbuku"
+      },
+      "koreanAuthor": {
+        "username": "Adelpa"
+      },
+      "japaneseSha256": "df37299b3ac88ffbfb56a3f4b5b1a5c2ed2093fa749d9df75c18f40a42281a7e",
+      "koreanSha256": "eb2b0df7b193e0ce3a38ad6f19ae1ee3d7d7d29dbb4471fbdfc90ba3286582bd",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-6728",
+      "character": "木",
+      "japaneseSentenceId": 2670479,
+      "koreanSentenceId": 9099281,
+      "directTranslation": true,
+      "japaneseAuthor": {
+        "username": "tommy_san"
+      },
+      "koreanAuthor": {
+        "username": "HappyMidnight"
+      },
+      "japaneseSha256": "785cdfdd0b07d0c530e5ea8bfec819ab31d28cc6479a3ae512858817046597c6",
+      "koreanSha256": "b14363fe90bad230c100e57845f5fe87bd668e6798a499e51ff93e46dbb071ea",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-5c71",
+      "character": "山",
+      "japaneseSentenceId": 4715,
+      "koreanSentenceId": 5362,
+      "directTranslation": true,
+      "japaneseAuthor": {
+        "username": "bunbuku"
+      },
+      "koreanAuthor": {
+        "username": "cueyayotl"
+      },
+      "japaneseSha256": "be9b818f593309670db1adfe20296d902c1a5bf4fffaf90ab313203a972d60b5",
+      "koreanSha256": "ee0aef1a900cce89bb2ddf64557375d674ec479c1c236ae3aef9c7330c5bba75",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-5ddd",
+      "character": "川",
+      "japaneseSentenceId": 165527,
+      "koreanSentenceId": 11106712,
+      "directTranslation": false,
+      "japaneseAuthor": {
+        "username": "bunbuku"
+      },
+      "koreanAuthor": {
+        "username": "intertime"
+      },
+      "japaneseSha256": "8309e4a3ece7d54bb615d46a7c2c2c5187d891c0070d046ed9ef1f0f361f4cb3",
+      "koreanSha256": "3c684245cc3aa10217f9922b85f0341a8d0cf10ffc7e7dee132677f2c0653a06",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-7530",
+      "character": "田",
+      "japaneseSentenceId": 124907,
+      "koreanSentenceId": 11105185,
+      "directTranslation": false,
+      "japaneseAuthor": {
+        "username": "bunbuku"
+      },
+      "koreanAuthor": {
+        "username": "intertime"
+      },
+      "japaneseSha256": "9bc73ace8a115c04ab09577c7cb5ffbb66ffddbc03a607ed02a3d76671ce31fb",
+      "koreanSha256": "c88969681ab9fd020decc21207644411ad180c84d5c59a77eaad79c0ef97a2b8",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-571f",
+      "character": "土",
+      "japaneseSentenceId": 171533,
+      "koreanSentenceId": 13629284,
+      "directTranslation": false,
+      "japaneseAuthor": {
+        "username": "bunbuku"
+      },
+      "koreanAuthor": {
+        "username": "Adelpa"
+      },
+      "japaneseSha256": "d998190f7481dae7c8a17c85d36ad4e49e736465ed06c6170d38e027a68934db",
+      "koreanSha256": "2c91bf4ece98c5ed8a92ea9c1f4b7b9840c72b81bfc048b860670e420a619b75",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-77f3",
+      "character": "石",
+      "japaneseSentenceId": 2706922,
+      "koreanSentenceId": 13248354,
+      "directTranslation": true,
+      "japaneseAuthor": {
+        "username": "tommy_san"
+      },
+      "koreanAuthor": {
+        "username": "qiwiwi"
+      },
+      "japaneseSha256": "eb57e7bd5335537f668f43c73e668d8092bc485165f8597ce48a1e83f423adfa",
+      "koreanSha256": "a905034dcc01c030c0485d35b3cd350d97a806bef5963e592745af0f58a4a126",
+      "readingIncluded": false,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-4eba",
+      "character": "人",
+      "japaneseSentenceId": 8692860,
+      "koreanSentenceId": 8119522,
+      "directTranslation": true,
+      "japaneseAuthor": {
+        "username": "small_snow"
+      },
+      "koreanAuthor": {
+        "username": "noget"
+      },
+      "japaneseSha256": "b53a27d8ae1bca0d150478fbd893d3828f53a8e64c18b9369aead5c1dfb5a312",
+      "koreanSha256": "ddfe0ea624c22d31340cefa57defe39845a7539d6b6be9c07764f857ad7f45c7",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-53e3",
+      "character": "口",
+      "japaneseSentenceId": 3549611,
+      "koreanSentenceId": 4710389,
+      "directTranslation": true,
+      "japaneseAuthor": {
+        "username": "tommy_san"
+      },
+      "koreanAuthor": {
+        "username": "rainbow4us"
+      },
+      "japaneseSha256": "e71d51842f0d461331f03cdad013bf8cb36183292382ad70aa5bf7b2b369e011",
+      "koreanSha256": "d3fc2441cfb928a24bd9231aecd83d8a2fc6fc89269ba04b6e51c36515f60f94",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-76ee",
+      "character": "目",
+      "japaneseSentenceId": 8785881,
+      "koreanSentenceId": 13250735,
+      "directTranslation": true,
+      "japaneseAuthor": {
+        "username": "small_snow"
+      },
+      "koreanAuthor": {
+        "username": "qiwiwi"
+      },
+      "japaneseSha256": "9acdc5f178901ef3f1f4424952be4ebcb07ae53a19a5e7e862516f58ef668d22",
+      "koreanSha256": "e2d0f458b28ad94301589bcaa8ecdd699a781b64f1453cda7bfb83aa3d756bd2",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-8033",
+      "character": "耳",
+      "japaneseSentenceId": 8688719,
+      "koreanSentenceId": 10605364,
+      "directTranslation": true,
+      "japaneseAuthor": {
+        "username": "bunbuku"
+      },
+      "koreanAuthor": {
+        "username": "ssuss32"
+      },
+      "japaneseSha256": "47dbea185abae48a1ab9d7d0096a07c913bb48d708b5694f5d593669d675c2b3",
+      "koreanSha256": "c793d0fb22fe945b29166f754c532ceab6c9d60c463129f91b331441866de537",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-624b",
+      "character": "手",
+      "japaneseSentenceId": 463492,
+      "koreanSentenceId": 11106489,
+      "directTranslation": false,
+      "japaneseAuthor": {
+        "username": "qahwa"
+      },
+      "koreanAuthor": {
+        "username": "intertime"
+      },
+      "japaneseSha256": "2a4413615ee16eb53a6d9b54f2657729798a5e20572835e4528d3ab51186a610",
+      "koreanSha256": "1a142f58ad2c58bcd624644349b8e81a82a8db400b5a96619cefbdfbbf2b719e",
+      "readingIncluded": false,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-4e0a",
+      "character": "上",
+      "japaneseSentenceId": 463492,
+      "koreanSentenceId": 11106489,
+      "directTranslation": false,
+      "japaneseAuthor": {
+        "username": "qahwa"
+      },
+      "koreanAuthor": {
+        "username": "intertime"
+      },
+      "japaneseSha256": "2a4413615ee16eb53a6d9b54f2657729798a5e20572835e4528d3ab51186a610",
+      "koreanSha256": "1a142f58ad2c58bcd624644349b8e81a82a8db400b5a96619cefbdfbbf2b719e",
+      "readingIncluded": false,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-4e0b",
+      "character": "下",
+      "japaneseSentenceId": 188235,
+      "koreanSentenceId": 8358318,
+      "directTranslation": false,
+      "japaneseAuthor": {
+        "username": "small_snow"
+      },
+      "koreanAuthor": {
+        "username": "Eunhee"
+      },
+      "japaneseSha256": "1c2d6934488221f1c6f063ec2e495fc7fa78954cc575b5c82cb01595b78b3765",
+      "koreanSha256": "63d7e12dea4caddce50acf3d064c708f5b3332eb2c0cd2c88868666048705c4c",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-5de6",
+      "character": "左",
+      "japaneseSentenceId": 13152284,
+      "koreanSentenceId": 13152276,
+      "directTranslation": true,
+      "japaneseAuthor": {
+        "username": "atitarev"
+      },
+      "koreanAuthor": {
+        "username": "atitarev"
+      },
+      "japaneseSha256": "71b41211dc43917d0551213f1cb009d31315e101ca9136a0c2036f5335659a69",
+      "koreanSha256": "1c3dd3ae38528e1175a277c1f235aec32d35296542942296d2823e8da2b89340",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-53f3",
+      "character": "右",
+      "japaneseSentenceId": 6207168,
+      "koreanSentenceId": 6304281,
+      "directTranslation": true,
+      "japaneseAuthor": {
+        "username": "Sorgan"
+      },
+      "koreanAuthor": {
+        "username": "Queserasera"
+      },
+      "japaneseSha256": "9451b4b5940a6f0874f33bdae7e09a9c70bfe83fa9526e0848978e639e29fb95",
+      "koreanSha256": "a0a86414d2a23ec6dbafc4deb47d6681263fcb58bca0b7035f2cd68f1255ceff",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-4e2d",
+      "character": "中",
+      "japaneseSentenceId": 10489229,
+      "koreanSentenceId": 13319311,
+      "directTranslation": true,
+      "japaneseAuthor": {
+        "username": "small_snow"
+      },
+      "koreanAuthor": {
+        "username": "Jamlo555"
+      },
+      "japaneseSha256": "4921e82010036f72eba9a59d26292d3d0759374a3e46fb701ea342b159c3e1fd",
+      "koreanSha256": "fec9e5dd5aca752f811e25cad4074474af907c7e081f507078133e943f34067f",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-5927",
+      "character": "大",
+      "japaneseSentenceId": 997206,
+      "koreanSentenceId": 13117114,
+      "directTranslation": false,
+      "japaneseAuthor": {
+        "username": "mookeee"
+      },
+      "koreanAuthor": {
+        "username": "atitarev"
+      },
+      "japaneseSha256": "2cf4a3ea683ac6d6424ef2833c72e2038cbb5a78c91dba1f63db4b0300362af0",
+      "koreanSha256": "a7f685847f1c7a706152e7ab5adfb9b235f4db873747100338ceb844d81037e7",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-5c0f",
+      "character": "小",
+      "japaneseSentenceId": 88102,
+      "koreanSentenceId": 4708174,
+      "directTranslation": false,
+      "japaneseAuthor": {
+        "username": "bunbuku"
+      },
+      "koreanAuthor": {
+        "username": "rainbow4us"
+      },
+      "japaneseSha256": "b1cb748f7ebf5b9807d2af30678691a4a51d69c7d8d690ccc13848df729ef25c",
+      "koreanSha256": "3a1bab045e9a2b072222e1c9b31a16cd4c2e784b8b7ac80c59cdd00b9eaa060c",
+      "readingIncluded": false,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-5973",
+      "character": "女",
+      "japaneseSentenceId": 90519,
+      "koreanSentenceId": 11106952,
+      "directTranslation": false,
+      "japaneseAuthor": {
+        "username": "bunbuku"
+      },
+      "koreanAuthor": {
+        "username": "intertime"
+      },
+      "japaneseSha256": "b3ceeb4166661fb7e64c72f1bc3bdfc8b1261bb3d7ead654437800592fd1cbe4",
+      "koreanSha256": "096d5d51111b2c89a63522a017bdb03f839b040d6f9c20bb7bafa9c7019502e9",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-7537",
+      "character": "男",
+      "japaneseSentenceId": 492913,
+      "koreanSentenceId": 13250778,
+      "directTranslation": true,
+      "japaneseAuthor": {
+        "username": "hectorvk"
+      },
+      "koreanAuthor": {
+        "username": "qiwiwi"
+      },
+      "japaneseSha256": "fe51611dc412a26f076c0257935dc9abbc17804cb31a0111c0ffa37e6805b9e0",
+      "koreanSha256": "a9b4d5dd05220de832c29d200f8a15de14dbafb7e94c60809170e9824e02724d",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-5b50",
+      "character": "子",
+      "japaneseSentenceId": 13259270,
+      "koreanSentenceId": 13259272,
+      "directTranslation": true,
+      "japaneseAuthor": {
+        "username": "atitarev"
+      },
+      "koreanAuthor": {
+        "username": "atitarev"
+      },
+      "japaneseSha256": "0bb33517b04178b02f02e5f31e5b30933a645c197ed8963c2024cf24f0fc69ac",
+      "koreanSha256": "85fbc712fc7ec1a08694a65a58d62c6b2d5467a3da797710f4a2eaa6140d2922",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-5929",
+      "character": "天",
+      "japaneseSentenceId": 10008437,
+      "koreanSentenceId": 8356277,
+      "directTranslation": true,
+      "japaneseAuthor": {
+        "username": "Sim5634"
+      },
+      "koreanAuthor": {
+        "username": "Eunhee"
+      },
+      "japaneseSha256": "fa73d5f8a2acbd4262dedb208fb422ac5f1fc0b54afb8757f90db9c136255ba0",
+      "koreanSha256": "98705e472d391e0b1b23a833cb3d3e4cf80b11d918d7d9deb0bd682d2a1518ae",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-5186",
+      "character": "円",
+      "japaneseSentenceId": 8733219,
+      "koreanSentenceId": 11106713,
+      "directTranslation": false,
+      "japaneseAuthor": {
+        "username": "bunbuku"
+      },
+      "koreanAuthor": {
+        "username": "intertime"
+      },
+      "japaneseSha256": "62f686fabfcc3ec763f38e7371aec03bf73449833f3fa45ae2882fcb33f8367f",
+      "koreanSha256": "f6977fda4f1dca65892028adb7849cf9f817580ff3e3e5da9f10a12aa166eb6d",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-7389",
+      "character": "玉",
+      "japaneseSentenceId": 10107038,
+      "koreanSentenceId": 11106353,
+      "directTranslation": false,
+      "japaneseAuthor": {
+        "username": "small_snow"
+      },
+      "koreanAuthor": {
+        "username": "intertime"
+      },
+      "japaneseSha256": "4252d9e7c359abe18753e454489343f07617e075f4ff52f5c8a96dc5f9e45979",
+      "koreanSha256": "4b6a4c7ab4cabd4b5d9e1dd891dab79a8990ed42750b72e348015a186d1557da",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-738b",
+      "character": "王",
+      "japaneseSentenceId": 10854499,
+      "koreanSentenceId": 10854507,
+      "directTranslation": false,
+      "japaneseAuthor": {
+        "username": "janTuki"
+      },
+      "koreanAuthor": {
+        "username": "janTuki"
+      },
+      "japaneseSha256": "c89edddb264abfa91fb113de2d29f19a9b77f8834ca022be267d94215e6a0734",
+      "koreanSha256": "3b8986bc81bb83a3342019a6b6bbd2adad20df7d2e6633e2ed59719bb9671324",
+      "readingIncluded": false,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-91d1",
+      "character": "金",
+      "japaneseSentenceId": 13188518,
+      "koreanSentenceId": 13188504,
+      "directTranslation": true,
+      "japaneseAuthor": {
+        "username": "atitarev"
+      },
+      "koreanAuthor": {
+        "username": "atitarev"
+      },
+      "japaneseSha256": "92a3c3834ac39210de3079603b9055abc8d3881c265d4edafe321d4e28398f25",
+      "koreanSha256": "c52d645e34a411ba5292a2571a4a4ae80bc7aea71154177fca8e50086be8620f",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-767e",
+      "character": "百",
+      "japaneseSentenceId": 141436,
+      "koreanSentenceId": 1533098,
+      "directTranslation": true,
+      "japaneseAuthor": {
+        "username": "small_snow"
+      },
+      "koreanAuthor": {
+        "username": "mysonhs"
+      },
+      "japaneseSha256": "e781fea5bed6d1607356ec8f262d23379a64cd5975dbfbf79374fcca390b17c5",
+      "koreanSha256": "6ab33acbf268d12436bc23b676ea75207aa6e2d72f5323fcaae614cc1ed1bd22",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-5343",
+      "character": "千",
+      "japaneseSentenceId": 141436,
+      "koreanSentenceId": 1533098,
+      "directTranslation": true,
+      "japaneseAuthor": {
+        "username": "small_snow"
+      },
+      "koreanAuthor": {
+        "username": "mysonhs"
+      },
+      "japaneseSha256": "e781fea5bed6d1607356ec8f262d23379a64cd5975dbfbf79374fcca390b17c5",
+      "koreanSha256": "6ab33acbf268d12436bc23b676ea75207aa6e2d72f5323fcaae614cc1ed1bd22",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-672c",
+      "character": "本",
+      "japaneseSentenceId": 1944414,
+      "koreanSentenceId": 1587308,
+      "directTranslation": true,
+      "japaneseAuthor": {
+        "username": "jayjaying"
+      },
+      "koreanAuthor": {
+        "username": "JanAson"
+      },
+      "japaneseSha256": "4e299124e3593f6120b48bb71cba674c65eeeebccee53123bd07ebb4fcbe4b1c",
+      "koreanSha256": "54ba7dc3566f4464741880a575b69f0892b52906d4422d4e95610686ea27cba5",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-540d",
+      "character": "名",
+      "japaneseSentenceId": 4002090,
+      "koreanSentenceId": 8119519,
+      "directTranslation": false,
+      "japaneseAuthor": {
+        "username": "oliviya"
+      },
+      "koreanAuthor": {
+        "username": "noget"
+      },
+      "japaneseSha256": "80fe710e3e4d9fbd1807bcfeca3f12f8d170425ad0d83d6bd3a009d534ebe0d6",
+      "koreanSha256": "588d25be7d113ed1f1cfa0573ce4193253f6f8a3bc12426758159d2fbfc3ec4e",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-6587",
+      "character": "文",
+      "japaneseSentenceId": 13184941,
+      "koreanSentenceId": 13184942,
+      "directTranslation": true,
+      "japaneseAuthor": {
+        "username": "atitarev"
+      },
+      "koreanAuthor": {
+        "username": "atitarev"
+      },
+      "japaneseSha256": "0fbe7b968e8c65dccce8a05b0def2e46e634c40a6583e554111834f4bbc68c93",
+      "koreanSha256": "c7935bde5e806363b28a740413d7322ad7d44c4ef4bddc522a2be6b43c7f1a1f",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-5b57",
+      "character": "字",
+      "japaneseSentenceId": 10914801,
+      "koreanSentenceId": 13244029,
+      "directTranslation": false,
+      "japaneseAuthor": {
+        "username": "small_snow"
+      },
+      "koreanAuthor": {
+        "username": "atitarev"
+      },
+      "japaneseSha256": "e8d96c91c978969b9f9da7a30ca05e80ad1b437aea067b1ef0007b003768c1b8",
+      "koreanSha256": "da4dc127ed18595204de62a2896aaf20efebe472458c4a23919b90dae863c7b0",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-5b66",
+      "character": "学",
+      "japaneseSentenceId": 8743394,
+      "koreanSentenceId": 13151048,
+      "directTranslation": true,
+      "japaneseAuthor": {
+        "username": "small_snow"
+      },
+      "koreanAuthor": {
+        "username": "SN_H"
+      },
+      "japaneseSha256": "49d5b0e06b64fdebdac93aa57564877fde5b243b3c3531f0387cfc60af098c1f",
+      "koreanSha256": "f40a51e4bac73ab261bccb3fbc91ae0d1604f3cf7b3e575a94da64b2c73bbf48",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-751f",
+      "character": "生",
+      "japaneseSentenceId": 13172383,
+      "koreanSentenceId": 13172353,
+      "directTranslation": false,
+      "japaneseAuthor": {
+        "username": "atitarev"
+      },
+      "koreanAuthor": {
+        "username": "atitarev"
+      },
+      "japaneseSha256": "1dd6130986d45b7033886e7534cea62dd8812f7a1fce95822c3bfab54c4377ab",
+      "koreanSha256": "49b1b9f0f0d9dea87d44213e2e64beb82d3788061b043a4b6ad2679c13dc86ec",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-6821",
+      "character": "校",
+      "japaneseSentenceId": 6828190,
+      "koreanSentenceId": 8700737,
+      "directTranslation": true,
+      "japaneseAuthor": {
+        "username": "D0UG"
+      },
+      "koreanAuthor": {
+        "username": "User89022"
+      },
+      "japaneseSha256": "716938e17fa5c3dc5ea374bf58cac13b36822d56f4a5c3b2349cd10f0e9b6b02",
+      "koreanSha256": "fddd7bd5431724179928e766f1c0b687c73f1f93aaf39237f3bcde9547a8186e",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-5148",
+      "character": "先",
+      "japaneseSentenceId": 13259054,
+      "koreanSentenceId": 13259057,
+      "directTranslation": true,
+      "japaneseAuthor": {
+        "username": "atitarev"
+      },
+      "koreanAuthor": {
+        "username": "atitarev"
+      },
+      "japaneseSha256": "790709d207c5b31df1c5e6c75803f30cf3caaef78707af73186c336b90650f96",
+      "koreanSha256": "f9fdcdffe16b3d3fcf17d00199466cc69fa5faee84e9a776c8f23b04e99c6f63",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-5e74",
+      "character": "年",
+      "japaneseSentenceId": 11295457,
+      "koreanSentenceId": 5339280,
+      "directTranslation": false,
+      "japaneseAuthor": {
+        "username": "small_snow"
+      },
+      "koreanAuthor": {
+        "username": "Sudajaengi"
+      },
+      "japaneseSha256": "f275c2a85924b20f99608eefa6decf6573432bbce1affd568b15062e7bc3832d",
+      "koreanSha256": "a0c1ae04543ce688dfc9a62f6177a0a02ba1739605ca0abecd5a802459840a63",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-4f11",
+      "character": "休",
+      "japaneseSentenceId": 3552065,
+      "koreanSentenceId": 7347553,
+      "directTranslation": false,
+      "japaneseAuthor": {
+        "username": "arnab"
+      },
+      "koreanAuthor": {
+        "username": "H_Liliom"
+      },
+      "japaneseSha256": "216d31dd8057ef0db62b6adfedbdfbd3c26c467e97957c085de037daf9e295a2",
+      "koreanSha256": "ef459f66dacf73d9274db2361bd09cc85dfb44a4d5ace89bb8e087d0eae761cb",
+      "readingIncluded": false,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-5165",
+      "character": "入",
+      "japaneseSentenceId": 13537569,
+      "koreanSentenceId": 13537570,
+      "directTranslation": false,
+      "japaneseAuthor": {
+        "username": "LeviHighway"
+      },
+      "koreanAuthor": {
+        "username": "LeviHighway"
+      },
+      "japaneseSha256": "1e481d65ec558501a183110839328ceb1ce017c69138318b0ffc8bab56e22f2e",
+      "koreanSha256": "c95e8d7e7d55fadc4d63266a25cc9c8e2c382777091a985fc1cb8bea01965949",
+      "readingIncluded": false,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-51fa",
+      "character": "出",
+      "japaneseSentenceId": 5762757,
+      "koreanSentenceId": 13152222,
+      "directTranslation": false,
+      "japaneseAuthor": {
+        "username": "daifons"
+      },
+      "koreanAuthor": {
+        "username": "atitarev"
+      },
+      "japaneseSha256": "81ad369148e025dd63685d73530b1c567af0f275a57261174410c3ebf9aec4d6",
+      "koreanSha256": "7f442cd554c15bb83860663ea946e7f5c276c085386a8c269cf516077693fbbf",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-7acb",
+      "character": "立",
+      "japaneseSentenceId": 78276,
+      "koreanSentenceId": 10605372,
+      "directTranslation": false,
+      "japaneseAuthor": {
+        "username": "mookeee"
+      },
+      "koreanAuthor": {
+        "username": "ssuss32"
+      },
+      "japaneseSha256": "57abb4e975fa263a02276ec5756b35c9a3a1a3c39969ee19c63ef4c893f75018",
+      "koreanSha256": "150f7e4ff6a4cc1678f3a68e00b1278fcddb5fc9dbdd66c1832d2ad4c7c8102a",
+      "readingIncluded": false,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-65e9",
+      "character": "早",
+      "japaneseSentenceId": 155374,
+      "koreanSentenceId": 963309,
+      "directTranslation": false,
+      "japaneseAuthor": {
+        "username": "bunbuku"
+      },
+      "koreanAuthor": {
+        "username": "Eevee"
+      },
+      "japaneseSha256": "d07f5c778f581452d4739afb9c55556382835e9d3d6b450e80875dd2dfe94a40",
+      "koreanSha256": "fbad14dcd6da385d3e4c644cbb75b35c2a2c9bd4f032b499e2e2b2a0dd39bf0b",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-6b63",
+      "character": "正",
+      "japaneseSentenceId": 11052279,
+      "koreanSentenceId": 8362166,
+      "directTranslation": false,
+      "japaneseAuthor": {
+        "username": "small_snow"
+      },
+      "koreanAuthor": {
+        "username": "Eunhee"
+      },
+      "japaneseSha256": "a524104e28ac280ddef2b54e4cf3d97f3489dc1d09142bce0cb188dad82e567e",
+      "koreanSha256": "af159089cad6d0c238a7550c7c3e1c6ce5bec84eff9fb567350d9c1de77dc71b",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-6c17",
+      "character": "気",
+      "japaneseSentenceId": 175045,
+      "koreanSentenceId": 8119491,
+      "directTranslation": false,
+      "japaneseAuthor": {
+        "username": "bunbuku"
+      },
+      "koreanAuthor": {
+        "username": "noget"
+      },
+      "japaneseSha256": "e04125024f6714cf071d3b46037ae351aafd95ded4af297922b9e37647d516fa",
+      "koreanSha256": "98a4f1bf2b7d06991ae2d121a5d018eacc96aa05d3ee27ff637ea6cab2092813",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-7a7a",
+      "character": "空",
+      "japaneseSentenceId": 1345606,
+      "koreanSentenceId": 6004122,
+      "directTranslation": true,
+      "japaneseAuthor": {
+        "username": "boscowitch"
+      },
+      "koreanAuthor": {
+        "username": "rainbow4us"
+      },
+      "japaneseSha256": "8e2402886d0eb283dec532af0110d5dfefb6e09136e4d706f9dcce10ded8d3fa",
+      "koreanSha256": "c0c0a2b7c04bdc1f89155c393fdf5eee461d22709b2e48f7a87b8fd69eaa3e31",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-96e8",
+      "character": "雨",
+      "japaneseSentenceId": 189682,
+      "koreanSentenceId": 1004977,
+      "directTranslation": true,
+      "japaneseAuthor": {
+        "username": "tommy__san"
+      },
+      "koreanAuthor": {
+        "username": "Sudajaengi"
+      },
+      "japaneseSha256": "b39a9bc153cbd9fdb4b42ae4a1822554204d84fe664c4989ecf207a7fdb8ee43",
+      "koreanSha256": "4c2a16c0947a100328c01c4dffa2b4ae7366603c4f151bc0a7621a1667cc145a",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-9752",
+      "character": "青",
+      "japaneseSentenceId": 467299,
+      "koreanSentenceId": 13146419,
+      "directTranslation": true,
+      "japaneseAuthor": {
+        "username": "Namikaze"
+      },
+      "koreanAuthor": {
+        "username": "SN_H"
+      },
+      "japaneseSha256": "f98fad32b5ffd02f73aaf3fddf2dbbcbbae3e5c7d283a00cd86624fe20fa4380",
+      "koreanSha256": "ce98f5c295dc803aa388514c3e2a356a5d2f4cf96f6309b55221b79ac300259a",
+      "readingIncluded": false,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-8d64",
+      "character": "赤",
+      "japaneseSentenceId": 10667328,
+      "koreanSentenceId": 8365108,
+      "directTranslation": false,
+      "japaneseAuthor": {
+        "username": "YT"
+      },
+      "koreanAuthor": {
+        "username": "Eunhee"
+      },
+      "japaneseSha256": "438c5193b97cc1bff0123ecaff6d94e48c6498e23c04c8e8a3bc3b1a1b160305",
+      "koreanSha256": "a4d2675b8152d026b21f415743f7ee6de5f4a71b2a42a89297c31656dc77320c",
+      "readingIncluded": false,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-767d",
+      "character": "白",
+      "japaneseSentenceId": 738246,
+      "koreanSentenceId": 13587217,
+      "directTranslation": false,
+      "japaneseAuthor": {
+        "username": "DeSha"
+      },
+      "koreanAuthor": {
+        "username": "LeviHighway"
+      },
+      "japaneseSha256": "8331858bd625ef841da565a698e53695e65b410f6f8152c7cbf9bac588d66c78",
+      "koreanSha256": "667b67519ed14dbf49a2cf0eead0d8f064dbd45b27a57561b9b315dd8e68ff44",
+      "readingIncluded": false,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-6797",
+      "character": "林",
+      "japaneseSentenceId": 13545740,
+      "koreanSentenceId": 13545741,
+      "directTranslation": false,
+      "japaneseAuthor": {
+        "username": "LeviHighway"
+      },
+      "koreanAuthor": null,
+      "japaneseSha256": "efa2b6c5ce62cb50757aa5cfa5b39d5283ebd487bd20fe6708b79d826f42a121",
+      "koreanSha256": "7f4de213c75796cd8507bcfbd9793b6d7bc54187f7e229a80972b325fa8689f5",
+      "readingIncluded": false,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-82b1",
+      "character": "花",
+      "japaneseSentenceId": 8988954,
+      "koreanSentenceId": 13144313,
+      "directTranslation": true,
+      "japaneseAuthor": {
+        "username": "small_snow"
+      },
+      "koreanAuthor": {
+        "username": "SN_H"
+      },
+      "japaneseSha256": "13302eb127ac4a8cb6c119f5510a551a94887b6bbf0545ab70c1b53c2230e777",
+      "koreanSha256": "688fbce29156551e82a6c5a42e72b374630690ecd12c3fe5bf683a504e63354f",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-8349",
+      "character": "草",
+      "japaneseSentenceId": 10650875,
+      "koreanSentenceId": 13756405,
+      "directTranslation": false,
+      "japaneseAuthor": {
+        "username": "small_snow"
+      },
+      "koreanAuthor": {
+        "username": "qlTmalffk"
+      },
+      "japaneseSha256": "59f18cc91133c9491ada856e53d15f3c8e90c70d9b674dab64d483fe0b6cb718",
+      "koreanSha256": "9da3c34151a98aed1454b8225fb469ff164ed5d6ec8205dde9f6d8c2480fe507",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-7af9",
+      "character": "竹",
+      "japaneseSentenceId": 13545740,
+      "koreanSentenceId": 13545741,
+      "directTranslation": false,
+      "japaneseAuthor": {
+        "username": "LeviHighway"
+      },
+      "koreanAuthor": null,
+      "japaneseSha256": "efa2b6c5ce62cb50757aa5cfa5b39d5283ebd487bd20fe6708b79d826f42a121",
+      "koreanSha256": "7f4de213c75796cd8507bcfbd9793b6d7bc54187f7e229a80972b325fa8689f5",
+      "readingIncluded": false,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-866b",
+      "character": "虫",
+      "japaneseSentenceId": 982235,
+      "koreanSentenceId": 8364926,
+      "directTranslation": false,
+      "japaneseAuthor": {
+        "username": "thyc244"
+      },
+      "koreanAuthor": {
+        "username": "Eunhee"
+      },
+      "japaneseSha256": "60c028553d1daa6881da73efaf773062423f266c8600bf12d33505eb96b79355",
+      "koreanSha256": "5ea0447230327c3f01babc0a267bb8377930edeb6ba8b582237777667991b69a",
+      "readingIncluded": false,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-72ac",
+      "character": "犬",
+      "japaneseSentenceId": 6828195,
+      "koreanSentenceId": 8700736,
+      "directTranslation": true,
+      "japaneseAuthor": {
+        "username": "D0UG"
+      },
+      "koreanAuthor": {
+        "username": "User89022"
+      },
+      "japaneseSha256": "cf53f7d82919b5c3c76f64c148c0362c6d42ea0a244887909a65492fd80bb5b1",
+      "koreanSha256": "fff548d210bbb3993a58aeac4cf9771d148bb77a33caf3a25719cfe32496f7ba",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-8c9d",
+      "character": "貝",
+      "japaneseSentenceId": 13146683,
+      "koreanSentenceId": 13254400,
+      "directTranslation": true,
+      "japaneseAuthor": {
+        "username": "Gardenia"
+      },
+      "koreanAuthor": {
+        "username": "qiwiwi"
+      },
+      "japaneseSha256": "6d10fbf2f288cac7013d14423ce3b51f96896c813f2813a279da33f62c480999",
+      "koreanSha256": "9f890c64cf4af337f2ee9846762c40ea4961bdfd5d8aecd24f501907e3ee6b17",
+      "readingIncluded": false,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-8db3",
+      "character": "足",
+      "japaneseSentenceId": 88102,
+      "koreanSentenceId": 4708174,
+      "directTranslation": false,
+      "japaneseAuthor": {
+        "username": "bunbuku"
+      },
+      "koreanAuthor": {
+        "username": "rainbow4us"
+      },
+      "japaneseSha256": "b1cb748f7ebf5b9807d2af30678691a4a51d69c7d8d690ccc13848df729ef25c",
+      "koreanSha256": "3a1bab045e9a2b072222e1c9b31a16cd4c2e784b8b7ac80c59cdd00b9eaa060c",
+      "readingIncluded": false,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-8eca",
+      "character": "車",
+      "japaneseSentenceId": 8537512,
+      "koreanSentenceId": 9394064,
+      "directTranslation": true,
+      "japaneseAuthor": {
+        "username": "small_snow"
+      },
+      "koreanAuthor": {
+        "username": "HappyMidnight"
+      },
+      "japaneseSha256": "bf67fe5f9f9cb3b73a689d997f33e730a520b65172c1588640875cec0e21e3ab",
+      "koreanSha256": "4a6cc3ca86268d9db3a2cf7749a73adde0adeff9ba4e763369560151d389f1d8",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-5915",
+      "character": "夕",
+      "japaneseSentenceId": 7960204,
+      "koreanSentenceId": 7965184,
+      "directTranslation": true,
+      "japaneseAuthor": {
+        "username": "Ninja"
+      },
+      "koreanAuthor": {
+        "username": "EstasKorea"
+      },
+      "japaneseSha256": "44e8bf0719fc8c6e2697f6e4f94a1fedb36cf5bfbaeda476bf2e1d2dae248265",
+      "koreanSha256": "25b7338749588eb4b47bf8df92b6102262537e4c44ea3cf10b42eac6b4cd29f4",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-97f3",
+      "character": "音",
+      "japaneseSentenceId": 3550819,
+      "koreanSentenceId": 4710364,
+      "directTranslation": true,
+      "japaneseAuthor": {
+        "username": "tommy_san"
+      },
+      "koreanAuthor": {
+        "username": "rainbow4us"
+      },
+      "japaneseSha256": "df01ea35ea6493b67af7a1afa8125b5d00fc0cabde0c9b2aa827cd339e4acd1e",
+      "koreanSha256": "459e15bedf68f47f4a73e9cd09c228b0813a97f581ea8190d4960d6353c74c00",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-529b",
+      "character": "力",
+      "japaneseSentenceId": 528524,
+      "koreanSentenceId": 1010417,
+      "directTranslation": false,
+      "japaneseAuthor": {
+        "username": "blay_paul"
+      },
+      "koreanAuthor": {
+        "username": "Sudajaengi"
+      },
+      "japaneseSha256": "dcefcb768de394e2370c89dc11385eaeb20136fe5c9618956d93aeadccd0d2b4",
+      "koreanSha256": "45ea61d0660e6911f566af8d246d78008e8a61a387a425e319a4f962d2e2b7ad",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-898b",
+      "character": "見",
+      "japaneseSentenceId": 13148511,
+      "koreanSentenceId": 13148497,
+      "directTranslation": true,
+      "japaneseAuthor": {
+        "username": "atitarev"
+      },
+      "koreanAuthor": {
+        "username": "atitarev"
+      },
+      "japaneseSha256": "b79a5bc68b0acc77635017337129552a689f72d56fa8f78ef6bf04f1229011e7",
+      "koreanSha256": "1e686e930beabda51c4e16d38622fdac8faa9d9d6ee0f74f2939d553a97ee272",
+      "readingIncluded": true,
+      "checkedAt": "2026-10-09"
+    },
+    {
+      "kanjiId": "g1-753a",
+      "character": "町",
+      "japaneseSentenceId": 98074,
+      "koreanSentenceId": 11106714,
+      "directTranslation": false,
+      "japaneseAuthor": {
+        "username": "bunbuku"
+      },
+      "koreanAuthor": {
+        "username": "intertime"
+      },
+      "japaneseSha256": "50d8ef8b4a1e1db67027adde87e6a2336f68f7be7bdceae2760ba1d9f1a283da",
+      "koreanSha256": "f78c1565f6187fc764ee6fcad1b8314fcf95fecebfc784463bfb7a9580e257b2",
+      "readingIncluded": false,
+      "checkedAt": "2026-10-09"
+    }
+  ],
+  "remainingCharacters": [
+    "村",
+    "森",
+    "糸"
+  ]
+}

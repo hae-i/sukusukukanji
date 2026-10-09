@@ -74,16 +74,50 @@ class QuizView extends StatelessWidget {
               offset: Offset(0, 28 * value),
               child: child,
             ),
-            child: Semantics(
-              liveRegion: true,
-              child: Text(
-                correct ? '✓ 정답이에요!' : '✕ 아쉬워요!',
-                style: Theme.of(context).textTheme.titleLarge,
+            child: Container(
+              key: const ValueKey('quiz-feedback-panel'),
+              padding: const EdgeInsets.all(20),
+              decoration: BoxDecoration(
+                color: correct
+                    ? const Color(0xFFDCEBDD)
+                    : const Color(0xFFFBE4DF),
+                borderRadius: BorderRadius.circular(20),
+                border: Border.all(
+                  color: correct
+                      ? const Color(0xFF90B79A)
+                      : const Color(0xFFD8A298),
+                ),
+                boxShadow: const [
+                  BoxShadow(
+                    color: Color(0x20000000),
+                    blurRadius: 12,
+                    offset: Offset(0, 4),
+                  ),
+                ],
+              ),
+              child: Semantics(
+                liveRegion: true,
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      correct ? '✓ 정답이에요!' : '✕ 아쉬워요!',
+                      style: Theme.of(context).textTheme.titleLarge
+                          ?.copyWith(fontWeight: FontWeight.w700),
+                    ),
+                    const SizedBox(height: 8),
+                    Text(
+                      question.explanation,
+                      style: const TextStyle(
+                        fontFamily: 'NotoSansJP',
+                        fontFamilyFallback: ['Pretendard'],
+                      ),
+                    ),
+                  ],
+                ),
               ),
             ),
           ),
-          const SizedBox(height: 8),
-          Text(question.explanation),
           const SizedBox(height: 20),
           FilledButton(
             onPressed: controller.nextQuestion,

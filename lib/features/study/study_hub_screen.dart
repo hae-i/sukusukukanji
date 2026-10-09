@@ -9,7 +9,9 @@ class StudyHubScreen extends StatefulWidget {
     required this.controller,
     required this.onStart,
     required this.onReview,
+    this.active = true,
   });
+  final bool active;
   final AppController controller;
   final VoidCallback onStart;
   final void Function(int grade, int lesson) onReview;
@@ -19,6 +21,44 @@ class StudyHubScreen extends StatefulWidget {
 
 class _StudyHubScreenState extends State<StudyHubScreen> {
   int? _selectedGrade;
+  final _scroll = ScrollController();
+  final _lessonKeys = <String, GlobalKey>{};
+  String? _lastTarget;
+  bool _wasActive = false;
+
+  void _showNextLesson(int grade, int? next) {
+    final target = next == null ? null : '$grade-$next';
+    final shouldScroll =
+        widget.active && (!_wasActive || target != _lastTarget);
+    _wasActive = widget.active;
+    _lastTarget = target;
+    if (!shouldScroll) return;
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (!mounted || !widget.active || !_scroll.hasClients) return;
+      final context = _lessonKeys[target]?.currentContext;
+      if (context != null) {
+        Scrollable.ensureVisible(
+          context,
+          alignment: 0.05,
+          duration: const Duration(milliseconds: 300),
+          curve: Curves.easeOutCubic,
+        );
+      } else {
+        _scroll.animateTo(
+          0,
+          duration: const Duration(milliseconds: 300),
+          curve: Curves.easeOutCubic,
+        );
+      }
+    });
+  }
+
+  @override
+  void dispose() {
+    _scroll.dispose();
+    super.dispose();
+  }
+
   @override
   Widget build(BuildContext context) {
     final controller = widget.controller;
@@ -45,7 +85,9 @@ class _StudyHubScreenState extends State<StudyHubScreen> {
         .nextLesson(controller.catalog!, controller.progress, grade.grade)
         .firstOrNull
         ?.lessonId;
+    _showNextLesson(grade.grade, next);
     return ContentLayout(
+      controller: _scroll,
       children: [
         Text(grade.nameKo, style: Theme.of(context).textTheme.headlineSmall),
         if (available.length > 1)
@@ -62,6 +104,10 @@ class _StudyHubScreenState extends State<StudyHubScreen> {
         const SizedBox(height: 24),
         for (final lesson in lessons.entries) ...[
           SectionCard(
+            key: _lessonKeys.putIfAbsent(
+              '${grade.grade}-${lesson.key}',
+              GlobalKey.new,
+            ),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
@@ -83,7 +129,11 @@ class _StudyHubScreenState extends State<StudyHubScreen> {
                   (k) =>
                       controller.progress.kanji[k.id]?.firstStudiedAt != null,
                 ))
-                  FilledButton(
+                  FilledButton.tonal(
+                    style: FilledButton.styleFrom(
+                      backgroundColor: const Color(0xFFE3ECDD),
+                      foregroundColor: const Color(0xFF355D43),
+                    ),
                     onPressed: () => widget.onReview(grade.grade, lesson.key),
                     child: const Text('복습하기'),
                   )

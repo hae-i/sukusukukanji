@@ -112,6 +112,13 @@ void main() {
         findsOneWidget,
       ); // Feedback only.
       expect(tester.widget<Icon>(find.byIcon(Icons.check)).color, Colors.red);
+      final feedback = tester.widget<Container>(
+        find.byKey(const ValueKey('quiz-feedback-panel')),
+      );
+      final decoration = feedback.decoration! as BoxDecoration;
+      expect(decoration.color, const Color(0xFFDCEBDD));
+      expect(decoration.boxShadow, isNotEmpty);
+      expect(decoration.border, isNotNull);
       expect(app.progress.totalLearned, 0);
     },
   );
@@ -183,6 +190,9 @@ void main() {
           ),
         ),
       );
+      await tester.pumpAndSettle();
+      await tester.ensureVisible(find.text('복습하기').first);
+      await tester.pumpAndSettle();
       await tester.tap(find.text('복습하기').first);
       expect(reviewed, 1);
       final locked = find.text('Lesson 2 학습 필요');

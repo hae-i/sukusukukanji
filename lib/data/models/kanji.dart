@@ -34,6 +34,47 @@ class ExampleWord {
   }
 }
 
+/// Sourced sentence pair; reading is omitted when no reviewed transcription exists.
+class ExampleSentence {
+  const ExampleSentence({
+    required this.textJa,
+    required this.meaningKo,
+    required this.references,
+    required this.license,
+    required this.licenseUrl,
+    this.reading,
+  });
+  final String textJa;
+  final String meaningKo;
+  final String? reading;
+  final List<ContentReference> references;
+  final String license;
+  final String licenseUrl;
+
+  factory ExampleSentence.fromJson(Map<String, dynamic> json, String path) {
+    final f = ContentFields(json, path);
+    final references = f.list(
+      'references',
+      (v, p) => ContentReference.fromJson(ContentFields.object(v, p), p),
+    );
+    if (references.length < 2) {
+      throw FormatException('$path requires Japanese and Korean attribution');
+    }
+    final license = ContentReference.fromJson({
+      'label': f.string('license'),
+      'url': f.string('licenseUrl'),
+    }, '$path.license');
+    return ExampleSentence(
+      textJa: f.string('textJa'),
+      meaningKo: f.string('meaningKo'),
+      reading: f.optionalString('reading'),
+      references: references,
+      license: license.label,
+      licenseUrl: license.url,
+    );
+  }
+}
+
 class KoreanConnection {
   const KoreanConnection({
     required this.wordKo,
@@ -64,6 +105,7 @@ class Kanji {
     required this.kunyomi,
     required this.examples,
     required this.koreanConnections,
+    this.sentences = const [],
     this.tip,
     this.lessonId,
     this.lessonOrder,
@@ -89,6 +131,7 @@ class Kanji {
   // Original dictionary senses exclude synonyms from meaning distractors.
   final List<String> meaningTags;
   final List<ExampleWord> examples;
+  final List<ExampleSentence> sentences;
   final List<KoreanConnection> koreanConnections;
   final String? tip;
   final int? lessonId;
@@ -119,6 +162,14 @@ class Kanji {
             verifiedAt.toIso8601String().substring(0, 10) != date)) {
       throw FormatException('$path.verifiedAt must be a valid YYYY-MM-DD');
     }
+    final sentences = f.list(
+      'sentences',
+      (v, p) => ExampleSentence.fromJson(ContentFields.object(v, p), p),
+      optional: true,
+    );
+    if (sentences.any((s) => !s.textJa.contains(character))) {
+      throw FormatException('$path sentence must contain the target kanji');
+    }
     return Kanji(
       id: f.string('id'),
       character: character,
@@ -135,6 +186,7 @@ class Kanji {
         (v, p) => ExampleWord.fromJson(ContentFields.object(v, p), p),
         optional: true,
       ),
+      sentences: sentences,
       koreanConnections: f.list(
         'koreanConnections',
         (v, p) => KoreanConnection.fromJson(ContentFields.object(v, p), p),

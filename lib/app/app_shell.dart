@@ -129,7 +129,10 @@ class _AppShellState extends State<AppShell> with WidgetsBindingObserver {
       title: Text(
         ['すくすく漢字', '학습', '내 한자'][_selectedTab],
         style: _selectedTab == 0
-            ? const TextStyle(fontFamily: 'NotoSansJP')
+            ? const TextStyle(
+                fontFamily: 'NotoSansJP',
+                fontWeight: FontWeight.w700,
+              )
             : null,
       ),
       actions: [
@@ -151,6 +154,7 @@ class _AppShellState extends State<AppShell> with WidgetsBindingObserver {
             onGrades: () => AppRouter.grades(context, widget.controller),
           ),
           StudyHubScreen(
+            active: _selectedTab == 1,
             controller: widget.controller,
             onStart: () => _study(),
             onReview: (grade, lesson) => _study(grade: grade, lesson: lesson),

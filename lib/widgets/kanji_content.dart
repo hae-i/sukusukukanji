@@ -92,6 +92,50 @@ class KanjiContent extends StatelessWidget {
             ),
           ),
         ],
+        if (kanji.grade == 1 && kanji.sentences.isNotEmpty) ...[
+          const SizedBox(height: 24),
+          Text('문장으로 연결하기', style: text.titleLarge),
+          const SizedBox(height: 12),
+          for (final sentence in kanji.sentences)
+            SectionCard(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  Text(
+                    sentence.textJa,
+                    locale: const Locale('ja'),
+                    style: text.titleLarge?.copyWith(fontFamily: 'NotoSansJP'),
+                  ),
+                  if (sentence.reading != null) ...[
+                    const SizedBox(height: 8),
+                    Text(
+                      sentence.reading!,
+                      locale: const Locale('ja'),
+                      style: text.bodyLarge?.copyWith(fontFamily: 'NotoSansJP'),
+                    ),
+                  ],
+                  const SizedBox(height: 12),
+                  Text(sentence.meaningKo, style: text.bodyLarge),
+                  ExpansionTile(
+                    tilePadding: EdgeInsets.zero,
+                    title: const Text('예문 출처'),
+                    children: [
+                      for (final reference in sentence.references)
+                        Padding(
+                          padding: const EdgeInsets.only(bottom: 12),
+                          child: SelectableText(
+                            '${reference.label}\n${reference.url}',
+                          ),
+                        ),
+                      SelectableText(
+                        '${sentence.license} · 원문과 번역을 그대로 사용\n${sentence.licenseUrl}',
+                      ),
+                    ],
+                  ),
+                ],
+              ),
+            ),
+        ],
         if (kanji.tip != null) ...[
           const SizedBox(height: 20),
           Text(kanji.tip!),

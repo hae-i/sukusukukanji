@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 
 class ContentLayout extends StatelessWidget {
-  const ContentLayout({super.key, required this.children});
+  const ContentLayout({super.key, required this.children, this.controller});
+  final ScrollController? controller;
   final List<Widget> children;
   @override
   Widget build(BuildContext context) => SingleChildScrollView(
+    controller: controller,
     padding: const EdgeInsets.all(24),
     child: Center(
       child: ConstrainedBox(

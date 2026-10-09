@@ -65,10 +65,9 @@ class _KanjiListScreenState extends State<KanjiListScreen> {
         LayoutBuilder(
           builder: (context, constraints) {
             final scale = MediaQuery.textScalerOf(context).scale(16) / 16;
-            final columns =
-                ((constraints.maxWidth + 12) / (140 * scale.clamp(1, 1.5)))
-                    .floor()
-                    .clamp(1, 6);
+            final columns = scale > 1.5 ? 2 : 3;
+            final cellWidth =
+                (constraints.maxWidth - 12 * (columns - 1)) / columns;
             return GridView.builder(
               shrinkWrap: true,
               primary: false,
@@ -98,30 +97,40 @@ class _KanjiListScreenState extends State<KanjiListScreen> {
                           borderRadius: BorderRadius.circular(24),
                           onTap: () => widget.onSelect(kanji),
                           child: Padding(
-                            padding: const EdgeInsets.fromLTRB(8, 36, 8, 8),
-                            child: Column(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              children: [
-                                Text(
-                                  kanji.character,
-                                  locale: const Locale('ja'),
-                                  style: const TextStyle(
-                                    fontFamily: 'NotoSansJP',
-                                    fontSize: 40,
-                                    height: 1.1,
+                            padding: const EdgeInsets.fromLTRB(4, 32, 4, 4),
+                            child: FittedBox(
+                              fit: BoxFit.scaleDown,
+                              child: Column(
+                                mainAxisSize: MainAxisSize.min,
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  Text(
+                                    kanji.character,
+                                    locale: const Locale('ja'),
+                                    style: TextStyle(
+                                      fontFamily: 'NotoSansJP',
+                                      fontSize: (cellWidth * .34).clamp(26, 40),
+                                      height: 1.1,
+                                    ),
                                   ),
-                                ),
-                                const SizedBox(height: 4),
-                                Text(kanji.koreanReading),
-                              ],
+                                  const SizedBox(height: 2),
+                                  Text(
+                                    kanji.koreanReading,
+                                    style: const TextStyle(
+                                      fontSize: 14,
+                                      height: 1.1,
+                                    ),
+                                  ),
+                                ],
+                              ),
                             ),
                           ),
                         ),
                       ),
                       if (needsReview || p?.firstStudiedAt != null)
                         Positioned(
-                          top: 14,
-                          left: 14,
+                          top: 8,
+                          left: 8,
                           child: ExcludeSemantics(
                             child: Icon(
                               needsReview
@@ -130,7 +139,7 @@ class _KanjiListScreenState extends State<KanjiListScreen> {
                               color: needsReview
                                   ? Colors.red
                                   : Theme.of(context).colorScheme.primary,
-                              size: 22,
+                              size: 20,
                             ),
                           ),
                         ),
