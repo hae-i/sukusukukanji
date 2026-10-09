@@ -1,0 +1,1396 @@
+{
+  "checkedAt": "2026-10-09",
+  "kanjidicHeader": {
+    "file_version": "4",
+    "database_version": "2026-282",
+    "date_of_creation": "2026-10-09"
+  },
+  "kanjidicSha256": "418cd072e007432913befe197d7262669e702bb34e8c0143ea58683b51d62707",
+  "mextReference": "https://www.mext.go.jp/a_menu/shotou/cs/1319951.htm",
+  "newEntries": [
+    {
+      "character": "日",
+      "koreanReading": "일",
+      "koreanMeaning": "해",
+      "wikiRevision": "4389882",
+      "wikiCharacter": "日",
+      "wikiSha256": "5895611af7989f1dbff51c0e2810bc6090190e178c3382bc58111186e093bac9",
+      "sourceOnyomi": [
+        "ニチ",
+        "ジツ"
+      ],
+      "sourceKunyomi": [
+        "ひ",
+        "-び",
+        "-か"
+      ],
+      "sourceKoreanReadings": [
+        "일"
+      ]
+    },
+    {
+      "character": "月",
+      "koreanReading": "월",
+      "koreanMeaning": "달",
+      "wikiRevision": "4390016",
+      "wikiCharacter": "月",
+      "wikiSha256": "02026b0248bbbaad164842d7ef0170ca5a6af4a333033fc602484974d14e0543",
+      "sourceOnyomi": [
+        "ゲツ",
+        "ガツ"
+      ],
+      "sourceKunyomi": [
+        "つき"
+      ],
+      "sourceKoreanReadings": [
+        "월"
+      ]
+    },
+    {
+      "character": "火",
+      "koreanReading": "화",
+      "koreanMeaning": "불",
+      "wikiRevision": "4389856",
+      "wikiCharacter": "火",
+      "wikiSha256": "da60c5d446ee7595493495830cedf77911ce134bff1db7199085be7e80318bf1",
+      "sourceOnyomi": [
+        "カ"
+      ],
+      "sourceKunyomi": [
+        "ひ",
+        "-び",
+        "ほ-"
+      ],
+      "sourceKoreanReadings": [
+        "화"
+      ]
+    },
+    {
+      "character": "水",
+      "koreanReading": "수",
+      "koreanMeaning": "물",
+      "wikiRevision": "4389859",
+      "wikiCharacter": "水",
+      "wikiSha256": "7c5ec50b4c4f9131f86cd97aac8f7210158be6248843526d0a11d96583b588bb",
+      "sourceOnyomi": [
+        "スイ"
+      ],
+      "sourceKunyomi": [
+        "みず",
+        "みず-"
+      ],
+      "sourceKoreanReadings": [
+        "수"
+      ]
+    },
+    {
+      "character": "木",
+      "koreanReading": "목",
+      "koreanMeaning": "나무",
+      "wikiRevision": "4389854",
+      "wikiCharacter": "木",
+      "wikiSha256": "99c749565f98f73de5fb09cf8f806ee321a98755b7747520d3a7c3b4f7cff5ac",
+      "sourceOnyomi": [
+        "ボク",
+        "モク"
+      ],
+      "sourceKunyomi": [
+        "き",
+        "こ-"
+      ],
+      "sourceKoreanReadings": [
+        "목",
+        "모"
+      ]
+    },
+    {
+      "character": "山",
+      "koreanReading": "산",
+      "koreanMeaning": "산",
+      "wikiRevision": "4389937",
+      "wikiCharacter": "山",
+      "wikiSha256": "2130c5a1044a5495cfebda3992e24e163262ddd8d00568ee7e74b0435609853d",
+      "sourceOnyomi": [
+        "サン",
+        "セン"
+      ],
+      "sourceKunyomi": [
+        "やま"
+      ],
+      "sourceKoreanReadings": [
+        "산"
+      ]
+    },
+    {
+      "character": "川",
+      "koreanReading": "천",
+      "koreanMeaning": "내",
+      "wikiRevision": "4390544",
+      "wikiCharacter": "川",
+      "wikiSha256": "75da936809d60e96509b35ad674801748b3b3a06718a23355164473dd01514a1",
+      "sourceOnyomi": [
+        "セン"
+      ],
+      "sourceKunyomi": [
+        "かわ"
+      ],
+      "sourceKoreanReadings": [
+        "천"
+      ]
+    },
+    {
+      "character": "田",
+      "koreanReading": "전",
+      "koreanMeaning": "밭",
+      "wikiRevision": "4389925",
+      "wikiCharacter": "田",
+      "wikiSha256": "a3a6043f05174bbb858c9e647bc48984b0d73f1e79ec75d008def43e0aabefd2",
+      "sourceOnyomi": [
+        "デン"
+      ],
+      "sourceKunyomi": [
+        "た"
+      ],
+      "sourceKoreanReadings": [
+        "전"
+      ]
+    },
+    {
+      "character": "土",
+      "koreanReading": "토",
+      "koreanMeaning": "흙",
+      "wikiRevision": "4390082",
+      "wikiCharacter": "土",
+      "wikiSha256": "067b3707f26b55a80e394de3fc38b04b1c56472838be920ed0731557696927fb",
+      "sourceOnyomi": [
+        "ド",
+        "ト"
+      ],
+      "sourceKunyomi": [
+        "つち"
+      ],
+      "sourceKoreanReadings": [
+        "토",
+        "두"
+      ]
+    },
+    {
+      "character": "石",
+      "koreanReading": "석",
+      "koreanMeaning": "돌",
+      "wikiRevision": "4389982",
+      "wikiCharacter": "石",
+      "wikiSha256": "b63db0ae24d4667d714e3eb53af09701f411f98871dce4785e6b9df10fa4330f",
+      "sourceOnyomi": [
+        "セキ",
+        "シャク",
+        "コク"
+      ],
+      "sourceKunyomi": [
+        "いし"
+      ],
+      "sourceKoreanReadings": [
+        "석"
+      ]
+    },
+    {
+      "character": "人",
+      "koreanReading": "인",
+      "koreanMeaning": "사람",
+      "wikiRevision": "4482421",
+      "wikiCharacter": "人",
+      "wikiSha256": "a63160547b5c3e0672003d289d03735b6bbacae4fc100147a6ed76e6345fd951",
+      "sourceOnyomi": [
+        "ジン",
+        "ニン"
+      ],
+      "sourceKunyomi": [
+        "ひと",
+        "-り",
+        "-と"
+      ],
+      "sourceKoreanReadings": [
+        "인"
+      ]
+    },
+    {
+      "character": "口",
+      "koreanReading": "구",
+      "koreanMeaning": "입",
+      "wikiRevision": "4389896",
+      "wikiCharacter": "口",
+      "wikiSha256": "14c9656abca480ebd4579a0dda347da0bded890f81b80f5a86757804c2153771",
+      "sourceOnyomi": [
+        "コウ",
+        "ク"
+      ],
+      "sourceKunyomi": [
+        "くち"
+      ],
+      "sourceKoreanReadings": [
+        "구"
+      ]
+    },
+    {
+      "character": "目",
+      "koreanReading": "목",
+      "koreanMeaning": "눈",
+      "wikiRevision": "4390000",
+      "wikiCharacter": "目",
+      "wikiSha256": "dcd2c3b53e6b47e2d506300e4ffe4dd861a0a8c36d07d69b595013e1e8c7746f",
+      "sourceOnyomi": [
+        "モク",
+        "ボク"
+      ],
+      "sourceKunyomi": [
+        "め",
+        "-め",
+        "ま-"
+      ],
+      "sourceKoreanReadings": [
+        "목"
+      ]
+    },
+    {
+      "character": "耳",
+      "koreanReading": "이",
+      "koreanMeaning": "귀",
+      "wikiRevision": "4390002",
+      "wikiCharacter": "耳",
+      "wikiSha256": "4fb3158da17fca39750d613cb10db14bd3a2b206ac1d8fdf462af2f03f393e0b",
+      "sourceOnyomi": [
+        "ジ"
+      ],
+      "sourceKunyomi": [
+        "みみ"
+      ],
+      "sourceKoreanReadings": [
+        "이"
+      ]
+    },
+    {
+      "character": "手",
+      "koreanReading": "수",
+      "koreanMeaning": "손",
+      "wikiRevision": "4390214",
+      "wikiCharacter": "手",
+      "wikiSha256": "0de82c990dad134c2bd7b22a22c006893d16b569503afd725c627f7f17c1185d",
+      "sourceOnyomi": [
+        "シュ",
+        "ズ"
+      ],
+      "sourceKunyomi": [
+        "て",
+        "て-",
+        "-て",
+        "た-"
+      ],
+      "sourceKoreanReadings": [
+        "수"
+      ]
+    },
+    {
+      "character": "上",
+      "koreanReading": "상",
+      "koreanMeaning": "위",
+      "wikiRevision": "4481280",
+      "wikiCharacter": "上",
+      "wikiSha256": "27b56aad30d07f10ee9b6d5187abaf998463704c0114c04d16ee4c05ad378434",
+      "sourceOnyomi": [
+        "ジョウ",
+        "ショウ",
+        "シャン"
+      ],
+      "sourceKunyomi": [
+        "うえ",
+        "-うえ",
+        "うわ-",
+        "かみ",
+        "あげる",
+        "-あげる",
+        "あがる",
+        "-あがる",
+        "あがり",
+        "-あがり",
+        "のぼる",
+        "のぼり",
+        "のぼせる",
+        "のぼす",
+        "たてまつる"
+      ],
+      "sourceKoreanReadings": [
+        "상"
+      ]
+    },
+    {
+      "character": "下",
+      "koreanReading": "하",
+      "koreanMeaning": "아래",
+      "wikiRevision": "4390555",
+      "wikiCharacter": "下",
+      "wikiSha256": "a82dffb0f1339d131885759e815c8ffdbf6f16383d2d5239eb3a5bbefee1e0c0",
+      "sourceOnyomi": [
+        "カ",
+        "ゲ"
+      ],
+      "sourceKunyomi": [
+        "した",
+        "しも",
+        "もと",
+        "さげる",
+        "さがる",
+        "くだる",
+        "くだり",
+        "くだす",
+        "-くだす",
+        "くださる",
+        "おろす",
+        "おりる"
+      ],
+      "sourceKoreanReadings": [
+        "하"
+      ]
+    },
+    {
+      "character": "左",
+      "koreanReading": "좌",
+      "koreanMeaning": "왼쪽",
+      "wikiRevision": "4390543",
+      "wikiCharacter": "左",
+      "wikiSha256": "e9d31769ba9471620f6f4184e89dc67526cfcaed1dbb91ae548dddca87d2d956",
+      "sourceOnyomi": [
+        "サ",
+        "シャ"
+      ],
+      "sourceKunyomi": [
+        "ひだり"
+      ],
+      "sourceKoreanReadings": [
+        "좌"
+      ]
+    },
+    {
+      "character": "右",
+      "koreanReading": "우",
+      "koreanMeaning": "오른쪽",
+      "wikiRevision": "4389984",
+      "wikiCharacter": "右",
+      "wikiSha256": "66fffcb4100379cf509a3494e40b8d84aa7a18b45319b12b0f895fbc5417a2f8",
+      "sourceOnyomi": [
+        "ウ",
+        "ユウ"
+      ],
+      "sourceKunyomi": [
+        "みぎ"
+      ],
+      "sourceKoreanReadings": [
+        "우"
+      ]
+    },
+    {
+      "character": "中",
+      "koreanReading": "중",
+      "koreanMeaning": "가운데",
+      "wikiRevision": "4389961",
+      "wikiCharacter": "中",
+      "wikiSha256": "3ea3903ebbbc0b925df2292f94910b89cfca8bc5cb49f6cebf022d551032bf4a",
+      "sourceOnyomi": [
+        "チュウ"
+      ],
+      "sourceKunyomi": [
+        "なか",
+        "うち",
+        "あたる"
+      ],
+      "sourceKoreanReadings": [
+        "중"
+      ]
+    },
+    {
+      "character": "大",
+      "koreanReading": "대",
+      "koreanMeaning": "큰",
+      "wikiRevision": "4389918",
+      "wikiCharacter": "大",
+      "wikiSha256": "6c38e4eb0184effafc155790ec9419c1b0a899aba0952a1059d6dbba27a16738",
+      "sourceOnyomi": [
+        "ダイ",
+        "タイ"
+      ],
+      "sourceKunyomi": [
+        "おお-",
+        "おおきい",
+        "-おおいに"
+      ],
+      "sourceKoreanReadings": [
+        "대",
+        "다",
+        "태"
+      ]
+    },
+    {
+      "character": "小",
+      "koreanReading": "소",
+      "koreanMeaning": "작다",
+      "wikiRevision": "4389920",
+      "wikiCharacter": "小",
+      "wikiSha256": "f20f35aad2e021b40fbc5d6e166c1611f736dbb71702b1f445b93fe8b93768be",
+      "sourceOnyomi": [
+        "ショウ"
+      ],
+      "sourceKunyomi": [
+        "ちいさい",
+        "こ-",
+        "お-",
+        "さ-"
+      ],
+      "sourceKoreanReadings": [
+        "소"
+      ]
+    },
+    {
+      "character": "女",
+      "koreanReading": "녀",
+      "koreanMeaning": "여자",
+      "wikiRevision": "4389922",
+      "wikiCharacter": "女",
+      "wikiSha256": "7ed76070077f5ac020c7f33fd2959d62abb8c7d5ba9d8b53d078c8aa36f75e1a",
+      "sourceOnyomi": [
+        "ジョ",
+        "ニョ",
+        "ニョウ"
+      ],
+      "sourceKunyomi": [
+        "おんな",
+        "め"
+      ],
+      "sourceKoreanReadings": [
+        "녀",
+        "여"
+      ]
+    },
+    {
+      "character": "男",
+      "koreanReading": "남",
+      "koreanMeaning": "사내",
+      "wikiRevision": "4389924",
+      "wikiCharacter": "男",
+      "wikiSha256": "31799a0facfbca8c3b3a2ccb2bd79086a7418745cfc10ff2096c8817bdf26116",
+      "sourceOnyomi": [
+        "ダン",
+        "ナン"
+      ],
+      "sourceKunyomi": [
+        "おとこ",
+        "お"
+      ],
+      "sourceKoreanReadings": [
+        "남"
+      ]
+    },
+    {
+      "character": "子",
+      "koreanReading": "자",
+      "koreanMeaning": "아들",
+      "wikiRevision": "4389985",
+      "wikiCharacter": "子",
+      "wikiSha256": "a2da71ddbf30cf0add1b6a97321d03d1cbe1dc014a6d7e1445d8e3cb1852f5b7",
+      "sourceOnyomi": [
+        "シ",
+        "ス",
+        "ツ"
+      ],
+      "sourceKunyomi": [
+        "こ",
+        "-こ",
+        "ね"
+      ],
+      "sourceKoreanReadings": [
+        "자"
+      ]
+    },
+    {
+      "character": "天",
+      "koreanReading": "천",
+      "koreanMeaning": "하늘",
+      "wikiRevision": "4390043",
+      "wikiCharacter": "天",
+      "wikiSha256": "53ef48c41f2ffbc9a9eac1112af59b1ab6241a40d52b28a10f87e2a247b5f587",
+      "sourceOnyomi": [
+        "テン"
+      ],
+      "sourceKunyomi": [
+        "あまつ",
+        "あめ",
+        "あま-"
+      ],
+      "sourceKoreanReadings": [
+        "천"
+      ]
+    },
+    {
+      "character": "円",
+      "koreanReading": "원",
+      "koreanMeaning": "둥글다",
+      "wikiRevision": "4390537",
+      "wikiCharacter": "圓",
+      "wikiSha256": "94f269e605b1bd05341a13647a14eb7c50108e53373d8ed0e50350fd99cd88c4",
+      "sourceOnyomi": [
+        "エン"
+      ],
+      "sourceKunyomi": [
+        "まるい",
+        "まる",
+        "まど",
+        "まどか",
+        "まろやか"
+      ],
+      "sourceKoreanReadings": [
+        "원"
+      ]
+    },
+    {
+      "character": "玉",
+      "koreanReading": "옥",
+      "koreanMeaning": "구슬",
+      "wikiRevision": "4389956",
+      "wikiCharacter": "玉",
+      "wikiSha256": "9940db29941627c06dbdeaaa80487cff6b9a3708f00171436e53cdcc1764daa5",
+      "sourceOnyomi": [
+        "ギョク"
+      ],
+      "sourceKunyomi": [
+        "たま",
+        "たま-",
+        "-だま"
+      ],
+      "sourceKoreanReadings": [
+        "옥"
+      ]
+    },
+    {
+      "character": "王",
+      "koreanReading": "왕",
+      "koreanMeaning": "임금",
+      "wikiRevision": "4389955",
+      "wikiCharacter": "王",
+      "wikiSha256": "4470fa2babcfcdc479c328ae9ecf74cd7f2e0b28fd86a353d26f38ff9172283a",
+      "sourceOnyomi": [
+        "オウ",
+        "-ノウ"
+      ],
+      "sourceKunyomi": [],
+      "sourceKoreanReadings": [
+        "왕"
+      ]
+    },
+    {
+      "character": "金",
+      "koreanReading": "금",
+      "koreanMeaning": "쇠",
+      "wikiRevision": "4390168",
+      "wikiCharacter": "金",
+      "wikiSha256": "6a5abdba2d1b30d81e94abe7e559a9264a683dc9d0e75c5761df83f05638ff82",
+      "sourceOnyomi": [
+        "キン",
+        "コン",
+        "ゴン"
+      ],
+      "sourceKunyomi": [
+        "かね",
+        "かな-",
+        "-がね"
+      ],
+      "sourceKoreanReadings": [
+        "김",
+        "금"
+      ]
+    },
+    {
+      "character": "百",
+      "koreanReading": "백",
+      "koreanMeaning": "백",
+      "wikiRevision": "4390009",
+      "wikiCharacter": "百",
+      "wikiSha256": "85226d42e337d2a1d1f6959b5ea6cf4896ee801199b502b4395f73af42f63d53",
+      "sourceOnyomi": [
+        "ヒャク",
+        "ビャク"
+      ],
+      "sourceKunyomi": [
+        "もも"
+      ],
+      "sourceKoreanReadings": [
+        "백",
+        "맥"
+      ]
+    },
+    {
+      "character": "千",
+      "koreanReading": "천",
+      "koreanMeaning": "천",
+      "wikiRevision": "4390031",
+      "wikiCharacter": "千",
+      "wikiSha256": "1240f9dc2b5cdad3177586af8981d8e909922bc9b5c19adbbd16401c38585efd",
+      "sourceOnyomi": [
+        "セン"
+      ],
+      "sourceKunyomi": [
+        "ち"
+      ],
+      "sourceKoreanReadings": [
+        "천"
+      ]
+    },
+    {
+      "character": "本",
+      "koreanReading": "본",
+      "koreanMeaning": "근본",
+      "wikiRevision": "4389968",
+      "wikiCharacter": "本",
+      "wikiSha256": "03a8f32c6513f494570c428980ae64cbff359ff934f3aae24c9c4c5621e033f4",
+      "sourceOnyomi": [
+        "ホン"
+      ],
+      "sourceKunyomi": [
+        "もと"
+      ],
+      "sourceKoreanReadings": [
+        "본"
+      ]
+    },
+    {
+      "character": "名",
+      "koreanReading": "명",
+      "koreanMeaning": "이름",
+      "wikiRevision": "4389972",
+      "wikiCharacter": "名",
+      "wikiSha256": "2fe2b1f08a838753ae6f60174e5e2603d324c94da3127039e07b3496f10c85a0",
+      "sourceOnyomi": [
+        "メイ",
+        "ミョウ"
+      ],
+      "sourceKunyomi": [
+        "な",
+        "-な"
+      ],
+      "sourceKoreanReadings": [
+        "명"
+      ]
+    },
+    {
+      "character": "文",
+      "koreanReading": "문",
+      "koreanMeaning": "글월",
+      "wikiRevision": "4390148",
+      "wikiCharacter": "文",
+      "wikiSha256": "3b9fbaae1205c46bec7236b7cee5e33f940262404829e947b805924e177839ba",
+      "sourceOnyomi": [
+        "ブン",
+        "モン"
+      ],
+      "sourceKunyomi": [
+        "ふみ",
+        "あや"
+      ],
+      "sourceKoreanReadings": [
+        "문"
+      ]
+    },
+    {
+      "character": "字",
+      "koreanReading": "자",
+      "koreanMeaning": "글",
+      "wikiRevision": "4389991",
+      "wikiCharacter": "字",
+      "wikiSha256": "d875ee600b6e7cac4dd71d4572dd5b306f5402536b802db9efc5d7f81bd41c60",
+      "sourceOnyomi": [
+        "ジ"
+      ],
+      "sourceKunyomi": [
+        "あざ",
+        "あざな",
+        "-な"
+      ],
+      "sourceKoreanReadings": [
+        "자"
+      ]
+    },
+    {
+      "character": "学",
+      "koreanReading": "학",
+      "koreanMeaning": "배우다",
+      "wikiRevision": "4389887",
+      "wikiCharacter": "學",
+      "wikiSha256": "69083babdba2c27d561188879beebcb50fc4c2902584035cbeaf925ee7a9ae60",
+      "sourceOnyomi": [
+        "ガク"
+      ],
+      "sourceKunyomi": [
+        "まなぶ"
+      ],
+      "sourceKoreanReadings": [
+        "학"
+      ]
+    },
+    {
+      "character": "生",
+      "koreanReading": "생",
+      "koreanMeaning": "나다",
+      "wikiRevision": "4389880",
+      "wikiCharacter": "生",
+      "wikiSha256": "14f98d00b68aaa450874f0e3a57de2e8987840be801916b7449a5ad9a3be9f9c",
+      "sourceOnyomi": [
+        "セイ",
+        "ショウ"
+      ],
+      "sourceKunyomi": [
+        "いきる",
+        "いかす",
+        "いける",
+        "うまれる",
+        "うまれる",
+        "うまれ",
+        "うまれ",
+        "うむ",
+        "おう",
+        "はえる",
+        "はやす",
+        "き",
+        "なま",
+        "なま-",
+        "なる",
+        "なす",
+        "むす",
+        "-う"
+      ],
+      "sourceKoreanReadings": [
+        "생"
+      ]
+    },
+    {
+      "character": "校",
+      "koreanReading": "교",
+      "koreanMeaning": "학교",
+      "wikiRevision": "4390546",
+      "wikiCharacter": "校",
+      "wikiSha256": "7c50aa9713820c57eb1235f694facbce22d3839cbee1a719911e99dbb1847b00",
+      "sourceOnyomi": [
+        "コウ",
+        "キョウ"
+      ],
+      "sourceKunyomi": [],
+      "sourceKoreanReadings": [
+        "교",
+        "효"
+      ]
+    },
+    {
+      "character": "先",
+      "koreanReading": "선",
+      "koreanMeaning": "먼저",
+      "wikiRevision": "4390539",
+      "wikiCharacter": "先",
+      "wikiSha256": "cad16e2873d77fe6b7e7d4e5ca5d00b03ee23393447354ea3e585558dad29cb5",
+      "sourceOnyomi": [
+        "セン"
+      ],
+      "sourceKunyomi": [
+        "さき",
+        "まず"
+      ],
+      "sourceKoreanReadings": [
+        "선"
+      ]
+    },
+    {
+      "character": "年",
+      "koreanReading": "년",
+      "koreanMeaning": "해",
+      "wikiRevision": "4389885",
+      "wikiCharacter": "年",
+      "wikiSha256": "d0066eff3344361c36f309300152c38df85baeea90391c042655831018ee89a5",
+      "sourceOnyomi": [
+        "ネン"
+      ],
+      "sourceKunyomi": [
+        "とし"
+      ],
+      "sourceKoreanReadings": [
+        "년"
+      ]
+    },
+    {
+      "character": "休",
+      "koreanReading": "휴",
+      "koreanMeaning": "쉬다",
+      "wikiRevision": "4389951",
+      "wikiCharacter": "休",
+      "wikiSha256": "8525062788995aad4ba0b98e25ba0f846f2f5a48db35c00ef638ec2d0e2f49bb",
+      "sourceOnyomi": [
+        "キュウ"
+      ],
+      "sourceKunyomi": [
+        "やすむ",
+        "やすまる",
+        "やすめる"
+      ],
+      "sourceKoreanReadings": [
+        "휴"
+      ]
+    },
+    {
+      "character": "入",
+      "koreanReading": "입",
+      "koreanMeaning": "들어가다",
+      "wikiRevision": "4426300",
+      "wikiCharacter": "入",
+      "wikiSha256": "7d88d9fd7c999d61bd4106710d7384827f944df40392ff3a2869e44873c6dde1",
+      "sourceOnyomi": [
+        "ニュウ",
+        "ジュ"
+      ],
+      "sourceKunyomi": [
+        "いる",
+        "-いる",
+        "-いり",
+        "いれる",
+        "-いれ",
+        "はいる"
+      ],
+      "sourceKoreanReadings": [
+        "입"
+      ]
+    },
+    {
+      "character": "出",
+      "koreanReading": "출",
+      "koreanMeaning": "나다",
+      "wikiRevision": "4389969",
+      "wikiCharacter": "出",
+      "wikiSha256": "1fb4140ab7e9a8e341547e4a2ea927352ce149a2cd9c1fe8b7ce9b3e4eee96f0",
+      "sourceOnyomi": [
+        "シュツ",
+        "スイ"
+      ],
+      "sourceKunyomi": [
+        "でる",
+        "-で",
+        "だす",
+        "-だす",
+        "いでる",
+        "いだす"
+      ],
+      "sourceKoreanReadings": [
+        "출",
+        "추"
+      ]
+    },
+    {
+      "character": "立",
+      "koreanReading": "립",
+      "koreanMeaning": "서다",
+      "wikiRevision": "4389959",
+      "wikiCharacter": "立",
+      "wikiSha256": "b79d6f5e5184d129d290ff55fe4c5e1845256c6ebd3961ce773129b9cc19127f",
+      "sourceOnyomi": [
+        "リツ",
+        "リュウ",
+        "リットル"
+      ],
+      "sourceKunyomi": [
+        "たつ",
+        "-たつ",
+        "たち-",
+        "たてる",
+        "-たてる",
+        "たて-",
+        "たて-",
+        "-たて",
+        "-だて",
+        "-だてる"
+      ],
+      "sourceKoreanReadings": [
+        "립"
+      ]
+    },
+    {
+      "character": "早",
+      "koreanReading": "조",
+      "koreanMeaning": "일찍",
+      "wikiRevision": "4389987",
+      "wikiCharacter": "早",
+      "wikiSha256": "808604d7b6dd077a7a6e263e7b88061a48e0740efeb85f33f350f7d34c10d999",
+      "sourceOnyomi": [
+        "ソウ",
+        "サッ"
+      ],
+      "sourceKunyomi": [
+        "はやい",
+        "はや",
+        "はや-",
+        "はやまる",
+        "はやめる",
+        "さ-"
+      ],
+      "sourceKoreanReadings": [
+        "조"
+      ]
+    },
+    {
+      "character": "正",
+      "koreanReading": "정",
+      "koreanMeaning": "바를",
+      "wikiRevision": "4390197",
+      "wikiCharacter": "正",
+      "wikiSha256": "6de9c577b45f2a8ae477d7aee7715a9c0fde2557d54f202a2014ad6cb5cf3b06",
+      "sourceOnyomi": [
+        "セイ",
+        "ショウ"
+      ],
+      "sourceKunyomi": [
+        "ただしい",
+        "ただす",
+        "まさ",
+        "まさに"
+      ],
+      "sourceKoreanReadings": [
+        "정"
+      ]
+    },
+    {
+      "character": "気",
+      "koreanReading": "기",
+      "koreanMeaning": "기운",
+      "wikiRevision": "4393295",
+      "wikiCharacter": "氣",
+      "wikiSha256": "d0c4a84f21cf23e477226b7ad78fd1359d28884e6bf9e57dfe2fdc2f33ef6495",
+      "sourceOnyomi": [
+        "キ",
+        "ケ"
+      ],
+      "sourceKunyomi": [
+        "いき",
+        "き"
+      ],
+      "sourceKoreanReadings": [
+        "기"
+      ]
+    },
+    {
+      "character": "空",
+      "koreanReading": "공",
+      "koreanMeaning": "비다",
+      "wikiRevision": "4393526",
+      "wikiCharacter": "空",
+      "wikiSha256": "5b0bd670de79bdbe9b38631903eb1985b63ac323b9d4d2354f28dffecaead8c9",
+      "sourceOnyomi": [
+        "クウ"
+      ],
+      "sourceKunyomi": [
+        "そら",
+        "あく",
+        "あき",
+        "あける",
+        "から",
+        "すく",
+        "すかす",
+        "むなしい"
+      ],
+      "sourceKoreanReadings": [
+        "공"
+      ]
+    },
+    {
+      "character": "雨",
+      "koreanReading": "우",
+      "koreanMeaning": "비",
+      "wikiRevision": "4389868",
+      "wikiCharacter": "雨",
+      "wikiSha256": "db7f9c3511fbb5f48e568f4df448ee2f850e82b2727aa64719f99cb4f802d7b0",
+      "sourceOnyomi": [
+        "ウ"
+      ],
+      "sourceKunyomi": [
+        "あめ",
+        "あま-",
+        "-さめ"
+      ],
+      "sourceKoreanReadings": [
+        "우"
+      ]
+    },
+    {
+      "character": "青",
+      "koreanReading": "청",
+      "koreanMeaning": "푸르다",
+      "wikiRevision": "4390018",
+      "wikiCharacter": "青",
+      "wikiSha256": "2f6c629192484bea91cd441bcf8dac29b27fbf9f2cce0c0772ca55d42f1f2e90",
+      "sourceOnyomi": [
+        "セイ",
+        "ショウ"
+      ],
+      "sourceKunyomi": [
+        "あお",
+        "あお-",
+        "あおい"
+      ],
+      "sourceKoreanReadings": [
+        "청"
+      ]
+    },
+    {
+      "character": "赤",
+      "koreanReading": "적",
+      "koreanMeaning": "붉다",
+      "wikiRevision": "4390377",
+      "wikiCharacter": "赤",
+      "wikiSha256": "288f1dd00659be8d7f9a248c43f34d8be8c31eeb0a8f21cd3b775a4cd28e8a30",
+      "sourceOnyomi": [
+        "セキ",
+        "シャク"
+      ],
+      "sourceKunyomi": [
+        "あか",
+        "あか-",
+        "あかい",
+        "あからむ",
+        "あからめる"
+      ],
+      "sourceKoreanReadings": [
+        "적"
+      ]
+    },
+    {
+      "character": "白",
+      "koreanReading": "백",
+      "koreanMeaning": "희다",
+      "wikiRevision": "4390006",
+      "wikiCharacter": "白",
+      "wikiSha256": "d78814dd42ce65135e7c2dbc920272ea3f2c8bfaf1e640ebbfcbcecd36ebd8c5",
+      "sourceOnyomi": [
+        "ハク",
+        "ビャク"
+      ],
+      "sourceKunyomi": [
+        "しろ",
+        "しら-",
+        "しろい"
+      ],
+      "sourceKoreanReadings": [
+        "백",
+        "배"
+      ]
+    },
+    {
+      "character": "村",
+      "koreanReading": "촌",
+      "koreanMeaning": "마을",
+      "wikiRevision": "4390222",
+      "wikiCharacter": "村",
+      "wikiSha256": "6490991ead08da068da04a7fa8533f1d433e78348c319328aa9c8f6fe2a72090",
+      "sourceOnyomi": [
+        "ソン"
+      ],
+      "sourceKunyomi": [
+        "むら"
+      ],
+      "sourceKoreanReadings": [
+        "촌"
+      ]
+    },
+    {
+      "character": "林",
+      "koreanReading": "림",
+      "koreanMeaning": "수풀",
+      "wikiRevision": "4389970",
+      "wikiCharacter": "林",
+      "wikiSha256": "a72f25573e86155a8219e5d290fa04a82b02ddad5bdb604e9e823939de285a6e",
+      "sourceOnyomi": [
+        "リン"
+      ],
+      "sourceKunyomi": [
+        "はやし"
+      ],
+      "sourceKoreanReadings": [
+        "림"
+      ]
+    },
+    {
+      "character": "森",
+      "koreanReading": "삼",
+      "koreanMeaning": "숲",
+      "wikiRevision": "4389971",
+      "wikiCharacter": "森",
+      "wikiSha256": "558fb666ae824221189e0b81ac0000632056dcb155c4abddadc0ee9062b2ce8e",
+      "sourceOnyomi": [
+        "シン"
+      ],
+      "sourceKunyomi": [
+        "もり"
+      ],
+      "sourceKoreanReadings": [
+        "삼"
+      ]
+    },
+    {
+      "character": "花",
+      "koreanReading": "화",
+      "koreanMeaning": "꽃",
+      "wikiRevision": "4390183",
+      "wikiCharacter": "花",
+      "wikiSha256": "10ccff62dda52b9b67844f52a84a7e1e0e075437bb6ef067f96abbc5e2f9dece",
+      "sourceOnyomi": [
+        "カ",
+        "ケ"
+      ],
+      "sourceKunyomi": [
+        "はな"
+      ],
+      "sourceKoreanReadings": [
+        "화"
+      ]
+    },
+    {
+      "character": "草",
+      "koreanReading": "초",
+      "koreanMeaning": "풀",
+      "wikiRevision": "4389988",
+      "wikiCharacter": "草",
+      "wikiSha256": "479a63e10d8568898f003d32da8f7c7f52b4b6bd092ec60db2bbdafef65e96d2",
+      "sourceOnyomi": [
+        "ソウ"
+      ],
+      "sourceKunyomi": [
+        "くさ",
+        "くさ-",
+        "-ぐさ"
+      ],
+      "sourceKoreanReadings": [
+        "초"
+      ]
+    },
+    {
+      "character": "竹",
+      "koreanReading": "죽",
+      "koreanMeaning": "대나무",
+      "wikiRevision": "4390205",
+      "wikiCharacter": "竹",
+      "wikiSha256": "80a4aac99b60741034fea8f67b5ec10449c04aaba34cc69e2f9160f53cca89f7",
+      "sourceOnyomi": [
+        "チク"
+      ],
+      "sourceKunyomi": [
+        "たけ"
+      ],
+      "sourceKoreanReadings": [
+        "죽"
+      ]
+    },
+    {
+      "character": "糸",
+      "koreanReading": "사",
+      "koreanMeaning": "실",
+      "wikiRevision": "4032150",
+      "wikiCharacter": "絲",
+      "wikiSha256": "4c750d47a9b196ed11cf17ee89dd6948f92da8b9ce2837e228a06e3881613133",
+      "sourceOnyomi": [
+        "シ"
+      ],
+      "sourceKunyomi": [
+        "いと"
+      ],
+      "sourceKoreanReadings": [
+        "사"
+      ]
+    },
+    {
+      "character": "虫",
+      "koreanReading": "충",
+      "koreanMeaning": "벌레",
+      "wikiRevision": "4389962",
+      "wikiCharacter": "蟲",
+      "wikiSha256": "c4a483f4ef771eaae885a0f90cbad1b2c548dbc81feb7455c5a21ec8f2dbbccd",
+      "sourceOnyomi": [
+        "チュウ",
+        "キ"
+      ],
+      "sourceKunyomi": [
+        "むし"
+      ],
+      "sourceKoreanReadings": [
+        "훼",
+        "충"
+      ]
+    },
+    {
+      "character": "犬",
+      "koreanReading": "견",
+      "koreanMeaning": "개",
+      "wikiRevision": "4390579",
+      "wikiCharacter": "犬",
+      "wikiSha256": "538f6b70a2a236e9cc14e6b00e297493df06cd85bdca4d66c45b26803a825b3d",
+      "sourceOnyomi": [
+        "ケン"
+      ],
+      "sourceKunyomi": [
+        "いぬ",
+        "いぬ-"
+      ],
+      "sourceKoreanReadings": [
+        "견"
+      ]
+    },
+    {
+      "character": "貝",
+      "koreanReading": "패",
+      "koreanMeaning": "조개",
+      "wikiRevision": "4389996",
+      "wikiCharacter": "貝",
+      "wikiSha256": "fc28048378b30fa408580d687d8885a5e441096f9a0de7cb70278a2a00e2ea20",
+      "sourceOnyomi": [
+        "バイ"
+      ],
+      "sourceKunyomi": [
+        "かい"
+      ],
+      "sourceKoreanReadings": [
+        "패"
+      ]
+    },
+    {
+      "character": "足",
+      "koreanReading": "족",
+      "koreanMeaning": "발",
+      "wikiRevision": "4390194",
+      "wikiCharacter": "足",
+      "wikiSha256": "81125f603c99306047785cb8711e41b1b529780daf25da074a1d52701c881388",
+      "sourceOnyomi": [
+        "ソク"
+      ],
+      "sourceKunyomi": [
+        "あし",
+        "たりる",
+        "たる",
+        "たす"
+      ],
+      "sourceKoreanReadings": [
+        "족",
+        "주"
+      ]
+    },
+    {
+      "character": "車",
+      "koreanReading": "차",
+      "koreanMeaning": "수레",
+      "wikiRevision": "4390022",
+      "wikiCharacter": "車",
+      "wikiSha256": "d59dc5d4ddab3a1882cf0404dfb7dc6ac3d704615016d754562eecf1b72a8396",
+      "sourceOnyomi": [
+        "シャ"
+      ],
+      "sourceKunyomi": [
+        "くるま"
+      ],
+      "sourceKoreanReadings": [
+        "차",
+        "거"
+      ]
+    },
+    {
+      "character": "夕",
+      "koreanReading": "석",
+      "koreanMeaning": "저녁",
+      "wikiRevision": "4390173",
+      "wikiCharacter": "夕",
+      "wikiSha256": "64ac1b1bd7272b832848e90c60c7793d86f8696f23185313daca08788d447219",
+      "sourceOnyomi": [
+        "セキ"
+      ],
+      "sourceKunyomi": [
+        "ゆう"
+      ],
+      "sourceKoreanReadings": [
+        "석",
+        "사"
+      ]
+    },
+    {
+      "character": "音",
+      "koreanReading": "음",
+      "koreanMeaning": "소리",
+      "wikiRevision": "4389850",
+      "wikiCharacter": "音",
+      "wikiSha256": "a6d0a7636a232da3893a04fd7a132051bf12c3051551c4d2600b83ff34b8bc8e",
+      "sourceOnyomi": [
+        "オン",
+        "イン",
+        "-ノン"
+      ],
+      "sourceKunyomi": [
+        "おと",
+        "ね"
+      ],
+      "sourceKoreanReadings": [
+        "음"
+      ]
+    },
+    {
+      "character": "力",
+      "koreanReading": "력",
+      "koreanMeaning": "힘",
+      "wikiRevision": "4426310",
+      "wikiCharacter": "力",
+      "wikiSha256": "055188a9b123bfc078abcb355631471dce59484f0acff79bd43a0f079450e868",
+      "sourceOnyomi": [
+        "リョク",
+        "リキ",
+        "リイ"
+      ],
+      "sourceKunyomi": [
+        "ちから"
+      ],
+      "sourceKoreanReadings": [
+        "력"
+      ]
+    },
+    {
+      "character": "見",
+      "koreanReading": "견",
+      "koreanMeaning": "보다",
+      "wikiRevision": "4389992",
+      "wikiCharacter": "見",
+      "wikiSha256": "b48deaaf084971d34398c95fc8905bb83ff27aec0de442f41b3451c584e8c0b7",
+      "sourceOnyomi": [
+        "ケン"
+      ],
+      "sourceKunyomi": [
+        "みる",
+        "みえる",
+        "みせる"
+      ],
+      "sourceKoreanReadings": [
+        "견",
+        "현"
+      ]
+    },
+    {
+      "character": "町",
+      "koreanReading": "정",
+      "koreanMeaning": "마을",
+      "wikiRevision": "4390553",
+      "wikiCharacter": "町",
+      "wikiSha256": "2f6ccfbdeeb0fe05d07978533a87f5ab898ffd310e49ed859474adfc7c983d10",
+      "sourceOnyomi": [
+        "チョウ"
+      ],
+      "sourceKunyomi": [
+        "まち"
+      ],
+      "sourceKoreanReadings": [
+        "정"
+      ]
+    }
+  ]
+}

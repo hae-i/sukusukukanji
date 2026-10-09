@@ -1,0 +1,3667 @@
+{
+  "schemaVersion": 1,
+  "grade": 1,
+  "kanji": [
+    {
+      "id": "g1-4e00",
+      "character": "一",
+      "grade": 1,
+      "koreanReading": "일",
+      "koreanMeanings": [
+        "하나"
+      ],
+      "onyomi": [
+        "イチ"
+      ],
+      "kunyomi": [
+        "ひとつ"
+      ],
+      "examples": [
+        {
+          "word": "一",
+          "reading": "いち",
+          "meaningKo": "하나"
+        }
+      ],
+      "koreanConnections": [
+        {
+          "wordKo": "단일",
+          "hanja": "單一",
+          "note": "단일의 ‘일’과 같은 한자예요."
+        }
+      ],
+      "lessonId": 1,
+      "lessonOrder": 1,
+      "references": [
+        {
+          "label": "KANJIDIC2 / kanjiapi.dev: 학년·음독·훈독",
+          "url": "https://kanjiapi.dev/v1/kanji/%E4%B8%80"
+        },
+        {
+          "label": "위키낱말사전: 한국 한자음·뜻·일본어 수사",
+          "url": "https://ko.wiktionary.org/wiki/%E4%B8%80"
+        }
+      ],
+      "verifiedAt": "2026-10-08",
+      "allOnyomi": [
+        "イチ",
+        "イツ"
+      ],
+      "allKunyomi": [
+        "ひと",
+        "ひとつ"
+      ],
+      "meaningTags": [
+        "one",
+        "one radical (no.1)"
+      ]
+    },
+    {
+      "id": "g1-4e8c",
+      "character": "二",
+      "grade": 1,
+      "koreanReading": "이",
+      "koreanMeanings": [
+        "둘"
+      ],
+      "onyomi": [
+        "ニ"
+      ],
+      "kunyomi": [
+        "ふたつ"
+      ],
+      "examples": [
+        {
+          "word": "二",
+          "reading": "に",
+          "meaningKo": "둘"
+        }
+      ],
+      "koreanConnections": [],
+      "lessonId": 1,
+      "lessonOrder": 2,
+      "references": [
+        {
+          "label": "KANJIDIC2 / kanjiapi.dev: 학년·음독·훈독",
+          "url": "https://kanjiapi.dev/v1/kanji/%E4%BA%8C"
+        },
+        {
+          "label": "위키낱말사전: 한국 한자음·뜻·일본어 수사",
+          "url": "https://ko.wiktionary.org/wiki/%E4%BA%8C"
+        }
+      ],
+      "verifiedAt": "2026-10-08",
+      "allOnyomi": [
+        "ニ",
+        "ジ"
+      ],
+      "allKunyomi": [
+        "ふた",
+        "ふたつ",
+        "ふたたび"
+      ],
+      "meaningTags": [
+        "two",
+        "two radical (no. 7)"
+      ]
+    },
+    {
+      "id": "g1-4e09",
+      "character": "三",
+      "grade": 1,
+      "koreanReading": "삼",
+      "koreanMeanings": [
+        "셋"
+      ],
+      "onyomi": [
+        "サン"
+      ],
+      "kunyomi": [
+        "みっつ"
+      ],
+      "examples": [
+        {
+          "word": "三",
+          "reading": "さん",
+          "meaningKo": "셋"
+        }
+      ],
+      "koreanConnections": [
+        {
+          "wordKo": "삼각형",
+          "hanja": "三角形",
+          "note": "삼각형의 ‘삼’은 셋을 뜻해요."
+        }
+      ],
+      "lessonId": 1,
+      "lessonOrder": 3,
+      "references": [
+        {
+          "label": "KANJIDIC2 / kanjiapi.dev: 학년·음독·훈독",
+          "url": "https://kanjiapi.dev/v1/kanji/%E4%B8%89"
+        },
+        {
+          "label": "위키낱말사전: 한국 한자음·뜻·일본어 수사",
+          "url": "https://ko.wiktionary.org/wiki/%E4%B8%89"
+        },
+        {
+          "label": "Wiktionary: 삼각형의 한자 표기",
+          "url": "https://en.wiktionary.org/wiki/%EC%82%BC%EA%B0%81%ED%98%95"
+        }
+      ],
+      "verifiedAt": "2026-10-08",
+      "allOnyomi": [
+        "サン",
+        "ゾウ"
+      ],
+      "allKunyomi": [
+        "み",
+        "みつ",
+        "みっつ"
+      ],
+      "meaningTags": [
+        "three"
+      ]
+    },
+    {
+      "id": "g1-56db",
+      "character": "四",
+      "grade": 1,
+      "koreanReading": "사",
+      "koreanMeanings": [
+        "넷"
+      ],
+      "onyomi": [
+        "シ"
+      ],
+      "kunyomi": [
+        "よん",
+        "よっつ"
+      ],
+      "examples": [
+        {
+          "word": "四",
+          "reading": "よん",
+          "meaningKo": "넷"
+        }
+      ],
+      "koreanConnections": [],
+      "lessonId": 1,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "KANJIDIC2 / kanjiapi.dev: 학년·음독·훈독",
+          "url": "https://kanjiapi.dev/v1/kanji/%E5%9B%9B"
+        },
+        {
+          "label": "위키낱말사전: 한국 한자음·뜻·일본어 수사",
+          "url": "https://ko.wiktionary.org/wiki/%E5%9B%9B"
+        }
+      ],
+      "verifiedAt": "2026-10-08",
+      "allOnyomi": [
+        "シ"
+      ],
+      "allKunyomi": [
+        "よ",
+        "よつ",
+        "よっつ",
+        "よん"
+      ],
+      "meaningTags": [
+        "four"
+      ]
+    },
+    {
+      "id": "g1-4e94",
+      "character": "五",
+      "grade": 1,
+      "koreanReading": "오",
+      "koreanMeanings": [
+        "다섯"
+      ],
+      "onyomi": [
+        "ゴ"
+      ],
+      "kunyomi": [
+        "いつつ"
+      ],
+      "examples": [
+        {
+          "word": "五",
+          "reading": "ご",
+          "meaningKo": "다섯"
+        },
+        {
+          "word": "五月",
+          "reading": "ごがつ",
+          "meaningKo": "오월"
+        }
+      ],
+      "koreanConnections": [
+        {
+          "wordKo": "오월",
+          "hanja": "五月",
+          "note": "한국어 오월과 같은 한자를 사용해요."
+        }
+      ],
+      "lessonId": 1,
+      "lessonOrder": 5,
+      "references": [
+        {
+          "label": "KANJIDIC2 / kanjiapi.dev: 학년·음독·훈독",
+          "url": "https://kanjiapi.dev/v1/kanji/%E4%BA%94"
+        },
+        {
+          "label": "위키낱말사전: 한국 한자음·뜻·일본어 수사",
+          "url": "https://ko.wiktionary.org/wiki/%E4%BA%94"
+        }
+      ],
+      "verifiedAt": "2026-10-08",
+      "allOnyomi": [
+        "ゴ"
+      ],
+      "allKunyomi": [
+        "いつ",
+        "いつつ"
+      ],
+      "meaningTags": [
+        "five"
+      ]
+    },
+    {
+      "id": "g1-516d",
+      "character": "六",
+      "grade": 1,
+      "koreanReading": "육",
+      "koreanMeanings": [
+        "여섯"
+      ],
+      "onyomi": [
+        "ロク"
+      ],
+      "kunyomi": [
+        "むっつ"
+      ],
+      "examples": [
+        {
+          "word": "六",
+          "reading": "ろく",
+          "meaningKo": "여섯"
+        }
+      ],
+      "koreanConnections": [],
+      "lessonId": 2,
+      "lessonOrder": 1,
+      "references": [
+        {
+          "label": "KANJIDIC2 / kanjiapi.dev: 학년·음독·훈독",
+          "url": "https://kanjiapi.dev/v1/kanji/%E5%85%AD"
+        },
+        {
+          "label": "위키낱말사전: 한국 한자음·뜻·일본어 수사",
+          "url": "https://ko.wiktionary.org/wiki/%E5%85%AD"
+        },
+        {
+          "label": "한국어 수사: 육·륙",
+          "url": "https://en.wikipedia.org/wiki/Korean_numerals"
+        }
+      ],
+      "verifiedAt": "2026-10-08",
+      "tip": "한국 한자음은 ‘륙’이며, 단어 첫머리에서는 두음 법칙에 따라 ‘육’으로 읽어요.",
+      "allOnyomi": [
+        "ロク",
+        "リク"
+      ],
+      "allKunyomi": [
+        "む",
+        "むつ",
+        "むっつ",
+        "むい"
+      ],
+      "meaningTags": [
+        "six"
+      ]
+    },
+    {
+      "id": "g1-4e03",
+      "character": "七",
+      "grade": 1,
+      "koreanReading": "칠",
+      "koreanMeanings": [
+        "일곱"
+      ],
+      "onyomi": [
+        "シチ"
+      ],
+      "kunyomi": [
+        "なな",
+        "ななつ"
+      ],
+      "examples": [
+        {
+          "word": "七",
+          "reading": "なな",
+          "meaningKo": "일곱"
+        }
+      ],
+      "koreanConnections": [],
+      "lessonId": 2,
+      "lessonOrder": 2,
+      "references": [
+        {
+          "label": "KANJIDIC2 / kanjiapi.dev: 학년·음독·훈독",
+          "url": "https://kanjiapi.dev/v1/kanji/%E4%B8%83"
+        },
+        {
+          "label": "위키낱말사전: 한국 한자음·뜻·일본어 수사",
+          "url": "https://ko.wiktionary.org/wiki/%E4%B8%83"
+        }
+      ],
+      "verifiedAt": "2026-10-08",
+      "allOnyomi": [
+        "シチ"
+      ],
+      "allKunyomi": [
+        "なな",
+        "ななつ",
+        "なの"
+      ],
+      "meaningTags": [
+        "seven"
+      ]
+    },
+    {
+      "id": "g1-516b",
+      "character": "八",
+      "grade": 1,
+      "koreanReading": "팔",
+      "koreanMeanings": [
+        "여덟"
+      ],
+      "onyomi": [
+        "ハチ"
+      ],
+      "kunyomi": [
+        "やっつ"
+      ],
+      "examples": [
+        {
+          "word": "八",
+          "reading": "はち",
+          "meaningKo": "여덟"
+        }
+      ],
+      "koreanConnections": [],
+      "lessonId": 2,
+      "lessonOrder": 3,
+      "references": [
+        {
+          "label": "KANJIDIC2 / kanjiapi.dev: 학년·음독·훈독",
+          "url": "https://kanjiapi.dev/v1/kanji/%E5%85%AB"
+        },
+        {
+          "label": "위키낱말사전: 한국 한자음·뜻·일본어 수사",
+          "url": "https://ko.wiktionary.org/wiki/%E5%85%AB"
+        }
+      ],
+      "verifiedAt": "2026-10-08",
+      "allOnyomi": [
+        "ハチ",
+        "ハツ"
+      ],
+      "allKunyomi": [
+        "や",
+        "やつ",
+        "やっつ",
+        "よう"
+      ],
+      "meaningTags": [
+        "eight",
+        "eight radical (no. 12)"
+      ]
+    },
+    {
+      "id": "g1-4e5d",
+      "character": "九",
+      "grade": 1,
+      "koreanReading": "구",
+      "koreanMeanings": [
+        "아홉"
+      ],
+      "onyomi": [
+        "キュウ",
+        "ク"
+      ],
+      "kunyomi": [
+        "ここのつ"
+      ],
+      "examples": [
+        {
+          "word": "九",
+          "reading": "きゅう",
+          "meaningKo": "아홉"
+        }
+      ],
+      "koreanConnections": [],
+      "lessonId": 2,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "KANJIDIC2 / kanjiapi.dev: 학년·음독·훈독",
+          "url": "https://kanjiapi.dev/v1/kanji/%E4%B9%9D"
+        },
+        {
+          "label": "위키낱말사전: 한국 한자음·뜻·일본어 수사",
+          "url": "https://ko.wiktionary.org/wiki/%E4%B9%9D"
+        }
+      ],
+      "verifiedAt": "2026-10-08",
+      "allOnyomi": [
+        "キュウ",
+        "ク"
+      ],
+      "allKunyomi": [
+        "ここの",
+        "ここのつ"
+      ],
+      "meaningTags": [
+        "nine"
+      ]
+    },
+    {
+      "id": "g1-5341",
+      "character": "十",
+      "grade": 1,
+      "koreanReading": "십",
+      "koreanMeanings": [
+        "열"
+      ],
+      "onyomi": [
+        "ジュウ"
+      ],
+      "kunyomi": [
+        "とお"
+      ],
+      "examples": [
+        {
+          "word": "十",
+          "reading": "じゅう",
+          "meaningKo": "열"
+        }
+      ],
+      "koreanConnections": [],
+      "lessonId": 2,
+      "lessonOrder": 5,
+      "references": [
+        {
+          "label": "KANJIDIC2 / kanjiapi.dev: 학년·음독·훈독",
+          "url": "https://kanjiapi.dev/v1/kanji/%E5%8D%81"
+        },
+        {
+          "label": "위키낱말사전: 한국 한자음·뜻·일본어 수사",
+          "url": "https://ko.wiktionary.org/wiki/%E5%8D%81"
+        }
+      ],
+      "verifiedAt": "2026-10-08",
+      "allOnyomi": [
+        "ジュウ",
+        "ジッ",
+        "ジュッ"
+      ],
+      "allKunyomi": [
+        "とお",
+        "と",
+        "そ"
+      ],
+      "meaningTags": [
+        "ten"
+      ]
+    },
+    {
+      "id": "g1-65e5",
+      "character": "日",
+      "grade": 1,
+      "koreanReading": "일",
+      "koreanMeanings": [
+        "해"
+      ],
+      "onyomi": [
+        "ニチ",
+        "ジツ"
+      ],
+      "kunyomi": [
+        "ひ"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 3,
+      "lessonOrder": 1,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E6%97%A5&oldid=4389882"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "ニチ",
+        "ジツ"
+      ],
+      "allKunyomi": [
+        "ひ",
+        "び",
+        "か"
+      ],
+      "meaningTags": [
+        "day",
+        "sun",
+        "Japan",
+        "counter for days"
+      ]
+    },
+    {
+      "id": "g1-6708",
+      "character": "月",
+      "grade": 1,
+      "koreanReading": "월",
+      "koreanMeanings": [
+        "달"
+      ],
+      "onyomi": [
+        "ゲツ",
+        "ガツ"
+      ],
+      "kunyomi": [
+        "つき"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 3,
+      "lessonOrder": 2,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E6%9C%88&oldid=4390016"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "ゲツ",
+        "ガツ"
+      ],
+      "allKunyomi": [
+        "つき"
+      ],
+      "meaningTags": [
+        "month",
+        "moon"
+      ]
+    },
+    {
+      "id": "g1-706b",
+      "character": "火",
+      "grade": 1,
+      "koreanReading": "화",
+      "koreanMeanings": [
+        "불"
+      ],
+      "onyomi": [
+        "カ"
+      ],
+      "kunyomi": [
+        "ひ"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 3,
+      "lessonOrder": 3,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E7%81%AB&oldid=4389856"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "カ"
+      ],
+      "allKunyomi": [
+        "ひ",
+        "び",
+        "ほ"
+      ],
+      "meaningTags": [
+        "fire"
+      ]
+    },
+    {
+      "id": "g1-6c34",
+      "character": "水",
+      "grade": 1,
+      "koreanReading": "수",
+      "koreanMeanings": [
+        "물"
+      ],
+      "onyomi": [
+        "スイ"
+      ],
+      "kunyomi": [
+        "みず"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 3,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E6%B0%B4&oldid=4389859"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "スイ"
+      ],
+      "allKunyomi": [
+        "みず"
+      ],
+      "meaningTags": [
+        "water"
+      ]
+    },
+    {
+      "id": "g1-6728",
+      "character": "木",
+      "grade": 1,
+      "koreanReading": "목",
+      "koreanMeanings": [
+        "나무"
+      ],
+      "onyomi": [
+        "モク",
+        "ボク"
+      ],
+      "kunyomi": [
+        "き"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 3,
+      "lessonOrder": 5,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E6%9C%A8&oldid=4389854"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "ボク",
+        "モク"
+      ],
+      "allKunyomi": [
+        "き",
+        "こ"
+      ],
+      "meaningTags": [
+        "tree",
+        "wood"
+      ]
+    },
+    {
+      "id": "g1-5c71",
+      "character": "山",
+      "grade": 1,
+      "koreanReading": "산",
+      "koreanMeanings": [
+        "산"
+      ],
+      "onyomi": [
+        "サン"
+      ],
+      "kunyomi": [
+        "やま"
+      ],
+      "examples": [
+        {
+          "word": "山",
+          "reading": "やま",
+          "meaningKo": "산"
+        }
+      ],
+      "koreanConnections": [],
+      "lessonId": 4,
+      "lessonOrder": 1,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E5%B1%B1&oldid=4389937"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "サン",
+        "セン"
+      ],
+      "allKunyomi": [
+        "やま"
+      ],
+      "meaningTags": [
+        "mountain"
+      ]
+    },
+    {
+      "id": "g1-5ddd",
+      "character": "川",
+      "grade": 1,
+      "koreanReading": "천",
+      "koreanMeanings": [
+        "내"
+      ],
+      "onyomi": [
+        "セン"
+      ],
+      "kunyomi": [
+        "かわ"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 4,
+      "lessonOrder": 2,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E5%B7%9D&oldid=4390544"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "セン"
+      ],
+      "allKunyomi": [
+        "かわ"
+      ],
+      "meaningTags": [
+        "stream",
+        "river",
+        "river or three-stroke river radical (no. 47)"
+      ]
+    },
+    {
+      "id": "g1-7530",
+      "character": "田",
+      "grade": 1,
+      "koreanReading": "전",
+      "koreanMeanings": [
+        "밭"
+      ],
+      "onyomi": [
+        "デン"
+      ],
+      "kunyomi": [
+        "た"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 4,
+      "lessonOrder": 3,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E7%94%B0&oldid=4389925"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "デン"
+      ],
+      "allKunyomi": [
+        "た"
+      ],
+      "meaningTags": [
+        "rice field",
+        "rice paddy"
+      ]
+    },
+    {
+      "id": "g1-571f",
+      "character": "土",
+      "grade": 1,
+      "koreanReading": "토",
+      "koreanMeanings": [
+        "흙"
+      ],
+      "onyomi": [
+        "ド"
+      ],
+      "kunyomi": [
+        "つち"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 4,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E5%9C%9F&oldid=4390082"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "ド",
+        "ト"
+      ],
+      "allKunyomi": [
+        "つち"
+      ],
+      "meaningTags": [
+        "soil",
+        "earth",
+        "ground",
+        "Turkey"
+      ]
+    },
+    {
+      "id": "g1-77f3",
+      "character": "石",
+      "grade": 1,
+      "koreanReading": "석",
+      "koreanMeanings": [
+        "돌"
+      ],
+      "onyomi": [
+        "セキ"
+      ],
+      "kunyomi": [
+        "いし"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 4,
+      "lessonOrder": 5,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E7%9F%B3&oldid=4389982"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "セキ",
+        "シャク",
+        "コク"
+      ],
+      "allKunyomi": [
+        "いし"
+      ],
+      "meaningTags": [
+        "stone"
+      ]
+    },
+    {
+      "id": "g1-4eba",
+      "character": "人",
+      "grade": 1,
+      "koreanReading": "인",
+      "koreanMeanings": [
+        "사람"
+      ],
+      "onyomi": [
+        "ジン",
+        "ニン"
+      ],
+      "kunyomi": [
+        "ひと"
+      ],
+      "examples": [
+        {
+          "word": "人",
+          "reading": "ひと",
+          "meaningKo": "사람"
+        },
+        {
+          "word": "一人",
+          "reading": "ひとり",
+          "meaningKo": "한 사람"
+        }
+      ],
+      "koreanConnections": [],
+      "lessonId": 5,
+      "lessonOrder": 1,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E4%BA%BA&oldid=4482421"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "ジン",
+        "ニン"
+      ],
+      "allKunyomi": [
+        "ひと",
+        "り",
+        "と"
+      ],
+      "meaningTags": [
+        "person"
+      ]
+    },
+    {
+      "id": "g1-53e3",
+      "character": "口",
+      "grade": 1,
+      "koreanReading": "구",
+      "koreanMeanings": [
+        "입"
+      ],
+      "onyomi": [
+        "コウ"
+      ],
+      "kunyomi": [
+        "くち"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 5,
+      "lessonOrder": 2,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E5%8F%A3&oldid=4389896"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "コウ",
+        "ク"
+      ],
+      "allKunyomi": [
+        "くち"
+      ],
+      "meaningTags": [
+        "mouth"
+      ]
+    },
+    {
+      "id": "g1-76ee",
+      "character": "目",
+      "grade": 1,
+      "koreanReading": "목",
+      "koreanMeanings": [
+        "눈"
+      ],
+      "onyomi": [
+        "モク"
+      ],
+      "kunyomi": [
+        "め"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 5,
+      "lessonOrder": 3,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E7%9B%AE&oldid=4390000"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "モク",
+        "ボク"
+      ],
+      "allKunyomi": [
+        "め",
+        "ま"
+      ],
+      "meaningTags": [
+        "eye",
+        "class",
+        "look",
+        "insight",
+        "experience",
+        "care",
+        "favor"
+      ]
+    },
+    {
+      "id": "g1-8033",
+      "character": "耳",
+      "grade": 1,
+      "koreanReading": "이",
+      "koreanMeanings": [
+        "귀"
+      ],
+      "onyomi": [
+        "ジ"
+      ],
+      "kunyomi": [
+        "みみ"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 5,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E8%80%B3&oldid=4390002"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "ジ"
+      ],
+      "allKunyomi": [
+        "みみ"
+      ],
+      "meaningTags": [
+        "ear"
+      ]
+    },
+    {
+      "id": "g1-624b",
+      "character": "手",
+      "grade": 1,
+      "koreanReading": "수",
+      "koreanMeanings": [
+        "손"
+      ],
+      "onyomi": [
+        "シュ"
+      ],
+      "kunyomi": [
+        "て"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 5,
+      "lessonOrder": 5,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E6%89%8B&oldid=4390214"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "シュ",
+        "ズ"
+      ],
+      "allKunyomi": [
+        "て",
+        "た"
+      ],
+      "meaningTags": [
+        "hand"
+      ]
+    },
+    {
+      "id": "g1-4e0a",
+      "character": "上",
+      "grade": 1,
+      "koreanReading": "상",
+      "koreanMeanings": [
+        "위"
+      ],
+      "onyomi": [
+        "ジョウ"
+      ],
+      "kunyomi": [
+        "うえ"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 6,
+      "lessonOrder": 1,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E4%B8%8A&oldid=4481280"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "ジョウ",
+        "ショウ",
+        "シャン"
+      ],
+      "allKunyomi": [
+        "うえ",
+        "うわ",
+        "かみ",
+        "あげる",
+        "あがる",
+        "あがり",
+        "のぼる",
+        "のぼり",
+        "のぼせる",
+        "のぼす",
+        "たてまつる"
+      ],
+      "meaningTags": [
+        "above",
+        "up"
+      ]
+    },
+    {
+      "id": "g1-4e0b",
+      "character": "下",
+      "grade": 1,
+      "koreanReading": "하",
+      "koreanMeanings": [
+        "아래"
+      ],
+      "onyomi": [
+        "カ",
+        "ゲ"
+      ],
+      "kunyomi": [
+        "した"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 6,
+      "lessonOrder": 2,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E4%B8%8B&oldid=4390555"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "カ",
+        "ゲ"
+      ],
+      "allKunyomi": [
+        "した",
+        "しも",
+        "もと",
+        "さげる",
+        "さがる",
+        "くだる",
+        "くだり",
+        "くだす",
+        "くださる",
+        "おろす",
+        "おりる"
+      ],
+      "meaningTags": [
+        "below",
+        "down",
+        "descend",
+        "give",
+        "low",
+        "inferior"
+      ]
+    },
+    {
+      "id": "g1-5de6",
+      "character": "左",
+      "grade": 1,
+      "koreanReading": "좌",
+      "koreanMeanings": [
+        "왼쪽"
+      ],
+      "onyomi": [
+        "サ"
+      ],
+      "kunyomi": [
+        "ひだり"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 6,
+      "lessonOrder": 3,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E5%B7%A6&oldid=4390543"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "サ",
+        "シャ"
+      ],
+      "allKunyomi": [
+        "ひだり"
+      ],
+      "meaningTags": [
+        "left"
+      ]
+    },
+    {
+      "id": "g1-53f3",
+      "character": "右",
+      "grade": 1,
+      "koreanReading": "우",
+      "koreanMeanings": [
+        "오른쪽"
+      ],
+      "onyomi": [
+        "ユウ"
+      ],
+      "kunyomi": [
+        "みぎ"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 6,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E5%8F%B3&oldid=4389984"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "ウ",
+        "ユウ"
+      ],
+      "allKunyomi": [
+        "みぎ"
+      ],
+      "meaningTags": [
+        "right"
+      ]
+    },
+    {
+      "id": "g1-4e2d",
+      "character": "中",
+      "grade": 1,
+      "koreanReading": "중",
+      "koreanMeanings": [
+        "가운데"
+      ],
+      "onyomi": [
+        "チュウ"
+      ],
+      "kunyomi": [
+        "なか"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 6,
+      "lessonOrder": 5,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E4%B8%AD&oldid=4389961"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "チュウ"
+      ],
+      "allKunyomi": [
+        "なか",
+        "うち",
+        "あたる"
+      ],
+      "meaningTags": [
+        "in",
+        "inside",
+        "middle",
+        "mean",
+        "center"
+      ]
+    },
+    {
+      "id": "g1-5927",
+      "character": "大",
+      "grade": 1,
+      "koreanReading": "대",
+      "koreanMeanings": [
+        "큰"
+      ],
+      "onyomi": [
+        "ダイ",
+        "タイ"
+      ],
+      "kunyomi": [
+        "おおきい"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 7,
+      "lessonOrder": 1,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E5%A4%A7&oldid=4389918"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "ダイ",
+        "タイ"
+      ],
+      "allKunyomi": [
+        "おお",
+        "おおきい",
+        "おおいに"
+      ],
+      "meaningTags": [
+        "large",
+        "big"
+      ]
+    },
+    {
+      "id": "g1-5c0f",
+      "character": "小",
+      "grade": 1,
+      "koreanReading": "소",
+      "koreanMeanings": [
+        "작다"
+      ],
+      "onyomi": [
+        "ショウ"
+      ],
+      "kunyomi": [
+        "ちいさい"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 7,
+      "lessonOrder": 2,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E5%B0%8F&oldid=4389920"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "ショウ"
+      ],
+      "allKunyomi": [
+        "ちいさい",
+        "こ",
+        "お",
+        "さ"
+      ],
+      "meaningTags": [
+        "little",
+        "small"
+      ]
+    },
+    {
+      "id": "g1-5973",
+      "character": "女",
+      "grade": 1,
+      "koreanReading": "녀",
+      "koreanMeanings": [
+        "여자"
+      ],
+      "onyomi": [
+        "ジョ"
+      ],
+      "kunyomi": [
+        "おんな"
+      ],
+      "examples": [
+        {
+          "word": "女子",
+          "reading": "じょし",
+          "meaningKo": "여자"
+        }
+      ],
+      "koreanConnections": [],
+      "lessonId": 7,
+      "lessonOrder": 3,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E5%A5%B3&oldid=4389922"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "ジョ",
+        "ニョ",
+        "ニョウ"
+      ],
+      "allKunyomi": [
+        "おんな",
+        "め"
+      ],
+      "meaningTags": [
+        "woman",
+        "female"
+      ]
+    },
+    {
+      "id": "g1-7537",
+      "character": "男",
+      "grade": 1,
+      "koreanReading": "남",
+      "koreanMeanings": [
+        "사내"
+      ],
+      "onyomi": [
+        "ダン",
+        "ナン"
+      ],
+      "kunyomi": [
+        "おとこ"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 7,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E7%94%B7&oldid=4389924"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "ダン",
+        "ナン"
+      ],
+      "allKunyomi": [
+        "おとこ",
+        "お"
+      ],
+      "meaningTags": [
+        "male"
+      ]
+    },
+    {
+      "id": "g1-5b50",
+      "character": "子",
+      "grade": 1,
+      "koreanReading": "자",
+      "koreanMeanings": [
+        "아들"
+      ],
+      "onyomi": [
+        "シ"
+      ],
+      "kunyomi": [
+        "こ"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 7,
+      "lessonOrder": 5,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E5%AD%90&oldid=4389985"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "シ",
+        "ス",
+        "ツ"
+      ],
+      "allKunyomi": [
+        "こ",
+        "ね"
+      ],
+      "meaningTags": [
+        "child",
+        "sign of the rat",
+        "11PM-1AM",
+        "first sign of Chinese zodiac"
+      ]
+    },
+    {
+      "id": "g1-5929",
+      "character": "天",
+      "grade": 1,
+      "koreanReading": "천",
+      "koreanMeanings": [
+        "하늘"
+      ],
+      "onyomi": [
+        "テン"
+      ],
+      "kunyomi": [],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 8,
+      "lessonOrder": 1,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E5%A4%A9&oldid=4390043"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "テン"
+      ],
+      "allKunyomi": [
+        "あまつ",
+        "あめ",
+        "あま"
+      ],
+      "meaningTags": [
+        "heavens",
+        "sky",
+        "imperial"
+      ]
+    },
+    {
+      "id": "g1-5186",
+      "character": "円",
+      "grade": 1,
+      "koreanReading": "원",
+      "koreanMeanings": [
+        "둥글다"
+      ],
+      "onyomi": [
+        "エン"
+      ],
+      "kunyomi": [
+        "まるい"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 8,
+      "lessonOrder": 2,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E5%9C%93&oldid=4390537"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "japaneseCharacter": "円",
+      "traditionalCharacter": "圓",
+      "koreanHanja": "圓",
+      "allOnyomi": [
+        "エン"
+      ],
+      "allKunyomi": [
+        "まるい",
+        "まる",
+        "まど",
+        "まどか",
+        "まろやか"
+      ],
+      "meaningTags": [
+        "circle",
+        "yen",
+        "round"
+      ]
+    },
+    {
+      "id": "g1-7389",
+      "character": "玉",
+      "grade": 1,
+      "koreanReading": "옥",
+      "koreanMeanings": [
+        "구슬"
+      ],
+      "onyomi": [
+        "ギョク"
+      ],
+      "kunyomi": [
+        "たま"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 8,
+      "lessonOrder": 3,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E7%8E%89&oldid=4389956"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "ギョク"
+      ],
+      "allKunyomi": [
+        "たま",
+        "だま"
+      ],
+      "meaningTags": [
+        "jewel",
+        "ball"
+      ]
+    },
+    {
+      "id": "g1-738b",
+      "character": "王",
+      "grade": 1,
+      "koreanReading": "왕",
+      "koreanMeanings": [
+        "임금"
+      ],
+      "onyomi": [
+        "オウ"
+      ],
+      "kunyomi": [],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 8,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E7%8E%8B&oldid=4389955"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "オウ",
+        "ノウ"
+      ],
+      "allKunyomi": [],
+      "meaningTags": [
+        "king",
+        "rule",
+        "magnate"
+      ]
+    },
+    {
+      "id": "g1-91d1",
+      "character": "金",
+      "grade": 1,
+      "koreanReading": "금",
+      "koreanMeanings": [
+        "쇠"
+      ],
+      "onyomi": [
+        "キン"
+      ],
+      "kunyomi": [
+        "かね"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 8,
+      "lessonOrder": 5,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E9%87%91&oldid=4390168"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "キン",
+        "コン",
+        "ゴン"
+      ],
+      "allKunyomi": [
+        "かね",
+        "かな",
+        "がね"
+      ],
+      "meaningTags": [
+        "gold"
+      ]
+    },
+    {
+      "id": "g1-767e",
+      "character": "百",
+      "grade": 1,
+      "koreanReading": "백",
+      "koreanMeanings": [
+        "백"
+      ],
+      "onyomi": [
+        "ヒャク"
+      ],
+      "kunyomi": [],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 9,
+      "lessonOrder": 1,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E7%99%BE&oldid=4390009"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "ヒャク",
+        "ビャク"
+      ],
+      "allKunyomi": [
+        "もも"
+      ],
+      "meaningTags": [
+        "hundred"
+      ]
+    },
+    {
+      "id": "g1-5343",
+      "character": "千",
+      "grade": 1,
+      "koreanReading": "천",
+      "koreanMeanings": [
+        "천"
+      ],
+      "onyomi": [
+        "セン"
+      ],
+      "kunyomi": [],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 9,
+      "lessonOrder": 2,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E5%8D%83&oldid=4390031"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "セン"
+      ],
+      "allKunyomi": [
+        "ち"
+      ],
+      "meaningTags": [
+        "thousand"
+      ]
+    },
+    {
+      "id": "g1-672c",
+      "character": "本",
+      "grade": 1,
+      "koreanReading": "본",
+      "koreanMeanings": [
+        "근본"
+      ],
+      "onyomi": [
+        "ホン"
+      ],
+      "kunyomi": [
+        "もと"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 9,
+      "lessonOrder": 3,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E6%9C%AC&oldid=4389968"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "ホン"
+      ],
+      "allKunyomi": [
+        "もと"
+      ],
+      "meaningTags": [
+        "book",
+        "present",
+        "main",
+        "origin",
+        "true",
+        "real",
+        "counter for long cylindrical things"
+      ]
+    },
+    {
+      "id": "g1-540d",
+      "character": "名",
+      "grade": 1,
+      "koreanReading": "명",
+      "koreanMeanings": [
+        "이름"
+      ],
+      "onyomi": [
+        "メイ"
+      ],
+      "kunyomi": [
+        "な"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 9,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E5%90%8D&oldid=4389972"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "メイ",
+        "ミョウ"
+      ],
+      "allKunyomi": [
+        "な"
+      ],
+      "meaningTags": [
+        "name",
+        "noted",
+        "distinguished",
+        "reputation"
+      ]
+    },
+    {
+      "id": "g1-6587",
+      "character": "文",
+      "grade": 1,
+      "koreanReading": "문",
+      "koreanMeanings": [
+        "글월"
+      ],
+      "onyomi": [
+        "ブン"
+      ],
+      "kunyomi": [],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 9,
+      "lessonOrder": 5,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E6%96%87&oldid=4390148"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "ブン",
+        "モン"
+      ],
+      "allKunyomi": [
+        "ふみ",
+        "あや"
+      ],
+      "meaningTags": [
+        "sentence",
+        "literature",
+        "style",
+        "art",
+        "decoration",
+        "figures",
+        "plan",
+        "literary radical (no. 67)"
+      ]
+    },
+    {
+      "id": "g1-5b57",
+      "character": "字",
+      "grade": 1,
+      "koreanReading": "자",
+      "koreanMeanings": [
+        "글"
+      ],
+      "onyomi": [
+        "ジ"
+      ],
+      "kunyomi": [],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 10,
+      "lessonOrder": 1,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E5%AD%97&oldid=4389991"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "ジ"
+      ],
+      "allKunyomi": [
+        "あざ",
+        "あざな",
+        "な"
+      ],
+      "meaningTags": [
+        "character",
+        "letter",
+        "word",
+        "section of village"
+      ]
+    },
+    {
+      "id": "g1-5b66",
+      "character": "学",
+      "grade": 1,
+      "koreanReading": "학",
+      "koreanMeanings": [
+        "배우다"
+      ],
+      "onyomi": [
+        "ガク"
+      ],
+      "kunyomi": [
+        "まなぶ"
+      ],
+      "examples": [
+        {
+          "word": "学校",
+          "reading": "がっこう",
+          "meaningKo": "학교"
+        },
+        {
+          "word": "学生",
+          "reading": "がくせい",
+          "meaningKo": "학생"
+        }
+      ],
+      "koreanConnections": [
+        {
+          "wordKo": "학교",
+          "hanja": "學校"
+        },
+        {
+          "wordKo": "학생",
+          "hanja": "學生"
+        }
+      ],
+      "lessonId": 10,
+      "lessonOrder": 2,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E5%AD%B8&oldid=4389887"
+        },
+        {
+          "label": "위키낱말사전: 学校 / がっこう / 학교",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E6%A0%A1&oldid=4390546"
+        },
+        {
+          "label": "위키낱말사전: 学生 / がくせい / 학생",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E7%94%9F&oldid=4389880"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "japaneseCharacter": "学",
+      "traditionalCharacter": "學",
+      "koreanHanja": "學",
+      "allOnyomi": [
+        "ガク"
+      ],
+      "allKunyomi": [
+        "まなぶ"
+      ],
+      "meaningTags": [
+        "study",
+        "learning",
+        "science"
+      ]
+    },
+    {
+      "id": "g1-751f",
+      "character": "生",
+      "grade": 1,
+      "koreanReading": "생",
+      "koreanMeanings": [
+        "나다"
+      ],
+      "onyomi": [
+        "セイ",
+        "ショウ"
+      ],
+      "kunyomi": [
+        "いきる",
+        "うまれる"
+      ],
+      "examples": [
+        {
+          "word": "学生",
+          "reading": "がくせい",
+          "meaningKo": "학생"
+        },
+        {
+          "word": "先生",
+          "reading": "せんせい",
+          "meaningKo": "선생"
+        }
+      ],
+      "koreanConnections": [
+        {
+          "wordKo": "학생",
+          "hanja": "學生"
+        }
+      ],
+      "lessonId": 10,
+      "lessonOrder": 3,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E7%94%9F&oldid=4389880"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "セイ",
+        "ショウ"
+      ],
+      "allKunyomi": [
+        "いきる",
+        "いかす",
+        "いける",
+        "うまれる",
+        "うまれ",
+        "うむ",
+        "おう",
+        "はえる",
+        "はやす",
+        "き",
+        "なま",
+        "なる",
+        "なす",
+        "むす",
+        "う"
+      ],
+      "meaningTags": [
+        "life",
+        "genuine",
+        "birth"
+      ]
+    },
+    {
+      "id": "g1-6821",
+      "character": "校",
+      "grade": 1,
+      "koreanReading": "교",
+      "koreanMeanings": [
+        "학교"
+      ],
+      "onyomi": [
+        "コウ"
+      ],
+      "kunyomi": [],
+      "examples": [
+        {
+          "word": "学校",
+          "reading": "がっこう",
+          "meaningKo": "학교"
+        }
+      ],
+      "koreanConnections": [
+        {
+          "wordKo": "학교",
+          "hanja": "學校"
+        }
+      ],
+      "lessonId": 10,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E6%A0%A1&oldid=4390546"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "コウ",
+        "キョウ"
+      ],
+      "allKunyomi": [],
+      "meaningTags": [
+        "exam",
+        "school",
+        "printing",
+        "proof",
+        "correction"
+      ]
+    },
+    {
+      "id": "g1-5148",
+      "character": "先",
+      "grade": 1,
+      "koreanReading": "선",
+      "koreanMeanings": [
+        "먼저"
+      ],
+      "onyomi": [
+        "セン"
+      ],
+      "kunyomi": [
+        "さき"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 10,
+      "lessonOrder": 5,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E5%85%88&oldid=4390539"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "セン"
+      ],
+      "allKunyomi": [
+        "さき",
+        "まず"
+      ],
+      "meaningTags": [
+        "before",
+        "ahead",
+        "previous",
+        "future",
+        "precedence"
+      ]
+    },
+    {
+      "id": "g1-5e74",
+      "character": "年",
+      "grade": 1,
+      "koreanReading": "년",
+      "koreanMeanings": [
+        "해"
+      ],
+      "onyomi": [
+        "ネン"
+      ],
+      "kunyomi": [
+        "とし"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 11,
+      "lessonOrder": 1,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E5%B9%B4&oldid=4389885"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "ネン"
+      ],
+      "allKunyomi": [
+        "とし"
+      ],
+      "meaningTags": [
+        "year",
+        "counter for years"
+      ]
+    },
+    {
+      "id": "g1-4f11",
+      "character": "休",
+      "grade": 1,
+      "koreanReading": "휴",
+      "koreanMeanings": [
+        "쉬다"
+      ],
+      "onyomi": [
+        "キュウ"
+      ],
+      "kunyomi": [
+        "やすむ"
+      ],
+      "examples": [
+        {
+          "word": "休日",
+          "reading": "きゅうじつ",
+          "meaningKo": "휴일"
+        },
+        {
+          "word": "連休",
+          "reading": "れんきゅう",
+          "meaningKo": "연휴"
+        }
+      ],
+      "koreanConnections": [
+        {
+          "wordKo": "휴일",
+          "hanja": "休日"
+        },
+        {
+          "wordKo": "연휴",
+          "hanja": "連休"
+        }
+      ],
+      "lessonId": 11,
+      "lessonOrder": 2,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E4%BC%91&oldid=4389951"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "キュウ"
+      ],
+      "allKunyomi": [
+        "やすむ",
+        "やすまる",
+        "やすめる"
+      ],
+      "meaningTags": [
+        "rest",
+        "day off",
+        "retire",
+        "sleep"
+      ]
+    },
+    {
+      "id": "g1-5165",
+      "character": "入",
+      "grade": 1,
+      "koreanReading": "입",
+      "koreanMeanings": [
+        "들어가다"
+      ],
+      "onyomi": [
+        "ニュウ"
+      ],
+      "kunyomi": [
+        "はいる",
+        "いれる"
+      ],
+      "examples": [
+        {
+          "word": "入口",
+          "reading": "いりぐち",
+          "meaningKo": "입구"
+        },
+        {
+          "word": "入る",
+          "reading": "はいる",
+          "meaningKo": "들어가다"
+        }
+      ],
+      "koreanConnections": [
+        {
+          "wordKo": "입구",
+          "hanja": "入口"
+        }
+      ],
+      "lessonId": 11,
+      "lessonOrder": 3,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E5%85%A5&oldid=4426300"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "ニュウ",
+        "ジュ"
+      ],
+      "allKunyomi": [
+        "いる",
+        "いり",
+        "いれる",
+        "いれ",
+        "はいる"
+      ],
+      "meaningTags": [
+        "enter",
+        "insert"
+      ]
+    },
+    {
+      "id": "g1-51fa",
+      "character": "出",
+      "grade": 1,
+      "koreanReading": "출",
+      "koreanMeanings": [
+        "나다"
+      ],
+      "onyomi": [
+        "シュツ"
+      ],
+      "kunyomi": [
+        "でる",
+        "だす"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 11,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E5%87%BA&oldid=4389969"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "シュツ",
+        "スイ"
+      ],
+      "allKunyomi": [
+        "でる",
+        "で",
+        "だす",
+        "いでる",
+        "いだす"
+      ],
+      "meaningTags": [
+        "exit",
+        "leave",
+        "go out",
+        "come out",
+        "put out",
+        "protrude"
+      ]
+    },
+    {
+      "id": "g1-7acb",
+      "character": "立",
+      "grade": 1,
+      "koreanReading": "립",
+      "koreanMeanings": [
+        "서다"
+      ],
+      "onyomi": [
+        "リツ"
+      ],
+      "kunyomi": [
+        "たつ"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 11,
+      "lessonOrder": 5,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E7%AB%8B&oldid=4389959"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "リツ",
+        "リュウ",
+        "リットル"
+      ],
+      "allKunyomi": [
+        "たつ",
+        "たち",
+        "たてる",
+        "たて",
+        "だて",
+        "だてる"
+      ],
+      "meaningTags": [
+        "stand up",
+        "rise",
+        "set up",
+        "erect"
+      ]
+    },
+    {
+      "id": "g1-65e9",
+      "character": "早",
+      "grade": 1,
+      "koreanReading": "조",
+      "koreanMeanings": [
+        "일찍"
+      ],
+      "onyomi": [
+        "ソウ"
+      ],
+      "kunyomi": [
+        "はやい"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 12,
+      "lessonOrder": 1,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E6%97%A9&oldid=4389987"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "ソウ",
+        "サッ"
+      ],
+      "allKunyomi": [
+        "はやい",
+        "はや",
+        "はやまる",
+        "はやめる",
+        "さ"
+      ],
+      "meaningTags": [
+        "early",
+        "fast"
+      ]
+    },
+    {
+      "id": "g1-6b63",
+      "character": "正",
+      "grade": 1,
+      "koreanReading": "정",
+      "koreanMeanings": [
+        "바를"
+      ],
+      "onyomi": [
+        "セイ",
+        "ショウ"
+      ],
+      "kunyomi": [
+        "ただしい"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 12,
+      "lessonOrder": 2,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E6%AD%A3&oldid=4390197"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "セイ",
+        "ショウ"
+      ],
+      "allKunyomi": [
+        "ただしい",
+        "ただす",
+        "まさ",
+        "まさに"
+      ],
+      "meaningTags": [
+        "correct",
+        "justice",
+        "righteous",
+        "10**40"
+      ]
+    },
+    {
+      "id": "g1-6c17",
+      "character": "気",
+      "grade": 1,
+      "koreanReading": "기",
+      "koreanMeanings": [
+        "기운"
+      ],
+      "onyomi": [
+        "キ"
+      ],
+      "kunyomi": [],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 12,
+      "lessonOrder": 3,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E6%B0%A3&oldid=4393295"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "japaneseCharacter": "気",
+      "traditionalCharacter": "氣",
+      "koreanHanja": "氣",
+      "allOnyomi": [
+        "キ",
+        "ケ"
+      ],
+      "allKunyomi": [
+        "いき",
+        "き"
+      ],
+      "meaningTags": [
+        "spirit",
+        "mind",
+        "air",
+        "atmosphere",
+        "mood"
+      ]
+    },
+    {
+      "id": "g1-7a7a",
+      "character": "空",
+      "grade": 1,
+      "koreanReading": "공",
+      "koreanMeanings": [
+        "비다"
+      ],
+      "onyomi": [
+        "クウ"
+      ],
+      "kunyomi": [
+        "そら"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 12,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E7%A9%BA&oldid=4393526"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "クウ"
+      ],
+      "allKunyomi": [
+        "そら",
+        "あく",
+        "あき",
+        "あける",
+        "から",
+        "すく",
+        "すかす",
+        "むなしい"
+      ],
+      "meaningTags": [
+        "empty",
+        "sky",
+        "void",
+        "vacant",
+        "vacuum"
+      ]
+    },
+    {
+      "id": "g1-96e8",
+      "character": "雨",
+      "grade": 1,
+      "koreanReading": "우",
+      "koreanMeanings": [
+        "비"
+      ],
+      "onyomi": [
+        "ウ"
+      ],
+      "kunyomi": [
+        "あめ"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 12,
+      "lessonOrder": 5,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E9%9B%A8&oldid=4389868"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "ウ"
+      ],
+      "allKunyomi": [
+        "あめ",
+        "あま",
+        "さめ"
+      ],
+      "meaningTags": [
+        "rain"
+      ]
+    },
+    {
+      "id": "g1-9752",
+      "character": "青",
+      "grade": 1,
+      "koreanReading": "청",
+      "koreanMeanings": [
+        "푸르다"
+      ],
+      "onyomi": [
+        "セイ"
+      ],
+      "kunyomi": [
+        "あおい"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 13,
+      "lessonOrder": 1,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E9%9D%92&oldid=4390018"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "セイ",
+        "ショウ"
+      ],
+      "allKunyomi": [
+        "あお",
+        "あおい"
+      ],
+      "meaningTags": [
+        "blue",
+        "green"
+      ]
+    },
+    {
+      "id": "g1-8d64",
+      "character": "赤",
+      "grade": 1,
+      "koreanReading": "적",
+      "koreanMeanings": [
+        "붉다"
+      ],
+      "onyomi": [
+        "セキ"
+      ],
+      "kunyomi": [
+        "あかい"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 13,
+      "lessonOrder": 2,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E8%B5%A4&oldid=4390377"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "セキ",
+        "シャク"
+      ],
+      "allKunyomi": [
+        "あか",
+        "あかい",
+        "あからむ",
+        "あからめる"
+      ],
+      "meaningTags": [
+        "red"
+      ]
+    },
+    {
+      "id": "g1-767d",
+      "character": "白",
+      "grade": 1,
+      "koreanReading": "백",
+      "koreanMeanings": [
+        "희다"
+      ],
+      "onyomi": [
+        "ハク"
+      ],
+      "kunyomi": [
+        "しろい"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 13,
+      "lessonOrder": 3,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E7%99%BD&oldid=4390006"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "ハク",
+        "ビャク"
+      ],
+      "allKunyomi": [
+        "しろ",
+        "しら",
+        "しろい"
+      ],
+      "meaningTags": [
+        "white"
+      ]
+    },
+    {
+      "id": "g1-6751",
+      "character": "村",
+      "grade": 1,
+      "koreanReading": "촌",
+      "koreanMeanings": [
+        "마을"
+      ],
+      "onyomi": [
+        "ソン"
+      ],
+      "kunyomi": [
+        "むら"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 13,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E6%9D%91&oldid=4390222"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "ソン"
+      ],
+      "allKunyomi": [
+        "むら"
+      ],
+      "meaningTags": [
+        "village",
+        "town"
+      ]
+    },
+    {
+      "id": "g1-6797",
+      "character": "林",
+      "grade": 1,
+      "koreanReading": "림",
+      "koreanMeanings": [
+        "수풀"
+      ],
+      "onyomi": [
+        "リン"
+      ],
+      "kunyomi": [
+        "はやし"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 13,
+      "lessonOrder": 5,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E6%9E%97&oldid=4389970"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "リン"
+      ],
+      "allKunyomi": [
+        "はやし"
+      ],
+      "meaningTags": [
+        "grove",
+        "forest"
+      ]
+    },
+    {
+      "id": "g1-68ee",
+      "character": "森",
+      "grade": 1,
+      "koreanReading": "삼",
+      "koreanMeanings": [
+        "숲"
+      ],
+      "onyomi": [
+        "シン"
+      ],
+      "kunyomi": [
+        "もり"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 14,
+      "lessonOrder": 1,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E6%A3%AE&oldid=4389971"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "シン"
+      ],
+      "allKunyomi": [
+        "もり"
+      ],
+      "meaningTags": [
+        "forest",
+        "woods"
+      ]
+    },
+    {
+      "id": "g1-82b1",
+      "character": "花",
+      "grade": 1,
+      "koreanReading": "화",
+      "koreanMeanings": [
+        "꽃"
+      ],
+      "onyomi": [
+        "カ"
+      ],
+      "kunyomi": [
+        "はな"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 14,
+      "lessonOrder": 2,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E8%8A%B1&oldid=4390183"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "カ",
+        "ケ"
+      ],
+      "allKunyomi": [
+        "はな"
+      ],
+      "meaningTags": [
+        "flower"
+      ]
+    },
+    {
+      "id": "g1-8349",
+      "character": "草",
+      "grade": 1,
+      "koreanReading": "초",
+      "koreanMeanings": [
+        "풀"
+      ],
+      "onyomi": [
+        "ソウ"
+      ],
+      "kunyomi": [
+        "くさ"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 14,
+      "lessonOrder": 3,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E8%8D%89&oldid=4389988"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "ソウ"
+      ],
+      "allKunyomi": [
+        "くさ",
+        "ぐさ"
+      ],
+      "meaningTags": [
+        "grass",
+        "weeds",
+        "herbs",
+        "pasture",
+        "write",
+        "draft"
+      ]
+    },
+    {
+      "id": "g1-7af9",
+      "character": "竹",
+      "grade": 1,
+      "koreanReading": "죽",
+      "koreanMeanings": [
+        "대나무"
+      ],
+      "onyomi": [
+        "チク"
+      ],
+      "kunyomi": [
+        "たけ"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 14,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E7%AB%B9&oldid=4390205"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "チク"
+      ],
+      "allKunyomi": [
+        "たけ"
+      ],
+      "meaningTags": [
+        "bamboo"
+      ]
+    },
+    {
+      "id": "g1-7cf8",
+      "character": "糸",
+      "grade": 1,
+      "koreanReading": "사",
+      "koreanMeanings": [
+        "실"
+      ],
+      "onyomi": [
+        "シ"
+      ],
+      "kunyomi": [
+        "いと"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 14,
+      "lessonOrder": 5,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E7%B5%B2&oldid=4032150"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "japaneseCharacter": "糸",
+      "traditionalCharacter": "絲",
+      "koreanHanja": "絲",
+      "allOnyomi": [
+        "シ"
+      ],
+      "allKunyomi": [
+        "いと"
+      ],
+      "meaningTags": [
+        "thread"
+      ]
+    },
+    {
+      "id": "g1-866b",
+      "character": "虫",
+      "grade": 1,
+      "koreanReading": "충",
+      "koreanMeanings": [
+        "벌레"
+      ],
+      "onyomi": [
+        "チュウ"
+      ],
+      "kunyomi": [
+        "むし"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 15,
+      "lessonOrder": 1,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E8%9F%B2&oldid=4389962"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "japaneseCharacter": "虫",
+      "traditionalCharacter": "蟲",
+      "koreanHanja": "蟲",
+      "allOnyomi": [
+        "チュウ",
+        "キ"
+      ],
+      "allKunyomi": [
+        "むし"
+      ],
+      "meaningTags": [
+        "insect",
+        "bug",
+        "temper"
+      ]
+    },
+    {
+      "id": "g1-72ac",
+      "character": "犬",
+      "grade": 1,
+      "koreanReading": "견",
+      "koreanMeanings": [
+        "개"
+      ],
+      "onyomi": [
+        "ケン"
+      ],
+      "kunyomi": [
+        "いぬ"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 15,
+      "lessonOrder": 2,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E7%8A%AC&oldid=4390579"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "ケン"
+      ],
+      "allKunyomi": [
+        "いぬ"
+      ],
+      "meaningTags": [
+        "dog"
+      ]
+    },
+    {
+      "id": "g1-8c9d",
+      "character": "貝",
+      "grade": 1,
+      "koreanReading": "패",
+      "koreanMeanings": [
+        "조개"
+      ],
+      "onyomi": [
+        "バイ"
+      ],
+      "kunyomi": [
+        "かい"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 15,
+      "lessonOrder": 3,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E8%B2%9D&oldid=4389996"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "バイ"
+      ],
+      "allKunyomi": [
+        "かい"
+      ],
+      "meaningTags": [
+        "shellfish"
+      ]
+    },
+    {
+      "id": "g1-8db3",
+      "character": "足",
+      "grade": 1,
+      "koreanReading": "족",
+      "koreanMeanings": [
+        "발"
+      ],
+      "onyomi": [
+        "ソク"
+      ],
+      "kunyomi": [
+        "あし"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 15,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E8%B6%B3&oldid=4390194"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "ソク"
+      ],
+      "allKunyomi": [
+        "あし",
+        "たりる",
+        "たる",
+        "たす"
+      ],
+      "meaningTags": [
+        "leg",
+        "foot",
+        "be sufficient",
+        "counter for pairs of footwear"
+      ]
+    },
+    {
+      "id": "g1-8eca",
+      "character": "車",
+      "grade": 1,
+      "koreanReading": "차",
+      "koreanMeanings": [
+        "수레"
+      ],
+      "onyomi": [
+        "シャ"
+      ],
+      "kunyomi": [
+        "くるま"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 15,
+      "lessonOrder": 5,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E8%BB%8A&oldid=4390022"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "シャ"
+      ],
+      "allKunyomi": [
+        "くるま"
+      ],
+      "meaningTags": [
+        "car"
+      ]
+    },
+    {
+      "id": "g1-5915",
+      "character": "夕",
+      "grade": 1,
+      "koreanReading": "석",
+      "koreanMeanings": [
+        "저녁"
+      ],
+      "onyomi": [
+        "セキ"
+      ],
+      "kunyomi": [
+        "ゆう"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 16,
+      "lessonOrder": 1,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E5%A4%95&oldid=4390173"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "セキ"
+      ],
+      "allKunyomi": [
+        "ゆう"
+      ],
+      "meaningTags": [
+        "evening"
+      ]
+    },
+    {
+      "id": "g1-97f3",
+      "character": "音",
+      "grade": 1,
+      "koreanReading": "음",
+      "koreanMeanings": [
+        "소리"
+      ],
+      "onyomi": [
+        "オン"
+      ],
+      "kunyomi": [
+        "おと"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 16,
+      "lessonOrder": 2,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E9%9F%B3&oldid=4389850"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "オン",
+        "イン",
+        "ノン"
+      ],
+      "allKunyomi": [
+        "おと",
+        "ね"
+      ],
+      "meaningTags": [
+        "sound",
+        "noise"
+      ]
+    },
+    {
+      "id": "g1-529b",
+      "character": "力",
+      "grade": 1,
+      "koreanReading": "력",
+      "koreanMeanings": [
+        "힘"
+      ],
+      "onyomi": [
+        "リョク"
+      ],
+      "kunyomi": [
+        "ちから"
+      ],
+      "examples": [
+        {
+          "word": "力",
+          "reading": "ちから",
+          "meaningKo": "힘"
+        }
+      ],
+      "koreanConnections": [],
+      "lessonId": 16,
+      "lessonOrder": 3,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E5%8A%9B&oldid=4426310"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "リョク",
+        "リキ",
+        "リイ"
+      ],
+      "allKunyomi": [
+        "ちから"
+      ],
+      "meaningTags": [
+        "power",
+        "strength",
+        "strong",
+        "strain",
+        "bear up",
+        "exert"
+      ]
+    },
+    {
+      "id": "g1-898b",
+      "character": "見",
+      "grade": 1,
+      "koreanReading": "견",
+      "koreanMeanings": [
+        "보다"
+      ],
+      "onyomi": [
+        "ケン"
+      ],
+      "kunyomi": [
+        "みる"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 16,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E8%A6%8B&oldid=4389992"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "ケン"
+      ],
+      "allKunyomi": [
+        "みる",
+        "みえる",
+        "みせる"
+      ],
+      "meaningTags": [
+        "see",
+        "hopes",
+        "chances",
+        "idea",
+        "opinion",
+        "look at",
+        "visible"
+      ]
+    },
+    {
+      "id": "g1-753a",
+      "character": "町",
+      "grade": 1,
+      "koreanReading": "정",
+      "koreanMeanings": [
+        "마을"
+      ],
+      "onyomi": [
+        "チョウ"
+      ],
+      "kunyomi": [
+        "まち"
+      ],
+      "examples": [
+        {
+          "word": "町",
+          "reading": "まち",
+          "meaningKo": "마을"
+        }
+      ],
+      "koreanConnections": [],
+      "lessonId": 16,
+      "lessonOrder": 5,
+      "references": [
+        {
+          "label": "KANJIDIC2: 학년·음독·훈독·한국 한자음",
+          "url": "https://www.edrdg.org/kanjidic/kanjidic2.xml.gz"
+        },
+        {
+          "label": "위키낱말사전: 뜻·한자음 (확인한 판)",
+          "url": "https://ko.wiktionary.org/w/index.php?title=%E7%94%BA&oldid=4390553"
+        }
+      ],
+      "verifiedAt": "2026-10-09",
+      "allOnyomi": [
+        "チョウ"
+      ],
+      "allKunyomi": [
+        "まち"
+      ],
+      "meaningTags": [
+        "town",
+        "village",
+        "block",
+        "street"
+      ]
+    }
+  ]
+}
