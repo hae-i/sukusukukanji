@@ -47,7 +47,7 @@ class HomeScreen extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              const Text('일본 초등학교 한자'),
+              Text(grade.schoolNameKo),
               const SizedBox(height: 16),
               Wrap(
                 spacing: 24,

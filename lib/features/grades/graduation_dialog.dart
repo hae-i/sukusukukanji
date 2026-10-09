@@ -54,7 +54,11 @@ class _GraduationDialogState extends State<GraduationDialog> {
               Text('${widget.grade.requiredKanjiCount}개의 한자를 만났어요.'),
               if (next != null) ...[
                 const SizedBox(height: 12),
-                Text('${next.stageNameKo}으로 자랐어요.\n${next.nameKo} 과정이 열렸어요.'),
+                Text(
+                  next.plantStage == widget.grade.plantStage
+                      ? '${next.nameKo} 과정이 열렸어요.'
+                      : '${next.stageNameKo}으로 자랐어요.\n${next.nameKo} 과정이 열렸어요.',
+                ),
                 if (next.contentAsset == null)
                   const Text('다음 학년 콘텐츠는 준비 중이에요.'),
               ],

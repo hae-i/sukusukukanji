@@ -3,15 +3,26 @@ import 'dart:convert';
 import 'package:flutter/services.dart';
 
 import '../models/content_fields.dart';
+import '../models/course_allocation.dart';
 import '../models/grade_theme.dart';
 import '../models/kanji.dart';
 
 class KanjiCatalog {
-  KanjiCatalog({required List<GradeTheme> grades, required List<Kanji> kanji})
-    : grades = List.unmodifiable(grades),
-      kanji = List.unmodifiable(kanji);
+  KanjiCatalog({
+    required List<GradeTheme> grades,
+    required List<Kanji> kanji,
+    Map<int, CourseAllocation> allocations = const {},
+  }) : grades = List.unmodifiable(grades),
+       kanji = List.unmodifiable(kanji),
+       allocations = Map.unmodifiable(allocations);
   final List<GradeTheme> grades;
   final List<Kanji> kanji;
+  final Map<int, CourseAllocation> allocations;
+  List<GradeTheme> get iconThemes {
+    final seen = <String>{};
+    return List.unmodifiable(grades.where((g) => seen.add(g.iconKey)));
+  }
+
   List<Kanji> forGrade(int grade) =>
       List.unmodifiable(kanji.where((k) => k.grade == grade));
 
@@ -54,14 +65,60 @@ class AssetKanjiRepository implements KanjiRepository {
     );
     if (grades.isEmpty) throw const FormatException('No grade metadata');
     final gradeIds = <int>{};
-    final iconKeys = <String>{};
+    final iconKeys = <String, GradeTheme>{};
+    final allocations = <int, CourseAllocation>{};
+    final allocationDocuments = <String, ContentFields>{};
+    final allocatedCharacters = <String>{};
     final ids = <String>{};
     final characters = <String>{};
     final positions = <String>{};
     final all = <Kanji>[];
     for (final grade in grades) {
-      if (!gradeIds.add(grade.grade) || !iconKeys.add(grade.iconKey)) {
-        throw FormatException('Duplicate grade or icon: ${grade.grade}');
+      if (!gradeIds.add(grade.grade)) {
+        throw FormatException('Duplicate grade: ${grade.grade}');
+      }
+      final previousIcon = iconKeys[grade.iconKey];
+      if (previousIcon != null &&
+          (grade.schoolLevel != SchoolLevel.middle ||
+              previousIcon.plantStage != grade.plantStage)) {
+        throw FormatException('Duplicate icon: ${grade.iconKey}');
+      }
+      iconKeys.putIfAbsent(grade.iconKey, () => grade);
+      final allocationPath = grade.allocationAsset;
+      if (allocationPath != null) {
+        if (!allocationPath.startsWith('assets/data/') ||
+            allocationPath.contains('..')) {
+          throw FormatException('Invalid allocation asset: $allocationPath');
+        }
+        final document = allocationDocuments[allocationPath] ??= _decode(
+          await _bundle.loadString(allocationPath),
+          allocationPath,
+        );
+        final courses = document.list(
+          'courses',
+          (v, p) => CourseAllocation.fromJson(
+            ContentFields.object(v, p),
+            document.json,
+            p,
+          ),
+        );
+        final matches = courses.where((c) => c.grade == grade.grade).toList();
+        if (matches.length != 1 ||
+            matches.single.characters.length != grade.requiredKanjiCount ||
+            matches.single.schoolYear != grade.schoolYear) {
+          throw FormatException(
+            '$allocationPath: allocation does not match grade ${grade.grade}',
+          );
+        }
+        final allocation = matches.single;
+        for (final character in allocation.characters) {
+          if (!allocatedCharacters.add(character)) {
+            throw FormatException(
+              '$allocationPath: repeated allocation $character',
+            );
+          }
+        }
+        allocations[grade.grade] = allocation;
       }
       final path = grade.contentAsset;
       if (path == null) continue;
@@ -98,7 +155,22 @@ class AssetKanjiRepository implements KanjiRepository {
     }
     final sortedGrades = grades.toList()
       ..sort((a, b) => a.grade.compareTo(b.grade));
-    return KanjiCatalog(grades: sortedGrades, kanji: all);
+    for (final item in all) {
+      final allocation = allocations[item.grade];
+      if ((allocation != null &&
+              !allocation.characters.contains(item.character)) ||
+          (allocation == null &&
+              allocatedCharacters.contains(item.character))) {
+        throw FormatException(
+          'Kanji ${item.id} conflicts with course allocation',
+        );
+      }
+    }
+    return KanjiCatalog(
+      grades: sortedGrades,
+      kanji: all,
+      allocations: allocations,
+    );
   }
 
   ContentFields _decode(String text, String path) {

@@ -92,3 +92,9 @@ SQLite schema v1:
 `UserProgress.favoriteKanjiIds`는 별도 ID 집합이며 SQLite v2의 `kanji_favorite` 테이블에 저장합니다. v1→v2는 새 테이블만 추가합니다. 즐겨찾기 변경도 ProgressRepository의 동일 트랜잭션을 사용하고, 학습·학년 상태를 유지합니다. `FavoriteButton`은 저장 중 중복 탭을 막고 실패를 알립니다.
 
 추가 교육한자 1,026자의 출처 카탈로그는 docs/content에만 있습니다. 한국어 학습 정보의 추가 검증 없이 런타임에 연결하거나 source 영어 뜻을 한국어 뜻으로 대체하지 않습니다.
+
+## School levels and course allocation
+
+Existing elementary progress IDs 1–6 are unchanged. Middle-school course IDs 7–9 have explicit `schoolLevel: middle` and `schoolYear: 1–3`, so KANJIDIC2 dictionary grade=8 is never interpreted as a school year. `allocationAsset` loads an immutable `CourseAllocation`, separate from the `Kanji` learning list. Allocations carry their own provenance and are validated for count, year, unique characters and conflicts with loaded learning content.
+
+Grades 7–9 reuse the grade6 tree icon. `KanjiCatalog.iconThemes` deduplicates icon options and reward dialogs; progression still follows the full ordered course list. No new native icons or plant stages were invented. Course previews can be opened while locked, but previewing cannot create sessions, progress records or graduations. Actual lesson assets must be supplied after content review; only then can the existing GradePolicy count learned characters.

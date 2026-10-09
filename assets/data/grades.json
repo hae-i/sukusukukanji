@@ -49,6 +49,39 @@
       "stageNameKo": "완성된 나무",
       "iconKey": "grade6",
       "requiredKanjiCount": 191
+    },
+    {
+      "grade": 7,
+      "schoolLevel": "middle",
+      "schoolYear": 1,
+      "nameKo": "중학교 1학년",
+      "plantStage": "fullTree",
+      "stageNameKo": "완성된 나무",
+      "iconKey": "grade6",
+      "requiredKanjiCount": 350,
+      "allocationAsset": "assets/data/middle-school-allocation.json"
+    },
+    {
+      "grade": 8,
+      "schoolLevel": "middle",
+      "schoolYear": 2,
+      "nameKo": "중학교 2학년",
+      "plantStage": "fullTree",
+      "stageNameKo": "완성된 나무",
+      "iconKey": "grade6",
+      "requiredKanjiCount": 400,
+      "allocationAsset": "assets/data/middle-school-allocation.json"
+    },
+    {
+      "grade": 9,
+      "schoolLevel": "middle",
+      "schoolYear": 3,
+      "nameKo": "중학교 3학년",
+      "plantStage": "fullTree",
+      "stageNameKo": "완성된 나무",
+      "iconKey": "grade6",
+      "requiredKanjiCount": 360,
+      "allocationAsset": "assets/data/middle-school-allocation.json"
     }
   ]
 }

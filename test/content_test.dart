@@ -35,6 +35,9 @@ void main() {
       bundle: JsonBundle({
         'assets/data/grades.json': metadata,
         'assets/data/kanji/grade1.json': content,
+        'assets/data/middle-school-allocation.json': jsonDecode(
+          File('assets/data/middle-school-allocation.json').readAsStringSync(),
+        ),
       }),
     );
   });
@@ -48,7 +51,7 @@ void main() {
         '一二三四五六七八九十',
       );
       expect(catalog.kanji.length, 80);
-      expect(catalog.grades.length, 6);
+      expect(catalog.grades.length, 9);
       expect(catalog.grades.first.requiredKanjiCount, 80);
       expect(
         catalog.kanji.every(

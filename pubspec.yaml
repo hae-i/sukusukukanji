@@ -24,6 +24,7 @@ flutter:
     - assets/fonts/Pretendard-OFL.txt
     - assets/icons/
     - assets/data/grades.json
+    - assets/data/middle-school-allocation.json
     - assets/data/kanji/grade1.json
   fonts:
     - family: Pretendard

@@ -44,7 +44,7 @@ class AppController extends ChangeNotifier {
   static const planner = SessionPlanner();
   static const gradePolicy = GradePolicy();
   static const iconPolicy = IconPolicy();
-  List<GradeTheme> get pendingIconRewards => catalog!.grades
+  List<GradeTheme> get pendingIconRewards => catalog!.iconThemes
       .skip(1)
       .where(
         (g) =>

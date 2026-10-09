@@ -40,7 +40,7 @@ class IconSelectionScreen extends StatelessWidget {
             const Text('한 학년씩 자라며 새로운 아이콘이 열려요.\n해금한 아이콘은 직접 골라 사용할 수 있어요.'),
             const SizedBox(height: 24),
             if (controller.iconError != null) Text(controller.iconError!),
-            for (final grade in controller.catalog!.grades) ...[
+            for (final grade in controller.catalog!.iconThemes) ...[
               Card(
                 child: ListTile(
                   contentPadding: const EdgeInsets.all(16),
