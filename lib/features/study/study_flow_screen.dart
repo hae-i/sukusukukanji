@@ -26,20 +26,48 @@ class StudyFlowScreen extends StatefulWidget {
 
 class _StudyFlowScreenState extends State<StudyFlowScreen> {
   late final SessionController _controller;
+  bool _completionAdRequested = false;
+  bool _completionAdPending = false;
   @override
   void initState() {
     super.initState();
     _controller = SessionController(widget.session, save: widget.onSave);
+    _controller.addListener(_onSessionChanged);
+  }
+
+  void _onSessionChanged() {
+    if (_controller.stage != SessionStage.result ||
+        _completionAdRequested ||
+        widget.appController == null) {
+      return;
+    }
+    _completionAdRequested = true;
+    _completionAdPending = true;
+    WidgetsBinding.instance.addPostFrameCallback((_) async {
+      try {
+        if (mounted &&
+            (ModalRoute.of(context)?.isCurrent ?? false) &&
+            WidgetsBinding.instance.lifecycleState ==
+                AppLifecycleState.resumed) {
+          await widget.appController!.showCompletionAd(widget.session);
+        }
+      } finally {
+        if (mounted) setState(() => _completionAdPending = false);
+      }
+    });
   }
 
   @override
   void dispose() {
+    _controller.removeListener(_onSessionChanged);
     _controller.dispose();
     super.dispose();
   }
 
   Future<void> _leave() async {
-    if (_controller.stage == SessionStage.saving) return;
+    if (_controller.stage == SessionStage.saving || _completionAdPending) {
+      return;
+    }
     final leave = await showDialog<bool>(
       context: context,
       builder: (context) => AlertDialog(
@@ -66,7 +94,7 @@ class _StudyFlowScreenState extends State<StudyFlowScreen> {
     builder: (context, _) {
       final stage = _controller.stage;
       return PopScope(
-        canPop: stage == SessionStage.result,
+        canPop: stage == SessionStage.result && !_completionAdPending,
         onPopInvokedWithResult: (didPop, result) {
           if (!didPop) _leave();
         },
@@ -156,13 +184,17 @@ class _StudyFlowScreenState extends State<StudyFlowScreen> {
                           const Text('같은 한자의 복습을 2회 연속 모두 맞히면 복습 목록에서 빠져요.'),
                         const SizedBox(height: 24),
                         FilledButton(
-                          onPressed: () => Navigator.pop(context, false),
+                          onPressed: _completionAdPending
+                              ? null
+                              : () => Navigator.pop(context, false),
                           child: const Text('오늘은 여기까지'),
                         ),
                         if (widget.canReview?.call() ??
                             _controller.completed!.wrongKanjiIds.isNotEmpty)
                           TextButton(
-                            onPressed: () => Navigator.pop(context, true),
+                            onPressed: _completionAdPending
+                                ? null
+                                : () => Navigator.pop(context, true),
                             child: const Text('한 번 더 복습하기'),
                           ),
                       ],

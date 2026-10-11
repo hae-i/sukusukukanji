@@ -59,7 +59,7 @@ flutter test
 flutter build bundle --target-platform=linux-x64 --debug --no-pub
 ```
 
-통계 비활성화는 Dart/Flutter 도구가 읽기 전용 홈에 파일을 만들지 않도록 합니다. 현재 환경에서는 Android SDK가 없어 Linux 대상의 코드·asset 번들만 확인할 수 있습니다. Linux 앱을 제품 대상으로 추가한 것은 아닙니다. SQLite FFI 테스트의 native hook에도 `DASH__SUPPRESS_ANALYTICS`가 필요합니다. SDK·패키지 다운로드와 테스트 VM 로컬 소켓은 실행 도구의 네트워크 권한이 필요하지만, 앱은 런타임 네트워크 요청을 하지 않습니다.
+통계 비활성화는 Dart/Flutter 도구가 읽기 전용 홈에 파일을 만들지 않도록 합니다. 현재 환경에서는 Android SDK가 없어 Linux 대상의 코드·asset 번들만 확인할 수 있습니다. Linux 앱을 제품 대상으로 추가한 것은 아닙니다. SQLite FFI 테스트의 native hook에도 `DASH__SUPPRESS_ANALYTICS`가 필요합니다. SDK·패키지 다운로드와 테스트 VM 로컬 소켓은 실행 도구의 네트워크 권한이 필요하지만, 한자 콘텐츠·기록은 오프라인이며, AdMob 광고를 활성화한 경우 광고 SDK는 네트워크를 사용합니다.
 
 ## 사용 규칙
 
@@ -154,3 +154,10 @@ python tool/collect_middle_school_kanji.py kanjidic2.xml.gz joyo.json
 ```
 
 `joyo.json`은 `https://kanjiapi.dev/v1/kanji/joyo` 응답입니다. 사전 파일은 EDRDG의 KANJIDIC2 원본을 사용합니다. 기존 배정이 달라지면 도구가 실패하므로 과정 버전과 진도 호환을 먼저 검토해야 합니다.
+
+
+## AdMob 준비
+
+하루 새 레슨 2개 무료, 보상형 광고 완료당 추가 레슨 이용권 1개, 신규 레슨 결과 저장 후 전면 광고, 탭 하단 적응형 배너를 연결했습니다. 복습은 무료이며 중단한 레슨은 재차감하지 않습니다. 보상 이용권으로 연 레슨에서는 전면 광고를 생략합니다. 광고 길이는 AdMob이 결정합니다.
+
+Android/iOS debug는 공식 테스트 광고, release는 명시적으로 설정하기 전까지 광고·횟수 제한이 꺼집니다. `flutter pub get` 후 앱을 완전히 재실행하세요. 실제 광고 ID, 동의 메시지, 플랫폼별 설정은 [AdMob 실행 안내](docs/admob.md)를 참고하세요. **초등 전체 해금 5,500원 결제는 아직 구현하지 않았으며**, 향후 구매 검증 결과를 연결할 경계만 준비했습니다. SQLite v3는 기존 기록을 유지하며 무료 횟수·이용권·중복 보상 방지를 저장합니다.

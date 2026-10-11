@@ -1,4 +1,8 @@
+import 'dart:convert';
+
 import 'package:sqflite/sqflite.dart';
+
+import '../models/learning_access.dart';
 
 import '../models/progress.dart';
 import '../repositories/user_repositories.dart';
@@ -27,7 +31,7 @@ class SqliteProgressRepository implements ProgressRepository {
     return _factory.openDatabase(
       dbPath,
       options: OpenDatabaseOptions(
-        version: 2,
+        version: 3,
         onCreate: (db, version) async {
           await db.execute(
             'CREATE TABLE user_progress (id INTEGER PRIMARY KEY CHECK(id = 1), current_grade INTEGER NOT NULL, streak INTEGER NOT NULL, last_study_date TEXT)',
@@ -49,6 +53,7 @@ class SqliteProgressRepository implements ProgressRepository {
           await db.execute(
             'CREATE TABLE committed_session (id TEXT PRIMARY KEY)',
           );
+          await _createAccess(db);
         },
         onUpgrade: (db, oldVersion, newVersion) async {
           if (oldVersion < 2) {
@@ -56,6 +61,7 @@ class SqliteProgressRepository implements ProgressRepository {
               'CREATE TABLE kanji_favorite (kanji_id TEXT PRIMARY KEY)',
             );
           }
+          if (oldVersion < 3) await _createAccess(db);
         },
         // Never silently delete user progress on a downgrade.
         onDowngrade: (db, oldVersion, newVersion) async {
@@ -75,7 +81,14 @@ class SqliteProgressRepository implements ProgressRepository {
     final grades = await db.query('grade_completion');
     final favorites = await db.query('kanji_favorite');
     final date = user['last_study_date'] as String?;
+    final access = await db.query('learning_access', where: 'id = 1');
+    if (access.length != 1) {
+      throw const FormatException('Missing learning access');
+    }
     return UserProgress(
+      learningAccess: LearningAccess.fromJson(
+        jsonDecode(access.single['state'] as String) as Map<String, dynamic>,
+      ),
       favoriteKanjiIds: favorites.map((r) => r['kanji_id'] as String).toSet(),
       currentGrade: user['current_grade'] as int,
       streak: user['streak'] as int,
@@ -122,6 +135,9 @@ class SqliteProgressRepository implements ProgressRepository {
         'streak': next.streak,
         'last_study_date': next.lastStudyDate?.toIso8601String(),
       }, where: 'id = 1');
+      await txn.update('learning_access', {
+        'state': jsonEncode(next.learningAccess.toJson()),
+      }, where: 'id = 1');
       // Small MVP snapshot in one transaction. No partial session can survive.
       await txn.delete('kanji_progress');
       for (final record in next.kanji.values) {
@@ -149,5 +165,15 @@ class SqliteProgressRepository implements ProgressRepository {
     final opening = _opening;
     if (opening != null) await (await opening).close();
     _opening = null;
+  }
+
+  Future<void> _createAccess(DatabaseExecutor db) async {
+    await db.execute(
+      'CREATE TABLE learning_access (id INTEGER PRIMARY KEY CHECK(id = 1), state TEXT NOT NULL)',
+    );
+    await db.insert('learning_access', {
+      'id': 1,
+      'state': jsonEncode(LearningAccess().toJson()),
+    });
   }
 }

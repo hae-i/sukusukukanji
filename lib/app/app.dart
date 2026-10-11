@@ -8,6 +8,7 @@ import '../data/repositories/user_repositories.dart';
 import '../features/onboarding/onboarding_screen.dart';
 import 'theme/app_theme.dart';
 import '../data/services/app_icon_service.dart';
+import '../features/ads/ad_service.dart';
 
 class SukuSukuApp extends StatefulWidget {
   const SukuSukuApp({
@@ -16,11 +17,13 @@ class SukuSukuApp extends StatefulWidget {
     required this.progressRepository,
     required this.settingsRepository,
     this.iconService,
+    this.ads,
   });
   final KanjiRepository repository;
   final ProgressRepository progressRepository;
   final SettingsRepository settingsRepository;
   final AppIconService? iconService;
+  final AdService? ads;
   @override
   State<SukuSukuApp> createState() => _SukuSukuAppState();
 }
@@ -35,6 +38,7 @@ class _SukuSukuAppState extends State<SukuSukuApp> {
       progress: widget.progressRepository,
       settings: widget.settingsRepository,
       iconService: widget.iconService,
+      ads: widget.ads,
     )..load();
   }
 

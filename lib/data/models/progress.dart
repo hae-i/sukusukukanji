@@ -1,3 +1,5 @@
+import 'learning_access.dart';
+
 enum KanjiMasteryStatus { newKanji, learning, familiar, mastered }
 
 /// Immutable learning records; review rules live in ProgressPolicy.
@@ -42,11 +44,14 @@ class UserProgress {
     Set<String> favoriteKanjiIds = const {},
     Set<int> completedGrades = const {},
     Set<int> seenGradeCelebrations = const {},
-  }) : kanji = Map.unmodifiable(kanji),
+    LearningAccess? learningAccess,
+  }) : learningAccess = learningAccess ?? LearningAccess(),
+       kanji = Map.unmodifiable(kanji),
        favoriteKanjiIds = Set.unmodifiable(favoriteKanjiIds),
        completedGrades = Set.unmodifiable(completedGrades),
        seenGradeCelebrations = Set.unmodifiable(seenGradeCelebrations);
   final int currentGrade;
+  final LearningAccess learningAccess;
   final int streak;
   final DateTime? lastStudyDate;
   final Map<String, KanjiProgress> kanji;
@@ -62,6 +67,7 @@ class UserProgress {
     Set<String>? favoriteKanjiIds,
     Set<int>? completedGrades,
     Set<int>? seenGradeCelebrations,
+    LearningAccess? learningAccess,
   }) => UserProgress(
     currentGrade: currentGrade ?? this.currentGrade,
     streak: streak ?? this.streak,
@@ -70,6 +76,7 @@ class UserProgress {
     favoriteKanjiIds: favoriteKanjiIds ?? this.favoriteKanjiIds,
     completedGrades: completedGrades ?? this.completedGrades,
     seenGradeCelebrations: seenGradeCelebrations ?? this.seenGradeCelebrations,
+    learningAccess: learningAccess ?? this.learningAccess,
   );
   int get totalLearned =>
       kanji.values.where((p) => p.firstStudiedAt != null).length;

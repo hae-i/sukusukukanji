@@ -8,6 +8,9 @@ import '../features/grades/graduation_dialog.dart';
 import '../features/app_icon/icon_unlock_dialog.dart';
 import 'app_controller.dart';
 import 'router.dart';
+import '../features/ads/ad_banner.dart';
+import '../features/ads/admob_service.dart';
+import '../features/ads/rewarded_lesson_dialog.dart';
 
 class AppShell extends StatefulWidget {
   const AppShell({super.key, required this.controller});
@@ -26,7 +29,10 @@ class _AppShellState extends State<AppShell> with WidgetsBindingObserver {
     super.initState();
     WidgetsBinding.instance.addObserver(this);
     WidgetsBinding.instance.addPostFrameCallback((_) {
-      if (mounted) _showGraduations();
+      if (mounted) {
+        widget.controller.ads.initialize();
+        _showGraduations();
+      }
     });
   }
 
@@ -78,6 +84,23 @@ class _AppShellState extends State<AppShell> with WidgetsBindingObserver {
     try {
       var repeat = review;
       do {
+        if (!repeat &&
+            lesson == null &&
+            widget.controller.nextLesson.isNotEmpty) {
+          var allowed = await widget.controller.prepareNextLesson();
+          if (!mounted) return;
+          if (!allowed && widget.controller.needsRewardForNextLesson) {
+            final earned = await showDialog<bool>(
+              context: context,
+              barrierDismissible: false,
+              builder: (_) =>
+                  RewardedLessonDialog(controller: widget.controller),
+            );
+            if (earned != true || !mounted) break;
+            allowed = await widget.controller.prepareNextLesson();
+          }
+          if (!allowed || !mounted) break;
+        }
         final session = lesson != null && !repeat
             ? widget.controller.startLessonReview(grade!, lesson)
             : widget.controller.start(review: repeat);
@@ -167,18 +190,30 @@ class _AppShellState extends State<AppShell> with WidgetsBindingObserver {
         ],
       ),
     ),
-    bottomNavigationBar: NavigationBar(
-      selectedIndex: _selectedTab,
-      onDestinationSelected: (index) => setState(() => _selectedTab = index),
-      destinations: const [
-        NavigationDestination(icon: Icon(Icons.home_outlined), label: '홈'),
-        NavigationDestination(
-          icon: Icon(Icons.menu_book_outlined),
-          label: '학습',
-        ),
-        NavigationDestination(
-          icon: Icon(Icons.grid_view_outlined),
-          label: '내 한자',
+    bottomNavigationBar: Column(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        if (widget.controller.showAds && widget.controller.ads is AdMobService)
+          SafeArea(
+            top: false,
+            bottom: false,
+            child: AdBanner(service: widget.controller.ads as AdMobService),
+          ),
+        NavigationBar(
+          selectedIndex: _selectedTab,
+          onDestinationSelected: (index) =>
+              setState(() => _selectedTab = index),
+          destinations: const [
+            NavigationDestination(icon: Icon(Icons.home_outlined), label: '홈'),
+            NavigationDestination(
+              icon: Icon(Icons.menu_book_outlined),
+              label: '학습',
+            ),
+            NavigationDestination(
+              icon: Icon(Icons.grid_view_outlined),
+              label: '내 한자',
+            ),
+          ],
         ),
       ],
     ),

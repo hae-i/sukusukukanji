@@ -7,6 +7,8 @@ import 'data/repositories/kanji_repository.dart';
 import 'data/services/app_icon_service.dart';
 import 'data/storage/sqlite_progress_repository.dart';
 import 'data/storage/preferences_settings_repository.dart';
+import 'features/ads/ad_config.dart';
+import 'features/ads/admob_service.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -24,6 +26,7 @@ void main() {
       progressRepository: SqliteProgressRepository(),
       settingsRepository: PreferencesSettingsRepository(),
       iconService: const PlatformAppIconService(),
+      ads: AdMobService(AdConfig.fromEnvironment()),
     ),
   );
 }

@@ -11,6 +11,9 @@ import '../data/services/icon_policy.dart';
 import '../data/services/app_icon_service.dart';
 import '../data/services/progress_policy.dart';
 import '../data/services/session_planner.dart';
+import '../data/services/learning_access_policy.dart';
+import '../data/services/course_entitlements.dart';
+import '../features/ads/ad_service.dart';
 
 enum AppStatus { loading, ready, error }
 
@@ -21,16 +24,117 @@ class AppController extends ChangeNotifier {
     required SettingsRepository settings,
     DateTime Function()? now,
     AppIconService? iconService,
+    AdService? ads,
+    CourseEntitlements? entitlements,
   }) : _contentRepository = content,
        _progressRepository = progress,
        _settingsRepository = settings,
        now = now ?? DateTime.now,
-       iconService = iconService ?? const UnsupportedAppIconService();
+       iconService = iconService ?? const UnsupportedAppIconService(),
+       ads = ads ?? AdService(),
+       entitlements = entitlements ?? CourseEntitlements(),
+       _ownsEntitlements = entitlements == null {
+    this.ads.addListener(_adsChanged);
+    this.entitlements.addListener(_adsChanged);
+  }
   final KanjiRepository _contentRepository;
   final ProgressRepository _progressRepository;
   final SettingsRepository _settingsRepository;
   final DateTime Function() now;
   final AppIconService iconService;
+  final AdService ads;
+  final CourseEntitlements entitlements;
+  final bool _ownsEntitlements;
+  final Set<String> _pendingRewards = {};
+  final Set<String> _adAttempts = {};
+  static const accessPolicy = LearningAccessPolicy();
+  bool get hasPendingReward => _pendingRewards.isNotEmpty;
+  bool get accessLimitsEnabled => ads.enabled;
+  bool get showAds =>
+      ads.enabled && !entitlements.removesAds(currentGrade.grade);
+  int get freeLessonsRemaining =>
+      accessPolicy.freeRemaining(progress.learningAccess, now());
+  String? get nextLessonKey {
+    final item = nextLesson.firstOrNull;
+    return item?.lessonId == null
+        ? null
+        : LearningAccessPolicy.lessonKey(item!.grade, item.lessonId!);
+  }
+
+  bool get needsRewardForNextLesson =>
+      accessLimitsEnabled &&
+      !entitlements.hasUnlimitedAccess(currentGrade.grade) &&
+      nextLessonKey != null &&
+      !accessPolicy.canOpen(progress.learningAccess, nextLessonKey!, now());
+  void _adsChanged() {
+    if (!_disposed) notifyListeners();
+  }
+
+  Future<bool> prepareNextLesson() async {
+    final key = nextLessonKey;
+    if (key == null ||
+        !gradePolicy.isUnlocked(currentGrade, catalog!, progress)) {
+      return false;
+    }
+    if (!accessLimitsEnabled ||
+        entitlements.hasUnlimitedAccess(currentGrade.grade)) {
+      return true;
+    }
+    var allowed = false;
+    final next = await _progressRepository.update((old) {
+      allowed = accessPolicy.canOpen(old.learningAccess, key, now());
+      return allowed
+          ? old.copyWith(
+              learningAccess: accessPolicy.open(old.learningAccess, key, now()),
+            )
+          : old;
+    });
+    if (!_disposed) {
+      progress = next;
+      notifyListeners();
+    }
+    return allowed;
+  }
+
+  Future<void> grantAdReward(String receipt) async {
+    _pendingRewards.add(receipt);
+    try {
+      final next = await _progressRepository.update(
+        (old) => old.copyWith(
+          learningAccess: accessPolicy.grant(old.learningAccess, receipt),
+        ),
+      );
+      _pendingRewards.remove(receipt);
+      if (!_disposed) progress = next;
+    } finally {
+      if (!_disposed) notifyListeners();
+    }
+  }
+
+  Future<void> retryPendingRewards() async {
+    for (final receipt in _pendingRewards.toList()) {
+      await grantAdReward(receipt);
+    }
+  }
+
+  Future<void> showCompletionAd(StudySession session) async {
+    if (session.isReview || !ads.enabled || !_adAttempts.add(session.id)) {
+      return;
+    }
+    final first = session.kanji.first;
+    if (first.lessonId == null) return;
+    final key = LearningAccessPolicy.lessonKey(first.grade, first.lessonId!);
+    if (entitlements.removesAds(first.grade) ||
+        progress.learningAccess.rewardedLessons.contains(key)) {
+      return;
+    }
+    try {
+      await ads.showLessonInterstitial();
+    } catch (_) {
+      /* Saved results remain available. */
+    }
+  }
+
   bool changingIcon = false;
   String? iconError;
   AppStatus status = AppStatus.loading;
@@ -119,6 +223,12 @@ class AppController extends ChangeNotifier {
     final items = review ? reviewItems : nextLesson;
     if (items.isEmpty) return null;
     if (!review && !gradePolicy.isUnlocked(currentGrade, catalog!, progress)) {
+      return null;
+    }
+    if (!review &&
+        accessLimitsEnabled &&
+        !entitlements.hasUnlimitedAccess(currentGrade.grade) &&
+        !progress.learningAccess.openedLessons.contains(nextLessonKey)) {
       return null;
     }
     return planner.create(items, catalog!, isReview: review);
@@ -278,6 +388,10 @@ class AppController extends ChangeNotifier {
   @override
   void dispose() {
     _disposed = true;
+    ads.removeListener(_adsChanged);
+    ads.dispose();
+    entitlements.removeListener(_adsChanged);
+    if (_ownsEntitlements) entitlements.dispose();
     super.dispose();
   }
 }

@@ -94,11 +94,28 @@ class HomeScreen extends StatelessWidget {
               const SizedBox(height: 12),
               if (controller.nextLesson.isNotEmpty) ...[
                 Text('새 한자 ${controller.nextLesson.length}개'),
+                if (controller.accessLimitsEnabled &&
+                    !controller.entitlements.hasUnlimitedAccess(
+                      grade.grade,
+                    )) ...[
+                  const SizedBox(height: 8),
+                  Text('오늘 무료 레슨 ${controller.freeLessonsRemaining} / 2개 남음'),
+                  if (controller.progress.learningAccess.rewardCredits > 0)
+                    Text(
+                      '추가 레슨 이용권 ${controller.progress.learningAccess.rewardCredits}개',
+                    ),
+                ],
                 const SizedBox(height: 20),
                 FilledButton.icon(
                   onPressed: onStudy,
                   icon: const Icon(Icons.arrow_forward),
-                  label: Text(todayDone ? '다음 한자 배우기' : '오늘의 한자 배우기'),
+                  label: Text(
+                    controller.needsRewardForNextLesson
+                        ? '광고 보고 더 배우기'
+                        : todayDone
+                        ? '다음 한자 배우기'
+                        : '오늘의 한자 배우기',
+                  ),
                 ),
               ] else
                 const Text('준비된 한자를 모두 배웠어요.\n다음 콘텐츠를 기다리는 동안 배운 한자를 복습해 보세요.'),

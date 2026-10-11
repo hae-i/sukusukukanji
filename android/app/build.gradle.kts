@@ -19,7 +19,10 @@ android {
         applicationId = "com.example.sukusukukanji"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
-        minSdk = flutter.minSdkVersion
+        minSdk = maxOf(24, flutter.minSdkVersion)
+        // Google sample app ID. Supply -P ADMOB_APP_ID=... for production.
+        manifestPlaceholders["admobAppId"] = project.findProperty("ADMOB_APP_ID")
+            ?: "ca-app-pub-3940256099942544~3347511713"
         targetSdk = flutter.targetSdkVersion
         // Uses the version code from pubspec.yaml. When using split APKs, 1000 * ABI_VERSION
         // is added automatically by Flutter. (https://developer.android.com/studio/build/configure-apk-splits#configure-APK-versions)
