@@ -1,11 +1,15 @@
+import 'dart:convert';
 import 'dart:io';
 
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:sqflite_common_ffi/sqflite_ffi.dart';
 import 'package:sukusukukanji/app/app_controller.dart';
 import 'package:sukusukukanji/app/app_shell.dart';
 import 'package:sukusukukanji/data/models/learning_access.dart';
+import 'package:sukusukukanji/data/models/kanji.dart';
+import 'package:sukusukukanji/data/models/progress.dart';
 import 'package:sukusukukanji/data/models/study_session.dart';
 import 'package:sukusukukanji/data/repositories/kanji_repository.dart';
 import 'package:sukusukukanji/data/services/course_entitlements.dart';
@@ -47,6 +51,25 @@ class ElementaryPurchase extends CourseEntitlements {
   bool removesAds(int grade) => grade <= 6;
 }
 
+/// Test-only later-course fixture. Reuses verified facts without publishing
+/// grade 1 characters as real grade 2 content.
+class LaterGradeRepository implements KanjiRepository {
+  @override
+  Future<KanjiCatalog> load() async {
+    final catalog = await AssetKanjiRepository().load();
+    final json = jsonDecode(
+      await rootBundle.loadString('assets/data/kanji/grade1.json'),
+    ) as Map<String, dynamic>;
+    return KanjiCatalog(
+      grades: catalog.grades,
+      kanji: [
+        for (final item in json['kanji'] as List)
+          Kanji.fromJson({...item as Map<String, dynamic>, 'grade': 2}),
+      ],
+    );
+  }
+}
+
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
   sqfliteFfiInit();
@@ -56,14 +79,33 @@ void main() {
     MemoryProgressRepository progress,
     FakeAds ads, {
     CourseEntitlements? entitlements,
-  }) => AppController(
-    content: AssetKanjiRepository(),
-    progress: progress,
-    settings: MemorySettingsRepository(),
-    ads: ads,
-    entitlements: entitlements,
-    now: () => today,
-  );
+    bool gradeOneTrial = false,
+  }) {
+    final settings = MemorySettingsRepository();
+    if (!gradeOneTrial) {
+      progress.value = progress.value.copyWith(
+        currentGrade: 2,
+        completedGrades: {1},
+        seenGradeCelebrations: {1},
+      );
+      settings.value = AppSettings(
+        onboardingCompleted: true,
+        icons: AppIconPreferences(
+          unlockedIcons: {'grade1', 'grade2'},
+          seenUnlockModals: {'grade2'},
+        ),
+      );
+    }
+    return AppController(
+      content: gradeOneTrial ? AssetKanjiRepository() : LaterGradeRepository(),
+      progress: progress,
+      settings: settings,
+      ads: ads,
+      entitlements: entitlements,
+      now: () => today,
+    );
+  }
+
   Future<StudySession> complete(AppController controller) async {
     expect(await controller.prepareNextLesson(), isTrue);
     final session = controller.start()!;
@@ -80,28 +122,28 @@ void main() {
   }
 
   test('two new lessons are free; interrupted lesson reopens without consuming another allowance', () {
-    var access = policy.open(LearningAccess(), '1:1', today);
-    access = policy.open(access, '1:1', today);
+    var access = policy.open(LearningAccess(), '2:1', today);
+    access = policy.open(access, '2:1', today);
     expect(access.freeUsed, 1);
-    access = policy.open(access, '1:2', today);
-    expect(policy.canOpen(access, '1:3', today), isFalse);
-    expect(() => policy.open(access, '1:3', today), throwsStateError);
-    expect(policy.canOpen(access, '1:1', today), isTrue);
+    access = policy.open(access, '2:2', today);
+    expect(policy.canOpen(access, '2:3', today), isFalse);
+    expect(() => policy.open(access, '2:3', today), throwsStateError);
+    expect(policy.canOpen(access, '2:1', today), isTrue);
   });
   test('reward grants once, credits persist across midnight and free allowance is used first', () {
-    var access = policy.open(LearningAccess(), '1:1', today);
-    access = policy.open(access, '1:2', today);
+    var access = policy.open(LearningAccess(), '2:1', today);
+    access = policy.open(access, '2:2', today);
     access = policy.grant(access, 'receipt');
     access = policy.grant(access, 'receipt');
     expect(access.rewardCredits, 1);
     final tomorrow = today.add(const Duration(days: 1));
-    access = policy.open(access, '1:3', tomorrow);
+    access = policy.open(access, '2:3', tomorrow);
     expect(access.freeUsed, 1);
     expect(access.rewardCredits, 1);
-    access = policy.open(access, '1:4', tomorrow);
-    access = policy.open(access, '1:5', tomorrow);
+    access = policy.open(access, '2:4', tomorrow);
+    access = policy.open(access, '2:5', tomorrow);
     expect(access.rewardCredits, 0);
-    expect(access.rewardedLessons, {'1:5'});
+    expect(access.rewardedLessons, {'2:5'});
     expect(
       policy.freeRemaining(access, today),
       0,
@@ -130,7 +172,7 @@ void main() {
     expect(controller.needsRewardForNextLesson, isTrue);
     expect(await controller.prepareNextLesson(), isFalse);
     expect(controller.start(), isNull);
-    final review = controller.startLessonReview(1, 1)!;
+    final review = controller.startLessonReview(2, 1)!;
     expect(review.isReview, isTrue);
     await controller.showCompletionAd(review);
     expect(ads.interstitialShows, 2);
@@ -141,6 +183,73 @@ void main() {
     expect(controller.progress.learningAccess.rewardCredits, 0);
     expect(controller.progress.totalLearned, 15);
   });
+  test('all 16 grade 1 lessons remain free with ads enabled and an exhausted allowance', () async {
+    final access = LearningAccess(
+      day: policy.dayKey(today),
+      freeUsed: 2,
+      rewardCredits: 1,
+      openedLessons: {'1:1', '1:2'},
+      grantedRewards: {'existing-reward'},
+    );
+    final repository = MemoryProgressRepository(
+      UserProgress(learningAccess: access),
+    );
+    var ads = FakeAds();
+    var controller = app(repository, ads, gradeOneTrial: true);
+    addTearDown(() => controller.dispose());
+    await controller.load();
+    for (var i = 0; i < 16; i++) {
+      expect(controller.accessLimitsEnabled, isFalse);
+      expect(controller.needsRewardForNextLesson, isFalse);
+      final session = await complete(controller);
+      await controller.showCompletionAd(session);
+      if (i == 2) {
+        expect(ads.interstitialShows, 0);
+        expect(ads.rewardedShows, 0);
+        controller.dispose();
+        ads = FakeAds();
+        controller = app(repository, ads, gradeOneTrial: true);
+        await controller.load();
+      }
+    }
+    expect(controller.progress.totalLearned, 80);
+    expect(controller.progress.completedGrades, contains(1));
+    expect(controller.currentGrade.grade, 2);
+    expect(ads.interstitialShows, 0);
+    expect(ads.rewardedShows, 0);
+    expect(controller.progress.learningAccess.toJson(), access.toJson());
+    expect(controller.showAds, isTrue); // Banners are retained.
+  });
+
+  testWidgets(
+    'grade 1 home hides daily quota and rewarded entry after two lessons',
+    (tester) async {
+      final controller = app(
+        MemoryProgressRepository(),
+        FakeAds(),
+        gradeOneTrial: true,
+      );
+      addTearDown(controller.dispose);
+      await tester.runAsync(() async {
+        await controller.load();
+        await complete(controller);
+        await complete(controller);
+      });
+      await tester.pumpWidget(
+        MaterialApp(home: AppShell(controller: controller)),
+      );
+      await tester.pumpAndSettle();
+      expect(find.textContaining('오늘 무료 레슨'), findsNothing);
+      expect(find.text('광고 보고 더 배우기'), findsNothing);
+      await tester.ensureVisible(find.text('다음 한자 배우기'));
+      await tester.tap(find.text('다음 한자 배우기'));
+      await tester.pumpAndSettle();
+      expect(find.text('오늘의 한자'), findsOneWidget);
+      expect(find.byType(RewardedLessonDialog), findsNothing);
+      expect(tester.takeException(), isNull);
+    },
+  );
+
   test('future verified elementary entitlement bypasses quota and ads without spending credits', () async {
     final purchased = ElementaryPurchase();
     addTearDown(purchased.dispose);
@@ -183,7 +292,7 @@ void main() {
         );
         await repository.update(
           (old) => old.copyWith(
-            learningAccess: policy.open(old.learningAccess, '1:1', today),
+            learningAccess: policy.open(old.learningAccess, '2:1', today),
           ),
         );
         await repository.close();
@@ -194,7 +303,7 @@ void main() {
         final restored = await repository.load();
         expect(restored.learningAccess.rewardCredits, 1);
         expect(restored.learningAccess.freeUsed, 1);
-        expect(restored.learningAccess.openedLessons, {'1:1'});
+        expect(restored.learningAccess.openedLessons, {'2:1'});
         await repository.update(
           (old) => old.copyWith(
             learningAccess: policy.grant(old.learningAccess, 'one-receipt'),
@@ -322,9 +431,9 @@ void main() {
       await tester.pumpAndSettle();
       expect(find.text('오늘의 한자'), findsOneWidget);
       expect(controller.progress.learningAccess.openedLessons, {
-        '1:1',
-        '1:2',
-        '1:3',
+        '2:1',
+        '2:2',
+        '2:3',
       });
       expect(controller.progress.learningAccess.rewardCredits, 0);
       await tester.pageBack();

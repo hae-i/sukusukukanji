@@ -103,6 +103,8 @@ Grades 7–9 reuse the grade6 tree icon. `KanjiCatalog.iconThemes` deduplicates 
 
 `AdService`는 SDK 경계이며 `AdMobService`가 UMP, 광고 초기화·로딩·폐기·완료 콜백을 담당합니다. 기본 단위 테스트와 데스크톱은 광고가 없는 구현을 사용합니다. UI는 보상 안내, 배너, 저장 완료 후 전면 광고 표시만 담당합니다.
 
-`LearningAccessPolicy`는 하루 2개 무료, 이용권 지급·소비, 레슨 재진입을 순수 함수로 처리합니다. SQLite v3 `learning_access` JSON 행은 `UserProgress.learningAccess`에 매핑하고 기존 진도와 같은 트랜잭션에서 갱신합니다. v1→v2→v3 및 v2→v3 마이그레이션을 지원합니다. 구매 상태를 로컬 preference로 만들어 넣지 않으며, 별도 `CourseEntitlements`에 검증된 구매 결과를 연결할 수 있습니다.
+AppController는 1학년 무료 체험을 구매 상태와 별개로 처리합니다. 1학년은 일일 제한·이용권 차감 없이 시작할 수 있고 홈의 횟수 안내를 숨깁니다. 완료 광고는 세션의 학년을 기준으로 생략하므로 마지막 레슨 저장 후 2학년으로 진급해도 1학년 전면 광고가 나오지 않습니다. 배너 정책은 유지합니다.
+
+`LearningAccessPolicy`는 2학년 이후 하루 2개 무료, 이용권 지급·소비, 레슨 재진입을 순수 함수로 처리합니다. SQLite v3 `learning_access` JSON 행은 `UserProgress.learningAccess`에 매핑하고 기존 진도와 같은 트랜잭션에서 갱신합니다. v1→v2→v3 및 v2→v3 마이그레이션을 지원합니다. 구매 상태를 로컬 preference로 만들어 넣지 않으며, 별도 `CourseEntitlements`에 검증된 구매 결과를 연결할 수 있습니다.
 
 보상형 광고는 SDK의 보상 이벤트에서 영속화를 시작하고, SDK 닫힘 이벤트 이후 저장 완료까지 확인한 뒤 레슨을 엽니다. 중복 이벤트와 저장 재시도는 receipt로 중복 지급을 막습니다. 학습 완료 전면 광고는 저장 성공 후 결과 화면에서 한 번만 시도하며, 로딩되지 않았으면 건너뛰어 뒤늦은 화면 덮기를 막습니다. 자세한 설정과 로컬 저장의 한계는 docs/admob.md에 있습니다.

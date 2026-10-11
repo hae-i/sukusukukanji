@@ -49,7 +49,8 @@ class AppController extends ChangeNotifier {
   final Set<String> _adAttempts = {};
   static const accessPolicy = LearningAccessPolicy();
   bool get hasPendingReward => _pendingRewards.isNotEmpty;
-  bool get accessLimitsEnabled => ads.enabled;
+  // Grade 1 is the unlimited free trial; banners remain available.
+  bool get accessLimitsEnabled => ads.enabled && currentGrade.grade != 1;
   bool get showAds =>
       ads.enabled && !entitlements.removesAds(currentGrade.grade);
   int get freeLessonsRemaining =>
@@ -122,7 +123,8 @@ class AppController extends ChangeNotifier {
       return;
     }
     final first = session.kanji.first;
-    if (first.lessonId == null) return;
+    // Use the session grade: completing grade 1 may already advance progress.
+    if (first.grade == 1 || first.lessonId == null) return;
     final key = LearningAccessPolicy.lessonKey(first.grade, first.lessonId!);
     if (entitlements.removesAds(first.grade) ||
         progress.learningAccess.rewardedLessons.contains(key)) {
