@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../widgets/content_layout.dart';
+import '../account/account_screen.dart';
 import '../../app/app_controller.dart';
 import '../../app/router.dart';
 
@@ -15,6 +16,18 @@ class SettingsScreen extends StatelessWidget {
       body: SafeArea(
         child: ContentLayout(
           children: [
+            if (controller.backup != null)
+              ListTile(
+                leading: const Icon(Icons.cloud_outlined),
+                title: const Text('계정과 진도 백업'),
+                trailing: const Icon(Icons.chevron_right),
+                onTap: () => Navigator.of(context).push(
+                  MaterialPageRoute<void>(
+                    builder: (_) =>
+                        AccountScreen(controller: controller.backup!),
+                  ),
+                ),
+              ),
             if (controller.ads.privacyOptionsRequired)
               ListTile(
                 leading: const Icon(Icons.privacy_tip_outlined),
@@ -67,7 +80,7 @@ class SettingsScreen extends StatelessWidget {
                   Text('1학년 한자 80자를 5자씩 연결하며 배워요.'),
                   SizedBox(height: 12),
                   Text(
-                    '무료 학습과 복습, 기록 저장은 인터넷 없이 동작해요. 광고로 추가 레슨을 열 때는 인터넷 연결이 필요해요. 기록은 이 기기에 저장되며 앱 삭제 시 사라질 수 있어요.',
+                    '무료 학습과 복습, 기록 저장은 인터넷 없이 동작해요. 광고로 추가 레슨을 열 때는 인터넷 연결이 필요해요. 기록은 이 기기에 저장돼요. Google 계정을 연결해 백업한 기록은 다시 복원할 수 있어요. 백업하지 않은 기록은 앱 삭제 시 사라질 수 있어요.',
                   ),
                 ],
               ),

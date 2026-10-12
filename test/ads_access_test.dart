@@ -44,13 +44,6 @@ class FakeAds extends AdService {
   }
 }
 
-class ElementaryPurchase extends CourseEntitlements {
-  @override
-  bool hasUnlimitedAccess(int grade) => grade <= 6;
-  @override
-  bool removesAds(int grade) => grade <= 6;
-}
-
 /// Test-only later-course fixture. Reuses verified facts without publishing
 /// grade 1 characters as real grade 2 content.
 class LaterGradeRepository implements KanjiRepository {
@@ -183,7 +176,7 @@ void main() {
     expect(controller.progress.learningAccess.rewardCredits, 0);
     expect(controller.progress.totalLearned, 15);
   });
-  test('all 16 grade 1 lessons remain free with ads enabled and an exhausted allowance', () async {
+  test('first 10 grade 1 lessons remain free with ads enabled and an exhausted allowance', () async {
     final access = LearningAccess(
       day: policy.dayKey(today),
       freeUsed: 2,
@@ -198,7 +191,7 @@ void main() {
     var controller = app(repository, ads, gradeOneTrial: true);
     addTearDown(() => controller.dispose());
     await controller.load();
-    for (var i = 0; i < 16; i++) {
+    for (var i = 0; i < 10; i++) {
       expect(controller.accessLimitsEnabled, isFalse);
       expect(controller.needsRewardForNextLesson, isFalse);
       final session = await complete(controller);
@@ -212,13 +205,20 @@ void main() {
         await controller.load();
       }
     }
-    expect(controller.progress.totalLearned, 80);
-    expect(controller.progress.completedGrades, contains(1));
-    expect(controller.currentGrade.grade, 2);
+    expect(controller.progress.totalLearned, 50);
+    expect(controller.progress.completedGrades, isEmpty);
+    expect(controller.currentGrade.grade, 1);
     expect(ads.interstitialShows, 0);
     expect(ads.rewardedShows, 0);
     expect(controller.progress.learningAccess.toJson(), access.toJson());
     expect(controller.showAds, isTrue); // Banners are retained.
+    expect(controller.accessLimitsEnabled, isTrue);
+    final eleventh = await complete(controller); // Existing credit is now used.
+    await controller.showCompletionAd(eleventh);
+    expect(controller.progress.learningAccess.rewardCredits, 0);
+    expect(ads.interstitialShows, 0); // Rewarded lessons skip interstitials.
+    expect(controller.needsRewardForNextLesson, isTrue);
+    expect(await controller.prepareNextLesson(), isFalse);
   });
 
   testWidgets(
@@ -250,26 +250,76 @@ void main() {
     },
   );
 
-  test('future verified elementary entitlement bypasses quota and ads without spending credits', () async {
-    final purchased = ElementaryPurchase();
-    addTearDown(purchased.dispose);
-    final ads = FakeAds();
-    final controller = app(
-      MemoryProgressRepository(),
-      ads,
-      entitlements: purchased,
-    );
-    addTearDown(controller.dispose);
-    await controller.load();
-    for (var i = 0; i < 3; i++) {
-      final session = await complete(controller);
-      await controller.showCompletionAd(session);
-    }
-    expect(ads.interstitialShows, 0);
-    expect(controller.showAds, isFalse);
-    expect(controller.progress.learningAccess.freeUsed, 0);
-    expect(purchased.hasUnlimitedAccess(7), isFalse);
-  });
+  test(
+    'elementary purchase bypasses quota but retains banners and completion ads',
+    () async {
+      final purchased = CourseEntitlements(
+        verifiedProducts: {CourseProduct.elementary},
+      );
+      addTearDown(purchased.dispose);
+      final ads = FakeAds();
+      final controller = app(
+        MemoryProgressRepository(),
+        ads,
+        entitlements: purchased,
+      );
+      addTearDown(controller.dispose);
+      await controller.load();
+      for (var i = 0; i < 3; i++) {
+        final session = await complete(controller);
+        await controller.showCompletionAd(session);
+      }
+      expect(ads.interstitialShows, 3);
+      expect(controller.showAds, isTrue);
+      expect(controller.progress.learningAccess.freeUsed, 0);
+      expect(purchased.hasUnlimitedAccess(7), isFalse);
+    },
+  );
+  test(
+    'lesson 11 starts the daily allowance and lesson 13 requires a reward',
+    () async {
+      final ads = FakeAds();
+      final controller = app(
+        MemoryProgressRepository(),
+        ads,
+        gradeOneTrial: true,
+      );
+      addTearDown(controller.dispose);
+      await controller.load();
+      for (var i = 0; i < 10; i++) {
+        await complete(controller);
+      }
+      expect(controller.progress.learningAccess.freeUsed, 0);
+      for (var i = 0; i < 2; i++) {
+        final session = await complete(controller);
+        await controller.showCompletionAd(session);
+      }
+      expect(ads.interstitialShows, 2);
+      expect(controller.progress.learningAccess.freeUsed, 2);
+      expect(controller.needsRewardForNextLesson, isTrue);
+      expect(await controller.prepareNextLesson(), isFalse);
+      expect(controller.startLessonReview(1, 10), isNotNull);
+    },
+  );
+  test(
+    'only the all-course bundle removes ads and prices match the selected plan',
+    () {
+      for (final product in CourseProduct.values) {
+        final rights = CourseEntitlements(verifiedProducts: {product});
+        addTearDown(rights.dispose);
+        expect(rights.hasUnlimitedAccess(1), product != CourseProduct.middle);
+        expect(
+          rights.hasUnlimitedAccess(9),
+          product != CourseProduct.elementary,
+        );
+        expect(rights.removesAds(1), product == CourseProduct.allAdFree);
+        expect(rights.removesAds(9), product == CourseProduct.allAdFree);
+      }
+      expect(CourseProduct.elementary.plannedPriceKrw, 5500);
+      expect(CourseProduct.middle.plannedPriceKrw, 6600);
+      expect(CourseProduct.allAdFree.plannedPriceKrw, 12100);
+    },
+  );
   test(
     'SQLite restores credits and idempotent reward receipts across reopen',
     () async {

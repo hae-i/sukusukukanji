@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+
+import '../data/cloud/backup_service.dart';
+
 import 'package:flutter_localizations/flutter_localizations.dart';
 
 import '../data/repositories/kanji_repository.dart';
@@ -18,12 +21,14 @@ class SukuSukuApp extends StatefulWidget {
     required this.settingsRepository,
     this.iconService,
     this.ads,
+    this.backupService,
   });
   final KanjiRepository repository;
   final ProgressRepository progressRepository;
   final SettingsRepository settingsRepository;
   final AppIconService? iconService;
   final AdService? ads;
+  final BackupService? backupService;
   @override
   State<SukuSukuApp> createState() => _SukuSukuAppState();
 }
@@ -39,6 +44,7 @@ class _SukuSukuAppState extends State<SukuSukuApp> {
       settings: widget.settingsRepository,
       iconService: widget.iconService,
       ads: widget.ads,
+      backupService: widget.backupService,
     )..load();
   }
 

@@ -1,4 +1,10 @@
+import 'dart:async';
+
 import 'package:flutter/foundation.dart';
+
+import '../data/cloud/backup_service.dart';
+import '../data/cloud/backup_preferences.dart';
+import '../features/account/backup_controller.dart';
 
 import '../data/models/grade_theme.dart';
 import '../data/models/kanji.dart';
@@ -26,6 +32,8 @@ class AppController extends ChangeNotifier {
     AppIconService? iconService,
     AdService? ads,
     CourseEntitlements? entitlements,
+    this.backupService,
+    this.backupPreferences,
   }) : _contentRepository = content,
        _progressRepository = progress,
        _settingsRepository = settings,
@@ -45,12 +53,23 @@ class AppController extends ChangeNotifier {
   final AdService ads;
   final CourseEntitlements entitlements;
   final bool _ownsEntitlements;
+  final BackupService? backupService;
+  final BackupPreferences? backupPreferences;
+  BackupController? backup;
   final Set<String> _pendingRewards = {};
   final Set<String> _adAttempts = {};
   static const accessPolicy = LearningAccessPolicy();
   bool get hasPendingReward => _pendingRewards.isNotEmpty;
-  // Grade 1 is the unlimited free trial; banners remain available.
-  bool get accessLimitsEnabled => ads.enabled && currentGrade.grade != 1;
+  // The first ten grade 1 lessons are the unlimited trial.
+  static bool isTrialLesson(int grade, int? lesson) =>
+      grade == 1 && lesson != null && lesson >= 1 && lesson <= 10;
+  bool get accessLimitsEnabled {
+    final item = nextLesson.firstOrNull;
+    return ads.enabled &&
+        item != null &&
+        !isTrialLesson(item.grade, item.lessonId);
+  }
+
   bool get showAds =>
       ads.enabled && !entitlements.removesAds(currentGrade.grade);
   int get freeLessonsRemaining =>
@@ -124,7 +143,9 @@ class AppController extends ChangeNotifier {
     }
     final first = session.kanji.first;
     // Use the session grade: completing grade 1 may already advance progress.
-    if (first.grade == 1 || first.lessonId == null) return;
+    if (isTrialLesson(first.grade, first.lessonId) || first.lessonId == null) {
+      return;
+    }
     final key = LearningAccessPolicy.lessonKey(first.grade, first.lessonId!);
     if (entitlements.removesAds(first.grade) ||
         progress.learningAccess.rewardedLessons.contains(key)) {
@@ -193,6 +214,16 @@ class AppController extends ChangeNotifier {
       await _reconcileIcons();
       if (_disposed) return;
       status = AppStatus.ready;
+      if (backup == null && backupService != null) {
+        backup = BackupController(
+          service: backupService!,
+          preferences: backupPreferences ?? PlatformBackupPreferences(),
+          progress: _progressRepository,
+          catalog: content,
+          onRestored: reloadRestoredProgress,
+        );
+        unawaited(backup!.initialize());
+      }
     } catch (exception) {
       if (_disposed) return;
       error = exception;
@@ -202,6 +233,14 @@ class AppController extends ChangeNotifier {
       _loading = false;
       if (!_disposed) notifyListeners();
     }
+  }
+
+  Future<void> reloadRestoredProgress() async {
+    final stored = await _progressRepository.load();
+    if (_disposed) return;
+    progress = stored;
+    await _reconcileIcons();
+    if (!_disposed) notifyListeners();
   }
 
   Future<void> completeOnboarding() async {
@@ -246,6 +285,7 @@ class AppController extends ChangeNotifier {
     );
     if (_disposed) return;
     progress = next;
+    backup?.localChanged();
     await _reconcileIcons();
     if (!_disposed) notifyListeners();
   }
@@ -272,6 +312,7 @@ class AppController extends ChangeNotifier {
     });
     if (_disposed) return;
     progress = next;
+    backup?.localChanged();
     notifyListeners();
   }
 
@@ -283,6 +324,7 @@ class AppController extends ChangeNotifier {
     });
     if (_disposed) return;
     progress = next;
+    backup?.localChanged();
     notifyListeners();
   }
 
@@ -297,6 +339,7 @@ class AppController extends ChangeNotifier {
     });
     if (_disposed) return;
     progress = next;
+    backup?.localChanged();
     notifyListeners();
   }
 
@@ -390,6 +433,11 @@ class AppController extends ChangeNotifier {
   @override
   void dispose() {
     _disposed = true;
+    if (backup != null) {
+      backup!.dispose();
+    } else {
+      backupService?.dispose();
+    }
     ads.removeListener(_adsChanged);
     ads.dispose();
     entitlements.removeListener(_adsChanged);

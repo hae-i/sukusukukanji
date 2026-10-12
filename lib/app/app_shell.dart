@@ -44,7 +44,13 @@ class _AppShellState extends State<AppShell> with WidgetsBindingObserver {
 
   @override
   void didChangeAppLifecycleState(AppLifecycleState state) {
-    if (state == AppLifecycleState.resumed && mounted) setState(() {});
+    if (state == AppLifecycleState.resumed && mounted) {
+      setState(() {});
+      final backup = widget.controller.backup;
+      if (backup != null && backup.userId != null && !backup.busy) {
+        backup.refresh();
+      }
+    }
   }
 
   Future<void> _showGraduations() async {

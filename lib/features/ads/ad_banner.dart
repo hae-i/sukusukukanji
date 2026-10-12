@@ -53,8 +53,9 @@ class _AdBannerState extends State<AdBanner> {
     _ad = null;
     setState(() => _loaded = false);
     try {
-      final size = await AdSize.getLargeAnchoredAdaptiveBannerAdSize(width);
-      if (size == null ||
+      const size =
+          AdSize.banner; // Standard 320 × 50, the smallest phone banner.
+      if (width < size.width ||
           !mounted ||
           generation != _generation ||
           !widget.service.canRequestAds) {
@@ -119,19 +120,12 @@ class _AdBannerState extends State<AdBanner> {
         }
         final ad = _ad;
         if (!_loaded || ad == null) return const SizedBox.shrink();
-        return Padding(
-          padding: const EdgeInsets.symmetric(vertical: 8),
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              Text('광고', style: Theme.of(context).textTheme.labelSmall),
-              const SizedBox(height: 4),
-              SizedBox(
-                width: ad.size.width.toDouble(),
-                height: ad.size.height.toDouble(),
-                child: AdWidget(ad: ad),
-              ),
-            ],
+        return Center(
+          heightFactor: 1,
+          child: SizedBox(
+            width: ad.size.width.toDouble(),
+            height: ad.size.height.toDouble(),
+            child: AdWidget(ad: ad),
           ),
         );
       },

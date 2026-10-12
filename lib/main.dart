@@ -3,6 +3,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 
 import 'app/app.dart';
+import 'data/cloud/supabase_backup_service.dart';
 import 'data/repositories/kanji_repository.dart';
 import 'data/services/app_icon_service.dart';
 import 'data/storage/sqlite_progress_repository.dart';
@@ -23,6 +24,7 @@ void main() {
   runApp(
     SukuSukuApp(
       repository: AssetKanjiRepository(),
+      backupService: SupabaseBackupService.fromEnvironment(),
       progressRepository: SqliteProgressRepository(),
       settingsRepository: PreferencesSettingsRepository(),
       iconService: const PlatformAppIconService(),
