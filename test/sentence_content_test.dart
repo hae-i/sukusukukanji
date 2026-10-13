@@ -49,7 +49,10 @@ void main() {
       }
     }
     expect(
-      catalog.kanji.where((k) => k.sentences.isEmpty).map((k) => k.character),
+      catalog
+          .forGrade(1)
+          .where((k) => k.sentences.isEmpty)
+          .map((k) => k.character),
       audit['remainingCharacters'],
     );
   });

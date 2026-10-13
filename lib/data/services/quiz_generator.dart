@@ -38,7 +38,14 @@ class QuizGenerator {
         answer = kanji.koreanMeanings.first;
         prompt = kanji.character;
         instruction = '이 한자의 뜻은?';
-        accepted = kanji.koreanMeanings.toSet();
+        // Exclude the text of every known synonymous sense, even when an
+        // unrelated polysemous entry also contributes that same Korean text.
+        accepted = {
+          ...kanji.koreanMeanings,
+          ...corpus
+              .where((k) => k.meaningTags.any(kanji.meaningTags.contains))
+              .expand((k) => k.koreanMeanings),
+        };
         pool = corpus
             .where(
               (k) =>

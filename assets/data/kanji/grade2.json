@@ -1,0 +1,8139 @@
+{
+  "schemaVersion": 1,
+  "grade": 2,
+  "kanji": [
+    {
+      "id": "g2-5f15",
+      "character": "引",
+      "grade": 2,
+      "koreanReading": "인",
+      "koreanMeanings": [
+        "끌다"
+      ],
+      "onyomi": [
+        "イン"
+      ],
+      "kunyomi": [
+        "ひく",
+        "ひける"
+      ],
+      "allOnyomi": [
+        "イン"
+      ],
+      "allKunyomi": [
+        "ひく",
+        "ひける"
+      ],
+      "meaningTags": [
+        "pull",
+        "tug",
+        "jerk",
+        "admit",
+        "install",
+        "quote",
+        "refer to"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 1,
+      "lessonOrder": 1,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 引 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390239"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-7fbd",
+      "character": "羽",
+      "grade": 2,
+      "koreanReading": "우",
+      "koreanMeanings": [
+        "깃"
+      ],
+      "onyomi": [],
+      "kunyomi": [
+        "は",
+        "はね"
+      ],
+      "allOnyomi": [
+        "ウ"
+      ],
+      "allKunyomi": [
+        "は",
+        "わ",
+        "はね"
+      ],
+      "meaningTags": [
+        "feathers",
+        "counter for birds, rabbits"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 1,
+      "lessonOrder": 2,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 羽 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390341"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-96f2",
+      "character": "雲",
+      "grade": 2,
+      "koreanReading": "운",
+      "koreanMeanings": [
+        "구름"
+      ],
+      "onyomi": [
+        "ウン"
+      ],
+      "kunyomi": [
+        "くも"
+      ],
+      "allOnyomi": [
+        "ウン"
+      ],
+      "allKunyomi": [
+        "くも",
+        "ぐも"
+      ],
+      "meaningTags": [
+        "cloud"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 1,
+      "lessonOrder": 3,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 雲 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4389872"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-5712",
+      "character": "園",
+      "grade": 2,
+      "koreanReading": "원",
+      "koreanMeanings": [
+        "동산"
+      ],
+      "onyomi": [
+        "エン"
+      ],
+      "kunyomi": [],
+      "allOnyomi": [
+        "エン"
+      ],
+      "allKunyomi": [
+        "その"
+      ],
+      "meaningTags": [
+        "park",
+        "garden",
+        "yard",
+        "farm"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 1,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 園 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390572"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-9060",
+      "character": "遠",
+      "grade": 2,
+      "koreanReading": "원",
+      "koreanMeanings": [
+        "멀다"
+      ],
+      "onyomi": [
+        "エン"
+      ],
+      "kunyomi": [
+        "とおい"
+      ],
+      "allOnyomi": [
+        "エン",
+        "オン"
+      ],
+      "allKunyomi": [
+        "とおい"
+      ],
+      "meaningTags": [
+        "distant",
+        "far"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 1,
+      "lessonOrder": 5,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 遠 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=3970933"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-4f55",
+      "character": "何",
+      "grade": 2,
+      "koreanReading": "하",
+      "koreanMeanings": [
+        "어찌"
+      ],
+      "onyomi": [],
+      "kunyomi": [
+        "なに",
+        "なん"
+      ],
+      "allOnyomi": [
+        "カ"
+      ],
+      "allKunyomi": [
+        "なに",
+        "なん"
+      ],
+      "meaningTags": [
+        "what"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 2,
+      "lessonOrder": 1,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 何 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4389977"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-79d1",
+      "character": "科",
+      "grade": 2,
+      "koreanReading": "과",
+      "koreanMeanings": [
+        "과정"
+      ],
+      "onyomi": [
+        "カ"
+      ],
+      "kunyomi": [],
+      "allOnyomi": [
+        "カ"
+      ],
+      "allKunyomi": [],
+      "meaningTags": [
+        "department",
+        "course",
+        "section"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 2,
+      "lessonOrder": 2,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 科 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=3997287"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-590f",
+      "character": "夏",
+      "grade": 2,
+      "koreanReading": "하",
+      "koreanMeanings": [
+        "여름"
+      ],
+      "onyomi": [
+        "カ"
+      ],
+      "kunyomi": [
+        "なつ"
+      ],
+      "allOnyomi": [
+        "カ",
+        "ガ",
+        "ゲ"
+      ],
+      "allKunyomi": [
+        "なつ"
+      ],
+      "meaningTags": [
+        "summer"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 2,
+      "lessonOrder": 3,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 夏 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=3663634"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-5bb6",
+      "character": "家",
+      "grade": 2,
+      "koreanReading": "가",
+      "koreanMeanings": [
+        "집"
+      ],
+      "onyomi": [
+        "カ",
+        "ケ"
+      ],
+      "kunyomi": [
+        "いえ",
+        "や"
+      ],
+      "allOnyomi": [
+        "カ",
+        "ケ"
+      ],
+      "allKunyomi": [
+        "いえ",
+        "や",
+        "うち"
+      ],
+      "meaningTags": [
+        "house",
+        "home",
+        "family",
+        "professional",
+        "expert",
+        "performer"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 2,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 家 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390561"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-6b4c",
+      "character": "歌",
+      "grade": 2,
+      "koreanReading": "가",
+      "koreanMeanings": [
+        "노래"
+      ],
+      "onyomi": [
+        "カ"
+      ],
+      "kunyomi": [
+        "うた",
+        "うたう"
+      ],
+      "allOnyomi": [
+        "カ"
+      ],
+      "allKunyomi": [
+        "うた",
+        "うたう"
+      ],
+      "meaningTags": [
+        "song",
+        "sing"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 2,
+      "lessonOrder": 5,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 歌 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=3992101"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-753b",
+      "character": "画",
+      "grade": 2,
+      "koreanReading": "화",
+      "koreanMeanings": [
+        "그림"
+      ],
+      "onyomi": [
+        "ガ",
+        "カク"
+      ],
+      "kunyomi": [],
+      "allOnyomi": [
+        "ガ",
+        "カク",
+        "エ",
+        "カイ"
+      ],
+      "allKunyomi": [
+        "えがく",
+        "かくする",
+        "かぎる",
+        "はかりごと",
+        "はかる"
+      ],
+      "meaningTags": [
+        "brush-stroke",
+        "picture"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 3,
+      "lessonOrder": 1,
+      "traditionalCharacter": "畫",
+      "koreanHanja": "畫",
+      "japaneseCharacter": "画",
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 画 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390517"
+        },
+        {
+          "label": "Wiktionary 기여자 · 画 (en)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=92201110"
+        },
+        {
+          "label": "Wiktionary 기여자 · 畫 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390514"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-56de",
+      "character": "回",
+      "grade": 2,
+      "koreanReading": "회",
+      "koreanMeanings": [
+        "돌아오다"
+      ],
+      "onyomi": [
+        "カイ"
+      ],
+      "kunyomi": [
+        "まわる",
+        "まわす"
+      ],
+      "allOnyomi": [
+        "カイ",
+        "エ"
+      ],
+      "allKunyomi": [
+        "まわる",
+        "まわり",
+        "まわす",
+        "まわし",
+        "もとおる",
+        "かえる"
+      ],
+      "meaningTags": [
+        "-times",
+        "round",
+        "game",
+        "revolve",
+        "counter for occurrences"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 3,
+      "lessonOrder": 2,
+      "traditionalCharacter": "囘",
+      "koreanHanja": "囘",
+      "japaneseCharacter": "回",
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 回 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4389979"
+        },
+        {
+          "label": "Wiktionary 기여자 · 回 (en)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=92684097"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-4f1a",
+      "character": "会",
+      "grade": 2,
+      "koreanReading": "회",
+      "koreanMeanings": [
+        "모으다"
+      ],
+      "onyomi": [
+        "カイ"
+      ],
+      "kunyomi": [
+        "あう"
+      ],
+      "allOnyomi": [
+        "カイ",
+        "エ"
+      ],
+      "allKunyomi": [
+        "あう",
+        "あわせる",
+        "あつまる"
+      ],
+      "meaningTags": [
+        "meeting",
+        "meet",
+        "party",
+        "association",
+        "interview",
+        "join"
+      ],
+      "examples": [
+        {
+          "word": "会員",
+          "reading": "かいいん",
+          "meaningKo": "회원"
+        }
+      ],
+      "koreanConnections": [],
+      "lessonId": 3,
+      "lessonOrder": 3,
+      "traditionalCharacter": "會",
+      "koreanHanja": "會",
+      "japaneseCharacter": "会",
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 会 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4392826"
+        },
+        {
+          "label": "Wiktionary 기여자 · 会 (en)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=92491280"
+        },
+        {
+          "label": "Wiktionary 기여자 · 會 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4392823"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-6d77",
+      "character": "海",
+      "grade": 2,
+      "koreanReading": "해",
+      "koreanMeanings": [
+        "바다"
+      ],
+      "onyomi": [
+        "カイ"
+      ],
+      "kunyomi": [
+        "うみ"
+      ],
+      "allOnyomi": [
+        "カイ"
+      ],
+      "allKunyomi": [
+        "うみ"
+      ],
+      "meaningTags": [
+        "sea",
+        "ocean"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 3,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 海 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4392417"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-7d75",
+      "character": "絵",
+      "grade": 2,
+      "koreanReading": "회",
+      "koreanMeanings": [
+        "그림"
+      ],
+      "onyomi": [
+        "カイ",
+        "エ"
+      ],
+      "kunyomi": [],
+      "allOnyomi": [
+        "カイ",
+        "エ"
+      ],
+      "allKunyomi": [],
+      "meaningTags": [
+        "picture",
+        "drawing",
+        "painting",
+        "sketch"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 3,
+      "lessonOrder": 5,
+      "traditionalCharacter": "繪",
+      "koreanHanja": "繪",
+      "japaneseCharacter": "絵",
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 絵 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4025939"
+        },
+        {
+          "label": "Wiktionary 기여자 · 絵 (en)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=93408231"
+        },
+        {
+          "label": "Wiktionary 기여자 · 繪 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=3903493"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-5916",
+      "character": "外",
+      "grade": 2,
+      "koreanReading": "외",
+      "koreanMeanings": [
+        "바깥"
+      ],
+      "onyomi": [
+        "ガイ"
+      ],
+      "kunyomi": [
+        "そと",
+        "ほか"
+      ],
+      "allOnyomi": [
+        "ガイ",
+        "ゲ"
+      ],
+      "allKunyomi": [
+        "そと",
+        "ほか",
+        "はずす",
+        "はずれる",
+        "と"
+      ],
+      "meaningTags": [
+        "outside"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 4,
+      "lessonOrder": 1,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 外 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390172"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-89d2",
+      "character": "角",
+      "grade": 2,
+      "koreanReading": "각",
+      "koreanMeanings": [
+        "뿔"
+      ],
+      "onyomi": [
+        "カク"
+      ],
+      "kunyomi": [
+        "かど",
+        "つの"
+      ],
+      "allOnyomi": [
+        "カク"
+      ],
+      "allKunyomi": [
+        "かど",
+        "つの"
+      ],
+      "meaningTags": [
+        "angle",
+        "corner",
+        "square",
+        "horn",
+        "antlers"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 4,
+      "lessonOrder": 2,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 角 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390368"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-697d",
+      "character": "楽",
+      "grade": 2,
+      "koreanReading": "악",
+      "koreanMeanings": [
+        "음악",
+        "즐겁다"
+      ],
+      "onyomi": [
+        "ガク",
+        "ラク"
+      ],
+      "kunyomi": [
+        "たのしい",
+        "たのしむ"
+      ],
+      "allOnyomi": [
+        "ガク",
+        "ラク",
+        "ゴウ"
+      ],
+      "allKunyomi": [
+        "たのしい",
+        "たのしむ",
+        "このむ"
+      ],
+      "meaningTags": [
+        "music",
+        "comfort",
+        "ease"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 4,
+      "lessonOrder": 3,
+      "traditionalCharacter": "樂",
+      "koreanHanja": "樂",
+      "japaneseCharacter": "楽",
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 樂 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390566"
+        },
+        {
+          "label": "Wiktionary 기여자 · 楽 (en)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=92493834"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-6d3b",
+      "character": "活",
+      "grade": 2,
+      "koreanReading": "활",
+      "koreanMeanings": [
+        "살다"
+      ],
+      "onyomi": [
+        "カツ"
+      ],
+      "kunyomi": [],
+      "allOnyomi": [
+        "カツ"
+      ],
+      "allKunyomi": [
+        "いきる",
+        "いかす",
+        "いける"
+      ],
+      "meaningTags": [
+        "lively",
+        "resuscitation",
+        "being helped",
+        "living"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 4,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 活 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=3996443"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-9593",
+      "character": "間",
+      "grade": 2,
+      "koreanReading": "간",
+      "koreanMeanings": [
+        "사이"
+      ],
+      "onyomi": [
+        "カン",
+        "ケン"
+      ],
+      "kunyomi": [
+        "あいだ",
+        "ま"
+      ],
+      "allOnyomi": [
+        "カン",
+        "ケン"
+      ],
+      "allKunyomi": [
+        "あいだ",
+        "ま",
+        "あい"
+      ],
+      "meaningTags": [
+        "interval",
+        "space"
+      ],
+      "examples": [
+        {
+          "word": "仲間",
+          "reading": "なかま",
+          "meaningKo": "친구"
+        }
+      ],
+      "koreanConnections": [],
+      "lessonId": 4,
+      "lessonOrder": 5,
+      "traditionalCharacter": "閒",
+      "koreanHanja": "間",
+      "japaneseCharacter": "間",
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 間 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390116"
+        },
+        {
+          "label": "Wiktionary 기여자 · 間 (en)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=92163144"
+        },
+        {
+          "label": "Wiktionary 기여자 · 閒 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390120"
+        },
+        {
+          "label": "Wiktionary 기여자 · 仲 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4001782"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-4e38",
+      "character": "丸",
+      "grade": 2,
+      "koreanReading": "환",
+      "koreanMeanings": [
+        "알"
+      ],
+      "onyomi": [
+        "ガン"
+      ],
+      "kunyomi": [
+        "まる",
+        "まるい"
+      ],
+      "allOnyomi": [
+        "ガン"
+      ],
+      "allKunyomi": [
+        "まる",
+        "まるめる",
+        "まるい"
+      ],
+      "meaningTags": [
+        "round",
+        "full (month)",
+        "perfection",
+        "-ship",
+        "pills",
+        "make round",
+        "roll up",
+        "curl up",
+        "seduce",
+        "explain away"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 5,
+      "lessonOrder": 1,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 丸 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4484725"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-5ca9",
+      "character": "岩",
+      "grade": 2,
+      "koreanReading": "암",
+      "koreanMeanings": [
+        "바위"
+      ],
+      "onyomi": [
+        "ガン"
+      ],
+      "kunyomi": [
+        "いわ"
+      ],
+      "allOnyomi": [
+        "ガン"
+      ],
+      "allKunyomi": [
+        "いわ"
+      ],
+      "meaningTags": [
+        "boulder",
+        "rock",
+        "cliff"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 5,
+      "lessonOrder": 2,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 岩 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4049633"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-9854",
+      "character": "顔",
+      "grade": 2,
+      "koreanReading": "안",
+      "koreanMeanings": [
+        "얼굴"
+      ],
+      "onyomi": [
+        "ガン"
+      ],
+      "kunyomi": [
+        "かお"
+      ],
+      "allOnyomi": [
+        "ガン"
+      ],
+      "allKunyomi": [
+        "かお"
+      ],
+      "meaningTags": [
+        "face",
+        "expression"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 5,
+      "lessonOrder": 3,
+      "traditionalCharacter": "顏",
+      "koreanHanja": "顏",
+      "japaneseCharacter": "顔",
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 顔 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4056332"
+        },
+        {
+          "label": "Wiktionary 기여자 · 顔 (en)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=92746303"
+        },
+        {
+          "label": "Wiktionary 기여자 · 顏 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=3953101"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-6c7d",
+      "character": "汽",
+      "grade": 2,
+      "koreanReading": "기",
+      "koreanMeanings": [
+        "김"
+      ],
+      "onyomi": [
+        "キ"
+      ],
+      "kunyomi": [],
+      "allOnyomi": [
+        "キ"
+      ],
+      "allKunyomi": [],
+      "meaningTags": [
+        "vapor",
+        "steam"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 5,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 汽 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=3897712"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-8a18",
+      "character": "記",
+      "grade": 2,
+      "koreanReading": "기",
+      "koreanMeanings": [
+        "기록하다"
+      ],
+      "onyomi": [
+        "キ"
+      ],
+      "kunyomi": [
+        "しるす"
+      ],
+      "allOnyomi": [
+        "キ"
+      ],
+      "allKunyomi": [
+        "しるす"
+      ],
+      "meaningTags": [
+        "scribe",
+        "account",
+        "narrative"
+      ],
+      "examples": [
+        {
+          "word": "記事",
+          "reading": "きじ",
+          "meaningKo": "기사"
+        }
+      ],
+      "koreanConnections": [],
+      "lessonId": 5,
+      "lessonOrder": 5,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 記 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390498"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-5e30",
+      "character": "帰",
+      "grade": 2,
+      "koreanReading": "귀",
+      "koreanMeanings": [
+        "돌아가다"
+      ],
+      "onyomi": [
+        "キ"
+      ],
+      "kunyomi": [
+        "かえる",
+        "かえす"
+      ],
+      "allOnyomi": [
+        "キ"
+      ],
+      "allKunyomi": [
+        "かえる",
+        "かえす",
+        "おくる",
+        "とつぐ"
+      ],
+      "meaningTags": [
+        "homecoming",
+        "arrive at",
+        "lead to",
+        "result in"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 6,
+      "lessonOrder": 1,
+      "traditionalCharacter": "歸",
+      "koreanHanja": "歸",
+      "japaneseCharacter": "帰",
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 歸 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4061468"
+        },
+        {
+          "label": "Wiktionary 기여자 · 帰 (en)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=84012862"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-5f13",
+      "character": "弓",
+      "grade": 2,
+      "koreanReading": "궁",
+      "koreanMeanings": [
+        "활"
+      ],
+      "onyomi": [],
+      "kunyomi": [
+        "ゆみ"
+      ],
+      "allOnyomi": [
+        "キュウ"
+      ],
+      "allKunyomi": [
+        "ゆみ"
+      ],
+      "meaningTags": [
+        "bow",
+        "bow (archery, violin)"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 6,
+      "lessonOrder": 2,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 弓 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4484982"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-725b",
+      "character": "牛",
+      "grade": 2,
+      "koreanReading": "우",
+      "koreanMeanings": [
+        "소"
+      ],
+      "onyomi": [
+        "ギュウ"
+      ],
+      "kunyomi": [
+        "うし"
+      ],
+      "allOnyomi": [
+        "ギュウ"
+      ],
+      "allKunyomi": [
+        "うし"
+      ],
+      "meaningTags": [
+        "cow"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 6,
+      "lessonOrder": 3,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 牛 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390268"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-9b5a",
+      "character": "魚",
+      "grade": 2,
+      "koreanReading": "어",
+      "koreanMeanings": [
+        "물고기"
+      ],
+      "onyomi": [
+        "ギョ"
+      ],
+      "kunyomi": [
+        "うお",
+        "さかな"
+      ],
+      "allOnyomi": [
+        "ギョ"
+      ],
+      "allKunyomi": [
+        "うお",
+        "さかな",
+        "ざかな"
+      ],
+      "meaningTags": [
+        "fish"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 6,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 魚 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390150"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-4eac",
+      "character": "京",
+      "grade": 2,
+      "koreanReading": "경",
+      "koreanMeanings": [
+        "서울"
+      ],
+      "onyomi": [
+        "キョウ"
+      ],
+      "kunyomi": [],
+      "allOnyomi": [
+        "キョウ",
+        "ケイ",
+        "キン"
+      ],
+      "allKunyomi": [
+        "みやこ"
+      ],
+      "meaningTags": [
+        "capital",
+        "10**16"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 6,
+      "lessonOrder": 5,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 京 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390317"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-5f37",
+      "character": "強",
+      "grade": 2,
+      "koreanReading": "강",
+      "koreanMeanings": [
+        "굳세다"
+      ],
+      "onyomi": [
+        "キョウ"
+      ],
+      "kunyomi": [
+        "つよい",
+        "つよまる"
+      ],
+      "allOnyomi": [
+        "キョウ",
+        "ゴウ"
+      ],
+      "allKunyomi": [
+        "つよい",
+        "つよまる",
+        "つよめる",
+        "しいる",
+        "こわい"
+      ],
+      "meaningTags": [
+        "strong"
+      ],
+      "examples": [
+        {
+          "word": "強化",
+          "reading": "きょうか",
+          "meaningKo": "강화"
+        }
+      ],
+      "koreanConnections": [],
+      "lessonId": 7,
+      "lessonOrder": 1,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 強 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4033901"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-6559",
+      "character": "教",
+      "grade": 2,
+      "koreanReading": "교",
+      "koreanMeanings": [
+        "가르치다"
+      ],
+      "onyomi": [
+        "キョウ"
+      ],
+      "kunyomi": [
+        "おしえる",
+        "おそわる"
+      ],
+      "allOnyomi": [
+        "キョウ"
+      ],
+      "allKunyomi": [
+        "おしえる",
+        "おそわる"
+      ],
+      "meaningTags": [
+        "teach",
+        "faith",
+        "doctrine"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 7,
+      "lessonOrder": 2,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 教 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4026766"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-8fd1",
+      "character": "近",
+      "grade": 2,
+      "koreanReading": "근",
+      "koreanMeanings": [
+        "가깝다"
+      ],
+      "onyomi": [
+        "キン"
+      ],
+      "kunyomi": [
+        "ちかい"
+      ],
+      "allOnyomi": [
+        "キン",
+        "コン"
+      ],
+      "allKunyomi": [
+        "ちかい"
+      ],
+      "meaningTags": [
+        "near",
+        "early",
+        "akin",
+        "tantamount"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 7,
+      "lessonOrder": 3,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 近 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4127247"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-5144",
+      "character": "兄",
+      "grade": 2,
+      "koreanReading": "형",
+      "koreanMeanings": [
+        "오빠"
+      ],
+      "onyomi": [
+        "キョウ"
+      ],
+      "kunyomi": [
+        "あに"
+      ],
+      "allOnyomi": [
+        "ケイ",
+        "キョウ"
+      ],
+      "allKunyomi": [
+        "あに"
+      ],
+      "meaningTags": [
+        "elder brother",
+        "big brother"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 7,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 兄 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4482047"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-5f62",
+      "character": "形",
+      "grade": 2,
+      "koreanReading": "형",
+      "koreanMeanings": [
+        "형상"
+      ],
+      "onyomi": [
+        "ケイ",
+        "ギョウ"
+      ],
+      "kunyomi": [
+        "かた",
+        "かたち"
+      ],
+      "allOnyomi": [
+        "ケイ",
+        "ギョウ"
+      ],
+      "allKunyomi": [
+        "かた",
+        "がた",
+        "かたち",
+        "なり"
+      ],
+      "meaningTags": [
+        "shape",
+        "form",
+        "style"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 7,
+      "lessonOrder": 5,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 形 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390313"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-8a08",
+      "character": "計",
+      "grade": 2,
+      "koreanReading": "계",
+      "koreanMeanings": [
+        "셈"
+      ],
+      "onyomi": [
+        "ケイ"
+      ],
+      "kunyomi": [
+        "はかる",
+        "はからう"
+      ],
+      "allOnyomi": [
+        "ケイ"
+      ],
+      "allKunyomi": [
+        "はかる",
+        "はからう"
+      ],
+      "meaningTags": [
+        "plot",
+        "plan",
+        "scheme",
+        "measure"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 8,
+      "lessonOrder": 1,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 計 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=3999671"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-5143",
+      "character": "元",
+      "grade": 2,
+      "koreanReading": "원",
+      "koreanMeanings": [
+        "으뜸"
+      ],
+      "onyomi": [
+        "ゲン",
+        "ガン"
+      ],
+      "kunyomi": [
+        "もと"
+      ],
+      "allOnyomi": [
+        "ゲン",
+        "ガン"
+      ],
+      "allKunyomi": [
+        "もと"
+      ],
+      "meaningTags": [
+        "beginning",
+        "former time",
+        "origin"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 8,
+      "lessonOrder": 2,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 元 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4392845"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-8a00",
+      "character": "言",
+      "grade": 2,
+      "koreanReading": "언",
+      "koreanMeanings": [
+        "말씀"
+      ],
+      "onyomi": [
+        "ゲン",
+        "ゴン"
+      ],
+      "kunyomi": [
+        "いう",
+        "こと"
+      ],
+      "allOnyomi": [
+        "ゲン",
+        "ゴン"
+      ],
+      "allKunyomi": [
+        "いう",
+        "こと"
+      ],
+      "meaningTags": [
+        "say",
+        "word"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 8,
+      "lessonOrder": 3,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 言 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4389892"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-539f",
+      "character": "原",
+      "grade": 2,
+      "koreanReading": "원",
+      "koreanMeanings": [
+        "근원"
+      ],
+      "onyomi": [
+        "ゲン"
+      ],
+      "kunyomi": [
+        "はら"
+      ],
+      "allOnyomi": [
+        "ゲン"
+      ],
+      "allKunyomi": [
+        "はら"
+      ],
+      "meaningTags": [
+        "meadow",
+        "original",
+        "primitive",
+        "field",
+        "plain",
+        "prairie",
+        "tundra",
+        "wilderness"
+      ],
+      "examples": [
+        {
+          "word": "原因",
+          "reading": "げんいん",
+          "meaningKo": "원인"
+        }
+      ],
+      "koreanConnections": [],
+      "lessonId": 8,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 原 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4393119"
+        },
+        {
+          "label": "Wiktionary 기여자 · 因 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4393120"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-6238",
+      "character": "戸",
+      "grade": 2,
+      "koreanReading": "호",
+      "koreanMeanings": [
+        "집"
+      ],
+      "onyomi": [
+        "コ"
+      ],
+      "kunyomi": [
+        "と"
+      ],
+      "allOnyomi": [
+        "コ"
+      ],
+      "allKunyomi": [
+        "と"
+      ],
+      "meaningTags": [
+        "door",
+        "counter for houses",
+        "door radical (no. 63)"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 8,
+      "lessonOrder": 5,
+      "traditionalCharacter": "戶",
+      "koreanHanja": "戶",
+      "japaneseCharacter": "戸",
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 戸 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4480835"
+        },
+        {
+          "label": "Wiktionary 기여자 · 戸 (en)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=92722491"
+        },
+        {
+          "label": "Wiktionary 기여자 · 戶 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390458"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-53e4",
+      "character": "古",
+      "grade": 2,
+      "koreanReading": "고",
+      "koreanMeanings": [
+        "옛"
+      ],
+      "onyomi": [
+        "コ"
+      ],
+      "kunyomi": [
+        "ふるい",
+        "ふるす"
+      ],
+      "allOnyomi": [
+        "コ"
+      ],
+      "allKunyomi": [
+        "ふるい",
+        "ふる",
+        "ふるす"
+      ],
+      "meaningTags": [
+        "old"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 9,
+      "lessonOrder": 1,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 古 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390228"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-5348",
+      "character": "午",
+      "grade": 2,
+      "koreanReading": "오",
+      "koreanMeanings": [
+        "낮"
+      ],
+      "onyomi": [
+        "ゴ"
+      ],
+      "kunyomi": [],
+      "allOnyomi": [
+        "ゴ"
+      ],
+      "allKunyomi": [
+        "うま"
+      ],
+      "meaningTags": [
+        "noon",
+        "sign of the horse",
+        "11AM-1PM",
+        "seventh sign of Chinese zodiac"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 9,
+      "lessonOrder": 2,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 午 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390270"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-5f8c",
+      "character": "後",
+      "grade": 2,
+      "koreanReading": "후",
+      "koreanMeanings": [
+        "뒤"
+      ],
+      "onyomi": [
+        "ゴ",
+        "コウ"
+      ],
+      "kunyomi": [
+        "のち",
+        "うしろ"
+      ],
+      "allOnyomi": [
+        "ゴ",
+        "コウ"
+      ],
+      "allKunyomi": [
+        "のち",
+        "うしろ",
+        "あと",
+        "おくれる"
+      ],
+      "meaningTags": [
+        "behind",
+        "back",
+        "later"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 9,
+      "lessonOrder": 3,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 後 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4029455"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-8a9e",
+      "character": "語",
+      "grade": 2,
+      "koreanReading": "어",
+      "koreanMeanings": [
+        "말씀"
+      ],
+      "onyomi": [
+        "ゴ"
+      ],
+      "kunyomi": [
+        "かたる",
+        "かたらう"
+      ],
+      "allOnyomi": [
+        "ゴ"
+      ],
+      "allKunyomi": [
+        "かたる",
+        "かたらう"
+      ],
+      "meaningTags": [
+        "word",
+        "speech",
+        "language"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 9,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 語 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4389894"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-5de5",
+      "character": "工",
+      "grade": 2,
+      "koreanReading": "공",
+      "koreanMeanings": [
+        "장인"
+      ],
+      "onyomi": [
+        "コウ",
+        "ク"
+      ],
+      "kunyomi": [],
+      "allOnyomi": [
+        "コウ",
+        "ク",
+        "グ"
+      ],
+      "allKunyomi": [],
+      "meaningTags": [
+        "craft",
+        "construction",
+        "katakana e radical (no. 48)"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 9,
+      "lessonOrder": 5,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 工 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390472"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-516c",
+      "character": "公",
+      "grade": 2,
+      "koreanReading": "공",
+      "koreanMeanings": [
+        "공평하다"
+      ],
+      "onyomi": [
+        "コウ"
+      ],
+      "kunyomi": [],
+      "allOnyomi": [
+        "コウ",
+        "ク"
+      ],
+      "allKunyomi": [
+        "おおやけ"
+      ],
+      "meaningTags": [
+        "public",
+        "prince",
+        "official",
+        "governmental"
+      ],
+      "examples": [
+        {
+          "word": "公務員",
+          "reading": "こうむいん",
+          "meaningKo": "공무원"
+        }
+      ],
+      "koreanConnections": [],
+      "lessonId": 10,
+      "lessonOrder": 1,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 公 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390574"
+        },
+        {
+          "label": "Wiktionary 기여자 · 員 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4393540"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-5e83",
+      "character": "広",
+      "grade": 2,
+      "koreanReading": "광",
+      "koreanMeanings": [
+        "넓다"
+      ],
+      "onyomi": [
+        "コウ"
+      ],
+      "kunyomi": [
+        "ひろい",
+        "ひろまる"
+      ],
+      "allOnyomi": [
+        "コウ"
+      ],
+      "allKunyomi": [
+        "ひろい",
+        "ひろまる",
+        "ひろめる",
+        "ひろがる",
+        "ひろげる"
+      ],
+      "meaningTags": [
+        "wide",
+        "broad",
+        "spacious"
+      ],
+      "examples": [
+        {
+          "word": "広告",
+          "reading": "こうこく",
+          "meaningKo": "광고"
+        }
+      ],
+      "koreanConnections": [],
+      "lessonId": 10,
+      "lessonOrder": 2,
+      "traditionalCharacter": "廣",
+      "koreanHanja": "廣",
+      "japaneseCharacter": "広",
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 広 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390292"
+        },
+        {
+          "label": "Wiktionary 기여자 · 広 (en)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=92161084"
+        },
+        {
+          "label": "Wiktionary 기여자 · 廣 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4480789"
+        },
+        {
+          "label": "Wiktionary 기여자 · 告 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390232"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-4ea4",
+      "character": "交",
+      "grade": 2,
+      "koreanReading": "교",
+      "koreanMeanings": [
+        "사귀다"
+      ],
+      "onyomi": [
+        "コウ"
+      ],
+      "kunyomi": [
+        "まじわる",
+        "まじえる"
+      ],
+      "allOnyomi": [
+        "コウ"
+      ],
+      "allKunyomi": [
+        "まじわる",
+        "まじえる",
+        "まじる",
+        "まざる",
+        "まぜる",
+        "かう",
+        "かわす",
+        "こもごも"
+      ],
+      "meaningTags": [
+        "mingle",
+        "mixing",
+        "association",
+        "coming & going"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 10,
+      "lessonOrder": 3,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 交 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390547"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-5149",
+      "character": "光",
+      "grade": 2,
+      "koreanReading": "광",
+      "koreanMeanings": [
+        "빛"
+      ],
+      "onyomi": [
+        "コウ"
+      ],
+      "kunyomi": [
+        "ひかる",
+        "ひかり"
+      ],
+      "allOnyomi": [
+        "コウ"
+      ],
+      "allKunyomi": [
+        "ひかる",
+        "ひかり"
+      ],
+      "meaningTags": [
+        "ray",
+        "light"
+      ],
+      "examples": [
+        {
+          "word": "観光",
+          "reading": "かんこう",
+          "meaningKo": "관광"
+        }
+      ],
+      "koreanConnections": [],
+      "lessonId": 10,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 光 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4392427"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-8003",
+      "character": "考",
+      "grade": 2,
+      "koreanReading": "고",
+      "koreanMeanings": [
+        "생각하다"
+      ],
+      "onyomi": [
+        "コウ"
+      ],
+      "kunyomi": [
+        "かんがえる"
+      ],
+      "allOnyomi": [
+        "コウ"
+      ],
+      "allKunyomi": [
+        "かんがえる",
+        "かんがえ"
+      ],
+      "meaningTags": [
+        "consider",
+        "think over"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 10,
+      "lessonOrder": 5,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 考 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4051603"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-884c",
+      "character": "行",
+      "grade": 2,
+      "koreanReading": "행",
+      "koreanMeanings": [
+        "다니다  항렬"
+      ],
+      "onyomi": [
+        "コウ",
+        "ギョウ"
+      ],
+      "kunyomi": [
+        "いく",
+        "ゆく"
+      ],
+      "allOnyomi": [
+        "コウ",
+        "ギョウ",
+        "アン"
+      ],
+      "allKunyomi": [
+        "いく",
+        "ゆく",
+        "ゆき",
+        "いき",
+        "おこなう"
+      ],
+      "meaningTags": [
+        "going",
+        "journey",
+        "carry out",
+        "conduct",
+        "act",
+        "line",
+        "row",
+        "bank"
+      ],
+      "examples": [
+        {
+          "word": "旅行",
+          "reading": "りょこう",
+          "meaningKo": "여행"
+        },
+        {
+          "word": "行動",
+          "reading": "こうどう",
+          "meaningKo": "행동"
+        }
+      ],
+      "koreanConnections": [
+        {
+          "wordKo": "행동",
+          "hanja": "行動"
+        }
+      ],
+      "lessonId": 11,
+      "lessonOrder": 1,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 行 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390108"
+        },
+        {
+          "label": "Wiktionary 기여자 · 旅 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=3995081"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-9ad8",
+      "character": "高",
+      "grade": 2,
+      "koreanReading": "고",
+      "koreanMeanings": [
+        "높다"
+      ],
+      "onyomi": [
+        "コウ"
+      ],
+      "kunyomi": [
+        "たかい",
+        "たか"
+      ],
+      "allOnyomi": [
+        "コウ"
+      ],
+      "allKunyomi": [
+        "たかい",
+        "たか",
+        "だか",
+        "たかまる",
+        "たかめる"
+      ],
+      "meaningTags": [
+        "tall",
+        "high",
+        "expensive"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 11,
+      "lessonOrder": 2,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 高 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390160"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-9ec4",
+      "character": "黄",
+      "grade": 2,
+      "koreanReading": "황",
+      "koreanMeanings": [
+        "누르다"
+      ],
+      "onyomi": [
+        "オウ"
+      ],
+      "kunyomi": [
+        "き"
+      ],
+      "allOnyomi": [
+        "コウ",
+        "オウ"
+      ],
+      "allKunyomi": [
+        "き",
+        "こ"
+      ],
+      "meaningTags": [
+        "yellow"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 11,
+      "lessonOrder": 3,
+      "traditionalCharacter": "黃",
+      "koreanHanja": "黃",
+      "japaneseCharacter": "黄",
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 黄 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=3912180"
+        },
+        {
+          "label": "Wiktionary 기여자 · 黄 (en)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=93443693"
+        },
+        {
+          "label": "Wiktionary 기여자 · 黃 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390417"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-5408",
+      "character": "合",
+      "grade": 2,
+      "koreanReading": "합",
+      "koreanMeanings": [
+        "합하다"
+      ],
+      "onyomi": [
+        "ゴウ",
+        "ガッ"
+      ],
+      "kunyomi": [
+        "あう",
+        "あわす"
+      ],
+      "allOnyomi": [
+        "ゴウ",
+        "ガッ",
+        "カッ"
+      ],
+      "allKunyomi": [
+        "あう",
+        "あい",
+        "あわす",
+        "あわせる"
+      ],
+      "meaningTags": [
+        "fit",
+        "suit",
+        "join",
+        "0.1"
+      ],
+      "examples": [
+        {
+          "word": "合唱",
+          "reading": "がっしょう",
+          "meaningKo": "합창"
+        },
+        {
+          "word": "試合",
+          "reading": "しあい",
+          "meaningKo": "시합"
+        }
+      ],
+      "koreanConnections": [
+        {
+          "wordKo": "합창",
+          "hanja": "合唱"
+        }
+      ],
+      "lessonId": 11,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 合 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390233"
+        },
+        {
+          "label": "Wiktionary 기여자 · 唱 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=3770131"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-8c37",
+      "character": "谷",
+      "grade": 2,
+      "koreanReading": "곡",
+      "koreanMeanings": [
+        "골"
+      ],
+      "onyomi": [],
+      "kunyomi": [
+        "たに"
+      ],
+      "allOnyomi": [
+        "コク"
+      ],
+      "allKunyomi": [
+        "たに",
+        "きわまる"
+      ],
+      "meaningTags": [
+        "valley"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 11,
+      "lessonOrder": 5,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 谷 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390371"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-56fd",
+      "character": "国",
+      "grade": 2,
+      "koreanReading": "국",
+      "koreanMeanings": [
+        "나라"
+      ],
+      "onyomi": [
+        "コク"
+      ],
+      "kunyomi": [
+        "くに"
+      ],
+      "allOnyomi": [
+        "コク"
+      ],
+      "allKunyomi": [
+        "くに"
+      ],
+      "meaningTags": [
+        "country"
+      ],
+      "examples": [
+        {
+          "word": "全国",
+          "reading": "ぜんこく",
+          "meaningKo": "전국"
+        }
+      ],
+      "koreanConnections": [],
+      "lessonId": 12,
+      "lessonOrder": 1,
+      "traditionalCharacter": "國",
+      "koreanHanja": "國",
+      "japaneseCharacter": "国",
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 國 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4185437"
+        },
+        {
+          "label": "Wiktionary 기여자 · 国 (en)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=91764514"
+        },
+        {
+          "label": "Wiktionary 기여자 · 国 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4389889"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-9ed2",
+      "character": "黒",
+      "grade": 2,
+      "koreanReading": "흑",
+      "koreanMeanings": [
+        "검다"
+      ],
+      "onyomi": [
+        "コク"
+      ],
+      "kunyomi": [
+        "くろ",
+        "くろい"
+      ],
+      "allOnyomi": [
+        "コク"
+      ],
+      "allKunyomi": [
+        "くろ",
+        "くろずむ",
+        "くろい"
+      ],
+      "meaningTags": [
+        "black"
+      ],
+      "examples": [
+        {
+          "word": "黒板",
+          "reading": "こくばん",
+          "meaningKo": "흑판"
+        }
+      ],
+      "koreanConnections": [
+        {
+          "wordKo": "흑판",
+          "hanja": "黑板"
+        }
+      ],
+      "lessonId": 12,
+      "lessonOrder": 2,
+      "traditionalCharacter": "黑",
+      "koreanHanja": "黑",
+      "japaneseCharacter": "黒",
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 黒 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4009455"
+        },
+        {
+          "label": "Wiktionary 기여자 · 黒 (en)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=92163413"
+        },
+        {
+          "label": "Wiktionary 기여자 · 黑 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390421"
+        },
+        {
+          "label": "Wiktionary 기여자 · 板 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=3996648"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-4eca",
+      "character": "今",
+      "grade": 2,
+      "koreanReading": "금",
+      "koreanMeanings": [
+        "이제"
+      ],
+      "onyomi": [
+        "コン"
+      ],
+      "kunyomi": [
+        "いま"
+      ],
+      "allOnyomi": [
+        "コン",
+        "キン"
+      ],
+      "allKunyomi": [
+        "いま"
+      ],
+      "meaningTags": [
+        "now"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 12,
+      "lessonOrder": 3,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 今 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390251"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-624d",
+      "character": "才",
+      "grade": 2,
+      "koreanReading": "재",
+      "koreanMeanings": [
+        "재주"
+      ],
+      "onyomi": [
+        "サイ"
+      ],
+      "kunyomi": [],
+      "allOnyomi": [
+        "サイ"
+      ],
+      "allKunyomi": [],
+      "meaningTags": [
+        "genius",
+        "years old",
+        "cubic shaku"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 12,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 才 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4383157"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-7d30",
+      "character": "細",
+      "grade": 2,
+      "koreanReading": "세",
+      "koreanMeanings": [
+        "가늘다"
+      ],
+      "onyomi": [
+        "サイ"
+      ],
+      "kunyomi": [
+        "ほそい",
+        "ほそる"
+      ],
+      "allOnyomi": [
+        "サイ"
+      ],
+      "allKunyomi": [
+        "ほそい",
+        "ほそる",
+        "こまか",
+        "こまかい"
+      ],
+      "meaningTags": [
+        "dainty",
+        "get thin",
+        "taper",
+        "slender",
+        "narrow",
+        "detailed",
+        "precise"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 12,
+      "lessonOrder": 5,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 細 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=3950174"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-4f5c",
+      "character": "作",
+      "grade": 2,
+      "koreanReading": "작",
+      "koreanMeanings": [
+        "짓다"
+      ],
+      "onyomi": [
+        "サク",
+        "サ"
+      ],
+      "kunyomi": [
+        "つくる"
+      ],
+      "allOnyomi": [
+        "サク",
+        "サ"
+      ],
+      "allKunyomi": [
+        "つくる",
+        "つくり",
+        "づくり"
+      ],
+      "meaningTags": [
+        "make",
+        "production",
+        "prepare",
+        "build"
+      ],
+      "examples": [
+        {
+          "word": "作業",
+          "reading": "さぎょう",
+          "meaningKo": "작업"
+        },
+        {
+          "word": "作品",
+          "reading": "さくひん",
+          "meaningKo": "작품"
+        }
+      ],
+      "koreanConnections": [],
+      "lessonId": 13,
+      "lessonOrder": 1,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 作 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4005536"
+        },
+        {
+          "label": "Wiktionary 기여자 · 業 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4484618"
+        },
+        {
+          "label": "Wiktionary 기여자 · 品 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4393520"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-7b97",
+      "character": "算",
+      "grade": 2,
+      "koreanReading": "산",
+      "koreanMeanings": [
+        "셈"
+      ],
+      "onyomi": [
+        "サン"
+      ],
+      "kunyomi": [],
+      "allOnyomi": [
+        "サン"
+      ],
+      "allKunyomi": [
+        "そろ"
+      ],
+      "meaningTags": [
+        "calculate",
+        "divining",
+        "number",
+        "abacus",
+        "probability"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 13,
+      "lessonOrder": 2,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 算 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390204"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-6b62",
+      "character": "止",
+      "grade": 2,
+      "koreanReading": "지",
+      "koreanMeanings": [
+        "그치다"
+      ],
+      "onyomi": [
+        "シ"
+      ],
+      "kunyomi": [
+        "とまる",
+        "とめる"
+      ],
+      "allOnyomi": [
+        "シ"
+      ],
+      "allKunyomi": [
+        "とまる",
+        "どまり",
+        "とめる",
+        "どめ",
+        "とどめる",
+        "とどめ",
+        "とどまる",
+        "やめる",
+        "やむ",
+        "よす",
+        "さす",
+        "さし"
+      ],
+      "meaningTags": [
+        "stop",
+        "halt"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 13,
+      "lessonOrder": 3,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 止 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390199"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-5e02",
+      "character": "市",
+      "grade": 2,
+      "koreanReading": "시",
+      "koreanMeanings": [
+        "저자"
+      ],
+      "onyomi": [
+        "シ"
+      ],
+      "kunyomi": [
+        "いち"
+      ],
+      "allOnyomi": [
+        "シ"
+      ],
+      "allKunyomi": [
+        "いち"
+      ],
+      "meaningTags": [
+        "market",
+        "city",
+        "town"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 13,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 市 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4047115"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-77e2",
+      "character": "矢",
+      "grade": 2,
+      "koreanReading": "시",
+      "koreanMeanings": [
+        "화살"
+      ],
+      "onyomi": [],
+      "kunyomi": [
+        "や"
+      ],
+      "allOnyomi": [
+        "シ"
+      ],
+      "allKunyomi": [
+        "や"
+      ],
+      "meaningTags": [
+        "dart",
+        "arrow"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 13,
+      "lessonOrder": 5,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 矢 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390541"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-59c9",
+      "character": "姉",
+      "grade": 2,
+      "koreanReading": "자",
+      "koreanMeanings": [
+        "손위 누이"
+      ],
+      "onyomi": [],
+      "kunyomi": [
+        "あね"
+      ],
+      "allOnyomi": [
+        "シ"
+      ],
+      "allKunyomi": [
+        "あね",
+        "はは"
+      ],
+      "meaningTags": [
+        "elder sister"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 14,
+      "lessonOrder": 1,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 姉 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4393529"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-601d",
+      "character": "思",
+      "grade": 2,
+      "koreanReading": "사",
+      "koreanMeanings": [
+        "생각하다"
+      ],
+      "onyomi": [
+        "シ"
+      ],
+      "kunyomi": [
+        "おもう"
+      ],
+      "allOnyomi": [
+        "シ"
+      ],
+      "allKunyomi": [
+        "おもう",
+        "おもえらく",
+        "おぼす"
+      ],
+      "meaningTags": [
+        "think"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 14,
+      "lessonOrder": 2,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 思 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4005883"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-7d19",
+      "character": "紙",
+      "grade": 2,
+      "koreanReading": "지",
+      "koreanMeanings": [
+        "종이"
+      ],
+      "onyomi": [
+        "シ"
+      ],
+      "kunyomi": [
+        "かみ"
+      ],
+      "allOnyomi": [
+        "シ"
+      ],
+      "allKunyomi": [
+        "かみ"
+      ],
+      "meaningTags": [
+        "paper"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 14,
+      "lessonOrder": 3,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 紙 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=3903034"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-5bfa",
+      "character": "寺",
+      "grade": 2,
+      "koreanReading": "사",
+      "koreanMeanings": [
+        "절"
+      ],
+      "onyomi": [
+        "ジ"
+      ],
+      "kunyomi": [
+        "てら"
+      ],
+      "allOnyomi": [
+        "ジ"
+      ],
+      "allKunyomi": [
+        "てら"
+      ],
+      "meaningTags": [
+        "Buddhist temple"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 14,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 寺 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390219"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-81ea",
+      "character": "自",
+      "grade": 2,
+      "koreanReading": "자",
+      "koreanMeanings": [
+        "스스로"
+      ],
+      "onyomi": [
+        "ジ",
+        "シ"
+      ],
+      "kunyomi": [
+        "みずから"
+      ],
+      "allOnyomi": [
+        "ジ",
+        "シ"
+      ],
+      "allKunyomi": [
+        "みずから",
+        "おのずから",
+        "おのずと"
+      ],
+      "meaningTags": [
+        "oneself"
+      ],
+      "examples": [
+        {
+          "word": "自然",
+          "reading": "しぜん",
+          "meaningKo": "자연"
+        }
+      ],
+      "koreanConnections": [],
+      "lessonId": 14,
+      "lessonOrder": 5,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 自 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390004"
+        },
+        {
+          "label": "Wiktionary 기여자 · 然 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390280"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-6642",
+      "character": "時",
+      "grade": 2,
+      "koreanReading": "시",
+      "koreanMeanings": [
+        "때"
+      ],
+      "onyomi": [
+        "ジ"
+      ],
+      "kunyomi": [
+        "とき"
+      ],
+      "allOnyomi": [
+        "ジ"
+      ],
+      "allKunyomi": [
+        "とき",
+        "どき"
+      ],
+      "meaningTags": [
+        "time",
+        "hour"
+      ],
+      "examples": [
+        {
+          "word": "時給",
+          "reading": "じきゅう",
+          "meaningKo": "시급"
+        },
+        {
+          "word": "時差",
+          "reading": "じさ",
+          "meaningKo": "시차"
+        }
+      ],
+      "koreanConnections": [],
+      "lessonId": 15,
+      "lessonOrder": 1,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 時 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390210"
+        },
+        {
+          "label": "Wiktionary 기여자 · 給 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4032323"
+        },
+        {
+          "label": "Wiktionary 기여자 · 差 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4393230"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-5ba4",
+      "character": "室",
+      "grade": 2,
+      "koreanReading": "실",
+      "koreanMeanings": [
+        "집"
+      ],
+      "onyomi": [
+        "シツ"
+      ],
+      "kunyomi": [],
+      "allOnyomi": [
+        "シツ"
+      ],
+      "allKunyomi": [
+        "むろ"
+      ],
+      "meaningTags": [
+        "room",
+        "apartment",
+        "chamber",
+        "greenhouse",
+        "cellar"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 15,
+      "lessonOrder": 2,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 室 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4482220"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-793e",
+      "character": "社",
+      "grade": 2,
+      "koreanReading": "사",
+      "koreanMeanings": [
+        "회사",
+        "신사"
+      ],
+      "onyomi": [
+        "シャ"
+      ],
+      "kunyomi": [
+        "やしろ"
+      ],
+      "allOnyomi": [
+        "シャ"
+      ],
+      "allKunyomi": [
+        "やしろ"
+      ],
+      "meaningTags": [
+        "company",
+        "firm",
+        "office",
+        "association",
+        "shrine"
+      ],
+      "examples": [
+        {
+          "word": "社員",
+          "reading": "しゃいん",
+          "meaningKo": "사원"
+        }
+      ],
+      "koreanConnections": [],
+      "lessonId": 15,
+      "lessonOrder": 3,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 社 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4392783"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-5f31",
+      "character": "弱",
+      "grade": 2,
+      "koreanReading": "약",
+      "koreanMeanings": [
+        "약하다"
+      ],
+      "onyomi": [
+        "ジャク"
+      ],
+      "kunyomi": [
+        "よわい",
+        "よわる"
+      ],
+      "allOnyomi": [
+        "ジャク"
+      ],
+      "allKunyomi": [
+        "よわい",
+        "よわる",
+        "よわまる",
+        "よわめる"
+      ],
+      "meaningTags": [
+        "weak",
+        "frail"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 15,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 弱 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4047873"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-9996",
+      "character": "首",
+      "grade": 2,
+      "koreanReading": "수",
+      "koreanMeanings": [
+        "머리"
+      ],
+      "onyomi": [
+        "シュ"
+      ],
+      "kunyomi": [
+        "くび"
+      ],
+      "allOnyomi": [
+        "シュ"
+      ],
+      "allKunyomi": [
+        "くび"
+      ],
+      "meaningTags": [
+        "neck",
+        "counter for songs and poems"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 15,
+      "lessonOrder": 5,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 首 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390140"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-79cb",
+      "character": "秋",
+      "grade": 2,
+      "koreanReading": "추",
+      "koreanMeanings": [
+        "가을"
+      ],
+      "onyomi": [
+        "シュウ"
+      ],
+      "kunyomi": [
+        "あき"
+      ],
+      "allOnyomi": [
+        "シュウ"
+      ],
+      "allKunyomi": [
+        "あき",
+        "とき"
+      ],
+      "meaningTags": [
+        "autumn"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 16,
+      "lessonOrder": 1,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 秋 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=3996884"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-9031",
+      "character": "週",
+      "grade": 2,
+      "koreanReading": "주",
+      "koreanMeanings": [
+        "돌다"
+      ],
+      "onyomi": [
+        "シュウ"
+      ],
+      "kunyomi": [],
+      "allOnyomi": [
+        "シュウ"
+      ],
+      "allKunyomi": [],
+      "meaningTags": [
+        "week"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 16,
+      "lessonOrder": 2,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 週 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4392406"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-6625",
+      "character": "春",
+      "grade": 2,
+      "koreanReading": "춘",
+      "koreanMeanings": [
+        "봄"
+      ],
+      "onyomi": [
+        "シュン"
+      ],
+      "kunyomi": [
+        "はる"
+      ],
+      "allOnyomi": [
+        "シュン"
+      ],
+      "allKunyomi": [
+        "はる"
+      ],
+      "meaningTags": [
+        "springtime",
+        "spring (season)"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 16,
+      "lessonOrder": 3,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 春 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4044765"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-66f8",
+      "character": "書",
+      "grade": 2,
+      "koreanReading": "서",
+      "koreanMeanings": [
+        "글"
+      ],
+      "onyomi": [
+        "ショ"
+      ],
+      "kunyomi": [
+        "かく"
+      ],
+      "allOnyomi": [
+        "ショ"
+      ],
+      "allKunyomi": [
+        "かく",
+        "がき"
+      ],
+      "meaningTags": [
+        "write"
+      ],
+      "examples": [
+        {
+          "word": "辞書",
+          "reading": "じしょ",
+          "meaningKo": "사전"
+        }
+      ],
+      "koreanConnections": [],
+      "lessonId": 16,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 書 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390512"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-5c11",
+      "character": "少",
+      "grade": 2,
+      "koreanReading": "소",
+      "koreanMeanings": [
+        "적다"
+      ],
+      "onyomi": [
+        "ショウ"
+      ],
+      "kunyomi": [
+        "すくない",
+        "すこし"
+      ],
+      "allOnyomi": [
+        "ショウ"
+      ],
+      "allKunyomi": [
+        "すくない",
+        "すこし"
+      ],
+      "meaningTags": [
+        "few",
+        "little"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 16,
+      "lessonOrder": 5,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 少 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4393662"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-5834",
+      "character": "場",
+      "grade": 2,
+      "koreanReading": "장",
+      "koreanMeanings": [
+        "마당"
+      ],
+      "onyomi": [
+        "ジョウ"
+      ],
+      "kunyomi": [
+        "ば"
+      ],
+      "allOnyomi": [
+        "ジョウ",
+        "チョウ"
+      ],
+      "allKunyomi": [
+        "ば"
+      ],
+      "meaningTags": [
+        "location",
+        "place"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 17,
+      "lessonOrder": 1,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 場 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4393239"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-8272",
+      "character": "色",
+      "grade": 2,
+      "koreanReading": "색",
+      "koreanMeanings": [
+        "빛"
+      ],
+      "onyomi": [
+        "ショク",
+        "シキ"
+      ],
+      "kunyomi": [
+        "いろ"
+      ],
+      "allOnyomi": [
+        "ショク",
+        "シキ"
+      ],
+      "allKunyomi": [
+        "いろ"
+      ],
+      "meaningTags": [
+        "color"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 17,
+      "lessonOrder": 2,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 色 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390359"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-98df",
+      "character": "食",
+      "grade": 2,
+      "koreanReading": "식",
+      "koreanMeanings": [
+        "밥"
+      ],
+      "onyomi": [
+        "ショク"
+      ],
+      "kunyomi": [
+        "くう",
+        "たべる"
+      ],
+      "allOnyomi": [
+        "ショク",
+        "ジキ"
+      ],
+      "allKunyomi": [
+        "くう",
+        "くらう",
+        "たべる",
+        "はむ"
+      ],
+      "meaningTags": [
+        "eat",
+        "food"
+      ],
+      "examples": [
+        {
+          "word": "食事",
+          "reading": "しょくじ",
+          "meaningKo": "식사"
+        },
+        {
+          "word": "食堂",
+          "reading": "しょくどう",
+          "meaningKo": "식당"
+        },
+        {
+          "word": "食品",
+          "reading": "しょくひん",
+          "meaningKo": "식품"
+        }
+      ],
+      "koreanConnections": [
+        {
+          "wordKo": "식사",
+          "hanja": "食事"
+        },
+        {
+          "wordKo": "식당",
+          "hanja": "食堂"
+        }
+      ],
+      "lessonId": 17,
+      "lessonOrder": 3,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 食 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390086"
+        },
+        {
+          "label": "Wiktionary 기여자 · 品 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4393520"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-5fc3",
+      "character": "心",
+      "grade": 2,
+      "koreanReading": "심",
+      "koreanMeanings": [
+        "마음"
+      ],
+      "onyomi": [
+        "シン"
+      ],
+      "kunyomi": [
+        "こころ"
+      ],
+      "allOnyomi": [
+        "シン"
+      ],
+      "allKunyomi": [
+        "こころ",
+        "ごころ"
+      ],
+      "meaningTags": [
+        "heart",
+        "mind",
+        "spirit",
+        "heart radical (no. 61)"
+      ],
+      "examples": [
+        {
+          "word": "心配",
+          "reading": "しんぱい",
+          "meaningKo": "걱정"
+        },
+        {
+          "word": "関心",
+          "reading": "かんしん",
+          "meaningKo": "관심"
+        }
+      ],
+      "koreanConnections": [
+        {
+          "wordKo": "관심",
+          "hanja": "關心"
+        }
+      ],
+      "lessonId": 17,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 心 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4389912"
+        },
+        {
+          "label": "Wiktionary 기여자 · 配 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4005975"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-65b0",
+      "character": "新",
+      "grade": 2,
+      "koreanReading": "신",
+      "koreanMeanings": [
+        "새로울"
+      ],
+      "onyomi": [
+        "シン"
+      ],
+      "kunyomi": [
+        "あたらしい",
+        "あらた"
+      ],
+      "allOnyomi": [
+        "シン"
+      ],
+      "allKunyomi": [
+        "あたらしい",
+        "あらた",
+        "あら",
+        "にい"
+      ],
+      "meaningTags": [
+        "new"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 17,
+      "lessonOrder": 5,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 新 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4007747"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-89aa",
+      "character": "親",
+      "grade": 2,
+      "koreanReading": "친",
+      "koreanMeanings": [
+        "친하다"
+      ],
+      "onyomi": [
+        "シン"
+      ],
+      "kunyomi": [
+        "おや",
+        "したしい"
+      ],
+      "allOnyomi": [
+        "シン"
+      ],
+      "allKunyomi": [
+        "おや",
+        "したしい",
+        "したしむ"
+      ],
+      "meaningTags": [
+        "parent",
+        "intimacy",
+        "relative",
+        "familiarity",
+        "dealer (cards)"
+      ],
+      "examples": [
+        {
+          "word": "両親",
+          "reading": "りょうしん",
+          "meaningKo": "양친"
+        }
+      ],
+      "koreanConnections": [
+        {
+          "wordKo": "양친",
+          "hanja": "兩親"
+        }
+      ],
+      "lessonId": 18,
+      "lessonOrder": 1,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 親 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4013286"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-56f3",
+      "character": "図",
+      "grade": 2,
+      "koreanReading": "도",
+      "koreanMeanings": [
+        "그림"
+      ],
+      "onyomi": [
+        "ズ",
+        "ト"
+      ],
+      "kunyomi": [],
+      "allOnyomi": [
+        "ズ",
+        "ト"
+      ],
+      "allKunyomi": [
+        "え",
+        "はかる"
+      ],
+      "meaningTags": [
+        "map",
+        "drawing",
+        "plan",
+        "extraordinary",
+        "audacious"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 18,
+      "lessonOrder": 2,
+      "traditionalCharacter": "圖",
+      "koreanHanja": "圖",
+      "japaneseCharacter": "図",
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 圖 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4392470"
+        },
+        {
+          "label": "Wiktionary 기여자 · 図 (en)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=92491617"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-6570",
+      "character": "数",
+      "grade": 2,
+      "koreanReading": "수",
+      "koreanMeanings": [
+        "셈"
+      ],
+      "onyomi": [
+        "スウ"
+      ],
+      "kunyomi": [
+        "かず",
+        "かぞえる"
+      ],
+      "allOnyomi": [
+        "スウ",
+        "ス",
+        "サク",
+        "ソク",
+        "シュ"
+      ],
+      "allKunyomi": [
+        "かず",
+        "かぞえる",
+        "しばしば",
+        "せめる",
+        "わずらわしい"
+      ],
+      "meaningTags": [
+        "number",
+        "strength",
+        "fate",
+        "law",
+        "figures"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 18,
+      "lessonOrder": 3,
+      "traditionalCharacter": "數",
+      "koreanHanja": "數",
+      "japaneseCharacter": "数",
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 数 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390143"
+        },
+        {
+          "label": "Wiktionary 기여자 · 数 (en)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=92504138"
+        },
+        {
+          "label": "Wiktionary 기여자 · 數 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390142"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-897f",
+      "character": "西",
+      "grade": 2,
+      "koreanReading": "서",
+      "koreanMeanings": [
+        "서녘"
+      ],
+      "onyomi": [
+        "セイ",
+        "サイ"
+      ],
+      "kunyomi": [
+        "にし"
+      ],
+      "allOnyomi": [
+        "セイ",
+        "サイ",
+        "ス"
+      ],
+      "allKunyomi": [
+        "にし"
+      ],
+      "meaningTags": [
+        "west",
+        "Spain"
+      ],
+      "examples": [
+        {
+          "word": "西洋",
+          "reading": "せいよう",
+          "meaningKo": "서양"
+        }
+      ],
+      "koreanConnections": [],
+      "lessonId": 18,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 西 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390036"
+        },
+        {
+          "label": "Wiktionary 기여자 · 洋 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4392423"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-58f0",
+      "character": "声",
+      "grade": 2,
+      "koreanReading": "성",
+      "koreanMeanings": [
+        "소리"
+      ],
+      "onyomi": [
+        "セイ"
+      ],
+      "kunyomi": [
+        "こえ"
+      ],
+      "allOnyomi": [
+        "セイ",
+        "ショウ"
+      ],
+      "allKunyomi": [
+        "こえ",
+        "こわ"
+      ],
+      "meaningTags": [
+        "voice"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 18,
+      "lessonOrder": 5,
+      "traditionalCharacter": "聲",
+      "koreanHanja": "聲",
+      "japaneseCharacter": "声",
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 声 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390569"
+        },
+        {
+          "label": "Wiktionary 기여자 · 声 (en)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=92200249"
+        },
+        {
+          "label": "Wiktionary 기여자 · 聲 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390568"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-661f",
+      "character": "星",
+      "grade": 2,
+      "koreanReading": "성",
+      "koreanMeanings": [
+        "별"
+      ],
+      "onyomi": [
+        "セイ"
+      ],
+      "kunyomi": [
+        "ほし"
+      ],
+      "allOnyomi": [
+        "セイ",
+        "ショウ"
+      ],
+      "allKunyomi": [
+        "ほし",
+        "ぼし"
+      ],
+      "meaningTags": [
+        "star",
+        "spot",
+        "dot",
+        "mark"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 19,
+      "lessonOrder": 1,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 星 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4392425"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-6674",
+      "character": "晴",
+      "grade": 2,
+      "koreanReading": "청",
+      "koreanMeanings": [
+        "개다"
+      ],
+      "onyomi": [
+        "セイ"
+      ],
+      "kunyomi": [
+        "はれる",
+        "はらす"
+      ],
+      "allOnyomi": [
+        "セイ"
+      ],
+      "allKunyomi": [
+        "はれる",
+        "はれ",
+        "ばれ",
+        "はらす"
+      ],
+      "meaningTags": [
+        "clear up"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 19,
+      "lessonOrder": 2,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 晴 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4032129"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-5207",
+      "character": "切",
+      "grade": 2,
+      "koreanReading": "절",
+      "koreanMeanings": [
+        "끊다  온통"
+      ],
+      "onyomi": [
+        "セツ"
+      ],
+      "kunyomi": [
+        "きる",
+        "きれる"
+      ],
+      "allOnyomi": [
+        "セツ",
+        "サイ"
+      ],
+      "allKunyomi": [
+        "きる",
+        "きり",
+        "ぎり",
+        "きれる",
+        "きれ",
+        "ぎれ"
+      ],
+      "meaningTags": [
+        "cut",
+        "cutoff",
+        "be sharp"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 19,
+      "lessonOrder": 3,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 切 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4031991"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-96ea",
+      "character": "雪",
+      "grade": 2,
+      "koreanReading": "설",
+      "koreanMeanings": [
+        "눈"
+      ],
+      "onyomi": [
+        "セツ"
+      ],
+      "kunyomi": [
+        "ゆき"
+      ],
+      "allOnyomi": [
+        "セツ"
+      ],
+      "allKunyomi": [
+        "ゆき"
+      ],
+      "meaningTags": [
+        "snow"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 19,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 雪 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4389871"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-8239",
+      "character": "船",
+      "grade": 2,
+      "koreanReading": "선",
+      "koreanMeanings": [
+        "배"
+      ],
+      "onyomi": [
+        "セン"
+      ],
+      "kunyomi": [
+        "ふね",
+        "ふな"
+      ],
+      "allOnyomi": [
+        "セン"
+      ],
+      "allKunyomi": [
+        "ふね",
+        "ふな"
+      ],
+      "meaningTags": [
+        "ship",
+        "boat"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 19,
+      "lessonOrder": 5,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 船 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=3904831"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-7dda",
+      "character": "線",
+      "grade": 2,
+      "koreanReading": "선",
+      "koreanMeanings": [
+        "줄"
+      ],
+      "onyomi": [
+        "セン"
+      ],
+      "kunyomi": [],
+      "allOnyomi": [
+        "セン"
+      ],
+      "allKunyomi": [
+        "すじ"
+      ],
+      "meaningTags": [
+        "line",
+        "track"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 20,
+      "lessonOrder": 1,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 線 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4032192"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-524d",
+      "character": "前",
+      "grade": 2,
+      "koreanReading": "전",
+      "koreanMeanings": [
+        "앞"
+      ],
+      "onyomi": [
+        "ゼン"
+      ],
+      "kunyomi": [
+        "まえ"
+      ],
+      "allOnyomi": [
+        "ゼン"
+      ],
+      "allKunyomi": [
+        "まえ"
+      ],
+      "meaningTags": [
+        "in front",
+        "before"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 20,
+      "lessonOrder": 2,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 前 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390563"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-7d44",
+      "character": "組",
+      "grade": 2,
+      "koreanReading": "조",
+      "koreanMeanings": [
+        "짜다"
+      ],
+      "onyomi": [
+        "ソ"
+      ],
+      "kunyomi": [
+        "くむ",
+        "くみ"
+      ],
+      "allOnyomi": [
+        "ソ"
+      ],
+      "allKunyomi": [
+        "くむ",
+        "くみ",
+        "ぐみ"
+      ],
+      "meaningTags": [
+        "association",
+        "braid",
+        "plait",
+        "construct",
+        "assemble",
+        "unite",
+        "cooperate",
+        "grapple"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 20,
+      "lessonOrder": 3,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 組 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4393650"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-8d70",
+      "character": "走",
+      "grade": 2,
+      "koreanReading": "주",
+      "koreanMeanings": [
+        "달리다"
+      ],
+      "onyomi": [
+        "ソウ"
+      ],
+      "kunyomi": [
+        "はしる"
+      ],
+      "allOnyomi": [
+        "ソウ"
+      ],
+      "allKunyomi": [
+        "はしる"
+      ],
+      "meaningTags": [
+        "run"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 20,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 走 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390241"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-591a",
+      "character": "多",
+      "grade": 2,
+      "koreanReading": "다",
+      "koreanMeanings": [
+        "많다"
+      ],
+      "onyomi": [
+        "タ"
+      ],
+      "kunyomi": [
+        "おおい"
+      ],
+      "allOnyomi": [
+        "タ"
+      ],
+      "allKunyomi": [
+        "おおい",
+        "まさに",
+        "まさる"
+      ],
+      "meaningTags": [
+        "many",
+        "frequent",
+        "much"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 20,
+      "lessonOrder": 5,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 多 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4393668"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-592a",
+      "character": "太",
+      "grade": 2,
+      "koreanReading": "태",
+      "koreanMeanings": [
+        "크다"
+      ],
+      "onyomi": [
+        "タイ",
+        "タ"
+      ],
+      "kunyomi": [
+        "ふとい",
+        "ふとる"
+      ],
+      "allOnyomi": [
+        "タイ",
+        "タ"
+      ],
+      "allKunyomi": [
+        "ふとい",
+        "ふとる"
+      ],
+      "meaningTags": [
+        "plump",
+        "thick",
+        "big around"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 21,
+      "lessonOrder": 1,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 太 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390578"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-4f53",
+      "character": "体",
+      "grade": 2,
+      "koreanReading": "체",
+      "koreanMeanings": [
+        "몸"
+      ],
+      "onyomi": [
+        "タイ"
+      ],
+      "kunyomi": [
+        "からだ"
+      ],
+      "allOnyomi": [
+        "タイ",
+        "テイ"
+      ],
+      "allKunyomi": [
+        "からだ",
+        "かたち"
+      ],
+      "meaningTags": [
+        "body",
+        "substance",
+        "object",
+        "reality",
+        "counter for images"
+      ],
+      "examples": [
+        {
+          "word": "身体",
+          "reading": "しんたい",
+          "meaningKo": "신체"
+        },
+        {
+          "word": "全体",
+          "reading": "ぜんたい",
+          "meaningKo": "전체"
+        }
+      ],
+      "koreanConnections": [],
+      "lessonId": 21,
+      "lessonOrder": 2,
+      "traditionalCharacter": "體",
+      "koreanHanja": "體",
+      "japaneseCharacter": "体",
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 体 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4389950"
+        },
+        {
+          "label": "Wiktionary 기여자 · 体 (en)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=92811100"
+        },
+        {
+          "label": "Wiktionary 기여자 · 體 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4389943"
+        },
+        {
+          "label": "Wiktionary 기여자 · 身 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390379"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-53f0",
+      "character": "台",
+      "grade": 2,
+      "koreanReading": "대",
+      "koreanMeanings": [
+        "받침대"
+      ],
+      "onyomi": [
+        "ダイ",
+        "タイ"
+      ],
+      "kunyomi": [],
+      "allOnyomi": [
+        "ダイ",
+        "タイ"
+      ],
+      "allKunyomi": [
+        "うてな",
+        "われ",
+        "つかさ"
+      ],
+      "meaningTags": [
+        "pedestal",
+        "a stand",
+        "counter for machines and vehicles"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 21,
+      "lessonOrder": 3,
+      "traditionalCharacter": "臺",
+      "koreanHanja": "臺",
+      "japaneseCharacter": "台",
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 台 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390234"
+        },
+        {
+          "label": "Wiktionary 기여자 · 台 (en)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=93466912"
+        },
+        {
+          "label": "Wiktionary 기여자 · 臺 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4393157"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-5730",
+      "character": "地",
+      "grade": 2,
+      "koreanReading": "지",
+      "koreanMeanings": [
+        "땅"
+      ],
+      "onyomi": [
+        "チ",
+        "ジ"
+      ],
+      "kunyomi": [],
+      "allOnyomi": [
+        "チ",
+        "ジ"
+      ],
+      "allKunyomi": [],
+      "meaningTags": [
+        "ground",
+        "earth"
+      ],
+      "examples": [
+        {
+          "word": "地域",
+          "reading": "ちいき",
+          "meaningKo": "지역"
+        }
+      ],
+      "koreanConnections": [
+        {
+          "wordKo": "지역",
+          "hanja": "地域"
+        }
+      ],
+      "lessonId": 21,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 地 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390562"
+        },
+        {
+          "label": "Wiktionary 기여자 · 域 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=3997604"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-6c60",
+      "character": "池",
+      "grade": 2,
+      "koreanReading": "지",
+      "koreanMeanings": [
+        "연못"
+      ],
+      "onyomi": [
+        "チ"
+      ],
+      "kunyomi": [
+        "いけ"
+      ],
+      "allOnyomi": [
+        "チ"
+      ],
+      "allKunyomi": [
+        "いけ"
+      ],
+      "meaningTags": [
+        "pond",
+        "cistern",
+        "pool",
+        "reservoir"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 21,
+      "lessonOrder": 5,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 池 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=3997211"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-77e5",
+      "character": "知",
+      "grade": 2,
+      "koreanReading": "지",
+      "koreanMeanings": [
+        "알다"
+      ],
+      "onyomi": [
+        "チ"
+      ],
+      "kunyomi": [
+        "しる"
+      ],
+      "allOnyomi": [
+        "チ"
+      ],
+      "allKunyomi": [
+        "しる",
+        "しらせる"
+      ],
+      "meaningTags": [
+        "know",
+        "wisdom"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 22,
+      "lessonOrder": 1,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 知 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=3996854"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-8336",
+      "character": "茶",
+      "grade": 2,
+      "koreanReading": "다",
+      "koreanMeanings": [
+        "차"
+      ],
+      "onyomi": [
+        "チャ"
+      ],
+      "kunyomi": [],
+      "allOnyomi": [
+        "チャ",
+        "サ"
+      ],
+      "allKunyomi": [],
+      "meaningTags": [
+        "tea"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 22,
+      "lessonOrder": 2,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 茶 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4393609"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-663c",
+      "character": "昼",
+      "grade": 2,
+      "koreanReading": "주",
+      "koreanMeanings": [
+        "낮"
+      ],
+      "onyomi": [
+        "チュウ"
+      ],
+      "kunyomi": [
+        "ひる"
+      ],
+      "allOnyomi": [
+        "チュウ"
+      ],
+      "allKunyomi": [
+        "ひる"
+      ],
+      "meaningTags": [
+        "daytime",
+        "noon"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 22,
+      "lessonOrder": 3,
+      "traditionalCharacter": "晝",
+      "koreanHanja": "晝",
+      "japaneseCharacter": "昼",
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 昼 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390516"
+        },
+        {
+          "label": "Wiktionary 기여자 · 昼 (en)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=92200664"
+        },
+        {
+          "label": "Wiktionary 기여자 · 晝 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390515"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-9577",
+      "character": "長",
+      "grade": 2,
+      "koreanReading": "장",
+      "koreanMeanings": [
+        "길다"
+      ],
+      "onyomi": [
+        "チョウ"
+      ],
+      "kunyomi": [
+        "ながい"
+      ],
+      "allOnyomi": [
+        "チョウ"
+      ],
+      "allKunyomi": [
+        "ながい",
+        "おさ"
+      ],
+      "meaningTags": [
+        "long",
+        "leader",
+        "superior",
+        "senior"
+      ],
+      "examples": [
+        {
+          "word": "課長",
+          "reading": "かちょう",
+          "meaningKo": "과장"
+        }
+      ],
+      "koreanConnections": [],
+      "lessonId": 22,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 長 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390162"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-9ce5",
+      "character": "鳥",
+      "grade": 2,
+      "koreanReading": "조",
+      "koreanMeanings": [
+        "새"
+      ],
+      "onyomi": [
+        "チョウ"
+      ],
+      "kunyomi": [
+        "とり"
+      ],
+      "allOnyomi": [
+        "チョウ"
+      ],
+      "allKunyomi": [
+        "とり"
+      ],
+      "meaningTags": [
+        "bird",
+        "chicken"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 22,
+      "lessonOrder": 5,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 鳥 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4389933"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-671d",
+      "character": "朝",
+      "grade": 2,
+      "koreanReading": "조",
+      "koreanMeanings": [
+        "아침"
+      ],
+      "onyomi": [
+        "チョウ"
+      ],
+      "kunyomi": [
+        "あさ"
+      ],
+      "allOnyomi": [
+        "チョウ"
+      ],
+      "allKunyomi": [
+        "あさ"
+      ],
+      "meaningTags": [
+        "morning",
+        "dynasty",
+        "regime",
+        "epoch",
+        "period",
+        "(North) Korea"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 23,
+      "lessonOrder": 1,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 朝 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4005347"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-76f4",
+      "character": "直",
+      "grade": 2,
+      "koreanReading": "직",
+      "koreanMeanings": [
+        "곧다"
+      ],
+      "onyomi": [
+        "チョク",
+        "ジキ"
+      ],
+      "kunyomi": [
+        "ただちに",
+        "なおす"
+      ],
+      "allOnyomi": [
+        "チョク",
+        "ジキ",
+        "ジカ"
+      ],
+      "allKunyomi": [
+        "ただちに",
+        "なおす",
+        "なおる",
+        "なおき",
+        "すぐ"
+      ],
+      "meaningTags": [
+        "straightaway",
+        "honesty",
+        "frankness",
+        "fix",
+        "repair"
+      ],
+      "examples": [
+        {
+          "word": "仲直り",
+          "reading": "なかなおり",
+          "meaningKo": "화해"
+        }
+      ],
+      "koreanConnections": [],
+      "lessonId": 23,
+      "lessonOrder": 2,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 直 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4392461"
+        },
+        {
+          "label": "Wiktionary 기여자 · 仲 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4001782"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-901a",
+      "character": "通",
+      "grade": 2,
+      "koreanReading": "통",
+      "koreanMeanings": [
+        "통하다"
+      ],
+      "onyomi": [
+        "ツウ"
+      ],
+      "kunyomi": [
+        "とおる",
+        "とおす"
+      ],
+      "allOnyomi": [
+        "ツウ",
+        "ツ"
+      ],
+      "allKunyomi": [
+        "とおる",
+        "とおり",
+        "どおり",
+        "とおす",
+        "とおし",
+        "どおし",
+        "かよう"
+      ],
+      "meaningTags": [
+        "traffic",
+        "pass through",
+        "avenue",
+        "commute",
+        "counter for letters, notes, documents, etc."
+      ],
+      "examples": [
+        {
+          "word": "通勤",
+          "reading": "つうきん",
+          "meaningKo": "통근"
+        },
+        {
+          "word": "通貨",
+          "reading": "つうか",
+          "meaningKo": "통화"
+        }
+      ],
+      "koreanConnections": [],
+      "lessonId": 23,
+      "lessonOrder": 3,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 通 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4393660"
+        },
+        {
+          "label": "Wiktionary 기여자 · 勤 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4058321"
+        },
+        {
+          "label": "Wiktionary 기여자 · 貨 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4393655"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-5f1f",
+      "character": "弟",
+      "grade": 2,
+      "koreanReading": "제",
+      "koreanMeanings": [
+        "아우"
+      ],
+      "onyomi": [
+        "ダイ"
+      ],
+      "kunyomi": [
+        "おとうと"
+      ],
+      "allOnyomi": [
+        "テイ",
+        "ダイ",
+        "デ"
+      ],
+      "allKunyomi": [
+        "おとうと"
+      ],
+      "meaningTags": [
+        "younger brother",
+        "faithful service to elders"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 23,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 弟 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4049100"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-5e97",
+      "character": "店",
+      "grade": 2,
+      "koreanReading": "점",
+      "koreanMeanings": [
+        "가게"
+      ],
+      "onyomi": [
+        "テン"
+      ],
+      "kunyomi": [
+        "みせ"
+      ],
+      "allOnyomi": [
+        "テン"
+      ],
+      "allKunyomi": [
+        "みせ",
+        "たな"
+      ],
+      "meaningTags": [
+        "store",
+        "shop"
+      ],
+      "examples": [
+        {
+          "word": "店員",
+          "reading": "てんいん",
+          "meaningKo": "점원"
+        }
+      ],
+      "koreanConnections": [],
+      "lessonId": 23,
+      "lessonOrder": 5,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 店 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4022961"
+        },
+        {
+          "label": "Wiktionary 기여자 · 員 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4393540"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-70b9",
+      "character": "点",
+      "grade": 2,
+      "koreanReading": "점",
+      "koreanMeanings": [
+        "점"
+      ],
+      "onyomi": [
+        "テン"
+      ],
+      "kunyomi": [],
+      "allOnyomi": [
+        "テン"
+      ],
+      "allKunyomi": [
+        "つける",
+        "つく",
+        "たてる",
+        "さす",
+        "とぼす",
+        "ともす",
+        "ぼち"
+      ],
+      "meaningTags": [
+        "spot",
+        "point",
+        "mark",
+        "speck",
+        "decimal point"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 24,
+      "lessonOrder": 1,
+      "traditionalCharacter": "點",
+      "koreanHanja": "點",
+      "japaneseCharacter": "点",
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 点 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4393550"
+        },
+        {
+          "label": "Wiktionary 기여자 · 点 (en)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=91767632"
+        },
+        {
+          "label": "Wiktionary 기여자 · 點 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4393549"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-96fb",
+      "character": "電",
+      "grade": 2,
+      "koreanReading": "전",
+      "koreanMeanings": [
+        "번개"
+      ],
+      "onyomi": [
+        "デン"
+      ],
+      "kunyomi": [],
+      "allOnyomi": [
+        "デン"
+      ],
+      "allKunyomi": [],
+      "meaningTags": [
+        "electricity"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 24,
+      "lessonOrder": 2,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 電 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390202"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-5200",
+      "character": "刀",
+      "grade": 2,
+      "koreanReading": "도",
+      "koreanMeanings": [
+        "칼"
+      ],
+      "onyomi": [
+        "トウ"
+      ],
+      "kunyomi": [
+        "かたな"
+      ],
+      "allOnyomi": [
+        "トウ"
+      ],
+      "allKunyomi": [
+        "かたな",
+        "そり"
+      ],
+      "meaningTags": [
+        "sword",
+        "saber",
+        "knife"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 24,
+      "lessonOrder": 3,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 刀 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4520957"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-51ac",
+      "character": "冬",
+      "grade": 2,
+      "koreanReading": "동",
+      "koreanMeanings": [
+        "겨울"
+      ],
+      "onyomi": [
+        "トウ"
+      ],
+      "kunyomi": [
+        "ふゆ"
+      ],
+      "allOnyomi": [
+        "トウ"
+      ],
+      "allKunyomi": [
+        "ふゆ"
+      ],
+      "meaningTags": [
+        "winter"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 24,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 冬 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4203408"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-5f53",
+      "character": "当",
+      "grade": 2,
+      "koreanReading": "당",
+      "koreanMeanings": [
+        "마땅하다"
+      ],
+      "onyomi": [
+        "トウ"
+      ],
+      "kunyomi": [
+        "あたる",
+        "あてる"
+      ],
+      "allOnyomi": [
+        "トウ"
+      ],
+      "allKunyomi": [
+        "あたる",
+        "あたり",
+        "あてる",
+        "あて",
+        "まさに",
+        "まさにべし"
+      ],
+      "meaningTags": [
+        "hit",
+        "right",
+        "appropriate",
+        "himself"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 24,
+      "lessonOrder": 5,
+      "traditionalCharacter": "當",
+      "koreanHanja": "當",
+      "japaneseCharacter": "当",
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 當 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=3577761"
+        },
+        {
+          "label": "Wiktionary 기여자 · 当 (en)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=93443695"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-6771",
+      "character": "東",
+      "grade": 2,
+      "koreanReading": "동",
+      "koreanMeanings": [
+        "동녘"
+      ],
+      "onyomi": [
+        "トウ"
+      ],
+      "kunyomi": [
+        "ひがし"
+      ],
+      "allOnyomi": [
+        "トウ"
+      ],
+      "allKunyomi": [
+        "ひがし"
+      ],
+      "meaningTags": [
+        "east"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 25,
+      "lessonOrder": 1,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 東 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390033"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-7b54",
+      "character": "答",
+      "grade": 2,
+      "koreanReading": "답",
+      "koreanMeanings": [
+        "대답하다"
+      ],
+      "onyomi": [
+        "トウ"
+      ],
+      "kunyomi": [
+        "こたえる",
+        "こたえ"
+      ],
+      "allOnyomi": [
+        "トウ"
+      ],
+      "allKunyomi": [
+        "こたえる",
+        "こたえ"
+      ],
+      "meaningTags": [
+        "solution",
+        "answer"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 25,
+      "lessonOrder": 2,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 答 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=3997726"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-982d",
+      "character": "頭",
+      "grade": 2,
+      "koreanReading": "두",
+      "koreanMeanings": [
+        "머리"
+      ],
+      "onyomi": [
+        "トウ",
+        "ズ"
+      ],
+      "kunyomi": [
+        "あたま"
+      ],
+      "allOnyomi": [
+        "トウ",
+        "ズ",
+        "ト"
+      ],
+      "allKunyomi": [
+        "あたま",
+        "かしら",
+        "がしら",
+        "かぶり"
+      ],
+      "meaningTags": [
+        "head",
+        "counter for large animals"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 25,
+      "lessonOrder": 3,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 頭 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390126"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-540c",
+      "character": "同",
+      "grade": 2,
+      "koreanReading": "동",
+      "koreanMeanings": [
+        "한가지"
+      ],
+      "onyomi": [
+        "ドウ"
+      ],
+      "kunyomi": [
+        "おなじ"
+      ],
+      "allOnyomi": [
+        "ドウ"
+      ],
+      "allKunyomi": [
+        "おなじ"
+      ],
+      "meaningTags": [
+        "same",
+        "agree",
+        "equal"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 25,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 同 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4389974"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-9053",
+      "character": "道",
+      "grade": 2,
+      "koreanReading": "도",
+      "koreanMeanings": [
+        "길"
+      ],
+      "onyomi": [
+        "ドウ"
+      ],
+      "kunyomi": [
+        "みち"
+      ],
+      "allOnyomi": [
+        "ドウ",
+        "トウ"
+      ],
+      "allKunyomi": [
+        "みち",
+        "いう"
+      ],
+      "meaningTags": [
+        "road-way",
+        "street",
+        "district",
+        "journey",
+        "course",
+        "moral",
+        "teachings"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 25,
+      "lessonOrder": 5,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 道 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4026770"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-8aad",
+      "character": "読",
+      "grade": 2,
+      "koreanReading": "독",
+      "koreanMeanings": [
+        "읽다"
+      ],
+      "onyomi": [
+        "ドク",
+        "トク"
+      ],
+      "kunyomi": [
+        "よむ"
+      ],
+      "allOnyomi": [
+        "ドク",
+        "トク",
+        "トウ"
+      ],
+      "allKunyomi": [
+        "よむ",
+        "よみ"
+      ],
+      "meaningTags": [
+        "read"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 26,
+      "lessonOrder": 1,
+      "traditionalCharacter": "讀",
+      "koreanHanja": "讀",
+      "japaneseCharacter": "読",
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 読 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4032408"
+        },
+        {
+          "label": "Wiktionary 기여자 · 読 (en)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=89986736"
+        },
+        {
+          "label": "Wiktionary 기여자 · 讀 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=3410983"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-5185",
+      "character": "内",
+      "grade": 2,
+      "koreanReading": "내",
+      "koreanMeanings": [
+        "안"
+      ],
+      "onyomi": [
+        "ナイ"
+      ],
+      "kunyomi": [
+        "うち"
+      ],
+      "allOnyomi": [
+        "ナイ",
+        "ダイ"
+      ],
+      "allKunyomi": [
+        "うち"
+      ],
+      "meaningTags": [
+        "inside",
+        "within",
+        "between",
+        "among",
+        "house",
+        "home"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 26,
+      "lessonOrder": 2,
+      "traditionalCharacter": "內",
+      "koreanHanja": "內",
+      "japaneseCharacter": "内",
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 內 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390171"
+        },
+        {
+          "label": "Wiktionary 기여자 · 内 (en)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=92681833"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-5357",
+      "character": "南",
+      "grade": 2,
+      "koreanReading": "남",
+      "koreanMeanings": [
+        "남녘"
+      ],
+      "onyomi": [
+        "ナン"
+      ],
+      "kunyomi": [
+        "みなみ"
+      ],
+      "allOnyomi": [
+        "ナン",
+        "ナ"
+      ],
+      "allKunyomi": [
+        "みなみ"
+      ],
+      "meaningTags": [
+        "south"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 26,
+      "lessonOrder": 3,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 南 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4243911"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-8089",
+      "character": "肉",
+      "grade": 2,
+      "koreanReading": "육",
+      "koreanMeanings": [
+        "고기"
+      ],
+      "onyomi": [
+        "ニク"
+      ],
+      "kunyomi": [],
+      "allOnyomi": [
+        "ニク"
+      ],
+      "allKunyomi": [
+        "しし"
+      ],
+      "meaningTags": [
+        "meat"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 26,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 肉 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390351"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-99ac",
+      "character": "馬",
+      "grade": 2,
+      "koreanReading": "마",
+      "koreanMeanings": [
+        "말"
+      ],
+      "onyomi": [
+        "バ"
+      ],
+      "kunyomi": [
+        "うま",
+        "ま"
+      ],
+      "allOnyomi": [
+        "バ",
+        "メ",
+        "マ",
+        "ボ",
+        "モ"
+      ],
+      "allKunyomi": [
+        "うま",
+        "ま"
+      ],
+      "meaningTags": [
+        "horse"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 26,
+      "lessonOrder": 5,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 馬 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4389929"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-58f2",
+      "character": "売",
+      "grade": 2,
+      "koreanReading": "매",
+      "koreanMeanings": [
+        "팔다"
+      ],
+      "onyomi": [
+        "バイ"
+      ],
+      "kunyomi": [
+        "うる",
+        "うれる"
+      ],
+      "allOnyomi": [
+        "バイ"
+      ],
+      "allKunyomi": [
+        "うる",
+        "うれる"
+      ],
+      "meaningTags": [
+        "sell"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 27,
+      "lessonOrder": 1,
+      "traditionalCharacter": "賣",
+      "koreanHanja": "賣",
+      "japaneseCharacter": "売",
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 売 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=3995889"
+        },
+        {
+          "label": "Wiktionary 기여자 · 売 (en)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=89932407"
+        },
+        {
+          "label": "Wiktionary 기여자 · 賣 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4026774"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-8cb7",
+      "character": "買",
+      "grade": 2,
+      "koreanReading": "매",
+      "koreanMeanings": [
+        "사다"
+      ],
+      "onyomi": [
+        "バイ"
+      ],
+      "kunyomi": [
+        "かう"
+      ],
+      "allOnyomi": [
+        "バイ"
+      ],
+      "allKunyomi": [
+        "かう"
+      ],
+      "meaningTags": [
+        "buy"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 27,
+      "lessonOrder": 2,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 買 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4194529"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-9ea6",
+      "character": "麦",
+      "grade": 2,
+      "koreanReading": "맥",
+      "koreanMeanings": [
+        "보리"
+      ],
+      "onyomi": [],
+      "kunyomi": [
+        "むぎ"
+      ],
+      "allOnyomi": [
+        "バク"
+      ],
+      "allKunyomi": [
+        "むぎ"
+      ],
+      "meaningTags": [
+        "barley",
+        "wheat"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 27,
+      "lessonOrder": 3,
+      "traditionalCharacter": "麥",
+      "koreanHanja": "麥",
+      "japaneseCharacter": "麦",
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 麦 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4482129"
+        },
+        {
+          "label": "Wiktionary 기여자 · 麦 (en)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=93443473"
+        },
+        {
+          "label": "Wiktionary 기여자 · 麥 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390415"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-534a",
+      "character": "半",
+      "grade": 2,
+      "koreanReading": "반",
+      "koreanMeanings": [
+        "반"
+      ],
+      "onyomi": [
+        "ハン"
+      ],
+      "kunyomi": [
+        "なかば"
+      ],
+      "allOnyomi": [
+        "ハン"
+      ],
+      "allKunyomi": [
+        "なかば"
+      ],
+      "meaningTags": [
+        "half",
+        "middle",
+        "odd number",
+        "semi-",
+        "part-"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 27,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 半 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390571"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-756a",
+      "character": "番",
+      "grade": 2,
+      "koreanReading": "번",
+      "koreanMeanings": [
+        "차례"
+      ],
+      "onyomi": [
+        "バン"
+      ],
+      "kunyomi": [],
+      "allOnyomi": [
+        "バン"
+      ],
+      "allKunyomi": [
+        "つがい"
+      ],
+      "meaningTags": [
+        "turn",
+        "number in a series"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 27,
+      "lessonOrder": 5,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 番 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=3997013"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-7236",
+      "character": "父",
+      "grade": 2,
+      "koreanReading": "부",
+      "koreanMeanings": [
+        "아버지"
+      ],
+      "onyomi": [
+        "フ"
+      ],
+      "kunyomi": [
+        "ちち"
+      ],
+      "allOnyomi": [
+        "フ"
+      ],
+      "allKunyomi": [
+        "ちち"
+      ],
+      "meaningTags": [
+        "father"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 28,
+      "lessonOrder": 1,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 父 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4051155"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-98a8",
+      "character": "風",
+      "grade": 2,
+      "koreanReading": "풍",
+      "koreanMeanings": [
+        "바람"
+      ],
+      "onyomi": [
+        "フウ"
+      ],
+      "kunyomi": [
+        "かぜ",
+        "かざ"
+      ],
+      "allOnyomi": [
+        "フウ",
+        "フ"
+      ],
+      "allKunyomi": [
+        "かぜ",
+        "かざ"
+      ],
+      "meaningTags": [
+        "wind",
+        "air",
+        "style",
+        "manner"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 28,
+      "lessonOrder": 2,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 風 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4389862"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-5206",
+      "character": "分",
+      "grade": 2,
+      "koreanReading": "분",
+      "koreanMeanings": [
+        "나누다"
+      ],
+      "onyomi": [
+        "ブン",
+        "フン"
+      ],
+      "kunyomi": [
+        "わける",
+        "わかれる"
+      ],
+      "allOnyomi": [
+        "ブン",
+        "フン",
+        "ブ"
+      ],
+      "allKunyomi": [
+        "わける",
+        "わけ",
+        "わかれる",
+        "わかる",
+        "わかつ"
+      ],
+      "meaningTags": [
+        "part",
+        "minute of time",
+        "segment",
+        "share",
+        "degree",
+        "one's lot",
+        "duty",
+        "understand",
+        "know",
+        "rate",
+        "1%",
+        "chances",
+        "shaku/100"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 28,
+      "lessonOrder": 3,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 分 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390558"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-805e",
+      "character": "聞",
+      "grade": 2,
+      "koreanReading": "문",
+      "koreanMeanings": [
+        "듣다"
+      ],
+      "onyomi": [
+        "ブン"
+      ],
+      "kunyomi": [
+        "きく",
+        "きこえる"
+      ],
+      "allOnyomi": [
+        "ブン",
+        "モン"
+      ],
+      "allKunyomi": [
+        "きく",
+        "きこえる"
+      ],
+      "meaningTags": [
+        "hear",
+        "ask",
+        "listen"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 28,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 聞 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390118"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-7c73",
+      "character": "米",
+      "grade": 2,
+      "koreanReading": "미",
+      "koreanMeanings": [
+        "쌀"
+      ],
+      "onyomi": [
+        "ベイ",
+        "マイ"
+      ],
+      "kunyomi": [
+        "こめ"
+      ],
+      "allOnyomi": [
+        "ベイ",
+        "マイ",
+        "メエトル"
+      ],
+      "allKunyomi": [
+        "こめ",
+        "よね"
+      ],
+      "meaningTags": [
+        "rice",
+        "USA",
+        "metre"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 28,
+      "lessonOrder": 5,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 米 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390275"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-6b69",
+      "character": "歩",
+      "grade": 2,
+      "koreanReading": "보",
+      "koreanMeanings": [
+        "걷다"
+      ],
+      "onyomi": [
+        "ホ"
+      ],
+      "kunyomi": [
+        "あるく",
+        "あゆむ"
+      ],
+      "allOnyomi": [
+        "ホ",
+        "ブ",
+        "フ"
+      ],
+      "allKunyomi": [
+        "あるく",
+        "あゆむ"
+      ],
+      "meaningTags": [
+        "walk",
+        "counter for steps"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 29,
+      "lessonOrder": 1,
+      "traditionalCharacter": "步",
+      "koreanHanja": "步",
+      "japaneseCharacter": "歩",
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 歩 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4393189"
+        },
+        {
+          "label": "Wiktionary 기여자 · 歩 (en)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=93444031"
+        },
+        {
+          "label": "Wiktionary 기여자 · 步 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4393188"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-6bcd",
+      "character": "母",
+      "grade": 2,
+      "koreanReading": "모",
+      "koreanMeanings": [
+        "어머니"
+      ],
+      "onyomi": [
+        "ボ"
+      ],
+      "kunyomi": [
+        "はは"
+      ],
+      "allOnyomi": [
+        "ボ"
+      ],
+      "allKunyomi": [
+        "はは",
+        "も"
+      ],
+      "meaningTags": [
+        "mother"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 29,
+      "lessonOrder": 2,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 母 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390257"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-65b9",
+      "character": "方",
+      "grade": 2,
+      "koreanReading": "방",
+      "koreanMeanings": [
+        "모"
+      ],
+      "onyomi": [
+        "ホウ"
+      ],
+      "kunyomi": [
+        "かた"
+      ],
+      "allOnyomi": [
+        "ホウ"
+      ],
+      "allKunyomi": [
+        "かた",
+        "がた"
+      ],
+      "meaningTags": [
+        "direction",
+        "person",
+        "alternative"
+      ],
+      "examples": [
+        {
+          "word": "方法",
+          "reading": "ほうほう",
+          "meaningKo": "방법"
+        }
+      ],
+      "koreanConnections": [],
+      "lessonId": 29,
+      "lessonOrder": 3,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 方 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390263"
+        },
+        {
+          "label": "Wiktionary 기여자 · 法 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390311"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-5317",
+      "character": "北",
+      "grade": 2,
+      "koreanReading": "북",
+      "koreanMeanings": [
+        "북녘"
+      ],
+      "onyomi": [
+        "ホク"
+      ],
+      "kunyomi": [
+        "きた"
+      ],
+      "allOnyomi": [
+        "ホク"
+      ],
+      "allKunyomi": [
+        "きた"
+      ],
+      "meaningTags": [
+        "north"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 29,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 北 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390038"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-6bce",
+      "character": "毎",
+      "grade": 2,
+      "koreanReading": "매",
+      "koreanMeanings": [
+        "매양"
+      ],
+      "onyomi": [
+        "マイ"
+      ],
+      "kunyomi": [],
+      "allOnyomi": [
+        "マイ"
+      ],
+      "allKunyomi": [
+        "ごと",
+        "ごとに"
+      ],
+      "meaningTags": [
+        "every"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 29,
+      "lessonOrder": 5,
+      "traditionalCharacter": "每",
+      "koreanHanja": "每",
+      "japaneseCharacter": "毎",
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 毎 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4392434"
+        },
+        {
+          "label": "Wiktionary 기여자 · 毎 (en)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=89404917"
+        },
+        {
+          "label": "Wiktionary 기여자 · 每 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4392433"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-59b9",
+      "character": "妹",
+      "grade": 2,
+      "koreanReading": "매",
+      "koreanMeanings": [
+        "손아래 누이"
+      ],
+      "onyomi": [],
+      "kunyomi": [
+        "いもうと"
+      ],
+      "allOnyomi": [
+        "マイ"
+      ],
+      "allKunyomi": [
+        "いもうと"
+      ],
+      "meaningTags": [
+        "younger sister"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 30,
+      "lessonOrder": 1,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 妹 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4032584"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-4e07",
+      "character": "万",
+      "grade": 2,
+      "koreanReading": "만",
+      "koreanMeanings": [
+        "일만"
+      ],
+      "onyomi": [
+        "マン"
+      ],
+      "kunyomi": [],
+      "allOnyomi": [
+        "マン",
+        "バン"
+      ],
+      "allKunyomi": [
+        "よろず"
+      ],
+      "meaningTags": [
+        "ten thousand",
+        "10,000"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 30,
+      "lessonOrder": 2,
+      "traditionalCharacter": "萬",
+      "koreanHanja": "萬",
+      "japaneseCharacter": "万",
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 万 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390265"
+        },
+        {
+          "label": "Wiktionary 기여자 · 万 (en)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=92199727"
+        },
+        {
+          "label": "Wiktionary 기여자 · 萬 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4480192"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-660e",
+      "character": "明",
+      "grade": 2,
+      "koreanReading": "명",
+      "koreanMeanings": [
+        "밝다"
+      ],
+      "onyomi": [
+        "メイ",
+        "ミョウ"
+      ],
+      "kunyomi": [
+        "あかり",
+        "あかるい"
+      ],
+      "allOnyomi": [
+        "メイ",
+        "ミョウ",
+        "ミン"
+      ],
+      "allKunyomi": [
+        "あかり",
+        "あかるい",
+        "あかるむ",
+        "あからむ",
+        "あきらか",
+        "あける",
+        "あけ",
+        "あく",
+        "あくる",
+        "あかす"
+      ],
+      "meaningTags": [
+        "bright",
+        "light"
+      ],
+      "examples": [
+        {
+          "word": "説明",
+          "reading": "せつめい",
+          "meaningKo": "설명"
+        }
+      ],
+      "koreanConnections": [],
+      "lessonId": 30,
+      "lessonOrder": 3,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 明 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390175"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-9cf4",
+      "character": "鳴",
+      "grade": 2,
+      "koreanReading": "명",
+      "koreanMeanings": [
+        "울다"
+      ],
+      "onyomi": [
+        "メイ"
+      ],
+      "kunyomi": [
+        "なく",
+        "なる"
+      ],
+      "allOnyomi": [
+        "メイ"
+      ],
+      "allKunyomi": [
+        "なく",
+        "なる",
+        "ならす"
+      ],
+      "meaningTags": [
+        "chirp",
+        "cry",
+        "bark",
+        "sound",
+        "ring",
+        "echo",
+        "honk"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 30,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 鳴 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4002162"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-6bdb",
+      "character": "毛",
+      "grade": 2,
+      "koreanReading": "모",
+      "koreanMeanings": [
+        "털"
+      ],
+      "onyomi": [
+        "モウ"
+      ],
+      "kunyomi": [
+        "け"
+      ],
+      "allOnyomi": [
+        "モウ"
+      ],
+      "allKunyomi": [
+        "け"
+      ],
+      "meaningTags": [
+        "fur",
+        "hair",
+        "feather",
+        "down"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 30,
+      "lessonOrder": 5,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 毛 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390485"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-9580",
+      "character": "門",
+      "grade": 2,
+      "koreanReading": "문",
+      "koreanMeanings": [
+        "문"
+      ],
+      "onyomi": [
+        "モン"
+      ],
+      "kunyomi": [],
+      "allOnyomi": [
+        "モン"
+      ],
+      "allKunyomi": [
+        "かど",
+        "と"
+      ],
+      "meaningTags": [
+        "gate",
+        "counter for cannons"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 31,
+      "lessonOrder": 1,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 門 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390110"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-591c",
+      "character": "夜",
+      "grade": 2,
+      "koreanReading": "야",
+      "koreanMeanings": [
+        "밤"
+      ],
+      "onyomi": [
+        "ヤ"
+      ],
+      "kunyomi": [
+        "よ",
+        "よる"
+      ],
+      "allOnyomi": [
+        "ヤ"
+      ],
+      "allKunyomi": [
+        "よ",
+        "よる"
+      ],
+      "meaningTags": [
+        "night",
+        "evening"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 31,
+      "lessonOrder": 2,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 夜 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4015012"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-91ce",
+      "character": "野",
+      "grade": 2,
+      "koreanReading": "야",
+      "koreanMeanings": [
+        "들"
+      ],
+      "onyomi": [
+        "ヤ"
+      ],
+      "kunyomi": [
+        "の"
+      ],
+      "allOnyomi": [
+        "ヤ",
+        "ショ"
+      ],
+      "allKunyomi": [
+        "の"
+      ],
+      "meaningTags": [
+        "plains",
+        "field",
+        "rustic",
+        "civilian life"
+      ],
+      "examples": [
+        {
+          "word": "野球",
+          "reading": "やきゅう",
+          "meaningKo": "야구"
+        },
+        {
+          "word": "野菜",
+          "reading": "やさい",
+          "meaningKo": "야채"
+        }
+      ],
+      "koreanConnections": [
+        {
+          "wordKo": "야구",
+          "hanja": "野球"
+        },
+        {
+          "wordKo": "야채",
+          "hanja": "野菜"
+        }
+      ],
+      "lessonId": 31,
+      "lessonOrder": 3,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 野 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4214959"
+        },
+        {
+          "label": "Wiktionary 기여자 · 球 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4393268"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-53cb",
+      "character": "友",
+      "grade": 2,
+      "koreanReading": "우",
+      "koreanMeanings": [
+        "벗"
+      ],
+      "onyomi": [
+        "ユウ"
+      ],
+      "kunyomi": [
+        "とも"
+      ],
+      "allOnyomi": [
+        "ユウ"
+      ],
+      "allKunyomi": [
+        "とも"
+      ],
+      "meaningTags": [
+        "friend"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 31,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 友 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=3996879"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-7528",
+      "character": "用",
+      "grade": 2,
+      "koreanReading": "용",
+      "koreanMeanings": [
+        "쓰다"
+      ],
+      "onyomi": [
+        "ヨウ"
+      ],
+      "kunyomi": [
+        "もちいる"
+      ],
+      "allOnyomi": [
+        "ヨウ"
+      ],
+      "allKunyomi": [
+        "もちいる"
+      ],
+      "meaningTags": [
+        "utilize",
+        "business",
+        "service",
+        "use",
+        "employ"
+      ],
+      "examples": [
+        {
+          "word": "用事",
+          "reading": "ようじ",
+          "meaningKo": "용무"
+        },
+        {
+          "word": "日用品",
+          "reading": "にちようひん",
+          "meaningKo": "일용품"
+        }
+      ],
+      "koreanConnections": [],
+      "lessonId": 31,
+      "lessonOrder": 5,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 用 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4220392"
+        },
+        {
+          "label": "Wiktionary 기여자 · 品 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4393520"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-66dc",
+      "character": "曜",
+      "grade": 2,
+      "koreanReading": "요",
+      "koreanMeanings": [
+        "빛나다"
+      ],
+      "onyomi": [
+        "ヨウ"
+      ],
+      "kunyomi": [],
+      "allOnyomi": [
+        "ヨウ"
+      ],
+      "allKunyomi": [],
+      "meaningTags": [
+        "weekday"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 32,
+      "lessonOrder": 1,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 曜 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4393173"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-6765",
+      "character": "来",
+      "grade": 2,
+      "koreanReading": "래",
+      "koreanMeanings": [
+        "오다"
+      ],
+      "onyomi": [
+        "ライ"
+      ],
+      "kunyomi": [
+        "くる"
+      ],
+      "allOnyomi": [
+        "ライ",
+        "タイ"
+      ],
+      "allKunyomi": [
+        "くる",
+        "きたる",
+        "きたす",
+        "き",
+        "こ"
+      ],
+      "meaningTags": [
+        "come",
+        "due",
+        "next",
+        "cause",
+        "become"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 32,
+      "lessonOrder": 2,
+      "traditionalCharacter": "來",
+      "koreanHanja": "來",
+      "japaneseCharacter": "来",
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 來 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390246"
+        },
+        {
+          "label": "Wiktionary 기여자 · 来 (en)",
+          "url": "https://en.wiktionary.org/w/index.php?oldid=92200732"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-91cc",
+      "character": "里",
+      "grade": 2,
+      "koreanReading": "리",
+      "koreanMeanings": [
+        "마을"
+      ],
+      "onyomi": [
+        "リ"
+      ],
+      "kunyomi": [
+        "さと"
+      ],
+      "allOnyomi": [
+        "リ"
+      ],
+      "allKunyomi": [
+        "さと"
+      ],
+      "meaningTags": [
+        "ri",
+        "village",
+        "parent's home",
+        "league"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 32,
+      "lessonOrder": 3,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 里 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4390028"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-7406",
+      "character": "理",
+      "grade": 2,
+      "koreanReading": "리",
+      "koreanMeanings": [
+        "다스리다"
+      ],
+      "onyomi": [
+        "リ"
+      ],
+      "kunyomi": [],
+      "allOnyomi": [
+        "リ"
+      ],
+      "allKunyomi": [
+        "ことわり"
+      ],
+      "meaningTags": [
+        "logic",
+        "arrangement",
+        "reason",
+        "justice",
+        "truth"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 32,
+      "lessonOrder": 4,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 理 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=4392390"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    },
+    {
+      "id": "g2-8a71",
+      "character": "話",
+      "grade": 2,
+      "koreanReading": "화",
+      "koreanMeanings": [
+        "말하다"
+      ],
+      "onyomi": [
+        "ワ"
+      ],
+      "kunyomi": [
+        "はなす",
+        "はなし"
+      ],
+      "allOnyomi": [
+        "ワ"
+      ],
+      "allKunyomi": [
+        "はなす",
+        "はなし"
+      ],
+      "meaningTags": [
+        "tale",
+        "talk"
+      ],
+      "examples": [],
+      "koreanConnections": [],
+      "lessonId": 32,
+      "lessonOrder": 5,
+      "references": [
+        {
+          "label": "문부과학성 학년 배당·학교급별 음훈표",
+          "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm"
+        },
+        {
+          "label": "KANJIDIC2 · EDRDG (CC BY-SA 4.0)",
+          "url": "https://www.edrdg.org/wiki/index.php/KANJIDIC_Project"
+        },
+        {
+          "label": "Wiktionary 기여자 · 話 (ko)",
+          "url": "https://ko.wiktionary.org/w/index.php?oldid=3947431"
+        }
+      ],
+      "verifiedAt": "2026-10-13"
+    }
+  ]
+}

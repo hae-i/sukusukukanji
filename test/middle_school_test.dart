@@ -30,9 +30,10 @@ void main() {
     bundle: JsonBundle({
       'assets/data/grades.json': metadata,
       'assets/data/middle-school-allocation.json': allocation,
-      'assets/data/kanji/grade1.json': jsonDecode(
-        File('assets/data/kanji/grade1.json').readAsStringSync(),
-      ),
+      for (var grade = 1; grade <= 6; grade++)
+        'assets/data/kanji/grade$grade.json': jsonDecode(
+          File('assets/data/kanji/grade$grade.json').readAsStringSync(),
+        ),
     }),
   );
 
@@ -68,7 +69,7 @@ void main() {
     expect(middle.map((g) => g.schoolYear), [1, 2, 3]);
     expect(
       catalog.kanji.length,
-      80,
+      1026,
     ); // Source facts never silently become learning cards.
     expect(
       () => catalog.allocations[7]!.characters.clear(),

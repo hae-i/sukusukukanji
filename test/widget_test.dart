@@ -58,13 +58,24 @@ void main() {
       cardSemantics.getSemanticsData().hasAction(SemanticsAction.tap),
       isTrue,
     );
-    await tester.ensureVisible(find.text('一'));
+    await tester.scrollUntilVisible(
+      find.text('一'),
+      200,
+      scrollable: find
+          .descendant(
+            of: find.byType(CustomScrollView),
+            matching: find.byType(Scrollable),
+          )
+          .first,
+    );
     await tester.tap(find.text('一'));
     await tester.pumpAndSettle();
     expect(find.text('한자 살펴보기'), findsOneWidget);
     expect(find.text('イチ'), findsOneWidget);
     expect(find.text('단일(單一)'), findsOneWidget);
     await tester.tap(find.byType(BackButton));
+    await tester.pumpAndSettle();
+    await tester.drag(find.byType(CustomScrollView), const Offset(0, 600));
     await tester.pumpAndSettle();
     expect(find.text('전체'), findsOneWidget);
     expect(find.text('조금씩 익숙해지는 내 한자'), findsNothing);
@@ -113,7 +124,16 @@ void main() {
     await tester.tap(find.text('내 한자'));
     await tester.pumpAndSettle();
     expect(tester.takeException(), isNull);
-    await tester.ensureVisible(find.text('一'));
+    await tester.scrollUntilVisible(
+      find.text('一'),
+      200,
+      scrollable: find
+          .descendant(
+            of: find.byType(CustomScrollView),
+            matching: find.byType(Scrollable),
+          )
+          .first,
+    );
     await tester.tap(find.text('一'));
     await tester.pumpAndSettle();
     expect(find.text('한자 살펴보기'), findsOneWidget);

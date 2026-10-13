@@ -30,6 +30,10 @@ void main() {
     metadata = jsonDecode(
       File('assets/data/grades.json').readAsStringSync(),
     ) as Map<String, dynamic>;
+    // This mutation fixture deliberately supplies grade one only.
+    for (final grade in (metadata['grades'] as List).skip(1)) {
+      (grade as Map).remove('contentAsset');
+    }
     content = sampleJson();
     repository = AssetKanjiRepository(
       bundle: JsonBundle({
@@ -43,14 +47,14 @@ void main() {
   });
 
   test(
-    'real bundled assets load offline with eighty sourced entries',
+    'real bundled assets load offline with 1,026 sourced elementary entries',
     () async {
       final catalog = await AssetKanjiRepository().load();
       expect(
         catalog.kanji.take(10).map((k) => k.character).join(),
         '一二三四五六七八九十',
       );
-      expect(catalog.kanji.length, 80);
+      expect(catalog.kanji.length, 1026);
       expect(catalog.grades.length, 9);
       expect(catalog.grades.first.requiredKanjiCount, 80);
       expect(
@@ -60,7 +64,7 @@ void main() {
         isTrue,
       );
       expect(
-        catalog.grades.skip(1).every((g) => g.contentAsset == null),
+        catalog.grades.skip(6).every((g) => g.contentAsset == null),
         isTrue,
       );
     },

@@ -52,7 +52,7 @@ void main() {
     );
     expect(
       KanjiBrowser.select(catalog.kanji, UserProgress(), query: '  ').length,
-      80,
+      1026,
     );
   });
   test('status, search and grade filters intersect without including allocation-only entries', () {
@@ -137,6 +137,8 @@ void main() {
       await tester.pumpAndSettle();
       await tester.tap(find.text('내 한자'));
       await tester.pumpAndSettle();
+      // A thousand-character catalog must not eagerly build a thousand cards.
+      expect(find.byType(Card).evaluate().length, lessThan(50));
       final search = find.byKey(const ValueKey('kanji-search'));
       await tester.enterText(search, '學 まなぶ');
       await tester.testTextInput.receiveAction(TextInputAction.search);
@@ -154,10 +156,10 @@ void main() {
       expect(find.text('검색 조건에 맞는 한자가 없어요.'), findsOneWidget);
       await tester.tap(find.byTooltip('검색어 지우기'));
       await tester.pumpAndSettle();
-      expect(find.text('80자'), findsOneWidget);
+      expect(find.text('1026자'), findsOneWidget);
       await tester.tap(find.byKey(const ValueKey('kanji-grade')));
       await tester.pumpAndSettle();
-      await tester.tap(find.text('초등학교 2학년').last);
+      await tester.tap(find.text('중학교 1학년').last);
       await tester.pumpAndSettle();
       expect(find.text('이 학년의 학습 콘텐츠는 준비 중이에요.'), findsOneWidget);
       await tester.tap(find.byKey(const ValueKey('kanji-sort')));
@@ -167,7 +169,7 @@ void main() {
       await tester.ensureVisible(find.text('필터 초기화'));
       await tester.tap(find.text('필터 초기화'));
       await tester.pumpAndSettle();
-      expect(find.text('80자'), findsOneWidget);
+      expect(find.text('1026자'), findsOneWidget);
       expect(find.text('학습 순서'), findsOneWidget);
       expect(find.byType(KanjiListScreen), findsOneWidget);
       expect(tester.takeException(), isNull);

@@ -149,14 +149,16 @@ void main() {
           ),
         );
         await tester.pumpAndSettle();
-        final grid = tester.widget<GridView>(find.byType(GridView));
+        final grid = tester.widget<SliverGrid>(find.byType(SliverGrid));
         final count =
             (grid.gridDelegate as SliverGridDelegateWithFixedCrossAxisCount)
                 .crossAxisCount;
         expect(count, scale > 1.5 ? 2 : 3);
         final first = tester.getRect(find.byType(Card).at(0));
         final last = tester.getRect(find.byType(Card).at(count - 1));
-        final bounds = tester.getRect(find.byType(GridView));
+        final bounds = tester
+            .getRect(find.byType(CustomScrollView))
+            .deflate(24);
         expect(first.width, closeTo(first.height, .01));
         expect(first.left, closeTo(bounds.left, .01));
         expect(last.right, closeTo(bounds.right, .01));

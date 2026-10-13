@@ -57,7 +57,7 @@ void main() {
       expect(app.progress.totalLearned, 80);
       expect(app.progress.completedGrades, {1});
       expect(app.progress.currentGrade, 2);
-      expect(app.start(), isNull);
+      expect(app.start()!.kanji.every((k) => k.grade == 2), isTrue);
       expect(app.reviewCount, 1);
       expect(app.settings.icons.unlockedIcons, {'grade1', 'grade2'});
       expect(app.settings.icons.selectedIcon, 'grade1');

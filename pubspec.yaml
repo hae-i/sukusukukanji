@@ -28,7 +28,7 @@ flutter:
     - assets/icons/
     - assets/data/grades.json
     - assets/data/middle-school-allocation.json
-    - assets/data/kanji/grade1.json
+    - assets/data/kanji/
   fonts:
     - family: Pretendard
       fonts:

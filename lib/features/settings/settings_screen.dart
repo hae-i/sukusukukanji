@@ -77,7 +77,7 @@ class SettingsScreen extends StatelessWidget {
                   SizedBox(height: 16),
                   Text('하루 5분, 무럭무럭 자라는 한자'),
                   SizedBox(height: 24),
-                  Text('1학년 한자 80자를 5자씩 연결하며 배워요.'),
+                  Text('초등학교 1~6학년 한자 1,026자를 연결하며 배워요.'),
                   SizedBox(height: 12),
                   Text(
                     '무료 학습과 복습, 기록 저장은 인터넷 없이 동작해요. 광고로 추가 레슨을 열 때는 인터넷 연결이 필요해요. 기록은 이 기기에 저장돼요. Google 계정을 연결해 백업한 기록은 다시 복원할 수 있어요. 백업하지 않은 기록은 앱 삭제 시 사라질 수 있어요.',
@@ -93,7 +93,9 @@ class SettingsScreen extends StatelessWidget {
                   Text('콘텐츠 출처와 이용 조건', style: TextStyle(fontSize: 20)),
                   SizedBox(height: 16),
                   SelectableText(
-                    '음독·훈독·학년: KANJIDIC2  / kanjiapi.dev\n'
+                    '학년 배당·학교급별 음훈: 문부과학성 (2017)\n'
+                    'https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm\n'
+                    '사전 읽기·뜻: KANJIDIC2 / kanjiapi.dev\n'
                     '© James William BREEN and The Electronic Dictionary Research and Development Group\n'
                     'https://www.edrdg.org/wiki/index.php/KANJIDIC_Project\n'
                     'https://www.edrdg.org/edrdg/licence.html',

@@ -236,6 +236,8 @@ void main() {
       expect(find.text('복습에 추가됨'), findsOneWidget);
       await tester.tap(find.byType(BackButton));
       await tester.pumpAndSettle();
+      await tester.drag(find.byType(CustomScrollView), const Offset(0, 600));
+      await tester.pumpAndSettle();
       await tapText(tester, '헷갈리는 한자');
       expect(find.text('一'), findsOneWidget);
       expect(find.text('二'), findsNothing);

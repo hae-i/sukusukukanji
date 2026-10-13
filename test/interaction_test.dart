@@ -242,7 +242,7 @@ void main() {
         completedGrades: {1},
         seenGradeCelebrations: {1},
         kanji: {
-          for (final k in catalog.kanji)
+          for (final k in catalog.forGrade(1))
             k.id: KanjiProgress(kanjiId: k.id, firstStudiedAt: firstDate),
         },
       );
@@ -259,7 +259,14 @@ void main() {
         ),
       );
       await tester.pumpAndSettle();
-      expect(find.text('1학년'), findsOneWidget);
+      expect(find.text('2학년'), findsWidgets);
+      await tester.ensureVisible(find.byType(DropdownButton<int>));
+      await tester.pumpAndSettle();
+      await tester.tap(find.byType(DropdownButton<int>));
+      await tester.pumpAndSettle();
+      await tester.tap(find.text('1학년').last);
+      await tester.pumpAndSettle();
+      expect(find.text('1학년'), findsWidgets);
       expect(app.startLessonReview(1, 16), isNotNull);
     },
   );

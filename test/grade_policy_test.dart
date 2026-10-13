@@ -17,7 +17,18 @@ KanjiCatalog shortCourse(KanjiCatalog real) => KanjiCatalog(
       requiredKanjiCount: 10,
       contentAsset: 'assets/data/kanji/grade1.json',
     ),
-    ...real.grades.skip(1),
+    // This fixture intentionally leaves later grades without content.
+    for (final g in real.grades.skip(1))
+      GradeTheme(
+        grade: g.grade,
+        nameKo: g.nameKo,
+        plantStage: g.plantStage,
+        stageNameKo: g.stageNameKo,
+        iconKey: g.iconKey,
+        requiredKanjiCount: g.requiredKanjiCount,
+        schoolLevel: g.schoolLevel,
+        schoolYear: g.schoolYear,
+      ),
   ],
   kanji: real.kanji.take(10).toList(),
 );
@@ -56,7 +67,7 @@ void main() {
     expect(complete.currentGrade, 2);
     expect(policy.isUnlocked(fixture.grades[1], fixture, complete), isTrue);
     expect(policy.isUnlocked(fixture.grades[2], fixture, complete), isFalse);
-    expect(fixture.grades[1].contentAsset, isNull);
+    expect(fixture.forGrade(2), isEmpty);
     expect(complete.seenGradeCelebrations, isEmpty);
   });
   test(

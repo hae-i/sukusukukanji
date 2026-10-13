@@ -144,3 +144,16 @@ Android SDK/Xcode와 실제 Supabase 프로젝트/Google OAuth 설정이 없어 
 AdMob의 실제 Flutter 위젯과 SDK 채널을 mock하여 로딩된 50px 배너가 NavigationBar 아래에서 시스템 하단 inset 위까지 배치되는지 확인했습니다. 광고가 사라지면 빈 광고 높이나 이중 inset이 남지 않습니다. 실제 광고 서버/Android 플랫폼 뷰/기기에서 검증한 결과는 아닙니다.
 
 저장소 코드·학습 assets·네이티브 설정을 대조한 미완성/외부 연결 작업 전체 목록은 `docs/release-readiness.md`에 있습니다.
+
+## 2026-10-13 초등 전 학년 콘텐츠 연결
+
+`dart format .`, `flutter analyze --no-pub`, `flutter test --no-pub`를 실행해 분석 경고 없이 **133개 테스트**를 통과했습니다. 마지막 `弁`의 대표 뜻/다중 자형 표기 조정 후 콘텐츠·전체 코스 관련 **23개 테스트**도 다시 통과했습니다. `flutter build bundle --target-platform=linux-x64 --debug --no-pub`로 Dart 코드와 새 학습 assets의 번들을 생성했습니다. Android SDK가 없어 APK 설치나 실기기에서 검증한 결과는 아닙니다.
+
+- 공식 초등 학년별 80/160/200/202/193/191자 집합과 KANJIDIC2 snapshot 대조, 대표 읽기의 공식 표 수록 여부와 전체 읽기 포함 여부 확인.
+- 실제 207개 레슨을 완료해 1,026자 학습·학년별 졸업·아이콘 해금 검증. 4/5/6학년 마지막 2/3/1자 레슨도 누락 없이 퀴즈·저장 처리하며, 학년마다 SQLite 파일을 닫았다 다시 열어 복원 확인.
+- 기존 1학년 80자 파일과 ID/순서 유지. 1학년 완료 후 실제 2학년 학습 시작, 이전 학년 복습, 6학년 이후 중등 준비 상태 확인.
+- 확장된 코퍼스에서 모든 한자의 퀴즈를 여러 seed로 검사. 동의어가 다른 다의어 항목을 통해 오답 후보에 다시 들어오는 경우를 수정.
+- 내 한자 목록을 SliverGrid로 바꿔 1,026개 카드를 한꺼번에 만들지 않는지 확인. 검색·정렬·학년 필터·즐겨찾기·탭 유지·상세 복귀, 320px~600px 정사각형 3열 배치와 글씨 2배 시 2열 배치 검증.
+- `python tool/build_elementary_content.py --check`, Python 문법 검사, `git diff --check` 통과. Noto Sans JP regular/bold 폰트가 초등 1,026자 전부의 glyph를 포함하는지 fontTools로 확인.
+
+콘텐츠 source 대조는 전문 일본어 교육 감수를 대체하지 않습니다. 2~6학년 예문 및 추가 단어/연결, 실제 Android의 학습·저장·광고·로그인 검증은 별도 작업입니다.

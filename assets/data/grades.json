@@ -16,7 +16,8 @@
       "plantStage": "youngPlant",
       "stageNameKo": "어린 식물",
       "iconKey": "grade2",
-      "requiredKanjiCount": 160
+      "requiredKanjiCount": 160,
+      "contentAsset": "assets/data/kanji/grade2.json"
     },
     {
       "grade": 3,
@@ -24,7 +25,8 @@
       "plantStage": "growingPlant",
       "stageNameKo": "자라는 식물",
       "iconKey": "grade3",
-      "requiredKanjiCount": 200
+      "requiredKanjiCount": 200,
+      "contentAsset": "assets/data/kanji/grade3.json"
     },
     {
       "grade": 4,
@@ -32,7 +34,8 @@
       "plantStage": "sapling",
       "stageNameKo": "어린 묘목",
       "iconKey": "grade4",
-      "requiredKanjiCount": 202
+      "requiredKanjiCount": 202,
+      "contentAsset": "assets/data/kanji/grade4.json"
     },
     {
       "grade": 5,
@@ -40,7 +43,8 @@
       "plantStage": "youngTree",
       "stageNameKo": "작은 나무",
       "iconKey": "grade5",
-      "requiredKanjiCount": 193
+      "requiredKanjiCount": 193,
+      "contentAsset": "assets/data/kanji/grade5.json"
     },
     {
       "grade": 6,
@@ -48,7 +52,8 @@
       "plantStage": "fullTree",
       "stageNameKo": "완성된 나무",
       "iconKey": "grade6",
-      "requiredKanjiCount": 191
+      "requiredKanjiCount": 191,
+      "contentAsset": "assets/data/kanji/grade6.json"
     },
     {
       "grade": 7,
