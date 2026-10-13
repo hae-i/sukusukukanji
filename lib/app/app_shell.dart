@@ -196,32 +196,37 @@ class _AppShellState extends State<AppShell> with WidgetsBindingObserver {
         ],
       ),
     ),
-    bottomNavigationBar: Column(
-      mainAxisSize: MainAxisSize.min,
-      children: [
-        if (widget.controller.showAds && widget.controller.ads is AdMobService)
-          SafeArea(
-            top: false,
-            bottom: false,
-            child: AdBanner(service: widget.controller.ads as AdMobService),
+    bottomNavigationBar: SafeArea(
+      top: false,
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          NavigationBar(
+            selectedIndex: _selectedTab,
+            onDestinationSelected: (index) {
+              FocusScope.of(context).unfocus();
+              setState(() => _selectedTab = index);
+            },
+            destinations: const [
+              NavigationDestination(
+                icon: Icon(Icons.home_outlined),
+                label: '홈',
+              ),
+              NavigationDestination(
+                icon: Icon(Icons.menu_book_outlined),
+                label: '학습',
+              ),
+              NavigationDestination(
+                icon: Icon(Icons.grid_view_outlined),
+                label: '내 한자',
+              ),
+            ],
           ),
-        NavigationBar(
-          selectedIndex: _selectedTab,
-          onDestinationSelected: (index) =>
-              setState(() => _selectedTab = index),
-          destinations: const [
-            NavigationDestination(icon: Icon(Icons.home_outlined), label: '홈'),
-            NavigationDestination(
-              icon: Icon(Icons.menu_book_outlined),
-              label: '학습',
-            ),
-            NavigationDestination(
-              icon: Icon(Icons.grid_view_outlined),
-              label: '내 한자',
-            ),
-          ],
-        ),
-      ],
+          if (widget.controller.showAds &&
+              widget.controller.ads is AdMobService)
+            AdBanner(service: widget.controller.ads as AdMobService),
+        ],
+      ),
     ),
   );
 }

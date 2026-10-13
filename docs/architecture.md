@@ -117,3 +117,9 @@ AppController는 1학년 레슨 1~10 무료 체험을 구매 상태와 별개로
 `ProgressSnapshot` excludes purchases, auth credentials, ad credits and device settings. The controller observes successful local learning changes, debounces uploads, detects remote revision conflicts, and requires explicit account binding/restoration. Supabase writes compare both the authenticated identity and revision in a transaction. A stale or switched account cannot silently overwrite another snapshot. Restore updates SQLite atomically, retains the local ad ledger, and refreshes derived icons.
 
 `CourseProduct` records the three planned products. Only all_courses_ad_free removes ads. Billing and authoritative purchase verification remain a separate implementation step; cloud progress must never grant paid rights.
+
+## 내 한자 탐색
+
+`KanjiBrowser`는 정적 학습 데이터와 사용자 진도를 입력받아 검색·상태/학년 필터·정렬을 수행합니다. 한자 자형과 대표 읽기, 예시 단어, 한국어 연결을 검색하며 가타카나를 히라가나로 정규화해 비교합니다. 여러 검색어는 모두 일치해야 하고 검색으로 콘텐츠를 생성하지 않습니다. 정렬은 원본 목록을 변경하지 않으며 동일 값은 학년/레슨/순서/ID로 안정적으로 배치합니다.
+
+화면은 입력·선택 상태만 보유합니다. 선택 조건은 IndexedStack의 탭 이동 동안 유지하고 앱 재실행 후에는 기본값으로 돌아옵니다. 학년 선택지는 catalog 메타데이터에서 생성하며, 배정 목록만 있는 학년은 학습 데이터로 표시하지 않습니다. 하단 SafeArea는 탭바와 그 아래 배너를 함께 감싸 시스템 inset을 한 번만 적용합니다.

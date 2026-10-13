@@ -134,3 +134,13 @@ SDK 플랫폼 채널을 모의한 테스트는 live 모드에서 UMP 요청 허�
 - 실제 Supabase Dart SDK에 HTTP mock을 연결해 RPC의 계정 ID/revision/body, 인증 헤더, stale revision 오류 매핑, 계정 불일치 시 요청 차단과 계정별 조회 필터 확인. 광고·인증 서버에 실제 요청한 테스트는 아님.
 
 Android SDK/Xcode와 실제 Supabase 프로젝트/Google OAuth 설정이 없어 APK/IPA 설치, 네이티브 브라우저 callback, 50px 배너 실표시, SQL migration/RLS의 원격 실행, Edge Function 실행·앱 계정 삭제는 검증하지 못했습니다. `docs/cloud-backup.md`의 실연결 확인이 필요합니다. 실제 Google Play 결제/구매 검증도 아직 미구현입니다.
+
+## 2026-10-13 내 한자 탐색과 최하단 배너
+
+`dart format .`, `flutter analyze --no-pub`, `flutter test --no-pub`를 실행했습니다. 분석 오류 없이 전체 **131개 테스트**를 통과했습니다.
+
+검색 테스트는 한자/한국 자형/뜻/한국 한자음/일본어 읽기/예시 단어, 히라가나·가타카나 동등 검색, 복수 검색어, 학년·상태 필터의 교집합, 안정적인 학습 순서·가나다순·최근 학습순 정렬을 확인합니다. 검색 중 즐겨찾기 변경과 결과 개수, 검색 초기화, 콘텐츠 없는 학년 안내, 탭 이동 후 검색 조건 유지도 확인했습니다. 기존 320px·글씨 2배와 정사각형 카드 배치 테스트도 통과했습니다.
+
+AdMob의 실제 Flutter 위젯과 SDK 채널을 mock하여 로딩된 50px 배너가 NavigationBar 아래에서 시스템 하단 inset 위까지 배치되는지 확인했습니다. 광고가 사라지면 빈 광고 높이나 이중 inset이 남지 않습니다. 실제 광고 서버/Android 플랫폼 뷰/기기에서 검증한 결과는 아닙니다.
+
+저장소 코드·학습 assets·네이티브 설정을 대조한 미완성/외부 연결 작업 전체 목록은 `docs/release-readiness.md`에 있습니다.
