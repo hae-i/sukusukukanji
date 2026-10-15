@@ -1,0 +1,21 @@
+{
+  "scope": "Official references only; no school-year allocation",
+  "references": [
+    {
+      "title": "中学校学習指導要領（平成29年告示）",
+      "url": "https://www.mext.go.jp/content/1413522_002.pdf",
+      "sha256": "0cc7a8af84e8fb1834fac847b3b44ef4dd613eeb2058e238728a3bd2ec93e15f",
+      "note": "Hash of downloaded PDF; document not bundled."
+    },
+    {
+      "title": "音訓の小・中・高等学校段階別割り振り表",
+      "url": "https://www.mext.go.jp/a_menu/shotou/new-cs/1385768.htm",
+      "note": "Reference link; not a fully parsed per-character dataset."
+    },
+    {
+      "title": "常用漢字表",
+      "url": "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kijun/naikaku/kanji/",
+      "note": "Reference link for the Joyo standard."
+    }
+  ]
+}

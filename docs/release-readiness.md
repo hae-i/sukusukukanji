@@ -76,3 +76,7 @@ Android 우선 출시 기준입니다. 저장소의 실제 코드·assets·설�
 6. 정책 웹페이지·스토어 자료 준비 후 내부 테스트와 출시.
 
 관련 안내: [Google 계정/백업 연결](cloud-backup.md), [AdMob·결제 준비](admob.md), [콘텐츠 검수 기록](content-verification.md), [실행한 검증](validation.md).
+
+## 중등 자료 수집 후속 현황
+
+[미분류 자료 모음](content/middle-school-research/README.md)에 1,110자의 사전 원문과 출처를 보관했습니다. 단어 후보 108자, 한국어 연결 후보 72자는 아직 미검수입니다. 수집 완료는 중등 학습 콘텐츠 완성을 뜻하지 않으며, 기존 배정/앱 assets는 변경하지 않았습니다. 후보 검수·보강과 이후 학년 분류·학습 연결이 남아 있습니다.
